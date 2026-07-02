@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>生成AI情報ポータル</title>
+<style>
+  :root {
+    --bg: #faf9f6;
+    --ink: #2b2b28;
+    --accent: #b5673a; /* terracotta */
+    --card-bg: #ffffff;
+    --border: #e6e2da;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    padding: 32px 20px 16px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+  }
+  header p {
+    margin: 0;
+    color: #706b60;
+    font-size: 13px;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 8px 20px 60px;
+  }
+  section { margin-top: 36px; }
+  section h2 {
+    font-size: 16px;
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+    margin-bottom: 16px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    display: block;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: box-shadow .15s, transform .15s;
+  }
+  .card:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+  }
+  .card-source {
+    font-size: 11px;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .card-date {
+    font-size: 11px;
+    color: #9a9488;
+  }
+  footer {
+    text-align: center;
+    color: #9a9488;
+    font-size: 11px;
+    padding: 20px;
+  }
+  .empty {
+    color: #9a9488;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>生成AI情報ポータル</h1>
+  <p>最終更新: 2026/07/02 15:21（自動更新 / GitHub Actions）</p>
+</header>
+<main>
+  <section>
+    <h2>公式ブログ・リリース</h2>
+    <div class="grid">
+      <p class="empty">直近7日以内の更新はありませんでした。</p>
+    </div>
+  </section>
+  <section>
+    <h2>一般ニュース・関連報道</h2>
+    <div class="grid">
+      <p class="empty">直近7日以内の更新はありませんでした。</p>
+    </div>
+  </section>
+</main>
+<footer>Powered by GitHub Actions ／ このページは自動生成されています</footer>
+</body>
+</html>
