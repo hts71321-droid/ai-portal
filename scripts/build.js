@@ -208,11 +208,16 @@ function formatDate(d) {
   });
 }
 
+// サイト内検索用の正規化テキスト（全角英数→半角、小文字化）
+function searchText(...parts) {
+  return parts.filter(Boolean).join(" ").normalize("NFKC").toLowerCase();
+}
+
 function renderCard(item) {
   const officialBadge =
     item.category === "official" ? '<span class="badge-official">公式</span>' : "";
   return `
-  <a class="card" href="${escapeHtml(item.link || "")}" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="${escapeHtml(item.link || "")}" target="_blank" rel="noopener noreferrer" data-search="${escapeHtml(searchText(item.title, item.source, item.snippet))}">
     <div class="card-source">${escapeHtml(item.source)}${officialBadge}</div>
     <div class="card-title">${escapeHtml(item.title)}</div>
     <div class="card-date">${formatDate(item.pubDate)}</div>
@@ -221,7 +226,7 @@ function renderCard(item) {
 
 function renderVideoCard(v) {
   return `
-  <a class="video-card" href="${escapeHtml(v.link)}" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="${escapeHtml(v.link)}" target="_blank" rel="noopener noreferrer" data-search="${escapeHtml(searchText(v.title, v.source))}">
     <div class="video-thumb">
       <img src="${escapeHtml(v.thumbnail)}" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -331,16 +336,60 @@ function renderHtml({ articles, videos }) {
     box-shadow: 0 2px 10px rgba(0,0,0,0.18);
     padding-top: 8px;
   }
+  .tab-bar-inner {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4px;
+  }
   .tabs {
+    flex: 1;
+    min-width: 0;
     display: flex;
     gap: 6px;
     justify-content: flex-start;
     overflow-x: auto;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 4px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+  }
+  .search-box {
+    flex-shrink: 0;
+    margin-bottom: 6px;
+    position: relative;
+  }
+  .search-box input {
+    appearance: none;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 999px;
+    background: rgba(255,255,255,0.12);
+    color: #faf9f6;
+    font: inherit;
+    font-size: 13px;
+    padding: 5px 12px 5px 30px;
+    width: 170px;
+    transition: background .15s, width .2s;
+  }
+  .search-box input::placeholder { color: rgba(250,249,246,0.55); }
+  .search-box input:focus {
+    outline: none;
+    background: rgba(255,255,255,0.22);
+    width: 210px;
+  }
+  .search-box::before {
+    content: "🔍";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0.8;
+  }
+  @media (max-width: 600px) {
+    .search-box input { width: 120px; }
+    .search-box input:focus { width: 160px; }
   }
   .tabs::-webkit-scrollbar { display: none; }
   .tab {
@@ -523,6 +572,18 @@ function renderHtml({ articles, videos }) {
   }
   body.filtered .topic-section { display: none; }
   body.filtered .topic-section.visible { display: block; }
+  /* サイト内検索 */
+  body.searching .topic-section { display: none; }
+  body.searching .topic-section.search-hit { display: block; }
+  body.searching .search-hide { display: none; }
+  body.searching .search-empty-block { display: none; }
+  .search-status {
+    display: none;
+    margin: 24px 0 -12px;
+    font-size: 13px;
+    color: #706b60;
+  }
+  body.searching .search-status { display: block; }
 </style>
 </head>
 <body>
@@ -531,11 +592,17 @@ function renderHtml({ articles, videos }) {
   <p>最終更新: ${updatedAt}（自動更新 / GitHub Actions）</p>
 </header>
 <div class="tab-bar">
-  <nav class="tabs" id="tabs">
-    ${tabs}
-  </nav>
+  <div class="tab-bar-inner">
+    <nav class="tabs" id="tabs">
+      ${tabs}
+    </nav>
+    <div class="search-box">
+      <input type="search" id="search" placeholder="サイト内検索" autocomplete="off" />
+    </div>
+  </div>
 </div>
 <main>
+  <p class="search-status" id="search-status"></p>
   ${sections}
 </main>
 <footer>Powered by GitHub Actions ／ このページは自動生成されています</footer>
@@ -550,6 +617,8 @@ function renderHtml({ articles, videos }) {
 
     var tabs = document.querySelectorAll("#tabs .tab");
     var sections = document.querySelectorAll(".topic-section");
+    var searchInput = document.getElementById("search");
+    var searchStatus = document.getElementById("search-status");
 
     function select(topic) {
       tabs.forEach(function (t) {
@@ -565,9 +634,54 @@ function renderHtml({ articles, videos }) {
       }
     }
 
+    // サイト内検索（タイトル・ソース名を全トピック横断で絞り込み）
+    function applySearch(raw) {
+      var q = raw.trim().normalize("NFKC").toLowerCase();
+      if (!q) {
+        document.body.classList.remove("searching");
+        return;
+      }
+      document.body.classList.add("searching");
+      var total = 0;
+      sections.forEach(function (sec) {
+        var hits = 0;
+        sec.querySelectorAll("[data-search]").forEach(function (card) {
+          var hit = card.dataset.search.indexOf(q) !== -1;
+          card.classList.toggle("search-hide", !hit);
+          if (hit) hits++;
+        });
+        // 動画行・見出しなど、中身が全部隠れたブロックごと隠す
+        sec.querySelectorAll(".video-row, .grid").forEach(function (block) {
+          var alive = block.querySelector("[data-search]:not(.search-hide)");
+          block.classList.toggle("search-empty-block", !alive);
+          var heading = block.previousElementSibling;
+          if (heading && heading.classList.contains("sub-heading")) {
+            heading.classList.toggle("search-empty-block", !alive);
+          }
+        });
+        sec.classList.toggle("search-hit", hits > 0);
+        total += hits;
+      });
+      searchStatus.textContent = total
+        ? "「" + raw.trim() + "」の検索結果: " + total + "件"
+        : "「" + raw.trim() + "」に該当する記事・動画はありませんでした";
+    }
+
+    searchInput.addEventListener("input", function () {
+      applySearch(searchInput.value);
+    });
+    searchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        searchInput.value = "";
+        applySearch("");
+      }
+    });
+
     tabs.forEach(function (t) {
       t.addEventListener("click", function () {
         var topic = t.dataset.topic;
+        searchInput.value = "";
+        applySearch("");
         select(topic);
         if (topic === "all") {
           history.replaceState(null, "", location.pathname);
