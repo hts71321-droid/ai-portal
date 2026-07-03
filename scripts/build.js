@@ -714,6 +714,12 @@ async function sendMail(items) {
   const pass = process.env.GMAIL_APP_PASSWORD;
   const to = process.env.MAIL_TO || user;
 
+  // 毎朝の定期実行のときだけメール送信（手動実行では SEND_MAIL が立たない）
+  if (process.env.SEND_MAIL !== "true") {
+    console.log("[INFO] SEND_MAIL が true でないためメール送信をスキップします（定期実行時のみ送信）");
+    return;
+  }
+
   if (!user || !pass) {
     console.log("[INFO] GMAIL_USER / GMAIL_APP_PASSWORD 未設定のためメール送信をスキップします");
     return;
