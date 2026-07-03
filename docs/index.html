@@ -24,7 +24,7 @@
     background: linear-gradient(135deg, #2b2b28 0%, #4a3728 60%, #b5673a 100%);
     color: #faf9f6;
     text-align: center;
-    padding: 36px 20px 0;
+    padding: 36px 20px 18px;
   }
   .hero h1 {
     margin: 0 0 6px;
@@ -35,6 +35,16 @@
     margin: 0 0 20px;
     color: rgba(250,249,246,0.75);
     font-size: 13px;
+  }
+  .tab-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(43, 43, 40, 0.94);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+    padding-top: 8px;
   }
   .tabs {
     display: flex;
@@ -233,16 +243,18 @@
 <body>
 <header class="hero">
   <h1>生成AI情報ポータル</h1>
-  <p>最終更新: 2026/07/03 12:01（自動更新 / GitHub Actions）</p>
+  <p>最終更新: 2026/07/03 12:10（自動更新 / GitHub Actions）</p>
+</header>
+<div class="tab-bar">
   <nav class="tabs" id="tabs">
     <button class="tab active" data-topic="all">すべて</button>
-<button class="tab" data-topic="claude" style="--topic-color: #b5673a">✴️ Claude<span class="tab-count">110</span></button>
+<button class="tab" data-topic="claude" style="--topic-color: #b5673a">✴️ Claude<span class="tab-count">111</span></button>
 <button class="tab" data-topic="copilot" style="--topic-color: #6e40c9">🚁 Copilot<span class="tab-count">15</span></button>
-<button class="tab" data-topic="gpt" style="--topic-color: #10a37f">🌀 GPT<span class="tab-count">87</span></button>
-<button class="tab" data-topic="gemini" style="--topic-color: #4285f4">💠 Gemini<span class="tab-count">64</span></button>
-<button class="tab" data-topic="other" style="--topic-color: #9a9488">📰 その他<span class="tab-count">99</span></button>
+<button class="tab" data-topic="gpt" style="--topic-color: #10a37f">🌀 GPT<span class="tab-count">85</span></button>
+<button class="tab" data-topic="gemini" style="--topic-color: #4285f4">💠 Gemini<span class="tab-count">63</span></button>
+<button class="tab" data-topic="other" style="--topic-color: #9a9488">📰 その他<span class="tab-count">100</span></button>
   </nav>
-</header>
+</div>
 <main>
   
   <section class="topic-section" id="topic-claude" data-topic="claude" style="--topic-color: #b5673a">
@@ -271,6 +283,12 @@
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">GLM-5.2：中国製の低コストAI兵器がChatGPTとClaudeに大きなプレッシャーを与える。 - Vietnam.vn</div>
     <div class="card-date">2026/07/03 11:42</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1BUHdNaE5jZHNJR09PZmJHUTBsZXJ2aGdNVmFuRDR0OG1kWmJXVXlVNHd3Vl92SHgxZkZMQmpPc3BGZWhUcXl5UEpsT1FYaTVoMEx3QmZTel9mMjVXTTRhcVZWY0dsbFdQQmZ5Vmp3?oc=5" target="_blank" rel="noopener noreferrer">
+    <div class="card-source">ChatGPT / OpenAI 関連</div>
+    <div class="card-title">AnthropicがSamsungと独自のAIカスタムチップ開発について協議しているという報道 - GIGAZINE</div>
+    <div class="card-date">2026/07/03 11:16</div>
   </a>
 
   <a class="card" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBheF84WTN4YTI4c1hLdm1vckEyWnJvb05TZXByZk8wWHdqRlZYTEtybDhhV3cxcWE3QzBrc2dzSmhKSkZBTkpfTTRWVVlwWTFyVFpOTEVNamU?oc=5" target="_blank" rel="noopener noreferrer">
@@ -439,12 +457,6 @@
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropic、Claude Codeに中国ユーザーを標的とした隠蔽コードを埋め込む 公式が認めロールバックを約束 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 10:15</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1iSUM0VEZXLVJCMkJ1N3ZPcmRtR0xzN0llSHJYWjlsbE9qVWI0NV9OZDdWcnhhQlp0VDVNb0M4Qkh3TmVCZm96Si1wVzl4a1cwTDRVRUpPWXBkUXNVQk1ncFdMakZtR3RGUnlqeVFrd0pkU2M?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">ChatGPT / OpenAI 関連</div>
-    <div class="card-title">ChatGPT発のコーディングエージェント「Codex」とは ～Claude Codeとの使い心地の違いから紐解く - 窓の杜</div>
-    <div class="card-date">2026/07/02 09:00</div>
   </a></div>
   </section>
 
@@ -850,12 +862,6 @@
     <div class="card-date">2026/07/02 19:05</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc0E2NnUyQzJGN3dST3Y2N190MmdBX0xkbFlpSEZjTXU1cnhSSGg5Z09BbXFPNUdxbnlkWnpqckVGc1pKYk5mbGhfemNXSVRwSlNaWnF5M3AybV83U3JBZW1vTEp3SnJO?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">プレスリリース：［生成AI初心者向け］ChatGPTやGeminiをもっと便利に使おう！7/24（金）無料セミナー「生成AIの基本とプロンプト入門」を開催!!（PR TIMES） - 毎日新聞</div>
-    <div class="card-date">2026/07/02 18:21</div>
-  </a>
-
   <a class="card" href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEMWdnOGZjVnJ0eGg5ckNlTzh4b3lPSDBxbUtSOFU2UTFYV1hjSTYzSnVnaUR1WmlfWWFKSkFES2xGQ0xHS0lEeW9CVHjSAU9BVV95cUxNUFdQUDlPNTRzLTZfX25HOVBRQ2dZMFg2aGVwOWh4aTMzUTV3blU5c0N5c0U1dkFhQVNrbFpRVEtiY2pTeXRXQkRHUVl6d3Jz?oc=5" target="_blank" rel="noopener noreferrer">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">PCもスマホも使わない芥川賞作家が、落合陽一のすすめでChatGPTと政治の話→「この空虚なまでの愛想のよさは…」 - ダイヤモンド・オンライン</div>
@@ -926,6 +932,12 @@
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">ソフトバンクＧ－3日続伸 ＯｐｅｎＡＩ、トランプ政権に株式5％譲渡を提案と伝わる(トレーダーズ・ウェブ) - Yahoo!ファイナンス</div>
     <div class="card-date">2026/07/02 13:27</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9QS0J4aXVZenVZY0FYV3FiOTFGZk5RUVBwTGRCTDlkaDk5QVBvMGFsX3FhN1NDRFNRWXBtcmVlZFY0MVRfcks2Q2FVUmljVGQxUFBxa0dDMkZrQ09hQ1B4MVlmNkp0R1M5VE1MT2ZGQzl0eTdtaEFOaTlzQ0NWYkk?oc=5" target="_blank" rel="noopener noreferrer">
+    <div class="card-source">ChatGPT / OpenAI 関連</div>
+    <div class="card-title">OpenAI、トランプ政権への自社株式5%の提供で協議－FT（Bloomberg） - Yahoo!ニュース</div>
+    <div class="card-date">2026/07/02 13:17</div>
   </a>
 
   <a class="card" href="https://openai.com/index/how-chatgpt-adoption-has-expanded" target="_blank" rel="noopener noreferrer">
@@ -1191,7 +1203,7 @@
   <a class="card" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIc2N4bHNBWFhnZThfdXc1YVA1c2p4ZlpYZnNNMjRCRHp1ZHFhazhoQ0pTZm5JdUdtOFB6Zl8waVFNbVVRV0k2eHZMWQ?oc=5" target="_blank" rel="noopener noreferrer">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">新潟県、県議会答弁書案の作成に生成ＡＩ活用 効率化と質の向上に - 47NEWS</div>
-    <div class="card-date">2026/07/03 11:51</div>
+    <div class="card-date">2026/07/03 11:50</div>
   </a>
 
   <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE43T0NGNHAzRWplYmdacGEzZDdtbEtPTmJ1ZTgtbEVnLUE1aWNfQVlab3pQQ2RBZ3NvVHBFMHl3ZlhpeE1qT1FsY19YVklWaGU2Y3g4TWdyVG8zSDFzZUE?oc=5" target="_blank" rel="noopener noreferrer">
@@ -1230,12 +1242,6 @@
     <div class="card-date">2026/07/03 10:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HemlSZUFLQnlQSGc0WjlmOXJoeHluMTY3MDZOMkFlRkEyYlhMSG9wcnM4MmVGbjVLeHpHZF83ZkRxbHROZUItWlQ1UWxFOHJ6?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">AIで“作れた”、でも“守れない”。生成AIでつくったシステムの仕上げ・保守を月額29,800円で引き受ける「あとサポ」を提供開始 - nnn.co.jp</div>
-    <div class="card-date">2026/07/03 10:25</div>
-  </a>
-
   <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2bzJzVHVON3V2TWg4bkc1VTNCTG5iV3FlS2Vmc1dTSzNyNmVLUk41YWlza0FiT1UzelphYW5wSjZSNjJVOFZUelVuNHlJc0FnanNrMVZId2JCbTFqRDVvVUYwclFHQQ?oc=5" target="_blank" rel="noopener noreferrer">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">文科省、生成AIとセキュリティ指針を改訂…次世代校務DX - リセマム</div>
@@ -1264,6 +1270,12 @@
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">科学者が教える「AI生成された顔を見破る方法」 - Gizmodo</div>
     <div class="card-date">2026/07/03 09:00</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9HdlZveGlOZUNxVnA0NnpOZU1uSkRhVElyNk0yLUlLNGUwd19sZzVFNEF4MTNPX0dsRUNFeU05ZUFTWVJzQ2RXRkpkU2NGLXhSb0NCSWxGZ2t1U0taNEhuNkNubGUycFdpVkVCcmpHNA?oc=5" target="_blank" rel="noopener noreferrer">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">AIで“作れた”、でも“守れない”。生成AIでつくったシステムの仕上げ・保守を月額29,800円で引き受ける「あとサポ」を提供開始 - 神戸新聞</div>
+    <div class="card-date">2026/07/03 08:50</div>
   </a>
 
   <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFA2UV9SS0FvOUJfeHk1eERGTDYtWjFsTnplT0RPanpIelIxdFMwN3VTdUI2X0YxSk03WTlrQXdYV284N0xYNVg1dkk4WGNwMHlOd3ZNdVQwYjB1d3BMNWJSTlBhUHVTdXpGQ3c?oc=5" target="_blank" rel="noopener noreferrer">
@@ -1344,12 +1356,6 @@
     <div class="card-date">2026/07/03 00:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ScU1hUnM0bmNZcWc0clZEMkZVci1VeElwbXFYU2xMckJ5RU8yRjZBRGxReFJteWpNUG1mMVMyUWhXZFphb1lfYWpWSHFqaXlMUWxB?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">企業のAI課金、月50万超えが当たり前に？「50万円以上～100万円未満」が最多 - ビジネス+IT</div>
-    <div class="card-date">2026/07/02 21:00</div>
-  </a>
-
   <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE84eWpOMTNWcHZ2SG5JNkRSalpEdmJBN0ktVXJyZ1FzOThkenRoQ3ZtT2lMSW9BSEUzd2hUOFEtV19WUlZTQV9mQmJjTkRVM2l0NFJJN2FJQUhZOWhleTNYVTZiZ0JFNEZHYllNM0Y0V0VrcExLUk1ha09NUFl0SWs?oc=5" target="_blank" rel="noopener noreferrer">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">「AIが書いた小説」は作品と呼べるか？ 文学賞を揺るがす“創作とAIの境界線”を考える（リアルサウンド） - Yahoo!ニュース</div>
@@ -1366,6 +1372,12 @@
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">HEROZ、「DXフォーラム 2026 in 山形」に出展決定！ ― 生成AIプラットフォーム「HEROZ ASK」をご体験いただけます ― - HEROZ株式会社</div>
     <div class="card-date">2026/07/02 19:37</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9RQVU4eExEODFucVNESC1oWWNqSEY1YWpDa2MyMjdBYllTWGp5aHEwWGh6SHNfVGJza2trWEVtMjdCZnVEQmQ3Z3Q2ZEwxUGJRMGFONnJUSy1lamU1VWtQcC00Nnczak1LOG44RHBFWk9fRGlmVVB4NTBiYU90Ymc?oc=5" target="_blank" rel="noopener noreferrer">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">国産生成ＡＩを使って窓口業務の効率化を目指す実証実験 藤枝市とソフトバンクが協定締結（静岡朝日テレビ） - Yahoo!ニュース</div>
+    <div class="card-date">2026/07/02 19:09</div>
   </a>
 
   <a class="card" href="https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america" target="_blank" rel="noopener noreferrer">
@@ -1450,6 +1462,13 @@
 <footer>Powered by GitHub Actions ／ このページは自動生成されています</footer>
 <script>
   (function () {
+    // ブラウザのスクロール位置復元を無効化し、常にページ先頭（タブ）から開く
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+    window.addEventListener("pageshow", function () {
+      window.scrollTo(0, 0);
+    });
+
     var tabs = document.querySelectorAll("#tabs .tab");
     var sections = document.querySelectorAll(".topic-section");
 
