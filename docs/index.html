@@ -46,16 +46,60 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.18);
     padding-top: 8px;
   }
+  .tab-bar-inner {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4px;
+  }
   .tabs {
+    flex: 1;
+    min-width: 0;
     display: flex;
     gap: 6px;
     justify-content: flex-start;
     overflow-x: auto;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 4px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+  }
+  .search-box {
+    flex-shrink: 0;
+    margin-bottom: 6px;
+    position: relative;
+  }
+  .search-box input {
+    appearance: none;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 999px;
+    background: rgba(255,255,255,0.12);
+    color: #faf9f6;
+    font: inherit;
+    font-size: 13px;
+    padding: 5px 12px 5px 30px;
+    width: 170px;
+    transition: background .15s, width .2s;
+  }
+  .search-box input::placeholder { color: rgba(250,249,246,0.55); }
+  .search-box input:focus {
+    outline: none;
+    background: rgba(255,255,255,0.22);
+    width: 210px;
+  }
+  .search-box::before {
+    content: "🔍";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0.8;
+  }
+  @media (max-width: 600px) {
+    .search-box input { width: 120px; }
+    .search-box input:focus { width: 160px; }
   }
   .tabs::-webkit-scrollbar { display: none; }
   .tab {
@@ -238,24 +282,42 @@
   }
   body.filtered .topic-section { display: none; }
   body.filtered .topic-section.visible { display: block; }
+  /* サイト内検索 */
+  body.searching .topic-section { display: none; }
+  body.searching .topic-section.search-hit { display: block; }
+  body.searching .search-hide { display: none; }
+  body.searching .search-empty-block { display: none; }
+  .search-status {
+    display: none;
+    margin: 24px 0 -12px;
+    font-size: 13px;
+    color: #706b60;
+  }
+  body.searching .search-status { display: block; }
 </style>
 </head>
 <body>
 <header class="hero">
   <h1>生成AI情報ポータル</h1>
-  <p>最終更新: 2026/07/03 12:36（自動更新 / GitHub Actions）</p>
+  <p>最終更新: 2026/07/03 12:40（自動更新 / GitHub Actions）</p>
 </header>
 <div class="tab-bar">
-  <nav class="tabs" id="tabs">
-    <button class="tab active" data-topic="all">すべて</button>
-<button class="tab" data-topic="claude" style="--topic-color: #b5673a">✴️ Claude<span class="tab-count">109</span></button>
-<button class="tab" data-topic="copilot" style="--topic-color: #6e40c9">🚁 Copilot<span class="tab-count">15</span></button>
-<button class="tab" data-topic="gpt" style="--topic-color: #10a37f">🌀 GPT<span class="tab-count">85</span></button>
-<button class="tab" data-topic="gemini" style="--topic-color: #4285f4">💠 Gemini<span class="tab-count">64</span></button>
-<button class="tab" data-topic="other" style="--topic-color: #9a9488">📰 その他<span class="tab-count">99</span></button>
-  </nav>
+  <div class="tab-bar-inner">
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-topic="all">すべて</button>
+<button class="tab" data-topic="claude" style="--topic-color: #b5673a">✴️ Claude<span class="tab-count">103</span></button>
+<button class="tab" data-topic="copilot" style="--topic-color: #6e40c9">🚁 Copilot<span class="tab-count">14</span></button>
+<button class="tab" data-topic="gpt" style="--topic-color: #10a37f">🌀 GPT<span class="tab-count">88</span></button>
+<button class="tab" data-topic="gemini" style="--topic-color: #4285f4">💠 Gemini<span class="tab-count">56</span></button>
+<button class="tab" data-topic="other" style="--topic-color: #9a9488">📰 その他<span class="tab-count">100</span></button>
+    </nav>
+    <div class="search-box">
+      <input type="search" id="search" placeholder="サイト内検索" autocomplete="off" />
+    </div>
+  </div>
 </div>
 <main>
+  <p class="search-status" id="search-status"></p>
   
   <section class="topic-section" id="topic-claude" data-topic="claude" style="--topic-color: #b5673a">
     <h2><span class="topic-icon">✴️</span>Claude
@@ -266,7 +328,7 @@
     <h3 class="sub-heading">▶ YouTube動画</h3>
     <div class="video-row">
       
-  <a class="video-card" href="https://www.youtube.com/watch?v=Y9Wz2PV404E" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=Y9Wz2PV404E" target="_blank" rel="noopener noreferrer" data-search="introducing claude fable 5 anthropic">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/Y9Wz2PV404E/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -279,181 +341,183 @@
     </div>
     <h3 class="sub-heading">📄 記事・ニュース</h3>
     <div class="grid">
-  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBOYW9xQzRWZElzTU9WbFIzZHpLa0VsQ08tQVhPZ2dSUW9rWGJuaWVWYUFZTHQwYXlwSEl5Xy0taC1hVF9TQXlsTGhocEVFOER2SmJz?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBOYW9xQzRWZElzTU9WbFIzZHpLa0VsQ08tQVhPZ2dSUW9rWGJuaWVWYUFZTHQwYXlwSEl5Xy0taC1hVF9TQXlsTGhocEVFOER2SmJz?oc=5" target="_blank" rel="noopener noreferrer" data-search="「claude」を活用した開発とセキュリティのセミナーを開催 - zdnet japan anthropic / claude 「claude」を活用した開発とセキュリティのセミナーを開催  zdnet japan">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">「Claude」を活用した開発とセキュリティのセミナーを開催 - ZDNET Japan</div>
     <div class="card-date">2026/07/03 12:10</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQUXN2ck9Ob3ozTHNiRXFHNzBrUHAybDJoOG1JU1V3VkFqc3dqOVI2NHpNb0xvRkVhUGFJSjdGYmdhUUZzNU9TWXRWTUxFOVY1bmxTZnBHQ0JrbkRLLThiV0tYWE9vam1keU96S0dzS0RDSXhHZGx0RHJKQWlyTUdYN1JuSVRkSi0wRm9KNXJNcnRaSDE1VWxqcGpMdW1CRV9WejZn?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQUXN2ck9Ob3ozTHNiRXFHNzBrUHAybDJoOG1JU1V3VkFqc3dqOVI2NHpNb0xvRkVhUGFJSjdGYmdhUUZzNU9TWXRWTUxFOVY1bmxTZnBHQ0JrbkRLLThiV0tYWE9vam1keU96S0dzS0RDSXhHZGx0RHJKQWlyTUdYN1JuSVRkSi0wRm9KNXJNcnRaSDE1VWxqcGpMdW1CRV9WejZn?oc=5" target="_blank" rel="noopener noreferrer" data-search="glm-5.2:中国製の低コストai兵器がchatgptとclaudeに大きなプレッシャーを与える。 - vietnam.vn chatgpt / openai 関連 glm-5.2:中国製の低コストai兵器がchatgptとclaudeに大きなプレッシャーを与える。  vietnam.vn">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">GLM-5.2：中国製の低コストAI兵器がChatGPTとClaudeに大きなプレッシャーを与える。 - Vietnam.vn</div>
     <div class="card-date">2026/07/03 11:42</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1BUHdNaE5jZHNJR09PZmJHUTBsZXJ2aGdNVmFuRDR0OG1kWmJXVXlVNHd3Vl92SHgxZkZMQmpPc3BGZWhUcXl5UEpsT1FYaTVoMEx3QmZTel9mMjVXTTRhcVZWY0dsbFdQQmZ5Vmp3?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1BUHdNaE5jZHNJR09PZmJHUTBsZXJ2aGdNVmFuRDR0OG1kWmJXVXlVNHd3Vl92SHgxZkZMQmpPc3BGZWhUcXl5UEpsT1FYaTVoMEx3QmZTel9mMjVXTTRhcVZWY0dsbFdQQmZ5Vmp3?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropicがsamsungと独自のaiカスタムチップ開発について協議しているという報道 - gigazine chatgpt / openai 関連 anthropicがsamsungと独自のaiカスタムチップ開発について協議しているという報道  gigazine">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">AnthropicがSamsungと独自のAIカスタムチップ開発について協議しているという報道 - GIGAZINE</div>
     <div class="card-date">2026/07/03 11:16</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBheF84WTN4YTI4c1hLdm1vckEyWnJvb05TZXByZk8wWHdqRlZYTEtybDhhV3cxcWE3QzBrc2dzSmhKSkZBTkpfTTRWVVlwWTFyVFpOTEVNamU?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBheF84WTN4YTI4c1hLdm1vckEyWnJvb05TZXByZk8wWHdqRlZYTEtybDhhV3cxcWE3QzBrc2dzSmhKSkZBTkpfTTRWVVlwWTFyVFpOTEVNamU?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropic・openaiの上場前に振り返る、5つのai関連ipo銘柄 - forbes japan chatgpt / openai 関連 anthropic・openaiの上場前に振り返る、5つのai関連ipo銘柄  forbes japan">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">Anthropic・OpenAIの上場前に振り返る、5つのAI関連IPO銘柄 - Forbes JAPAN</div>
     <div class="card-date">2026/07/03 10:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9kWmtrcXdCLWxkLXkwU3JaQ2E0bDAzSnZmbTZZazNYMkZ0a0NySVBsTzdkOF90dEtIZmk2TFpOOTFEaF9OUTE0aDNKMmJtLTFmUTdaX2tSa2M1clNjcmxBTG82QzBselo1Q1VjeVRWOEJ5c1E?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9kWmtrcXdCLWxkLXkwU3JaQ2E0bDAzSnZmbTZZazNYMkZ0a0NySVBsTzdkOF90dEtIZmk2TFpOOTFEaF9OUTE0aDNKMmJtLTFmUTdaX2tSa2M1clNjcmxBTG82QzBselo1Q1VjeVRWOEJ5c1E?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropic、新モデル「claude sonnet 5」発表。「opus 4.8」に迫る性能を低価格で実現 - aismiley anthropic / claude anthropic、新モデル「claude sonnet 5」発表。「opus 4.8」に迫る性能を低価格で実現  aismiley">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropic、新モデル「Claude Sonnet 5」発表。「Opus 4.8」に迫る性能を低価格で実現 - AIsmiley</div>
     <div class="card-date">2026/07/03 09:22</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBlTHY2Sm5GdjRuN0VLZUxaRjlPRFQ2akpPbWo5TkU0Y1JyWGE5bE91dWxyaU00X3ZEQUFINVV6YXF3TUJHdDBzLTZFUWVjb2tsbkE2Zmh5aTJHdFh4UFc0ZS02cmt1X0dyWjE4eVFSVVpvaDdh?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBlTHY2Sm5GdjRuN0VLZUxaRjlPRFQ2akpPbWo5TkU0Y1JyWGE5bE91dWxyaU00X3ZEQUFINVV6YXF3TUJHdDBzLTZFUWVjb2tsbkE2Zmh5aTJHdFh4UFc0ZS02cmt1X0dyWjE4eVFSVVpvaDdh?oc=5" target="_blank" rel="noopener noreferrer" data-search="awsの「静かな」戦略シフト openaiとanthropic“1日違い登壇”の意味を読み解く - itmedia chatgpt / openai 関連 awsの「静かな」戦略シフト openaiとanthropic“1日違い登壇”の意味を読み解く  itmedia">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">AWSの「静かな」戦略シフト OpenAIとAnthropic“1日違い登壇”の意味を読み解く - ITmedia</div>
     <div class="card-date">2026/07/03 09:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wVmhwOWdZSlRyUnFrN2ZOMUZ5R3BSYXNVTm9MREcyYlpySlp4djJWNXlTU21RMXZtSkRZZm8xZWp1TWkwRmVBajZCVDZZTHZTa05F?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wVmhwOWdZSlRyUnFrN2ZOMUZ5R3BSYXNVTm9MREcyYlpySlp4djJWNXlTU21RMXZtSkRZZm8xZWp1TWkwRmVBajZCVDZZTHZTa05F?oc=5" target="_blank" rel="noopener noreferrer" data-search="運用再開の「fable 5」、業務自動化分野のテストで最高性能を記録 - zdnet japan anthropic / claude 運用再開の「fable 5」、業務自動化分野のテストで最高性能を記録  zdnet japan">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">運用再開の「Fable 5」、業務自動化分野のテストで最高性能を記録 - ZDNET Japan</div>
     <div class="card-date">2026/07/03 08:54</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UOTJjdUJubTdxUzRoU2RyNW9YT1dYLVp3SDk3ZEJOMFdJV2o4RlFhZmxuNk5panFRUW1VZXlKU21FcXRiVV9QVlB1TEFjTHZubl9GNVhUM2gwbkZP?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1tYVJZaklmV1NWUHdtMGJEU3N2eWI4UjNfQTlIdVd6U2NQX1o5eV9iSlJJbEc4UmFlWnRfYzNNeVJ4X0xRYlJuOFYwY3ZwakZJUm9NazJWQTZIXzliYTlJU0ZacWMyQUVCZ0Z5QW81RTd6LU9t?oc=5" target="_blank" rel="noopener noreferrer" data-search="アンソロピックとサムスンがaiチップめぐり協議と報道、半導体株下落 - tbs news dig anthropic / claude アンソロピックとサムスンがaiチップめぐり協議と報道、半導体株下落  tbs news dig">
+    <div class="card-source">Anthropic / Claude</div>
+    <div class="card-title">アンソロピックとサムスンがAIチップめぐり協議と報道、半導体株下落 - TBS NEWS DIG</div>
+    <div class="card-date">2026/07/03 08:38</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UOTJjdUJubTdxUzRoU2RyNW9YT1dYLVp3SDk3ZEJOMFdJV2o4RlFhZmxuNk5panFRUW1VZXlKU21FcXRiVV9QVlB1TEFjTHZubl9GNVhUM2gwbkZP?oc=5" target="_blank" rel="noopener noreferrer" data-search="【保存版】帰ってきたclaude fable 5を使い倒せ、「重い仕事」が続々時短...神ワザ10選(3/3) - ビジネス+it 生成ai 総合 【保存版】帰ってきたclaude fable 5を使い倒せ、「重い仕事」が続々時短...神ワザ10選(3/3)  ビジネス+it">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">【保存版】帰ってきたClaude Fable 5を使い倒せ、「重い仕事」が続々時短…神ワザ10選(3/3) - ビジネス+IT</div>
     <div class="card-date">2026/07/03 07:10</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE91T3MwYUg4VjZoVS12VUtja082a1V0UUNScUNqMl9Xc25NaEFZUzlnYWNLbHJWZFVBQVZEWlMxX2d4dTFrbEgyUzB0NHNlVTc3SmFoU2xYTkRTcUE5QzJCZW1RN0tnbWRaMFZyajhJdzN5UUpfay1VMEVtcw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE91T3MwYUg4VjZoVS12VUtja082a1V0UUNScUNqMl9Xc25NaEFZUzlnYWNLbHJWZFVBQVZEWlMxX2d4dTFrbEgyUzB0NHNlVTc3SmFoU2xYTkRTcUE5QzJCZW1RN0tnbWRaMFZyajhJdzN5UUpfay1VMEVtcw?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropicの営業はaiエージェントをこう使う! 日本法人メンバーが明かす手の内 - ニコニコニュース anthropic / claude anthropicの営業はaiエージェントをこう使う! 日本法人メンバーが明かす手の内  ニコニコニュース">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropicの営業はAIエージェントをこう使う！ 日本法人メンバーが明かす手の内 - ニコニコニュース</div>
     <div class="card-date">2026/07/03 07:03</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPclBrWUJxQmx3ckttUjJnNVBfNlJhVzB6QjU0NFNNTlVtYUVIS1l0Qjh4VjgwRWl1dmdpTWtvNHpHY3phSEpNd1E2V085b3Y0b1RuNFRBMmtzY2FENGJlVUlha0VybXZGZVhyZEdBcDlzNklDdVMzYVhpdUl0T3dRcHp5MGRBMzRN?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPclBrWUJxQmx3ckttUjJnNVBfNlJhVzB6QjU0NFNNTlVtYUVIS1l0Qjh4VjgwRWl1dmdpTWtvNHpHY3phSEpNd1E2V085b3Y0b1RuNFRBMmtzY2FENGJlVUlha0VybXZGZVhyZEdBcDlzNklDdVMzYVhpdUl0T3dRcHp5MGRBMzRN?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropicの営業はaiエージェントをこう使う! 日本法人メンバーが明かす手の内(itmedia news) - yahoo!ニュース anthropic / claude anthropicの営業はaiエージェントをこう使う! 日本法人メンバーが明かす手の内(itmedia news)  yahoo!ニュース">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropicの営業はAIエージェントをこう使う！ 日本法人メンバーが明かす手の内（ITmedia NEWS） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 07:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMickFVX3lxTE1pUlRlMFVWUE5aWHVPWXpOLU1zNVZfbHoyRzZraEFXd3F3WDQ3bEt0M3c4RWFNaUI2NkFFdmZ6aV8wcmNlb1lLRlpsYnhRbE8wVkZhODhuakc0T1h2dTFSQW5vZU1xbF9zMFBjWTc5UzhuQQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMickFVX3lxTE1pUlRlMFVWUE5aWHVPWXpOLU1zNVZfbHoyRzZraEFXd3F3WDQ3bEt0M3c4RWFNaUI2NkFFdmZ6aV8wcmNlb1lLRlpsYnhRbE8wVkZhODhuakc0T1h2dTFSQW5vZU1xbF9zMFBjWTc5UzhuQQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="claude codeの&quot;見えないシステムプロンプト改変&quot;が物議 その目的とは?:問われるaiツールの透明性 - itmedia anthropic / claude claude codeの&quot;見えないシステムプロンプト改変&quot;が物議 その目的とは?:問われるaiツールの透明性  itmedia">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Claude Codeの&quot;見えないシステムプロンプト改変&quot;が物議 その目的とは？：問われるAIツールの透明性 - ITmedia</div>
     <div class="card-date">2026/07/03 07:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1RanpYRXd1YVdKV213dGZweHYyV3ZtSW9qMVlZLU53aWdaaVR1RWMzLU9GSG9oVXZMRnBvbk9HR3JOdk9xS1FYN3NMcXpHQXNDa29IeS1WdlNzM21nT1RJbHRua3dMRkI2d2V1TDBB?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1RanpYRXd1YVdKV213dGZweHYyV3ZtSW9qMVlZLU53aWdaaVR1RWMzLU9GSG9oVXZMRnBvbk9HR3JOdk9xS1FYN3NMcXpHQXNDa29IeS1WdlNzM21nT1RJbHRua3dMRkI2d2V1TDBB?oc=5" target="_blank" rel="noopener noreferrer" data-search="クロード・フェイブル5への反発拡大 利用者が主力aiの「制限」指摘 - beincrypto anthropic / claude クロード・フェイブル5への反発拡大 利用者が主力aiの「制限」指摘  beincrypto">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">クロード・フェイブル5への反発拡大 利用者が主力AIの「制限」指摘 - BeInCrypto</div>
     <div class="card-date">2026/07/03 06:44</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1zTEl2N0NiSmoyU3czaG1VOU10eklFM0FRaW9sdk5Xbm53SFJ0WDVDX3NnU0xrWU5XTGdSTTRVaFVyX1d4M1hveENhajZSMXJiOHd4Q3JLb3UwUUJDVTFfR29zZk1Sd3VUVTh2OV9MRTR5dllI?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1zTEl2N0NiSmoyU3czaG1VOU10eklFM0FRaW9sdk5Xbm53SFJ0WDVDX3NnU0xrWU5XTGdSTTRVaFVyX1d4M1hveENhajZSMXJiOHd4Q3JLb3UwUUJDVTFfR29zZk1Sd3VUVTh2OV9MRTR5dllI?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropicの安全テストリストが示す中国aiの台頭:kimi k2.7が唯一選出、ビジネスモデルはシリコンバレー大手に迫る - biggo ファイナンス anthropic / claude anthropicの安全テストリストが示す中国aiの台頭:kimi k2.7が唯一選出、ビジネスモデルはシリコンバレー大手に迫る  biggo ファイナンス">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropicの安全テストリストが示す中国AIの台頭：Kimi K2.7が唯一選出、ビジネスモデルはシリコンバレー大手に迫る - BigGo ファイナンス</div>
     <div class="card-date">2026/07/03 03:27</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhRU2NEcjBzVEViMUdQLUFxeEM1a2dsNGN1ckJfQVFmcUtqVzg5eUowQVV4WllhdTk4eW9waVdwSFp0anFzVEZqRTdPTzllV0xRMUl2ZV9sT3Jxa1BhdjFvd0x1WjNIUHdIa2F5emdpVXY3TnQ3Zkw1bmpab1haLU1HdHR2Y1pFY2NvYg?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhRU2NEcjBzVEViMUdQLUFxeEM1a2dsNGN1ckJfQVFmcUtqVzg5eUowQVV4WllhdTk4eW9waVdwSFp0anFzVEZqRTdPTzllV0xRMUl2ZV9sT3Jxa1BhdjFvd0x1WjNIUHdIa2F5emdpVXY3TnQ3Zkw1bmpab1haLU1HdHR2Y1pFY2NvYg?oc=5" target="_blank" rel="noopener noreferrer" data-search="中国の新たな低コストaiモデルがchatgptとclaudeを「脅かす」 - vietnam.vn chatgpt / openai 関連 中国の新たな低コストaiモデルがchatgptとclaudeを「脅かす」  vietnam.vn">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">中国の新たな低コストAIモデルがChatGPTとClaudeを「脅かす」 - Vietnam.vn</div>
     <div class="card-date">2026/07/03 02:33</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBmN2pueW5HRjdDTWk4dmNfRWNQeHJqTFZpUGthZVB3aTZwdXhBaW1MWjB4azVaVVlhNVdTb0ViaC1ZdTAzajBZQnc3dDZaQVFsUE5pQzBydzYwZm1Ga1F5bVFZcHBTVTVVOUtDNUZlMlNncXJLcWpWTFF5SzdnZzQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBmN2pueW5HRjdDTWk4dmNfRWNQeHJqTFZpUGthZVB3aTZwdXhBaW1MWjB4azVaVVlhNVdTb0ViaC1ZdTAzajBZQnc3dDZaQVFsUE5pQzBydzYwZm1Ga1F5bVFZcHBTVTVVOUtDNUZlMlNncXJLcWpWTFF5SzdnZzQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="「claude in microsoft foundry」が一般提供、azure/entra idに統合されたanthropicモデル(窓の杜) - yahoo!ニュース anthropic / claude 「claude in microsoft foundry」が一般提供、azure/entra idに統合されたanthropicモデル(窓の杜)  yahoo!ニュース">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">「Claude in Microsoft Foundry」が一般提供、Azure/Entra IDに統合されたAnthropicモデル（窓の杜） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 02:12</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9tazljeUg0SUE5SkFUWHBnSTl6b29HZjQ5cE5nTDNDWUhyYXIwTE1faDgxc3hITi12QUg3NDMyaFJFeVdIb1ktZVprdGdLNEZLSy1Oa3hQS0VxZFFKdzh3Q05ra0FBQ2d6dmtGYVlSN1pySU94?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1fMFVIZlVuUGg1NmRya0tHNGFBaUhKdzQ3Mi1MRk1GYkVYSTNmNjZSZklmMl81cHNZX1g4MXVCWk5LWVBFbTJrTHRXcVJZRWdoanotZzh3cjBPaVRwTUIwdVFXeVpNNHBua3VN?oc=5" target="_blank" rel="noopener noreferrer" data-search="【法人研修・生成ai活用】aiチャットからの次のステップ!aiエージェント実践型ワークショップ「claude cowork 入門 1day sprint」を新規開講 - 時事ドットコム 生成ai 総合 【法人研修・生成ai活用】aiチャットからの次のステップ!aiエージェント実践型ワークショップ「claude cowork 入門 1day sprint」を新規開講  時事ドットコム">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">【法人研修・生成AI活用】AIチャットからの次のステップ！AIエージェント実践型ワークショップ「Claude Cowork 入門 1Day Sprint」を新規開講 - 時事ドットコム</div>
+    <div class="card-date">2026/07/03 00:40</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5ISHduLXZ3bE9ERkx1a1YzX1l0SVNZNmZCbHhQLVlPXy05XzhPQkpzYm12cnJiOGZxajI4dnl6dHlWbFhBZ3FVQjAtVUEybk5ZOVBGYmNHVzF6WF9FMmhQUUZpUnZZVmVjT2Jr?oc=5" target="_blank" rel="noopener noreferrer" data-search="「claude」anthropicが開発したaiモデル/aiチャットボット - 窓の杜 anthropic / claude 「claude」anthropicが開発したaiモデル/aiチャットボット  窓の杜">
+    <div class="card-source">Anthropic / Claude</div>
+    <div class="card-title">「Claude」Anthropicが開発したAIモデル／AIチャットボット - 窓の杜</div>
+    <div class="card-date">2026/07/03 00:05</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9tazljeUg0SUE5SkFUWHBnSTl6b29HZjQ5cE5nTDNDWUhyYXIwTE1faDgxc3hITi12QUg3NDMyaFJFeVdIb1ktZVprdGdLNEZLSy1Oa3hQS0VxZFFKdzh3Q05ra0FBQ2d6dmtGYVlSN1pySU94?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropic、openaiに追随し自社aiチップ開発へ 三星電子と製造協議と報道 - biggo ファイナンス anthropic / claude anthropic、openaiに追随し自社aiチップ開発へ 三星電子と製造協議と報道  biggo ファイナンス">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropic、OpenAIに追随し自社AIチップ開発へ 三星電子と製造協議と報道 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 23:25</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1hX2RZSVU1Rkw4SzFJbi05Q19fdF9qZkViWUw0RDI4VXVNUld4dGh2bXgxcHRxMDlqRThnUkR6cXVFeDU5bTh5cUlvTUdUekxON0ZQYllkSV9IVmliV1BlNHNiRlNHbWQ0NWNxaHpsTGFhMDlK?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1hX2RZSVU1Rkw4SzFJbi05Q19fdF9qZkViWUw0RDI4VXVNUld4dGh2bXgxcHRxMDlqRThnUkR6cXVFeDU5bTh5cUlvTUdUekxON0ZQYllkSV9IVmliV1BlNHNiRlNHbWQ0NWNxaHpsTGFhMDlK?oc=5" target="_blank" rel="noopener noreferrer" data-search="claude fable 5解禁即「炎上」:一行コードで性能制限、開発者から不満噴出 - biggo ファイナンス anthropic / claude claude fable 5解禁即「炎上」:一行コードで性能制限、開発者から不満噴出  biggo ファイナンス">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Claude Fable 5解禁即「炎上」：一行コードで性能制限、開発者から不満噴出 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 22:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZ1doTDJNVVY2M3FqUGN0MkkwWUlwVGdlNTQwYl9SZVFfWUZweEw5SC1pWGRKYU1CMUNKTDJGX1FVSVc3S3YzN0pRN1RZN2ljckh3?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZ1doTDJNVVY2M3FqUGN0MkkwWUlwVGdlNTQwYl9SZVFfWUZweEw5SC1pWGRKYU1CMUNKTDJGX1FVSVc3S3YzN0pRN1RZN2ljckh3?oc=5" target="_blank" rel="noopener noreferrer" data-search="最強ai「claude fable 5」限定復活!初日にやった「3つの仕込み」全手順|てけしゅん - note anthropic / claude 最強ai「claude fable 5」限定復活!初日にやった「3つの仕込み」全手順|てけしゅん  note">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">最強AI「Claude Fable 5」限定復活！初日にやった「3つの仕込み」全手順｜てけしゅん - note</div>
     <div class="card-date">2026/07/02 22:32</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CNG1YSEVYYWd5RTdDUjVtM19rbTVQdVhVRk9ZY0pwdlFya3dzd2MyNkpfZ0EyV24xejViS3A1YVJwdkhzV1RURmllQVFlWG1pcjBYNmRVelZMb3NvSmdJ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CNG1YSEVYYWd5RTdDUjVtM19rbTVQdVhVRk9ZY0pwdlFya3dzd2MyNkpfZ0EyV24xejViS3A1YVJwdkhzV1RURmllQVFlWG1pcjBYNmRVelZMb3NvSmdJ?oc=5" target="_blank" rel="noopener noreferrer" data-search="glm-5.2の開発元による中国製aiエージェントアプリ「zcode」、anthropicやopenaiのaiモデルも活用可能 - gigazine anthropic / claude glm-5.2の開発元による中国製aiエージェントアプリ「zcode」、anthropicやopenaiのaiモデルも活用可能  gigazine">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">GLM-5.2の開発元による中国製AIエージェントアプリ「ZCode」、AnthropicやOpenAIのAIモデルも活用可能 - GIGAZINE</div>
     <div class="card-date">2026/07/02 21:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1vRExRUGtDcWtIYjRlSXItNGg3dDRqRWpKUHVqVE13bEpySzg3WVhKU0Naa0RuX0VDYVlxcXJheFdVMmttTjAwbm80dWxXRUN0NURIUFRBcldCVTRpU3ctSzhqVk0waDQ5d2dBODJUQmtSSGFG?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1vRExRUGtDcWtIYjRlSXItNGg3dDRqRWpKUHVqVE13bEpySzg3WVhKU0Naa0RuX0VDYVlxcXJheFdVMmttTjAwbm80dWxXRUN0NURIUFRBcldCVTRpU3ctSzhqVk0waDQ5d2dBODJUQmtSSGFG?oc=5" target="_blank" rel="noopener noreferrer" data-search="fable 5復活に開発者激怒:anthropicの最上位モデルに「お前には不相応」判定、密かな格下げ機能が発覚 - biggo ファイナンス anthropic / claude fable 5復活に開発者激怒:anthropicの最上位モデルに「お前には不相応」判定、密かな格下げ機能が発覚  biggo ファイナンス">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Fable 5復活に開発者激怒：Anthropicの最上位モデルに「お前には不相応」判定、密かな格下げ機能が発覚 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 18:25</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1fZ284ZzJxNVB5dVZvdFJRWUdPNUFJczlsVWZWX3RFdm5rWGhmVDFvTUJHY2cwUDlsQUM5LUZJZlhUbEdraDhLSlUydU0xdmtlekUwZlR6bGVvZGlnbnlzdEdHZ1BfS3dUX0ZTa0I1RnRKLS1YNm1iNEZsVFJqVlk?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1fZ284ZzJxNVB5dVZvdFJRWUdPNUFJczlsVWZWX3RFdm5rWGhmVDFvTUJHY2cwUDlsQUM5LUZJZlhUbEdraDhLSlUydU0xdmtlekUwZlR6bGVvZGlnbnlzdEdHZ1BfS3dUX0ZTa0I1RnRKLS1YNm1iNEZsVFJqVlk?oc=5" target="_blank" rel="noopener noreferrer" data-search="「claude fable 5」が復活、7月7日まではプランの上限内で試用可能(窓の杜) - yahoo!ニュース anthropic / claude 「claude fable 5」が復活、7月7日まではプランの上限内で試用可能(窓の杜)  yahoo!ニュース">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">「Claude Fable 5」が復活、7月7日まではプランの上限内で試用可能（窓の杜） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/02 18:13</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNQkhPOFlpTWlZa1BZVVNmb2tOSW4zN0xfSkc3ZVpxM0NTRENPaktCcDVsdHd0MTR0WV9KRUpsQS1ZRU41OFZTS0NMLUhnVEVDcjNnX2Y2OEZLLWxBRkNfaDRBT0x1TmM1dVd5YkpiNGZSX3ZwMlhOU1Q1NGdpUnRrX0FtT0VvSEhmNEVJdk9n?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">Anthropic / Claude</div>
-    <div class="card-title">「Claude Fable 5」が復活、7月7日まではプランの上限内で試用可能 (窓の杜) - Yahoo!ニュース</div>
-    <div class="card-date">2026/07/02 18:13</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE0tUXlENjJlRnB2ZHdlQ0JfdjFVWjRNX2NiWDNDUG1tNnVIcE5aMXJqN3lvSHh1LW5BcENzWVNpTG4xRmFBTjZvX3dpbXdrMFNScmR4WGpvek1wMkI2WDV5ZlQ4YXpUTGFycU1RNFcyOVJLRjRj?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE0tUXlENjJlRnB2ZHdlQ0JfdjFVWjRNX2NiWDNDUG1tNnVIcE5aMXJqN3lvSHh1LW5BcENzWVNpTG4xRmFBTjZvX3dpbXdrMFNScmR4WGpvek1wMkI2WDV5ZlQ4YXpUTGFycU1RNFcyOVJLRjRj?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropicの旗艦モデル「fable 5」が全世界で解禁、しかしユーザーからは「安全フィルターが過剰」との不満噴出 - biggo ファイナンス anthropic / claude anthropicの旗艦モデル「fable 5」が全世界で解禁、しかしユーザーからは「安全フィルターが過剰」との不満噴出  biggo ファイナンス">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropicの旗艦モデル「Fable 5」が全世界で解禁、しかしユーザーからは「安全フィルターが過剰」との不満噴出 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 17:57</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oUzBxdnNKTzcwY2Q0UjgxTHNDWkFqam9pM0hYYVVfS2E1QV9xM3MwTGxiM1RITlRCR1RzQnU0dW9wcmZoNERhckM1WlhKMkFYbkpEVQ?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">Anthropic / Claude</div>
-    <div class="card-title">日立とAnthropicが協業、Claude活用でシステム開発やインフラ運用を高度化し社会のAXを牽引 - ProductZine</div>
-    <div class="card-date">2026/07/02 16:48</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE90VU1qWHFVYUhaN1RXdHBmVm1EcXBiMDlHczZRcXdpaVBKb3lPTnpLM3BjVzlUemhBZkdELUY4blMzS3BESHE4dTlJMHpmZ3ZidS0wRjJsOVdaaXE2ZDQtWV9iVFQyamNGVkF0RA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE90VU1qWHFVYUhaN1RXdHBmVm1EcXBiMDlHczZRcXdpaVBKb3lPTnpLM3BjVzlUemhBZkdELUY4blMzS3BESHE4dTlJMHpmZ3ZidS0wRjJsOVdaaXE2ZDQtWV9iVFQyamNGVkF0RA?oc=5" target="_blank" rel="noopener noreferrer" data-search="復活した「fable 5」 米政府からのオーダーに対して、anthropicはどう対策したのか - itmedia anthropic / claude 復活した「fable 5」 米政府からのオーダーに対して、anthropicはどう対策したのか  itmedia
+claude fable 5、日本で明日再開もサブスクで使えるのは「1週間限定」(itmedia news)  yahoo!ニュース
+anthropic、claude">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">復活した「Fable 5」 米政府からのオーダーに対して、Anthropicはどう対策したのか - ITmedia</div>
     <div class="card-date">2026/07/02 16:40</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5VYzJNbVhILURHb1plVHZYUmRONU81d2xQQ2xFelFXRGJ4VDFCMGV0aTItano2TDg0Y3F1NVozcWx3X2xTeUVoOTZmWTBTMzF1Nzd6bkI4WVFySjhsdEpRbmpsSU9rejBFRXFj?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5VYzJNbVhILURHb1plVHZYUmRONU81d2xQQ2xFelFXRGJ4VDFCMGV0aTItano2TDg0Y3F1NVozcWx3X2xTeUVoOTZmWTBTMzF1Nzd6bkI4WVFySjhsdEpRbmpsSU9rejBFRXFj?oc=5" target="_blank" rel="noopener noreferrer" data-search="stella ai、anthropic社の最新モデル「claude sonnet 5」「claude sonnet 4.5」を追加 - 時事ドットコム anthropic / claude stella ai、anthropic社の最新モデル「claude sonnet 5」「claude sonnet 4.5」を追加  時事ドットコム">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Stella AI、Anthropic社の最新モデル「Claude Sonnet 5」「Claude Sonnet 4.5」を追加 - 時事ドットコム</div>
     <div class="card-date">2026/07/02 14:46</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yakRJU2RpRDNxRlo4cTEzclZJazhPSEhqN1FxcEVwdGc2SFhRdkZyX3FvVkIwZklfSzZkX3E5VWNHUmJBR3ZYT0NiM216Tkxsbzd1azVTblVIOWpBU0F1eEh6MNIBaEFVX3lxTE5fNmxoaW1sYk9zREEtLVBqRkQ5Q3dYWTBLdHlEeElOTXdvU2lxam5SZ3dLZUhVMzIzS0ZrYlhEMHhSRXNBcG4tRFlsYUZNaU1vUU1UN3RJVGp5NDREODdwaTQtSHBSWmtI?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yakRJU2RpRDNxRlo4cTEzclZJazhPSEhqN1FxcEVwdGc2SFhRdkZyX3FvVkIwZklfSzZkX3E5VWNHUmJBR3ZYT0NiM216Tkxsbzd1azVTblVIOWpBU0F1eEh6MNIBaEFVX3lxTE5fNmxoaW1sYk9zREEtLVBqRkQ5Q3dYWTBLdHlEeElOTXdvU2lxam5SZ3dLZUhVMzIzS0ZrYlhEMHhSRXNBcG4tRFlsYUZNaU1vUU1UN3RJVGp5NDREODdwaTQtSHBSWmtI?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropicが「claude sonnet 5」をリリース――「opus」に迫る自律エージェント性能を低コストで実現 - 財経新聞 anthropic / claude anthropicが「claude sonnet 5」をリリース――「opus」に迫る自律エージェント性能を低コストで実現  財経新聞">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropicが「Claude Sonnet 5」をリリース――「Opus」に迫る自律エージェント性能を低コストで実現 - 財経新聞</div>
     <div class="card-date">2026/07/02 13:13</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUNPZlBoX2dqaFIxcnlBckJCUXZfZHBjXzRpbGJUdWlocURJanF1dDUxRjVuQ0NkMFRjOWhiYVNqM2lNWF9EWUl2MFpYTE91bl9LNXZkTGU2SmszOVRLMWVsTElPd3BFTnJxX1NDOEMyMDVud0pGWnpJVXN6eTFYd3FEaXFHNHplemc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUNPZlBoX2dqaFIxcnlBckJCUXZfZHBjXzRpbGJUdWlocURJanF1dDUxRjVuQ0NkMFRjOWhiYVNqM2lNWF9EWUl2MFpYTE91bl9LNXZkTGU2SmszOVRLMWVsTElPd3BFTnJxX1NDOEMyMDVud0pGWnpJVXN6eTFYd3FEaXFHNHplemc?oc=5" target="_blank" rel="noopener noreferrer" data-search="claude codeの隠し識別子、anthropicエンジニアが削除方針を説明。反蒸留対策が信頼問題に - xenospectrum anthropic / claude claude codeの隠し識別子、anthropicエンジニアが削除方針を説明。反蒸留対策が信頼問題に  xenospectrum">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Claude Codeの隠し識別子、Anthropicエンジニアが削除方針を説明。反蒸留対策が信頼問題に - XenoSpectrum</div>
     <div class="card-date">2026/07/02 12:30</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5PcFlpUVd5OXJpb0Q4Wkh1RlYxX25Ham9GeHBKRG0wTWt5cHhlcDg2aDBfYWsyNmE5cW1wM1l1UGNDR2g0SGIxMDBjMjdCb3ZNcVlWcUFQeE8xenkxbnVVWVdnLS1VN0FrT0E?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">【法人研修・生成AI活用】AIチャットからの次のステップ！AIエージェント実践型ワークショップ「Claude Cowork 入門 1Day Sprint」を新規開講 - PR TIMES</div>
-    <div class="card-date">2026/07/02 12:16</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5Hb1h0ajJjTHk4OGJEN3I5MHU5eXBDWkNjcm9GWTdCNnhlUXpSQTI2VU5OUXo0TldqenBHVlc0MEEtWVdqOHE3Yld1UEo4LU9ha3JpTF9yUWNDOS1sMUUyanhlYU5aWTd1OTEtVWZJdkdqTGo4?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5Hb1h0ajJjTHk4OGJEN3I5MHU5eXBDWkNjcm9GWTdCNnhlUXpSQTI2VU5OUXo0TldqenBHVlc0MEEtWVdqOHE3Yld1UEo4LU9ha3JpTF9yUWNDOS1sMUUyanhlYU5aWTd1OTEtVWZJdkdqTGo4?oc=5" target="_blank" rel="noopener noreferrer" data-search="anthropic、claude codeに中国ユーザーを標的とした隠蔽コードを埋め込む 公式が認めロールバックを約束 - biggo ファイナンス anthropic / claude anthropic、claude codeに中国ユーザーを標的とした隠蔽コードを埋め込む 公式が認めロールバックを約束  biggo ファイナンス">
     <div class="card-source">Anthropic / Claude</div>
     <div class="card-title">Anthropic、Claude Codeに中国ユーザーを標的とした隠蔽コードを埋め込む 公式が認めロールバックを約束 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 10:15</div>
@@ -463,13 +527,13 @@
   <section class="topic-section" id="topic-copilot" data-topic="copilot" style="--topic-color: #6e40c9">
     <h2><span class="topic-icon">🚁</span>Copilot
       <span class="topic-desc">GitHub / Microsoft Copilot</span>
-      <span class="topic-count">15件 / 動画11本</span>
+      <span class="topic-count">14件 / 動画11本</span>
     </h2>
     
     <h3 class="sub-heading">▶ YouTube動画</h3>
     <div class="video-row">
       
-  <a class="video-card" href="https://www.youtube.com/watch?v=cKiX5fY3yqE" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=cKiX5fY3yqE" target="_blank" rel="noopener noreferrer" data-search="jueves de quack con bruno capuano github">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/cKiX5fY3yqE/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -480,7 +544,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=wsE3GtIYqu4" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=wsE3GtIYqu4" target="_blank" rel="noopener noreferrer" data-search="rubber duck thursday - what's new! github">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/wsE3GtIYqu4/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -491,7 +555,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=ylaBpfB8Pts" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=ylaBpfB8Pts" target="_blank" rel="noopener noreferrer" data-search="microsoft sharepoint site lifecycle management microsoft 365 copilot">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/ylaBpfB8Pts/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -502,7 +566,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=cCFKtW5UiTo" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=cCFKtW5UiTo" target="_blank" rel="noopener noreferrer" data-search="rubber duck thursdays! let's play with canvases in the github copilot app! github">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/cCFKtW5UiTo/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -513,7 +577,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=lLeR-goUmWo" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=lLeR-goUmWo" target="_blank" rel="noopener noreferrer" data-search="understand the microsoft 365 copilot agents usage report microsoft 365 copilot">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/lLeR-goUmWo/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -524,7 +588,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=YuCsP_eHHAI" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=YuCsP_eHHAI" target="_blank" rel="noopener noreferrer" data-search="future code: rewriting the developer frontier github">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/YuCsP_eHHAI/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -535,7 +599,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/shorts/yOcmhXraYVw" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/shorts/yOcmhXraYVw" target="_blank" rel="noopener noreferrer" data-search="turn your hometown into a minecraft world github">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/yOcmhXraYVw/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -546,7 +610,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=JsRhoZJAIF4" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=JsRhoZJAIF4" target="_blank" rel="noopener noreferrer" data-search="github copilot agent is now available in jetbrains ai assistant github">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/JsRhoZJAIF4/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -557,7 +621,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=n6LBaoDG930" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=n6LBaoDG930" target="_blank" rel="noopener noreferrer" data-search="track adoption with the microsoft 365 copilot chat usage report microsoft 365 copilot">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/n6LBaoDG930/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -568,7 +632,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=Blfm5_nUYvE" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=Blfm5_nUYvE" target="_blank" rel="noopener noreferrer" data-search="create and share prompts in your organization microsoft 365 copilot">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/Blfm5_nUYvE/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -579,7 +643,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=pgmo1lUfack" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=pgmo1lUfack" target="_blank" rel="noopener noreferrer" data-search="cost management in microsoft 365 copilot microsoft 365 copilot">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/pgmo1lUfack/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -592,91 +656,85 @@
     </div>
     <h3 class="sub-heading">📄 記事・ニュース</h3>
     <div class="grid">
-  <a class="card" href="https://news.google.com/rss/articles/CBMilAJBVV95cUxPcnRtZ1dFazR6WW9BVDJ0ZDQxQnI5azJYMkZKa1g3NGJEaklncmYwSFhBOE5lZ20yV01iVy0zMl9CQ21mcW9KZldiNVQ0YkxlRHF0WGN3dnJsYk1OclBnWE1HNDVrZkVWQ0liaHJsMGxJQ3lUc01oUFBMQ2RlUWNDOVhDSHVFeWJsRjY2eG9ST1FJcnZiNjFWYmRKTzFlanpmS2NyQU11ZFprcjVybHY4VWxmSjVuVlFxRDJSVnFRM3JkSU9FYlRoQlYtWkxrLWtscU42SUdJenlQeW45eldSS2hNNTZvM1pqYmZMUXZMQzBhWGl0OEdDUmxwNkpTckVEYWhrQ284NGhIR3drcTljTExFU3E?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMilAJBVV95cUxPcnRtZ1dFazR6WW9BVDJ0ZDQxQnI5azJYMkZKa1g3NGJEaklncmYwSFhBOE5lZ20yV01iVy0zMl9CQ21mcW9KZldiNVQ0YkxlRHF0WGN3dnJsYk1OclBnWE1HNDVrZkVWQ0liaHJsMGxJQ3lUc01oUFBMQ2RlUWNDOVhDSHVFeWJsRjY2eG9ST1FJcnZiNjFWYmRKTzFlanpmS2NyQU11ZFprcjVybHY4VWxmSjVuVlFxRDJSVnFRM3JkSU9FYlRoQlYtWkxrLWtscU42SUdJenlQeW45eldSS2hNNTZvM1pqYmZMUXZMQzBhWGl0OEdDUmxwNkpTckVEYWhrQ284NGhIR3drcTljTExFU3E?oc=5" target="_blank" rel="noopener noreferrer" data-search="microsoft frontier company: お客様のインテリジェンスを拡張し、保護する ai エンジニアリング - microsoft source copilot / microsoft ai 関連 microsoft frontier company: お客様のインテリジェンスを拡張し、保護する ai エンジニアリング  microsoft source">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">Microsoft Frontier Company: お客様のインテリジェンスを拡張し、保護する AI エンジニアリング - Microsoft Source</div>
     <div class="card-date">2026/07/03 09:18</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFZRX20yRHRVMnZEQnVLRGJoUXhxcWJtVF83aVJnd3JyNDVhTVplTW1DazhjeVBROHRDUllfSDZxUWZCTVRxU1NJUlJ3ZG1mWEk4ZzJoclV4Z3dmR0Rhamo3Z054aXh4NlhaTE5reWQ3Z0dIVUF1aHFhVWVOaVhDSWV0WHJpRkJLWlhEMkEwWnFCWWxWQnMxeGxtSGlLSHdaZFJqdnFQbnptNG5lNXM5NzNJRjBuc0FDcUdiMEFRWktVV3ha?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFZRX20yRHRVMnZEQnVLRGJoUXhxcWJtVF83aVJnd3JyNDVhTVplTW1DazhjeVBROHRDUllfSDZxUWZCTVRxU1NJUlJ3ZG1mWEk4ZzJoclV4Z3dmR0Rhamo3Z054aXh4NlhaTE5reWQ3Z0dIVUF1aHFhVWVOaVhDSWV0WHJpRkJLWlhEMkEwWnFCWWxWQnMxeGxtSGlLSHdaZFJqdnFQbnptNG5lNXM5NzNJRjBuc0FDcUdiMEFRWktVV3ha?oc=5" target="_blank" rel="noopener noreferrer" data-search="microsoft、copilotアプリを8月に統合 一部機能を終了 - 디지털투데이 copilot / microsoft ai 関連 microsoft、copilotアプリを8月に統合 一部機能を終了  디지털투데이">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">Microsoft、Copilotアプリを8月に統合 一部機能を終了 - 디지털투데이</div>
     <div class="card-date">2026/07/03 07:18</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4cy1KSmJIRHcyZHVYc0N1dVdYX09uVWZWQVQ5RkdzbHdoTk1EZDktOFRMbk55TEVfdlBTRW9qMnZIYUw3NjhFZGUtQWluZ2V5cVFxSklHVXFrOGJIZmNPR3VyMzNJMlZ3?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4cy1KSmJIRHcyZHVYc0N1dVdYX09uVWZWQVQ5RkdzbHdoTk1EZDktOFRMbk55TEVfdlBTRW9qMnZIYUw3NjhFZGUtQWluZ2V5cVFxSklHVXFrOGJIZmNPR3VyMzNJMlZ3?oc=5" target="_blank" rel="noopener noreferrer" data-search="「microsoft excel」の「copilot」に多くの新機能、ピボットテーブルも改善 ~2026年6月更新 - 窓の杜 copilot / microsoft ai 関連 「microsoft excel」の「copilot」に多くの新機能、ピボットテーブルも改善 ~2026年6月更新  窓の杜">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">「Microsoft Excel」の「Copilot」に多くの新機能、ピボットテーブルも改善 ～2026年6月更新 - 窓の杜</div>
     <div class="card-date">2026/07/02 06:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFA4c0IwS0xrMF9zUFFUWnB3cEhmRHVQdzRtb1JDdm03X0VaVy12aUktdlVvN2lEWGVfNWFTSnAyUFo5SThuTkdHcnc1VXVvV0hHNlZrUHpWeHhMM1cxcm9PYVlySnBRVEJXcWhfQw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFA4c0IwS0xrMF9zUFFUWnB3cEhmRHVQdzRtb1JDdm03X0VaVy12aUktdlVvN2lEWGVfNWFTSnAyUFo5SThuTkdHcnc1VXVvV0hHNlZrUHpWeHhMM1cxcm9PYVlySnBRVEJXcWhfQw?oc=5" target="_blank" rel="noopener noreferrer" data-search="copilotからaiエージェントへ マイクロソフトは企業と組織をどう変えるのか - 日経bookプラス copilot / microsoft ai 関連 copilotからaiエージェントへ マイクロソフトは企業と組織をどう変えるのか  日経bookプラス">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">CopilotからAIエージェントへ マイクロソフトは企業と組織をどう変えるのか - 日経BOOKプラス</div>
     <div class="card-date">2026/07/02 05:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9Cc0V6aEw1Tzc1Y0Q1VWFDZnc0MERiZDJIeXp3NHV1c1lCTkc1NUppWkJJWUFHdldtcDRZb2dJdnYwNl9MTjVpdktoS3FBMENhdEZwUEVDSGtyclBsNnBEVUl6REpweHVrNUsybWNtbTlBSmZIUzUwZmNzZw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9Cc0V6aEw1Tzc1Y0Q1VWFDZnc0MERiZDJIeXp3NHV1c1lCTkc1NUppWkJJWUFHdldtcDRZb2dJdnYwNl9MTjVpdktoS3FBMENhdEZwUEVDSGtyclBsNnBEVUl6REpweHVrNUsybWNtbTlBSmZIUzUwZmNzZw?oc=5" target="_blank" rel="noopener noreferrer" data-search="ノーコードソリューションズ、microsoft 365のエージェント型ai「copilot cowork」の導入支援・活用研修サービスを提供開始 - ニコニコニュース copilot / microsoft ai 関連 ノーコードソリューションズ、microsoft 365のエージェント型ai「copilot cowork」の導入支援・活用研修サービスを提供開始  ニコニコニュース">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">ノーコードソリューションズ、Microsoft 365のエージェント型AI「Copilot Cowork」の導入支援・活用研修サービスを提供開始 - ニコニコニュース</div>
     <div class="card-date">2026/07/01 19:48</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGxYeHNWeGVVZWJvUGt3TEVrSmJiUHJjT2tsNEZQQ1VOU2FPVU5XSDVMT0ptU0RrRUJTUF9OWk9KME9OT0hDcGpTZGhHRThjcjV6bkZiTy1YNFk0S1ZCSFd4N2JJV3Zkb2tUV2JOb3kyVkZUY0lnMjFrS211OFk3ZGZtU2hOZXkyT0dFUFRSM1c1MExRdF9R?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGxYeHNWeGVVZWJvUGt3TEVrSmJiUHJjT2tsNEZQQ1VOU2FPVU5XSDVMT0ptU0RrRUJTUF9OWk9KME9OT0hDcGpTZGhHRThjcjV6bkZiTy1YNFk0S1ZCSFd4N2JJV3Zkb2tUV2JOb3kyVkZUY0lnMjFrS211OFk3ZGZtU2hOZXkyT0dFUFRSM1c1MExRdF9R?oc=5" target="_blank" rel="noopener noreferrer" data-search="次世代aiエージェントを読み解く「5つの必須用語」microsoft編:copilot studio / microsoft foundryで何が起きているか - オルタナティブ・ブログ copilot / microsoft ai 関連 次世代aiエージェントを読み解く「5つの必須用語」microsoft編:copilot studio / microsoft foundryで何が起きているか  オルタナティブ・ブログ">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">次世代AIエージェントを読み解く「5つの必須用語」Microsoft編：Copilot Studio / Microsoft Foundryで何が起きているか - オルタナティブ・ブログ</div>
     <div class="card-date">2026/07/01 17:52</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YWlJkMTNZQkc4ZE5MRGNKRC1jdnYzaXdabmNFamFsSWZiR19HWmlBMmF2XzIyemJ2U05QZUl2eXRzTlV4anpJU25VMkFWQVRmWXczMHZzbUZsSG1rSFVhbXh6MUtzODQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YWlJkMTNZQkc4ZE5MRGNKRC1jdnYzaXdabmNFamFsSWZiR19HWmlBMmF2XzIyemJ2U05QZUl2eXRzTlV4anpJU25VMkFWQVRmWXczMHZzbUZsSG1rSFVhbXh6MUtzODQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="「マネーフォワード クラウド会計」のmcpサーバー機能、microsoft 365 copilot coworkと連携開始 - クラウド watch copilot / microsoft ai 関連 「マネーフォワード クラウド会計」のmcpサーバー機能、microsoft 365 copilot coworkと連携開始  クラウド watch">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">「マネーフォワード クラウド会計」のMCPサーバー機能、Microsoft 365 Copilot Coworkと連携開始 - クラウド Watch</div>
     <div class="card-date">2026/07/01 11:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBta3E3TjBmR2RacTVvWGQxUVFDMmx4Z0JHcXh6SGUzOUM1SWxqZlVaZVNSSGRlRUlNRHRVQklxb096UkZMNzh2OGkwc0pVZ0s2RkJPX2xlTU5WSWdCMVhLR09B?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBta3E3TjBmR2RacTVvWGQxUVFDMmx4Z0JHcXh6SGUzOUM1SWxqZlVaZVNSSGRlRUlNRHRVQklxb096UkZMNzh2OGkwc0pVZ0s2RkJPX2xlTU5WSWdCMVhLR09B?oc=5" target="_blank" rel="noopener noreferrer" data-search="tosys、マイクロソフトの上位パートナー認定資格「microsoft copilot」specializationを取得 生成ai活用による業務変革支援体制を強化 - excite エキサイト copilot / microsoft ai 関連 tosys、マイクロソフトの上位パートナー認定資格「microsoft copilot」specializationを取得 生成ai活用による業務変革支援体制を強化  excite エキサイト">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">TOSYS、マイクロソフトの上位パートナー認定資格「Microsoft Copilot」Specializationを取得 生成AI活用による業務変革支援体制を強化 - Excite エキサイト</div>
     <div class="card-date">2026/07/01 11:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OaW9Vbi1sYzBYRTdhZ2F4cF9jQU82U1lfVXpIeDFrVWhVNnZwZlZYZ21oNVdWdTVQWDhPNXVKLWpvdHBOaTE3Sld4TjdKZXc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OaW9Vbi1sYzBYRTdhZ2F4cF9jQU82U1lfVXpIeDFrVWhVNnZwZlZYZ21oNVdWdTVQWDhPNXVKLWpvdHBOaTE3Sld4TjdKZXc?oc=5" target="_blank" rel="noopener noreferrer" data-search="【2026年最新版】microsoft 365 copilotとは?特徴や活用方法、導入のポイントをわかりやすく解説! - nttドコモビジネス copilot / microsoft ai 関連 【2026年最新版】microsoft 365 copilotとは?特徴や活用方法、導入のポイントをわかりやすく解説!  nttドコモビジネス">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">【2026年最新版】Microsoft 365 Copilotとは？特徴や活用方法、導入のポイントをわかりやすく解説！ - NTTドコモビジネス</div>
     <div class="card-date">2026/06/30 16:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBFSktPSHhQOF9wRG9JenFKbXYwbkhuMlJZc2VrQnFBdlRsdXl6X1l5cEkzZTc3V2tuUFZ2VUZUMWMtR2k0bXUtVzhsRG0xYi04TEpSR1dtdlJBTnZaX3VGbzJuc21KQlZ1b3huXw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBFSktPSHhQOF9wRG9JenFKbXYwbkhuMlJZc2VrQnFBdlRsdXl6X1l5cEkzZTc3V2tuUFZ2VUZUMWMtR2k0bXUtVzhsRG0xYi04TEpSR1dtdlJBTnZaX3VGbzJuc21KQlZ1b3huXw?oc=5" target="_blank" rel="noopener noreferrer" data-search="一般提供が始まった「copilot cowork」を体験 - ai watch copilot / microsoft ai 関連 一般提供が始まった「copilot cowork」を体験  ai watch">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">一般提供が始まった「Copilot Cowork」を体験 - AI Watch</div>
     <div class="card-date">2026/06/30 14:52</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DYWNLTXJoLUVCaklXMWUzaG8yYXotZ2pRNkZvYVhDYWgtVFVHSXQ5OC1IS2cyajFQekdfazFTVS0xRUNRblNEVHZXaGtHdWxZd2ViRS1oN3RoaVRRWHpJ?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">Copilot / Microsoft AI 関連</div>
-    <div class="card-title">Copilot StudioでAIエージェント作成、最初の一歩 - 日経クロステック</div>
-    <div class="card-date">2026/06/30 04:59</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE05d1N0REw2bkNUZ1U4ekFTanVRSXJXLVJxVDFuWlR5cW52cDNFTlEwZnNfWGhjM1gxZ3RpalFmMjlFYnZ0TEJaWEpZc3JEb0pYeW1Md1lKSTAyRnFLOXBXN0NScXBCVGdk?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE05d1N0REw2bkNUZ1U4ekFTanVRSXJXLVJxVDFuWlR5cW52cDNFTlEwZnNfWGhjM1gxZ3RpalFmMjlFYnZ0TEJaWEpZc3JEb0pYeW1Md1lKSTAyRnFLOXBXN0NScXBCVGdk?oc=5" target="_blank" rel="noopener noreferrer" data-search="「copilot in excel」が反復・定型作業を代わりにしてくれる「スキル」に対応 - 窓の杜 copilot / microsoft ai 関連 「copilot in excel」が反復・定型作業を代わりにしてくれる「スキル」に対応  窓の杜">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">「Copilot in Excel」が反復・定型作業を代わりにしてくれる「スキル」に対応 - 窓の杜</div>
     <div class="card-date">2026/06/29 13:03</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1welhyOWhGU2lLeFBNWFlPVHBHODVZTDNrdFNzSDdhMXItMy1VNVREVjNRWmU3bjduR3NsOXhTc3FfTlBaU2REa1RLN2RYVDA0TUREeFZ4ZGZiYXg4SE9fOVdWeUtHV3ZyMFE?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1welhyOWhGU2lLeFBNWFlPVHBHODVZTDNrdFNzSDdhMXItMy1VNVREVjNRWmU3bjduR3NsOXhTc3FfTlBaU2REa1RLN2RYVDA0TUREeFZ4ZGZiYXg4SE9fOVdWeUtHV3ZyMFE?oc=5" target="_blank" rel="noopener noreferrer" data-search="『マネーフォワード クラウド会計』、リモートmcpサーバーと『microsoft 365 copilot cowork』の連携開始 - pr times copilot / microsoft ai 関連 『マネーフォワード クラウド会計』、リモートmcpサーバーと『microsoft 365 copilot cowork』の連携開始  pr times">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">『マネーフォワード クラウド会計』、リモートMCPサーバーと『Microsoft 365 Copilot Cowork』の連携開始 - PR TIMES</div>
     <div class="card-date">2026/06/29 11:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTDVfdmRvbmhkQXhCNkVLOTltaTdwTGxDUzhuQ0VwQU9NLVN2b0JleTNJVmZnNjBSVXNRN3hJc1NTT2dHNHRzMHBqazhHRUtHTTdOTU5abFIyT25fd3Nyc1RYZEJOUnJha2R1NkxtbDAxOGN4T0tJSm42QldqWlhhekJ1bUNseE1t?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTDVfdmRvbmhkQXhCNkVLOTltaTdwTGxDUzhuQ0VwQU9NLVN2b0JleTNJVmZnNjBSVXNRN3hJc1NTT2dHNHRzMHBqazhHRUtHTTdOTU5abFIyT25fd3Nyc1RYZEJOUnJha2R1NkxtbDAxOGN4T0tJSm42QldqWlhhekJ1bUNseE1t?oc=5" target="_blank" rel="noopener noreferrer" data-search="【copilot】マイクロソフト自身も「効果に驚愕」work iqの正体、賢いaiに育てる秘訣(ビジネス+it) - yahoo!ニュース copilot / microsoft ai 関連 【copilot】マイクロソフト自身も「効果に驚愕」work iqの正体、賢いaiに育てる秘訣(ビジネス+it)  yahoo!ニュース">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">【Copilot】マイクロソフト自身も「効果に驚愕」Work IQの正体、賢いAIに育てる秘訣（ビジネス＋IT） - Yahoo!ニュース</div>
     <div class="card-date">2026/06/29 06:20</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE43SFJIWnUzNlJHS0I4R1VUOVpJMFpIY1hhbzBvMFd0MXYwSmMxbnZMTkRYS2VXeHQxT2MteFdzUUZlM2NLN21ybGp3VC1NcHVUbjQ0?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE43SFJIWnUzNlJHS0I4R1VUOVpJMFpIY1hhbzBvMFd0MXYwSmMxbnZMTkRYS2VXeHQxT2MteFdzUUZlM2NLN21ybGp3VC1NcHVUbjQ0?oc=5" target="_blank" rel="noopener noreferrer" data-search="【copilot】マイクロソフト自身も「効果に驚愕」work iqの正体、賢いaiに育てる秘訣 - ビジネス+it copilot / microsoft ai 関連 【copilot】マイクロソフト自身も「効果に驚愕」work iqの正体、賢いaiに育てる秘訣  ビジネス+it">
     <div class="card-source">Copilot / Microsoft AI 関連</div>
     <div class="card-title">【Copilot】マイクロソフト自身も「効果に驚愕」Work IQの正体、賢いAIに育てる秘訣 - ビジネス+IT</div>
     <div class="card-date">2026/06/29 06:10</div>
@@ -692,7 +750,7 @@
     <h3 class="sub-heading">▶ YouTube動画</h3>
     <div class="video-row">
       
-  <a class="video-card" href="https://www.youtube.com/watch?v=08hgAtg-P_8" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=08hgAtg-P_8" target="_blank" rel="noopener noreferrer" data-search="codex for solutions engineers: making ai tangible for customers openai">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/08hgAtg-P_8/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -703,7 +761,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=IUGEvzfvUWU" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=IUGEvzfvUWU" target="_blank" rel="noopener noreferrer" data-search="setup with chatgpt openai">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/IUGEvzfvUWU/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -714,7 +772,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=N3Hzsf2PuHA" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=N3Hzsf2PuHA" target="_blank" rel="noopener noreferrer" data-search="grow with chatgpt openai">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/N3Hzsf2PuHA/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -725,7 +783,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=f-HiB82Tl94" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=f-HiB82Tl94" target="_blank" rel="noopener noreferrer" data-search="advent accelerates deals with chatgpt + codex openai">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/f-HiB82Tl94/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -736,7 +794,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=SPC_yCe1cUw" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=SPC_yCe1cUw" target="_blank" rel="noopener noreferrer" data-search="builders unscripted: ep. 4 - pietro schirano openai">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/SPC_yCe1cUw/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -747,7 +805,7 @@
     </div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=mFwWax5pLTs" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=mFwWax5pLTs" target="_blank" rel="noopener noreferrer" data-search="verso, l'entreprise qui ne dort jamais openai">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/mFwWax5pLTs/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -760,223 +818,223 @@
     </div>
     <h3 class="sub-heading">📄 記事・ニュース</h3>
     <div class="grid">
-  <a class="card" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE13WVZHUENvd1hUOTE5dFB3ay0zNzdhTEdlalVhQ1J0ZjJTVld4UVEwMnZQcUJZVUNVbVdkTVE0WGZnc3FrdHBNZmFPX0JwOUlkc2dWcFNTU0dMaFBZZkpzQ3lscGk2VUxaT3Nn?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE13WVZHUENvd1hUOTE5dFB3ay0zNzdhTEdlalVhQ1J0ZjJTVld4UVEwMnZQcUJZVUNVbVdkTVE0WGZnc3FrdHBNZmFPX0JwOUlkc2dWcFNTU0dMaFBZZkpzQ3lscGk2VUxaT3Nn?oc=5" target="_blank" rel="noopener noreferrer" data-search="openaiがアメリカ政府に株式の5%譲渡を計画中との報道、アメリカ政府はgpt-5.6の一般公開を規制中 - gigazine chatgpt / openai 関連 openaiがアメリカ政府に株式の5%譲渡を計画中との報道、アメリカ政府はgpt-5.6の一般公開を規制中  gigazine">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAIがアメリカ政府に株式の5％譲渡を計画中との報道、アメリカ政府はGPT-5.6の一般公開を規制中 - GIGAZINE</div>
     <div class="card-date">2026/07/03 12:31</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1tN2k1TmxFYnZtWUVZR1ItRUxBaVdhZXpfN3lXLTRWMEZ5V2VDdEhtbDhJT2tta2JJTFlUVUU2cDcxWlplVnRWVU5TanF4cjQ2ZWZhX295aHVmS3JrRU03MXZKM3RNWWRMUHJ4Z3RR?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1tN2k1TmxFYnZtWUVZR1ItRUxBaVdhZXpfN3lXLTRWMEZ5V2VDdEhtbDhJT2tta2JJTFlUVUU2cDcxWlplVnRWVU5TanF4cjQ2ZWZhX295aHVmS3JrRU03MXZKM3RNWWRMUHJ4Z3RR?oc=5" target="_blank" rel="noopener noreferrer" data-search="河北新報社 ビズラボ 河北経済研究所 - 河北新報オンライン chatgpt / openai 関連 河北新報社 ビズラボ 河北経済研究所  河北新報オンライン">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">河北新報社 ビズラボ 河北経済研究所 - 河北新報オンライン</div>
     <div class="card-date">2026/07/03 11:36</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE80TFhBb2RKd3gtdjhNLUtZMWFTZkZqOUtKc0M0VkFhdjI3OWtYR1l2Z3lZRHpJV0xWWGhzaElNUmZVLXhObDU0X2t3M2FFd3lPc2NDM3hzb2p2NUJsbjlzekdFWQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE80TFhBb2RKd3gtdjhNLUtZMWFTZkZqOUtKc0M0VkFhdjI3OWtYR1l2Z3lZRHpJV0xWWGhzaElNUmZVLXhObDU0X2t3M2FFd3lPc2NDM3hzb2p2NUJsbjlzekdFWQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="「ソフトウェアはシリコンバレー,ハードウェアは日本」aiが産業と地政学を同時に揺さぶるなか,openai,openhome,headlineのキーパーソンが語ったセッションをレポート[ivs2026] - 4gamer.net chatgpt / openai 関連 「ソフトウェアはシリコンバレー,ハードウェアは日本」aiが産業と地政学を同時に揺さぶるなか,openai,openhome,headlineのキーパーソンが語ったセッションをレポート[ivs2026]  4gamer.net">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">「ソフトウェアはシリコンバレー，ハードウェアは日本」AIが産業と地政学を同時に揺さぶるなか，OpenAI，OpenHome，Headlineのキーパーソンが語ったセッションをレポート［IVS2026］ - 4Gamer.net</div>
     <div class="card-date">2026/07/03 11:30</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xOXY2a0dPWUJoOGRZYnRqOXI4TzJuaGc2ZzFscGRCckhwRHBJSnNlSHR2QjZ6LUFSLXV4WFB4QklSMWk1a1p1MGw0VndoSDllY1E?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xOXY2a0dPWUJoOGRZYnRqOXI4TzJuaGc2ZzFscGRCckhwRHBJSnNlSHR2QjZ6LUFSLXV4WFB4QklSMWk1a1p1MGw0VndoSDllY1E?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、米政府に株式5%譲渡を提案か 約6.8兆円の巨額取引の思惑とは - cnet japan chatgpt / openai 関連 openai、米政府に株式5%譲渡を提案か 約6.8兆円の巨額取引の思惑とは  cnet japan">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、米政府に株式5%譲渡を提案か 約6.8兆円の巨額取引の思惑とは - CNET Japan</div>
     <div class="card-date">2026/07/03 10:17</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTFBLdTBCbFVqM1M0bUYtT0Q0NWUyRlhZN2FHS2JVX25Qb2FlUXRqWXRDa3RLemQxZTkyMWEzZmR1NzhubkQwS1FDQnY3MGZ6MkMxbVE3RTc1aWFMSDBldUZxNjZjRVAzVjA1TkFIOGRodXctcjZ6UW8xTGpnNA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTFBLdTBCbFVqM1M0bUYtT0Q0NWUyRlhZN2FHS2JVX25Qb2FlUXRqWXRDa3RLemQxZTkyMWEzZmR1NzhubkQwS1FDQnY3MGZ6MkMxbVE3RTc1aWFMSDBldUZxNjZjRVAzVjA1TkFIOGRodXctcjZ6UW8xTGpnNA?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、米政府に株式5%譲渡を提案か 約6.8兆円の巨額取引の思惑とは - au webポータル chatgpt / openai 関連 openai、米政府に株式5%譲渡を提案か 約6.8兆円の巨額取引の思惑とは  au webポータル">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、米政府に株式5%譲渡を提案か 約6.8兆円の巨額取引の思惑とは - au Webポータル</div>
     <div class="card-date">2026/07/03 10:17</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzY0NWUzh1LTJ1Z2EyenFwc1VWYWhzUmgxM0ViZl84Q3ZOeVNaSlFXc0ZQbkFwZDA2cTFMT21OYzRKSXRQLXJ3SmJGOHdVTlZCal9HNnZ6M3QzWWc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzY0NWUzh1LTJ1Z2EyenFwc1VWYWhzUmgxM0ViZl84Q3ZOeVNaSlFXc0ZQbkFwZDA2cTFMT21OYzRKSXRQLXJ3SmJGOHdVTlZCal9HNnZ6M3QzWWc?oc=5" target="_blank" rel="noopener noreferrer" data-search="cognizant and openai bring frontier ai cyber defense from vulnerability discovery to validated fixes - 共同通信prワイヤー chatgpt / openai 関連 cognizant and openai bring frontier ai cyber defense from vulnerability discovery to validated fixes  共同通信prワイヤー">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">Cognizant and OpenAI bring frontier AI cyber defense from vulnerability discovery to validated fixes - 共同通信PRワイヤー</div>
     <div class="card-date">2026/07/03 10:02</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB6alQySXV6eUdZeFJFZ0dHaXZHMmpacWN6NEVqYy1rZ0ZzcE9GSjZZMUVLcWJhTzNOclJLOEhacWZWR0k3ODQ4azRIN2p0aUNKZ3drQmg4SVlCMjVEQ0FuZmJBTXBMc2RPVDF3RGpJOHo?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB6alQySXV6eUdZeFJFZ0dHaXZHMmpacWN6NEVqYy1rZ0ZzcE9GSjZZMUVLcWJhTzNOclJLOEhacWZWR0k3ODQ4azRIN2p0aUNKZ3drQmg4SVlCMjVEQ0FuZmJBTXBMc2RPVDF3RGpJOHo?oc=5" target="_blank" rel="noopener noreferrer" data-search="metaのwang氏、新aiモデルがopenaiに追いついたと発言 執筆 - investing.com - fx | 株式市場 | ファイナンス | 金融ニュース chatgpt / openai 関連 metaのwang氏、新aiモデルがopenaiに追いついたと発言 執筆  investing.com - fx | 株式市場 | ファイナンス | 金融ニュース">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">MetaのWang氏、新AIモデルがOpenAIに追いついたと発言 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース</div>
     <div class="card-date">2026/07/03 09:31</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fZkdsS2RuUWtiMnhMalB4RVJuQUYzSjRkM2JNcFNGcFhRSFI5R1BHb3U4X09rblo2MDZydlVDazQyTUo2TElfeC02RHk4cFc4UWF0anRHLVdQR0tkZE8xYmZ1ZHJUVmc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fZkdsS2RuUWtiMnhMalB4RVJuQUYzSjRkM2JNcFNGcFhRSFI5R1BHb3U4X09rblo2MDZydlVDazQyTUo2TElfeC02RHk4cFc4UWF0anRHLVdQR0tkZE8xYmZ1ZHJUVmc?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、初の独自設計aiチップ「jalapeño」を発表。broadcomとの共同開発基盤の第1弾 - aismiley chatgpt / openai 関連 openai、初の独自設計aiチップ「jalapeño」を発表。broadcomとの共同開発基盤の第1弾  aismiley">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、初の独自設計AIチップ「Jalapeño」を発表。Broadcomとの共同開発基盤の第1弾 - AIsmiley</div>
     <div class="card-date">2026/07/03 09:22</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0xQ1Z5MEtTV2xnMlJDNkRxaDVLbUxsT1NQWk9IOXVlVXROX29DdUVyUERJbjZCQ3IyM0MyckhOOEM5Mi1OWi01WXpjQW1VQ0ZaRlBCYmNiTHhhT0U5WldfXzlXSVNhVHpTN2g3b00xV21rS24wX2tMaWFOX0hIbE0?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0xQ1Z5MEtTV2xnMlJDNkRxaDVLbUxsT1NQWk9IOXVlVXROX29DdUVyUERJbjZCQ3IyM0MyckhOOEM5Mi1OWi01WXpjQW1VQ0ZaRlBCYmNiTHhhT0U5WldfXzlXSVNhVHpTN2g3b00xV21rS24wX2tMaWFOX0hIbE0?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、米政府に対して5%の株式譲渡を提案か - yahoo!ニュース chatgpt / openai 関連 openai、米政府に対して5%の株式譲渡を提案か  yahoo!ニュース">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、米政府に対して5％の株式譲渡を提案か - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 08:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NQlBOQlByRk9pS1FGbWc4VEhZVUs3MTE5akRlYnB0WW91MXNjb0FFMUEyeTNyRnJUQU9EWktJeXJ4Rmp3Nk5VeUtvMGp3dFE2VnRFZW93?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NQlBOQlByRk9pS1FGbWc4VEhZVUs3MTE5akRlYnB0WW91MXNjb0FFMUEyeTNyRnJUQU9EWktJeXJ4Rmp3Nk5VeUtvMGp3dFE2VnRFZW93?oc=5" target="_blank" rel="noopener noreferrer" data-search="「国内展開が本格化するchatgpt広告」と「購買導線の強化が進むsns」:ec関連ニュースまとめ【2026年6月】 - コマースピック chatgpt / openai 関連 「国内展開が本格化するchatgpt広告」と「購買導線の強化が進むsns」:ec関連ニュースまとめ【2026年6月】  コマースピック">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">「国内展開が本格化するChatGPT広告」と「購買導線の強化が進むSNS」：EC関連ニュースまとめ【2026年６月】 - コマースピック</div>
     <div class="card-date">2026/07/03 08:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQTi1BV3NuQVdSYU8wakFGWXhqTmJ2Skp2Ty0tdDk0cE5RamgwdXphRHRZd2JRX3pRalhabm1yN28tVmhRQVdYQzFseVRzc0FXWXlFNGhZemxaeFcxOC1USmNkUXhobTdhRXpLWVJOaHY3RndjX3hraXY5RmtSSDBkNWRGS3RjYVU?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQTi1BV3NuQVdSYU8wakFGWXhqTmJ2Skp2Ty0tdDk0cE5RamgwdXphRHRZd2JRX3pRalhabm1yN28tVmhRQVdYQzFseVRzc0FXWXlFNGhZemxaeFcxOC1USmNkUXhobTdhRXpLWVJOaHY3RndjX3hraXY5RmtSSDBkNWRGS3RjYVU?oc=5" target="_blank" rel="noopener noreferrer" data-search="openaiが米政府に5%株式案か、ai富の分配は議決権の設計へ - xenospectrum chatgpt / openai 関連 openaiが米政府に5%株式案か、ai富の分配は議決権の設計へ  xenospectrum">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAIが米政府に5%株式案か、AI富の分配は議決権の設計へ - XenoSpectrum</div>
     <div class="card-date">2026/07/03 06:51</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9tM3NzVnh1aFdGdFZVTWxfNG1YWGVlQ1ZhamVnMjFkdnMxWHZNU0RRY2NWVmlNYkRIYUxMVjZCZUpqaTJrYTdLMTdTZHRTRk42TjdTaVV0eEpEckNjUlBXbjFZbDV0Skg1Z3FCVg?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9tM3NzVnh1aFdGdFZVTWxfNG1YWGVlQ1ZhamVnMjFkdnMxWHZNU0RRY2NWVmlNYkRIYUxMVjZCZUpqaTJrYTdLMTdTZHRTRk42TjdTaVV0eEpEckNjUlBXbjFZbDV0Skg1Z3FCVg?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、米政府に株式の5%付与を検討か ft報道 - 日本経済新聞 chatgpt / openai 関連 openai、米政府に株式の5%付与を検討か ft報道  日本経済新聞">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、米政府に株式の5%付与を検討か FT報道 - 日本経済新聞</div>
     <div class="card-date">2026/07/03 05:16</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTFAxVW9FclVZUS1oM21URzhNYUdOMGl2S0hPQUpmODd6eHplNWhyR08xZzIzWXJCU1VwNF90cUd6Q2tueFZDdzJiQnBjdm1XMHYtNmFzbGZPeGhlRmh1YVo3NXJYRF8tYmpGRFBkcFk2dXBrTTZR?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTFAxVW9FclVZUS1oM21URzhNYUdOMGl2S0hPQUpmODd6eHplNWhyR08xZzIzWXJCU1VwNF90cUd6Q2tueFZDdzJiQnBjdm1XMHYtNmFzbGZPeGhlRmh1YVo3NXJYRF8tYmpGRFBkcFk2dXBrTTZR?oc=5" target="_blank" rel="noopener noreferrer" data-search="マスク氏「aiスマホ」否定も...openaiやmetaと次世代端末競争が過熱 - biggo ファイナンス chatgpt / openai 関連 マスク氏「aiスマホ」否定も...openaiやmetaと次世代端末競争が過熱  biggo ファイナンス">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">マスク氏「AIスマホ」否定も…OpenAIやMetaと次世代端末競争が過熱 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/03 04:07</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE16Uk1oZ2cteGgzZzIxLVB0dFdLZXU4TE5QZnBwM2RWeDNVdnNHNnJWeVhzb29kZDhjN2JKWUFqcUpUb1E2ZGgwZ21hbmg0RWE4OGMya1V5NlpJUWg0TmFmbjJOcXFmZw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE16Uk1oZ2cteGgzZzIxLVB0dFdLZXU4TE5QZnBwM2RWeDNVdnNHNnJWeVhzb29kZDhjN2JKWUFqcUpUb1E2ZGgwZ21hbmg0RWE4OGMya1V5NlpJUWg0TmFmbjJOcXFmZw?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai proposes handing trump administration 5% stake, ft reports - reuters chatgpt / openai 関連 openai proposes handing trump administration 5% stake, ft reports  reuters">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI proposes handing Trump administration 5% stake, FT reports - Reuters</div>
     <div class="card-date">2026/07/02 23:33</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kU0hHZkp6Y1BqcG9aTE1KTk5SMkpLWjlDdXI1dmJCNzhEUjJMS2dVN2RUR3RJbkU0TmU2alNLMHJXM25IM3pUX1dscUt3Wm1CUzNZUkpYMnlsSkR5SU13akVZVQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1GNWk1LWJ0SWFHczN6OUtMLUVfdWRpUk5wT3VzaGE2UVVldU9na3dGemZad2t5YlRHV3BjVlpmVWkxRDZhY1IzYkhEelczdjZZdkJNeXdHTklBeXVoMldEMWwtXzEycjF3SWw2NmkxSlM?oc=5" target="_blank" rel="noopener noreferrer" data-search="eightcoがopenaiへの出資を含む約3億8600万ドルの保有資産を公表 執筆 - investing.com - fx | 株式市場 | ファイナンス | 金融ニュース chatgpt / openai 関連 eightcoがopenaiへの出資を含む約3億8600万ドルの保有資産を公表 執筆  investing.com - fx | 株式市場 | ファイナンス | 金融ニュース">
+    <div class="card-source">ChatGPT / OpenAI 関連</div>
+    <div class="card-title">EightcoがOpenAIへの出資を含む約3億8600万ドルの保有資産を公表 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース</div>
+    <div class="card-date">2026/07/02 21:37</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kU0hHZkp6Y1BqcG9aTE1KTk5SMkpLWjlDdXI1dmJCNzhEUjJMS2dVN2RUR3RJbkU0TmU2alNLMHJXM25IM3pUX1dscUt3Wm1CUzNZUkpYMnlsSkR5SU13akVZVQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、科学研究でのaiの判断力を評価する新ベンチ - pc watch chatgpt / openai 関連 openai、科学研究でのaiの判断力を評価する新ベンチ  pc watch">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、科学研究でのAIの判断力を評価する新ベンチ - PC Watch</div>
     <div class="card-date">2026/07/02 20:47</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9RTnpIdXZtUFJXa1FnWE9pdldMMUJDckJJbmEyM1lxa19QY2VPWWVLc1BBdGJRMlJNMmwzT0FUblFvRk12QlFfYzAxZE1LOVZ5U1EtLWdmeVFLNDZnRE9ncUFjWVh1OWpHc1dFUUZTaUY?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9RTnpIdXZtUFJXa1FnWE9pdldMMUJDckJJbmEyM1lxa19QY2VPWWVLc1BBdGJRMlJNMmwzT0FUblFvRk12QlFfYzAxZE1LOVZ5U1EtLWdmeVFLNDZnRE9ncUFjWVh1OWpHc1dFUUZTaUY?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、米政府に5%株式譲渡を検討か - beincrypto chatgpt / openai 関連 openai、米政府に5%株式譲渡を検討か  beincrypto">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、米政府に5％株式譲渡を検討か - BeInCrypto</div>
     <div class="card-date">2026/07/02 20:30</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KWFdKd1pnYVUtcVRZeGxwZ29xdWdtcUN2cFV2V0JIamlNclVWWmtrcDV3elBiM2dEcTRnVkdBSzZLUlQ1UmV2RWk0aFI3a0tDRjFhdw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KWFdKd1pnYVUtcVRZeGxwZ29xdWdtcUN2cFV2V0JIamlNclVWWmtrcDV3elBiM2dEcTRnVkdBSzZLUlQ1UmV2RWk0aFI3a0tDRjFhdw?oc=5" target="_blank" rel="noopener noreferrer" data-search="【生成ai初心者向け】chatgptやgeminiをもっと便利に使おう!7/24(金)無料セミナー「生成aiの基本とプロンプト入門」を開催!! - ascii.jp 生成ai 総合 【生成ai初心者向け】chatgptやgeminiをもっと便利に使おう!7/24(金)無料セミナー「生成aiの基本とプロンプト入門」を開催!!  ascii.jp">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">【生成AI初心者向け】ChatGPTやGeminiをもっと便利に使おう！7/24（金）無料セミナー「生成AIの基本とプロンプト入門」を開催!! - ASCII.jp</div>
     <div class="card-date">2026/07/02 20:02</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1FRldfMTllTTg5VHF0UktZblZsb3NQc1FMcmVHeDZKTzNSY3A0RUtYQkg2UEZNcHcxdlpRdU05YTB1QkhaTkQ1b21vcFRGbHFwRmpKZW1ma2QyYXFIY211ZDQ5b0pvLVNlYkxSOHlDTjhLcE5l?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1FRldfMTllTTg5VHF0UktZblZsb3NQc1FMcmVHeDZKTzNSY3A0RUtYQkg2UEZNcHcxdlpRdU05YTB1QkhaTkQ1b21vcFRGbHFwRmpKZW1ma2QyYXFIY211ZDQ5b0pvLVNlYkxSOHlDTjhLcE5l?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、米政府に5%の株式譲渡を提案——評価額426億ドルで規制緩和を模索 - biggo ファイナンス chatgpt / openai 関連 openai、米政府に5%の株式譲渡を提案——評価額426億ドルで規制緩和を模索  biggo ファイナンス">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、米政府に5%の株式譲渡を提案——評価額426億ドルで規制緩和を模索 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 19:05</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc0E2NnUyQzJGN3dST3Y2N190MmdBX0xkbFlpSEZjTXU1cnhSSGg5Z09BbXFPNUdxbnlkWnpqckVGc1pKYk5mbGhfemNXSVRwSlNaWnF5M3AybV83U3JBZW1vTEp3SnJO?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc0E2NnUyQzJGN3dST3Y2N190MmdBX0xkbFlpSEZjTXU1cnhSSGg5Z09BbXFPNUdxbnlkWnpqckVGc1pKYk5mbGhfemNXSVRwSlNaWnF5M3AybV83U3JBZW1vTEp3SnJO?oc=5" target="_blank" rel="noopener noreferrer" data-search="プレスリリース:[生成ai初心者向け]chatgptやgeminiをもっと便利に使おう!7/24(金)無料セミナー「生成aiの基本とプロンプト入門」を開催!!(pr times) - 毎日新聞 生成ai 総合 プレスリリース:[生成ai初心者向け]chatgptやgeminiをもっと便利に使おう!7/24(金)無料セミナー「生成aiの基本とプロンプト入門」を開催!!(pr times)  毎日新聞">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">プレスリリース：［生成AI初心者向け］ChatGPTやGeminiをもっと便利に使おう！7/24（金）無料セミナー「生成AIの基本とプロンプト入門」を開催!!（PR TIMES） - 毎日新聞</div>
     <div class="card-date">2026/07/02 18:21</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEMWdnOGZjVnJ0eGg5ckNlTzh4b3lPSDBxbUtSOFU2UTFYV1hjSTYzSnVnaUR1WmlfWWFKSkFES2xGQ0xHS0lEeW9CVHjSAU9BVV95cUxNUFdQUDlPNTRzLTZfX25HOVBRQ2dZMFg2aGVwOWh4aTMzUTV3blU5c0N5c0U1dkFhQVNrbFpRVEtiY2pTeXRXQkRHUVl6d3Jz?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEMWdnOGZjVnJ0eGg5ckNlTzh4b3lPSDBxbUtSOFU2UTFYV1hjSTYzSnVnaUR1WmlfWWFKSkFES2xGQ0xHS0lEeW9CVHjSAU9BVV95cUxNUFdQUDlPNTRzLTZfX25HOVBRQ2dZMFg2aGVwOWh4aTMzUTV3blU5c0N5c0U1dkFhQVNrbFpRVEtiY2pTeXRXQkRHUVl6d3Jz?oc=5" target="_blank" rel="noopener noreferrer" data-search="pcもスマホも使わない芥川賞作家が、落合陽一のすすめでchatgptと政治の話→「この空虚なまでの愛想のよさは...」 - ダイヤモンド・オンライン chatgpt / openai 関連 pcもスマホも使わない芥川賞作家が、落合陽一のすすめでchatgptと政治の話→「この空虚なまでの愛想のよさは...」  ダイヤモンド・オンライン">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">PCもスマホも使わない芥川賞作家が、落合陽一のすすめでChatGPTと政治の話→「この空虚なまでの愛想のよさは…」 - ダイヤモンド・オンライン</div>
     <div class="card-date">2026/07/02 18:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNa2FVR0tZMTM2dlVUb19TaVp5dzhUUEk5TThBemswTEZJUDdGVEZjNTluWkpaenpxZ09fNm5CN2s3M21mZVFnM1JaZmdjSFVJWjJ6UDA3Rld3ODlialhveVY1VkxEVmN3Z1pFaFRFdTZwdWNhc2hOMHpSelBULUdMMnFCcy1JTzc5SnVISHVQZWZOZw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNa2FVR0tZMTM2dlVUb19TaVp5dzhUUEk5TThBemswTEZJUDdGVEZjNTluWkpaenpxZ09fNm5CN2s3M21mZVFnM1JaZmdjSFVJWjJ6UDA3Rld3ODlialhveVY1VkxEVmN3Z1pFaFRFdTZwdWNhc2hOMHpSelBULUdMMnFCcy1JTzc5SnVISHVQZWZOZw?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai創業者サム・アルトマン解任騒動を描くルカ・グァダニーノ監督の最新作、neonが配給権獲得 - vogue japan chatgpt / openai 関連 openai創業者サム・アルトマン解任騒動を描くルカ・グァダニーノ監督の最新作、neonが配給権獲得  vogue japan">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI創業者サム・アルトマン解任騒動を描くルカ・グァダニーノ監督の最新作、Neonが配給権獲得 - Vogue Japan</div>
     <div class="card-date">2026/07/02 17:30</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tbkQtY09Dd2lMN29FRWpDOEo4MVhodjdtLWRBbU04bExnZDNTNnRNcEJmdmtlWnJoMm4tSWQ0QWktN0QtdzlPRWRhcy1QOE1sei1LeHBB?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tbkQtY09Dd2lMN29FRWpDOEo4MVhodjdtLWRBbU04bExnZDNTNnRNcEJmdmtlWnJoMm4tSWQ0QWktN0QtdzlPRWRhcy1QOE1sei1LeHBB?oc=5" target="_blank" rel="noopener noreferrer" data-search="アドウェイズ、chatgpt adsなど生成ai向け広告支援体制を確立し2026年6月よりアセット提供開始 - コマースピック chatgpt / openai 関連 アドウェイズ、chatgpt adsなど生成ai向け広告支援体制を確立し2026年6月よりアセット提供開始  コマースピック">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">アドウェイズ、ChatGPT Adsなど生成AI向け広告支援体制を確立し2026年6月よりアセット提供開始 - コマースピック</div>
     <div class="card-date">2026/07/02 17:12</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE53YXhTMXp6NHdDLTNxWDYxTUdIYWpqdkUzTTgxX0UwNnFtelpWTkdickVPeGpKRkc4a0xKN0dRRGpNNGZyRjFFai1OaGdQeWxJM04yNTVn?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE53YXhTMXp6NHdDLTNxWDYxTUdIYWpqdkUzTTgxX0UwNnFtelpWTkdickVPeGpKRkc4a0xKN0dRRGpNNGZyRjFFai1OaGdQeWxJM04yNTVn?oc=5" target="_blank" rel="noopener noreferrer" data-search="chatgpt広告の日本展開開始、生成ai利用者の71%が継続利用意向も若年層で利用頻度低下の兆し―マインディア調査 - コマースピック chatgpt / openai 関連 chatgpt広告の日本展開開始、生成ai利用者の71%が継続利用意向も若年層で利用頻度低下の兆し―マインディア調査  コマースピック">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">ChatGPT広告の日本展開開始、生成AI利用者の71%が継続利用意向も若年層で利用頻度低下の兆し―マインディア調査 - コマースピック</div>
     <div class="card-date">2026/07/02 16:56</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9RT2ltUHZ4NTVEWWRxVnlnNUhCOFFOQVJZS1ZYQzRVTWV1OVZGVFJ3Njlfa2hKSVR6QTgwV1ZXcGtsZjR6eWxNNlRtSk9fMWk2eW1rNGoySnp5VXdLRVdDcU5Jbk1WU0loQ1ZhNWlIS2Vjbm1K?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9RT2ltUHZ4NTVEWWRxVnlnNUhCOFFOQVJZS1ZYQzRVTWV1OVZGVFJ3Njlfa2hKSVR6QTgwV1ZXcGtsZjR6eWxNNlRtSk9fMWk2eW1rNGoySnp5VXdLRVdDcU5Jbk1WU0loQ1ZhNWlIS2Vjbm1K?oc=5" target="_blank" rel="noopener noreferrer" data-search="openai、研究者の「直感」を試す計算生物学ベンチマークを公開、最高性能aiでも正答率32%にとどまる - biggo ファイナンス chatgpt / openai 関連 openai、研究者の「直感」を試す計算生物学ベンチマークを公開、最高性能aiでも正答率32%にとどまる  biggo ファイナンス">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">OpenAI、研究者の「直感」を試す計算生物学ベンチマークを公開、最高性能AIでも正答率32%にとどまる - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 16:36</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE02MjJJa21YYUZNWFM3dkFUcGJjOGMyWl82WTJ1WW9hSm1SRmw3bkRhcDVPSTFtcV9rWkZMU1RVOWZ6NkstYVlQMFdidTRlMXFwNkR1dUp30gFPQVVfeXFMUDB1eUFGeTdqcW1ncFdFcFFoSXhIRlVyT3lTRzMxMnNiSVhXdlN2N3ZHSWhYQnZBMDZsRXhPUDhac0tnYVh4SEtHN3JBV2lpNA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE02MjJJa21YYUZNWFM3dkFUcGJjOGMyWl82WTJ1WW9hSm1SRmw3bkRhcDVPSTFtcV9rWkZMU1RVOWZ6NkstYVlQMFdidTRlMXFwNkR1dUp30gFPQVVfeXFMUDB1eUFGeTdqcW1ncFdFcFFoSXhIRlVyT3lTRzMxMnNiSVhXdlN2N3ZHSWhYQnZBMDZsRXhPUDhac0tnYVh4SEtHN3JBV2lpNA?oc=5" target="_blank" rel="noopener noreferrer" data-search="頭のいい人はchatgptを「資料作成」なんかに使わない。では、賢い人の“すごい使い方”とは? 〈再配信〉 - ダイヤモンド・オンライン chatgpt / openai 関連 頭のいい人はchatgptを「資料作成」なんかに使わない。では、賢い人の“すごい使い方”とは? 〈再配信〉  ダイヤモンド・オンライン">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">頭のいい人はChatGPTを「資料作成」なんかに使わない。では、賢い人の“すごい使い方”とは？ 〈再配信〉 - ダイヤモンド・オンライン</div>
     <div class="card-date">2026/07/02 16:10</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE42ZnZDeEhDdHFWSHV0cUw4TDNDT2RCbFJQTDluZEk0MWFmem9mc1hhY1hyc1NRTnVkTnFCNUdNTF9XdDFlUzh5WXkwTERxdWhYNngySGFzT2J5Q1VFcTd3WlF3NEdueGtieHhFelZwSFJacklf?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE42ZnZDeEhDdHFWSHV0cUw4TDNDT2RCbFJQTDluZEk0MWFmem9mc1hhY1hyc1NRTnVkTnFCNUdNTF9XdDFlUzh5WXkwTERxdWhYNngySGFzT2J5Q1VFcTd3WlF3NEdueGtieHhFelZwSFJacklf?oc=5" target="_blank" rel="noopener noreferrer" data-search="【ft】openai、米政府にai企業の株式5%提供を提案——規制圧力の緩和狙う - biggo ファイナンス chatgpt / openai 関連 【ft】openai、米政府にai企業の株式5%提供を提案——規制圧力の緩和狙う  biggo ファイナンス">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">【FT】OpenAI、米政府にAI企業の株式5%提供を提案——規制圧力の緩和狙う - BigGo ファイナンス</div>
     <div class="card-date">2026/07/02 13:56</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9ELVd0OUdEX09HSmdna05yWWVIa1k1X1RXYTh3SG9fNzNIWTRLV3hkaFVyQllXVXlRQWthNS1XT3hYdG1MeVpVMnJJcHlnbGVDcFg4MWJIS0VUdmVwUnVHeElvVEREdFhCTVEybkJvb3dTMnIzSjV5aml1aTI2Y2s?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9ELVd0OUdEX09HSmdna05yWWVIa1k1X1RXYTh3SG9fNzNIWTRLV3hkaFVyQllXVXlRQWthNS1XT3hYdG1MeVpVMnJJcHlnbGVDcFg4MWJIS0VUdmVwUnVHeElvVEREdFhCTVEybkJvb3dTMnIzSjV5aml1aTI2Y2s?oc=5" target="_blank" rel="noopener noreferrer" data-search="米openai、トランプ政権による株式5%取得について協議-ft(bloomberg) - yahoo!ニュース chatgpt / openai 関連 米openai、トランプ政権による株式5%取得について協議-ft(bloomberg)  yahoo!ニュース">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">米OpenAI、トランプ政権による株式5%取得について協議－FT（Bloomberg） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/02 13:41</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBkRHIyc2ZXaDh6eHRWeXJuVnBBdXFXUUFnOTBDWExWaVZTbzlldEpKWFhkWjl6WmNPVVd6VXlqQUdBa0YwRXFCMjNOUHJnZ204TXRiTmlibUgzVXJoSkdIaXBoU0x0c2JLS1pWS2poNGNyUWhaSC1F?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBkRHIyc2ZXaDh6eHRWeXJuVnBBdXFXUUFnOTBDWExWaVZTbzlldEpKWFhkWjl6WmNPVVd6VXlqQUdBa0YwRXFCMjNOUHJnZ204TXRiTmlibUgzVXJoSkdIaXBoU0x0c2JLS1pWS2poNGNyUWhaSC1F?oc=5" target="_blank" rel="noopener noreferrer" data-search="米openai、トランプ政権による株式5%取得について協議-ft - bloomberg chatgpt / openai 関連 米openai、トランプ政権による株式5%取得について協議-ft  bloomberg">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">米OpenAI、トランプ政権による株式5%取得について協議－FT - Bloomberg</div>
     <div class="card-date">2026/07/02 13:41</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPQUROMlh0NHhLanFadEZMcjYwMHF5ZVRvYkhZZkJPMjZRWTUxVTVTZ1hBUTktZzJHdG9mRUNXdEwxaDZGczlvN3BsX3ExU3NxVVB3R1VpUjRrMGhNOTRKa1RVaFBuYmlFVS1vbW5OWHk2WFpyeGJ4dFZ2MTRCSzlIQW9UTGMtSzg?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPQUROMlh0NHhLanFadEZMcjYwMHF5ZVRvYkhZZkJPMjZRWTUxVTVTZ1hBUTktZzJHdG9mRUNXdEwxaDZGczlvN3BsX3ExU3NxVVB3R1VpUjRrMGhNOTRKa1RVaFBuYmlFVS1vbW5OWHk2WFpyeGJ4dFZ2MTRCSzlIQW9UTGMtSzg?oc=5" target="_blank" rel="noopener noreferrer" data-search="米openai、トランプ政権による株式5%取得について協議-ft(bloomberg) - yahoo!ファイナンス chatgpt / openai 関連 米openai、トランプ政権による株式5%取得について協議-ft(bloomberg)  yahoo!ファイナンス">
     <div class="card-source">ChatGPT / OpenAI 関連</div>
     <div class="card-title">米OpenAI、トランプ政権による株式5%取得について協議－FT(Bloomberg) - Yahoo!ファイナンス</div>
     <div class="card-date">2026/07/02 13:41</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOWWtSbzJZZk9XU1BZUVBnTEd2d2FPZ3poZDdqTGxYbWF3dnZSU2pxNTlxQURQNm12ZE51dk9CX1JGQ0FOSjBYcEJoSDdPdU5JOGtzQVlWR0NDWTVKQ3piVVgycU9qYmMyYXVXME9zbkxjS1RoekR1VlpSamNkYmxsaW44dGtLRGwwWksxVQ?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">ChatGPT / OpenAI 関連</div>
-    <div class="card-title">オープンＡＩ、米政府に5％株式付与を提案 他の大手にも同様案＝ＦＴ - Reuters</div>
-    <div class="card-date">2026/07/02 13:39</div>
-  </a>
-
-  <a class="card" href="https://openai.com/index/how-chatgpt-adoption-has-expanded" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/how-chatgpt-adoption-has-expanded" target="_blank" rel="noopener noreferrer" data-search="how chatgpt adoption has expanded openai new openai signals data shows how chatgpt adoption is growing globally, with users increasing usage, exploring more capabilities, and drivin">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">How ChatGPT adoption has expanded</div>
     <div class="card-date">2026/06/30 18:00</div>
   </a>
 
-  <a class="card" href="https://openai.com/index/genebench-pro/case-studies" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/genebench-pro/case-studies" target="_blank" rel="noopener noreferrer" data-search="inside genebench-pro openai">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">Inside Genebench-Pro</div>
     <div class="card-date">2026/06/30 09:00</div>
   </a>
 
-  <a class="card" href="https://openai.com/index/introducing-genebench-pro" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/introducing-genebench-pro" target="_blank" rel="noopener noreferrer" data-search="introducing genebench-pro openai introducing genebench-pro, a new benchmark testing ai performance in genomics, biology, and scientific research using complex, real-world da">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">Introducing GeneBench-Pro</div>
     <div class="card-date">2026/06/30 09:00</div>
   </a>
 
-  <a class="card" href="https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug" target="_blank" rel="noopener noreferrer" data-search="core dump epidemiology: fixing an 18-year-old bug openai openai engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-stand">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">Core dump epidemiology: fixing an 18-year-old bug</div>
     <div class="card-date">2026/06/30 09:00</div>
   </a>
 
-  <a class="card" href="https://openai.com/index/mapping-ai-jobs-transition-eu" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/mapping-ai-jobs-transition-eu" target="_blank" rel="noopener noreferrer" data-search="mapping europe’s ai workforce opportunity openai a new openai report maps how ai could reshape jobs across the eu, highlighting which occupations may face automation, growth, or workflow ch">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">Mapping Europe’s AI Workforce Opportunity</div>
     <div class="card-date">2026/06/29 16:00</div>
   </a>
 
-  <a class="card" href="https://openai.com/index/hp-frontier-partnership" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/hp-frontier-partnership" target="_blank" rel="noopener noreferrer" data-search="hp inc. launches frontier strategic partnership with openai openai hp inc. scales its openai frontier partnership to deploy ai across customer experiences, software development, and enterprise operations.">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">HP Inc. launches Frontier strategic partnership with OpenAI</div>
     <div class="card-date">2026/06/29 02:00</div>
   </a>
 
-  <a class="card" href="https://openai.com/index/previewing-gpt-5-6-sol" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://openai.com/index/previewing-gpt-5-6-sol" target="_blank" rel="noopener noreferrer" data-search="previewing gpt-5.6 sol: a next-generation model openai openai previews gpt-5.6 sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most ">
     <div class="card-source">OpenAI<span class="badge-official">公式</span></div>
     <div class="card-title">Previewing GPT-5.6 Sol: a next-generation model</div>
     <div class="card-date">2026/06/26 19:00</div>
@@ -992,7 +1050,7 @@
     <h3 class="sub-heading">▶ YouTube動画</h3>
     <div class="video-row">
       
-  <a class="video-card" href="https://www.youtube.com/watch?v=V04bm-3d6EQ" target="_blank" rel="noopener noreferrer">
+  <a class="video-card" href="https://www.youtube.com/watch?v=V04bm-3d6EQ" target="_blank" rel="noopener noreferrer" data-search="when millions of ai agents meet google deepmind">
     <div class="video-thumb">
       <img src="https://i.ytimg.com/vi/V04bm-3d6EQ/hqdefault.jpg" alt="" loading="lazy" />
       <span class="video-play">▶</span>
@@ -1005,187 +1063,187 @@
     </div>
     <h3 class="sub-heading">📄 記事・ニュース</h3>
     <div class="grid">
-  <a class="card" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQU3lBV0ZQOE1WYkRRdjZNc1pZbHExQlNBUjdSSXlRNDVyWFh4SDdvNnVOM0p6ekRnVi1uWGlpOHNnOUgzT2ZBUk5fdjN1QTZCU21la19YN19GZU9xS1J5emJ0OWUyTmdFNEVEMC1ERnRHT3hudFZ0ZFpIdk9WYkw5NjZQeTVpa3diUDA2dmJOMzdFVFBqal9nedIBiwFBVV95cUxNMXpYd1J3TnZZWmJBSEkxcms5MmdKLXprYzhRRVRpQ3c5Qi14YkhVRllNOXFtTnZMNXlGc2stbzNMbDdISEJqMXNzS3lraEQ0dVR2Y0hmTHhMSmpiazgtdFRRa21ZS3o4OGlTRW9mTV9oTU9JeEFPZUR4a2YteUtkTzR0UV9PTm01NHBB?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQU3lBV0ZQOE1WYkRRdjZNc1pZbHExQlNBUjdSSXlRNDVyWFh4SDdvNnVOM0p6ekRnVi1uWGlpOHNnOUgzT2ZBUk5fdjN1QTZCU21la19YN19GZU9xS1J5emJ0OWUyTmdFNEVEMC1ERnRHT3hudFZ0ZFpIdk9WYkw5NjZQeTVpa3diUDA2dmJOMzdFVFBqal9nedIBiwFBVV95cUxNMXpYd1J3TnZZWmJBSEkxcms5MmdKLXprYzhRRVRpQ3c5Qi14YkhVRllNOXFtTnZMNXlGc2stbzNMbDdISEJqMXNzS3lraEQ0dVR2Y0hmTHhMSmpiazgtdFRRa21ZS3o4OGlTRW9mTV9oTU9JeEFPZUR4a2YteUtkTzR0UV9PTm01NHBB?oc=5" target="_blank" rel="noopener noreferrer" data-search="「新潟ビジネス専門学校」特別授業として生成ai・geminiを活用したai活用講座を開催 - dメニューニュース 生成ai 総合 「新潟ビジネス専門学校」特別授業として生成ai・geminiを活用したai活用講座を開催  dメニューニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">「新潟ビジネス専門学校」特別授業として生成AI・Geminiを活用したAI活用講座を開催 - ｄメニューニュース</div>
     <div class="card-date">2026/07/03 11:42</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE0ycHowNkRLbnFlUHlDZ25USG9tOXlmRVRvLVUtc1BGS1ZrS2FRZ2hfZXIza1ZUbmRMMlNFRG82R3ppd05MZ1ZxcVF3cHVTd0FwUHVuRmNUZWI3YXRWaFVUMmRiaVpiX0JRMnN2RnJB?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE0ycHowNkRLbnFlUHlDZ25USG9tOXlmRVRvLVUtc1BGS1ZrS2FRZ2hfZXIza1ZUbmRMMlNFRG82R3ppd05MZ1ZxcVF3cHVTd0FwUHVuRmNUZWI3YXRWaFVUMmRiaVpiX0JRMnN2RnJB?oc=5" target="_blank" rel="noopener noreferrer" data-search="「gemini」の簡易バイブコーディングで「google workspace studio」の限界を超える - マイナビニュース gemini / google ai 関連 「gemini」の簡易バイブコーディングで「google workspace studio」の限界を超える  マイナビニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">「Gemini」の簡易バイブコーディングで「Google Workspace Studio」の限界を超える - マイナビニュース</div>
     <div class="card-date">2026/07/03 11:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSHJSVkR1UkdUMklMWTc2UWE1OGpYM0NXRzFJcGZIRENHUVBkRERtMGo0UEYwbnhSWFRlaDVKT3Z1cmJyM09Oa2dQcHNnY1lIdlhJaVRoOWZFVXZ3NnJtZk1pLWY?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSHJSVkR1UkdUMklMWTc2UWE1OGpYM0NXRzFJcGZIRENHUVBkRERtMGo0UEYwbnhSWFRlaDVKT3Z1cmJyM09Oa2dQcHNnY1lIdlhJaVRoOWZFVXZ3NnJtZk1pLWY?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、動画生成ai「gemini omni flash」を公開 gemini apiで利用可能に - mogura vr 生成ai 総合 google、動画生成ai「gemini omni flash」を公開 gemini apiで利用可能に  mogura vr">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">Google、動画生成AI「Gemini Omni Flash」を公開 Gemini APIで利用可能に - Mogura VR</div>
     <div class="card-date">2026/07/03 10:50</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE56RU83dDc0cVRFa2tpQ1BoeENCTVAxUFYta1otQ2pIdXV6SWpRSXNkZVp5T3oxY2h3UkFPS2pkWXFqZWhQY2RTVVNXZGZfWnJZTjdtVU96ZEJxSkFkYU1DaFM0dmR4TmpBMUE?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">AI時代にこそ必要な人間のチカラ 生成AI「Gemini」を活用した「伝わるプレゼン」を学ぶ - PR TIMES</div>
-    <div class="card-date">2026/07/03 10:00</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5QdXZJTVlvVFdmV0NFNjhVVmMxU2lYak01bVhoRXFPT211WWU4cGRwZTBpSjB5WThBcGpMRXhDWDFBdVFYaTFJTjVPeERQUGZzX0hIaVd2R1RNVWwwWkZ2UUVIanRVRnY3d2lGYnp2VVlOaEFwSHktX1RudUgyWnM?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5QdXZJTVlvVFdmV0NFNjhVVmMxU2lYak01bVhoRXFPT211WWU4cGRwZTBpSjB5WThBcGpMRXhDWDFBdVFYaTFJTjVPeERQUGZzX0hIaVd2R1RNVWwwWkZ2UUVIanRVRnY3d2lGYnp2VVlOaEFwSHktX1RudUgyWnM?oc=5" target="_blank" rel="noopener noreferrer" data-search="安くて速い!米google、新型画像・動画生成aiモデル2種類を提供開始(ビジネス+it) - yahoo!ニュース gemini / google ai 関連 安くて速い!米google、新型画像・動画生成aiモデル2種類を提供開始(ビジネス+it)  yahoo!ニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">安くて速い！米Google、新型画像・動画生成AIモデル2種類を提供開始（ビジネス＋IT） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/02 20:10</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBva2p6ZXVTTGhHUDIwZU9hZDI1WFdSWi0tT1RlNnlrQkFsbDkyaEtPOFFmbHEzaGFwVzhxMF8tNldHbFRSVTY4cjNfUWxlZzlxWlBGT203Rk5GbzY5bWVzQVJjN2ZPSkNKX0E?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBva2p6ZXVTTGhHUDIwZU9hZDI1WFdSWi0tT1RlNnlrQkFsbDkyaEtPOFFmbHEzaGFwVzhxMF8tNldHbFRSVTY4cjNfUWxlZzlxWlBGT203Rk5GbzY5bWVzQVJjN2ZPSkNKX0E?oc=5" target="_blank" rel="noopener noreferrer" data-search="【cox】グーグルが「gemini」だけを優遇すれば...android発の『第2の独占禁止制裁』がやって来る - coxnews.co.kr gemini / google ai 関連 【cox】グーグルが「gemini」だけを優遇すれば...android発の『第2の独占禁止制裁』がやって来る  coxnews.co.kr">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">【COX】グーグルが「Gemini」だけを優遇すれば…Android発の『第2の独占禁止制裁』がやって来る - coxnews.co.kr</div>
     <div class="card-date">2026/07/02 18:04</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZS16Z3lqZ3Znc3pSbFMzbGZid0FtX0tYaS1xUWtPSXU3eGFMZjh2cWtDUGMzZ1lINThBR3R3bE5qWFdzcnljeW1kMFRKNW9CU2xnRklfdVg0Z05YZ2ZJcTF1NDdiOTM5c2JHazM0RUxpcGs3dlhCdER3OEphN0hyM2lRbVhCTklpVUJn?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZS16Z3lqZ3Znc3pSbFMzbGZid0FtX0tYaS1xUWtPSXU3eGFMZjh2cWtDUGMzZ1lINThBR3R3bE5qWFdzcnljeW1kMFRKNW9CU2xnRklfdVg0Z05YZ2ZJcTF1NDdiOTM5c2JHazM0RUxpcGs3dlhCdER3OEphN0hyM2lRbVhCTklpVUJn?oc=5" target="_blank" rel="noopener noreferrer" data-search="android gemini「google play」連携展開 - jetstream.blog gemini / google ai 関連 android gemini「google play」連携展開  jetstream.blog">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Android Gemini「Google Play」連携展開 - jetstream.blog</div>
     <div class="card-date">2026/07/02 17:14</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BNkxDbHdXc1ZvNFN1c2tVc0NNNWwtT1I5NzdBNHFJRmF2RGxGREM0Wm51Wlh1b2JQOWxQMWQ3cEhyT3UxWkJmNjNQNVhKRmlQT1RQRlVDTDVnZGRWT2c?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BNkxDbHdXc1ZvNFN1c2tVc0NNNWwtT1I5NzdBNHFJRmF2RGxGREM0Wm51Wlh1b2JQOWxQMWQ3cEhyT3UxWkJmNjNQNVhKRmlQT1RQRlVDTDVnZGRWT2c?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、gemini議事録機能をgoogle ai pro個人ユーザーへ開放 meetで自動要約やタスク整理が可能に - plusweb3 gemini / google ai 関連 google、gemini議事録機能をgoogle ai pro個人ユーザーへ開放 meetで自動要約やタスク整理が可能に  plusweb3">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、Gemini議事録機能をGoogle AI Pro個人ユーザーへ開放 Meetで自動要約やタスク整理が可能に - PlusWeb3</div>
     <div class="card-date">2026/07/02 14:16</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1WeHVtbzM3ZkNWVW5GVWJjb3dyWDJaUTVUY2RkbFNRZHl1SDhoMVE2cTVuVzZqRm01bF9CZEFvQUh0YnI2NUp0dzdldE9QNGZ4cUdwQmdjTEVlY3EzS0xMSDBHV1BMSWNLNVItc3JYNjZkbnVCT1Ntbg?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1WeHVtbzM3ZkNWVW5GVWJjb3dyWDJaUTVUY2RkbFNRZHl1SDhoMVE2cTVuVzZqRm01bF9CZEFvQUh0YnI2NUp0dzdldE9QNGZ4cUdwQmdjTEVlY3EzS0xMSDBHV1BMSWNLNVItc3JYNjZkbnVCT1Ntbg?oc=5" target="_blank" rel="noopener noreferrer" data-search="google「gemini spark」がmac対応、aiがローカルファイルを直接操作 - apple-hacks.com gemini / google ai 関連 google「gemini spark」がmac対応、aiがローカルファイルを直接操作  apple-hacks.com">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google「Gemini Spark」がMac対応、AIがローカルファイルを直接操作 - apple-hacks.com</div>
     <div class="card-date">2026/07/02 13:04</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE15Mi1oM2pGSC05LVhmWmNQWkZnWVM5enBodXRFSFF3Z1kzWEEzU242OEpQSl9kRzM2dVlkQkRQQU9mSHFiaHVOWG9tQ1pUQkI0WG5QQ2h4M0JGMTJDUGc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE15Mi1oM2pGSC05LVhmWmNQWkZnWVM5enBodXRFSFF3Z1kzWEEzU242OEpQSl9kRzM2dVlkQkRQQU9mSHFiaHVOWG9tQ1pUQkI0WG5QQ2h4M0JGMTJDUGc?oc=5" target="_blank" rel="noopener noreferrer" data-search="「google home スピーカー」レビュー:6年ぶりの新型はgeminiで競合に差をつけた - wired.jp gemini / google ai 関連 「google home スピーカー」レビュー:6年ぶりの新型はgeminiで競合に差をつけた  wired.jp">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">「Google Home スピーカー」レビュー：6年ぶりの新型はGeminiで競合に差をつけた - WIRED.jp</div>
     <div class="card-date">2026/07/02 11:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE93YzY3QTV1UHVJSGc4dmlsclJLR3BXVHh2LUxVWkI1bHJ4aDZTNE1hbTB5WFRzbjItQ05qRWYxdkJYdVZMLUR4ZzJNYlphZFBZNktqWURWNVg5a0IyemhueGVwWDVlMzBsZWlFZ3l6eXdyMkhnRTFvTlhQeDdQcGc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE93YzY3QTV1UHVJSGc4dmlsclJLR3BXVHh2LUxVWkI1bHJ4aDZTNE1hbTB5WFRzbjItQ05qRWYxdkJYdVZMLUR4ZzJNYlphZFBZNktqWURWNVg5a0IyemhueGVwWDVlMzBsZWlFZ3l6eXdyMkhnRTFvTlhQeDdQcGc?oc=5" target="_blank" rel="noopener noreferrer" data-search="googleの「gemini spark」がmacosに対応──canvaなど外部アプリとの連携も(itmedia news) - yahoo!ニュース gemini / google ai 関連 googleの「gemini spark」がmacosに対応──canvaなど外部アプリとの連携も(itmedia news)  yahoo!ニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Googleの「Gemini Spark」がmacOSに対応──Canvaなど外部アプリとの連携も（ITmedia NEWS） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/02 09:26</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOSDRKVlBJckxvVDhIUnpQSmNSSnp1MERYbWpIdVdfYklXbFpoc1hzVWwzY2NNd2pFaDdBWTBEQ3VNNENhTnRBT2xPbERaWk9fVzVhTGZUei0yamZucVhFNjlDUnBGaGJkQUU1bE9LaG1IT0Voank1d2l0bmkwczl4UUduVHJ5cWtib0wxZdIBkgFBVV95cUxQejFoX2RhS0ktMV9ydEIxdTBBZjZjTjNWUjZVU3FxemRnWUpaTEstaGRKdWJqeXVSYjBqZzFUYXhQc3NlVnFNRXpDVGRBYzc1cTFQcmFTdDlJdnNTdGlrUzcxSklWemtEVm14SDMxMjNwOVhQeE40ZDVfM1JJZXBELUZ4LXI4Nm1fZ3FiQmNhU3pxZw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOSDRKVlBJckxvVDhIUnpQSmNSSnp1MERYbWpIdVdfYklXbFpoc1hzVWwzY2NNd2pFaDdBWTBEQ3VNNENhTnRBT2xPbERaWk9fVzVhTGZUei0yamZucVhFNjlDUnBGaGJkQUU1bE9LaG1IT0Voank1d2l0bmkwczl4UUduVHJ5cWtib0wxZdIBkgFBVV95cUxQejFoX2RhS0ktMV9ydEIxdTBBZjZjTjNWUjZVU3FxemRnWUpaTEstaGRKdWJqeXVSYjBqZzFUYXhQc3NlVnFNRXpDVGRBYzc1cTFQcmFTdDlJdnNTdGlrUzcxSklWemtEVm14SDMxMjNwOVhQeE40ZDVfM1JJZXBELUZ4LXI4Nm1fZ3FiQmNhU3pxZw?oc=5" target="_blank" rel="noopener noreferrer" data-search="googleの「gemini spark」がmacosに対応──canvaなど外部アプリとの連携も - dメニューニュース gemini / google ai 関連 googleの「gemini spark」がmacosに対応──canvaなど外部アプリとの連携も  dメニューニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Googleの「Gemini Spark」がmacOSに対応──Canvaなど外部アプリとの連携も - ｄメニューニュース</div>
     <div class="card-date">2026/07/02 09:26</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5IVWZhdTkxc1hkVXdnZEY5TTBwTFVuUWgzQ3Z1amg5cnE0X2FXTFU2NENZb2ZSZlVwdXAtQklWSURNWWpmT2cxa2RVSHMzMktFVlZKV2cyREw5b2hPNVFYdW90dzJUbmlIRUVnbg?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5IVWZhdTkxc1hkVXdnZEY5TTBwTFVuUWgzQ3Z1amg5cnE0X2FXTFU2NENZb2ZSZlVwdXAtQklWSURNWWpmT2cxa2RVSHMzMktFVlZKV2cyREw5b2hPNVFYdW90dzJUbmlIRUVnbg?oc=5" target="_blank" rel="noopener noreferrer" data-search="googleの「gemini spark」がmacosに対応──canvaなど外部アプリとの連携も - itmedia gemini / google ai 関連 googleの「gemini spark」がmacosに対応──canvaなど外部アプリとの連携も  itmedia">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Googleの「Gemini Spark」がmacOSに対応──Canvaなど外部アプリとの連携も - ITmedia</div>
     <div class="card-date">2026/07/02 09:13</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE53WGJWS2Z2bVJPU1dYY3JiYWJ1UHFoQmREUUhFVnNWUnlQZHU1YlQ2eURxUkF0LWhGdl92cmNjOF8ySC1ocDNhWWRKU0J2YVc2Y3FmNGExRzJMR1BLVk1IS1U0VF9Rd3R6U0VBRjNEWkNkb1ZTblN2d0pRNzZkemM?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE53WGJWS2Z2bVJPU1dYY3JiYWJ1UHFoQmREUUhFVnNWUnlQZHU1YlQ2eURxUkF0LWhGdl92cmNjOF8ySC1ocDNhWWRKU0J2YVc2Y3FmNGExRzJMR1BLVk1IS1U0VF9Rd3R6U0VBRjNEWkNkb1ZTblN2d0pRNzZkemM?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、「nano banana 2 lite」を発表。「gemini omni flash」も公開プレビュー(窓の杜) - yahoo!ニュース gemini / google ai 関連 google、「nano banana 2 lite」を発表。「gemini omni flash」も公開プレビュー(窓の杜)  yahoo!ニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、「Nano Banana 2 Lite」を発表。「Gemini Omni Flash」も公開プレビュー（窓の杜） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/02 01:14</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Rkt0bEtvUW9Nd1NvYjEzcEZTenhfbVlKa3FVMHlGZ01wVVk0QUVXVWdzeWh3b1hQaHBGUjFvRnpXOFp5R0NQbmZuNEZQTGxYMUJZSXRyMTVWU0FiWXNuaEMzODdSUElj?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Rkt0bEtvUW9Nd1NvYjEzcEZTenhfbVlKa3FVMHlGZ01wVVk0QUVXVWdzeWh3b1hQaHBGUjFvRnpXOFp5R0NQbmZuNEZQTGxYMUJZSXRyMTVWU0FiWXNuaEMzODdSUElj?oc=5" target="_blank" rel="noopener noreferrer" data-search="googleがgemini sparkをmacに導入しデスクトップでファイル連携を可能に - межа. новини україни. gemini / google ai 関連 googleがgemini sparkをmacに導入しデスクトップでファイル連携を可能に  межа. новини україни.">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">GoogleがGemini SparkをMacに導入しデスクトップでファイル連携を可能に - Межа. Новини України.</div>
     <div class="card-date">2026/07/01 23:29</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE81VE5oR3hrSTZKMTFIX2JJRGIzV21IR0lnSkp0b2k5OEVsb1BCbDQ2WWxsRmU5M0U0dWZsOUNfd1Azbk44UmpMMGxLdGdGbkpuci1neUhUeFZrVmZIcUlBZmdTM2Z3cmZYT2xQbE5VOXJUQjJQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE81VE5oR3hrSTZKMTFIX2JJRGIzV21IR0lnSkp0b2k5OEVsb1BCbDQ2WWxsRmU5M0U0dWZsOUNfd1Azbk44UmpMMGxLdGdGbkpuci1neUhUeFZrVmZIcUlBZmdTM2Z3cmZYT2xQbE5VOXJUQjJQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="グーグル、自律型aiアシスタント「gemini spark」をmacに導入、アプリ連携を拡大 - biggo ファイナンス gemini / google ai 関連 グーグル、自律型aiアシスタント「gemini spark」をmacに導入、アプリ連携を拡大  biggo ファイナンス">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">グーグル、自律型AIアシスタント「Gemini Spark」をMacに導入、アプリ連携を拡大 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/01 20:35</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxObG54bkQ1M1dCY3FyRm1pNzJpazZtMlFvNDN2cU5vWGdLMjRQZVd6dU92YXNNWlBmX1dKLWtnYVFHYktWc1B4YUdiRWVYeXJ3WWlkN1Fremc2b0ZRbkp0VDVaTU8wa3NEMVprcFZNVEUwVHRJSjgtd1JVN0h0eGJmNm1uaUY?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxObG54bkQ1M1dCY3FyRm1pNzJpazZtMlFvNDN2cU5vWGdLMjRQZVd6dU92YXNNWlBmX1dKLWtnYVFHYktWc1B4YUdiRWVYeXJ3WWlkN1Fremc2b0ZRbkp0VDVaTU8wa3NEMVprcFZNVEUwVHRJSjgtd1JVN0h0eGJmNm1uaUY?oc=5" target="_blank" rel="noopener noreferrer" data-search="gemini in google ドライブ「gemini に相談/ai の概要」展開【android/ios】 - jetstream.blog gemini / google ai 関連 gemini in google ドライブ「gemini に相談/ai の概要」展開【android/ios】  jetstream.blog">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Gemini in Google ドライブ「Gemini に相談/AI の概要」展開【Android/iOS】 - jetstream.blog</div>
     <div class="card-date">2026/07/01 20:33</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE93cEM1bmFNdFhHb1NzRmRENUJiYTMtT2FyZFlpSG1Xd3RSSlFiRi1jR2QyQU1VMVVJTEdDSGYzRGkxUS1MR3lGOUxrcE1yY1pwM3h2bmZ5YVp0ZDNodnJjOERqX2ZySGxEdm5qMW9Idlh6LVFObkxfMGo3VnN4Qkk?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE93cEM1bmFNdFhHb1NzRmRENUJiYTMtT2FyZFlpSG1Xd3RSSlFiRi1jR2QyQU1VMVVJTEdDSGYzRGkxUS1MR3lGOUxrcE1yY1pwM3h2bmZ5YVp0ZDNodnJjOERqX2ZySGxEdm5qMW9Idlh6LVFObkxfMGo3VnN4Qkk?oc=5" target="_blank" rel="noopener noreferrer" data-search="meta、googleのaiトークンを使いすぎて利用制限を喰らう(ギズモード・ジャパン) - yahoo!ニュース gemini / google ai 関連 meta、googleのaiトークンを使いすぎて利用制限を喰らう(ギズモード・ジャパン)  yahoo!ニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Meta、GoogleのAIトークンを使いすぎて利用制限を喰らう（ギズモード・ジャパン） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/01 19:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6QkhnUUNObGdnbFMteHFES0xHcXZ3bG9malhxSHdNVXBSRml5WFRMaDRrVFd1Tnoxb2RuN210T2VnTjRaYnh3NkpvdjhLVUY0d0gzajlUaFlXdjR1dFNmYUhCb2E?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6QkhnUUNObGdnbFMteHFES0xHcXZ3bG9malhxSHdNVXBSRml5WFRMaDRrVFd1Tnoxb2RuN210T2VnTjRaYnh3NkpvdjhLVUY0d0gzajlUaFlXdjR1dFNmYUhCb2E?oc=5" target="_blank" rel="noopener noreferrer" data-search="aiエージェント「gemini spark」がmacosに 連携アプリも拡大 - impress watch gemini / google ai 関連 aiエージェント「gemini spark」がmacosに 連携アプリも拡大  impress watch">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">AIエージェント「Gemini Spark」がmacOSに 連携アプリも拡大 - Impress Watch</div>
     <div class="card-date">2026/07/01 18:41</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE55NFg5emhnZWRCdGo2WXVNanpUZWdFWk96WUtmdFlIOFM1N3l6MGk3akE1Z3NmR1RVTHVuUUhsUU5JTC1wT1RVdEFLQ3NKdURPWFI2UU4wOEZ2cnpEX1g3bTFHdDQyeHAw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE55NFg5emhnZWRCdGo2WXVNanpUZWdFWk96WUtmdFlIOFM1N3l6MGk3akE1Z3NmR1RVTHVuUUhsUU5JTC1wT1RVdEFLQ3NKdURPWFI2UU4wOEZ2cnpEX1g3bTFHdDQyeHAw?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、最速・低コストの画像生成ai「nano banana 2 lite」提供開始 - マイナビニュース gemini / google ai 関連 google、最速・低コストの画像生成ai「nano banana 2 lite」提供開始  マイナビニュース">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、最速・低コストの画像生成AI「Nano Banana 2 Lite」提供開始 - マイナビニュース</div>
     <div class="card-date">2026/07/01 17:33</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xdUd6dy03WVdnNUI0czR5bWFfYW5SR1FQZlBPV3l1TDhPQ3Y1cjNUc0l6cTJ5ZmpBTXBMb2hRbDJ0Qmg4MVB6U3lWeUZ3WVNfM3Q2bVV3TVo5aEZWSjA2UG9aOS1UNU00?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xdUd6dy03WVdnNUI0czR5bWFfYW5SR1FQZlBPV3l1TDhPQ3Y1cjNUc0l6cTJ5ZmpBTXBMb2hRbDJ0Qmg4MVB6U3lWeUZ3WVNfM3Q2bVV3TVo5aEZWSjA2UG9aOS1UNU00?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、「nano banana 2 lite」を発表。「gemini omni flash」も公開プレビュー - 窓の杜 gemini / google ai 関連 google、「nano banana 2 lite」を発表。「gemini omni flash」も公開プレビュー  窓の杜">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、「Nano Banana 2 Lite」を発表。「Gemini Omni Flash」も公開プレビュー - 窓の杜</div>
     <div class="card-date">2026/07/01 15:14</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NUjVlWUNUdVlnRnk2UzNNb011RWhuRkZYeFd0R3J3X0NYMVdyVzhPQ1RZZzFKSmR6TEdIV3VDa3Jmb0laVVNtdHpJZ2RqUjFrbGFPVEc3RlhzTEN1eUI1THBVa1A?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NUjVlWUNUdVlnRnk2UzNNb011RWhuRkZYeFd0R3J3X0NYMVdyVzhPQ1RZZzFKSmR6TEdIV3VDa3Jmb0laVVNtdHpJZ2RqUjFrbGFPVEc3RlhzTEN1eUI1THBVa1A?oc=5" target="_blank" rel="noopener noreferrer" data-search="グーグル、4秒で画像生成する「nano banana 2 lite」 最速・低コスト - impress watch gemini / google ai 関連 グーグル、4秒で画像生成する「nano banana 2 lite」 最速・低コスト  impress watch">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">グーグル、4秒で画像生成する「Nano Banana 2 Lite」 最速・低コスト - Impress Watch</div>
     <div class="card-date">2026/07/01 13:08</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GTWVuZUVSRW1RUHNiSmYwU25wQXA3SmlqV1cyTVJURl9henlzelpRblczdUVYajdrcS03WGx6Z3h2akk3eWsxdHVWcjNsekZGRVprYlpIekE5cmhVdG94Uk9VSQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GTWVuZUVSRW1RUHNiSmYwU25wQXA3SmlqV1cyTVJURl9henlzelpRblczdUVYajdrcS03WGx6Z3h2akk3eWsxdHVWcjNsekZGRVprYlpIekE5cmhVdG94Uk9VSQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="ニュース google、「nano banana 2 lite」「gemini omni flash」を提供開始 - ai watch gemini / google ai 関連 ニュース google、「nano banana 2 lite」「gemini omni flash」を提供開始  ai watch">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">ニュース Google、「Nano Banana 2 Lite」「Gemini Omni Flash」を提供開始 - AI Watch</div>
     <div class="card-date">2026/07/01 13:07</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQZlJ0OVMwb2pyZjFDcHR6c1ZLX1dKY20zVDR6VlptWmp4Y1hPbnZrS3lZSjNPZzRWa01QRVVNZ05VSW9zVWNIc0xfeFhQLUtWMkxXMFlrUDFlX0Q5VVpfUkdfcTNfbUQ4LWxmaENYWTVGY1lVc0JtUkFmNmgtV1FudVhhREtnZw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQZlJ0OVMwb2pyZjFDcHR6c1ZLX1dKY20zVDR6VlptWmp4Y1hPbnZrS3lZSjNPZzRWa01QRVVNZ05VSW9zVWNIc0xfeFhQLUtWMkxXMFlrUDFlX0Q5VVpfUkdfcTNfbUQ4LWxmaENYWTVGY1lVc0JtUkFmNmgtV1FudVhhREtnZw?oc=5" target="_blank" rel="noopener noreferrer" data-search="googleがより高速で安価な画像生成モデル「nano banana 2 lite」と動画生成モデル「gemini omni flash」を発表 - gigazine gemini / google ai 関連 googleがより高速で安価な画像生成モデル「nano banana 2 lite」と動画生成モデル「gemini omni flash」を発表  gigazine">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Googleがより高速で安価な画像生成モデル「Nano Banana 2 Lite」と動画生成モデル「Gemini Omni Flash」を発表 - GIGAZINE</div>
     <div class="card-date">2026/07/01 11:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5tZTFDM20yUFJ2SHh0eHBFOFFPcHBGVnpaOW5EU0F3alprZVlWZE5JVUhMZ3liTnNDX2wyNU9BeWI3bUtaTWgzLUZhT3ZCRjZlZWNyUVJUTXlOSkZ1aVE1clBDTHctRnVHWEdTQmIwVVNETlU?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5tZTFDM20yUFJ2SHh0eHBFOFFPcHBGVnpaOW5EU0F3alprZVlWZE5JVUhMZ3liTnNDX2wyNU9BeWI3bUtaTWgzLUZhT3ZCRjZlZWNyUVJUTXlOSkZ1aVE1clBDTHctRnVHWEdTQmIwVVNETlU?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、米国google ai ultra契約ユーザー向けに、gemini for macosにてgemini sparkをベータ版として展開開始 - excite エキサイト gemini / google ai 関連 google、米国google ai ultra契約ユーザー向けに、gemini for macosにてgemini sparkをベータ版として展開開始  excite エキサイト">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、米国Google AI Ultra契約ユーザー向けに、Gemini for macOSにてGemini Sparkをベータ版として展開開始 - Excite エキサイト</div>
     <div class="card-date">2026/07/01 10:19</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMifkFVX3lxTFAwcUZuNTJOTjdlVmlYUjNxOTAyWnh5VzEtZXZud0NwXzJDRnFaLXNpSkF6cGxKWVNsYXY3ZmNpZEFfYi1ha21lQlp6WXZRaXhYTUtlNUhtU3EzbGZRa1Nmc2prelY5WUNSSDZrcFFVNld6M2xHd1p2akJHNFRDdw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMifkFVX3lxTFAwcUZuNTJOTjdlVmlYUjNxOTAyWnh5VzEtZXZud0NwXzJDRnFaLXNpSkF6cGxKWVNsYXY3ZmNpZEFfYi1ha21lQlp6WXZRaXhYTUtlNUhtU3EzbGZRa1Nmc2prelY5WUNSSDZrcFFVNld6M2xHd1p2akJHNFRDdw?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、nano banana 2 liteとgemini omni flashをapiで公開:画像生成を低コスト化し動画生成もapiへ - xenospectrum gemini / google ai 関連 google、nano banana 2 liteとgemini omni flashをapiで公開:画像生成を低コスト化し動画生成もapiへ  xenospectrum">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、Nano Banana 2 LiteとGemini Omni FlashをAPIで公開：画像生成を低コスト化し動画生成もAPIへ - XenoSpectrum</div>
     <div class="card-date">2026/07/01 10:15</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PM2Q1VjZTOUxva1NpZUxvckV2MDZvUXVuc001NWVzNTNvRkVWWmVoWFdQcWJqY01hTms1RnJNLWx3ME1BcWV1YUNuM0h6bmhEcHhFXw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PM2Q1VjZTOUxva1NpZUxvckV2MDZvUXVuc001NWVzNTNvRkVWWmVoWFdQcWJqY01hTms1RnJNLWx3ME1BcWV1YUNuM0h6bmhEcHhFXw?oc=5" target="_blank" rel="noopener noreferrer" data-search="グーグル、わずか4秒で画像生成できる「nano banana 2 lite」 - ascii.jp gemini / google ai 関連 グーグル、わずか4秒で画像生成できる「nano banana 2 lite」  ascii.jp">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">グーグル、わずか4秒で画像生成できる「Nano Banana 2 Lite」 - ASCII.jp</div>
     <div class="card-date">2026/07/01 09:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9DRVFKN3pacUxkQVhKdVAyNXBnX0FSUEdxUk5EVURvNlVETVY2cDNHSW5TYTJ1Rk5xT1o4WF9UdHBDWEIzX0xlaE5Bbl9zNEdMdmFSaFpEdUE0T2h0MXg1eUViaWl6RFJNcGIyaQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9DRVFKN3pacUxkQVhKdVAyNXBnX0FSUEdxUk5EVURvNlVETVY2cDNHSW5TYTJ1Rk5xT1o4WF9UdHBDWEIzX0xlaE5Bbl9zNEdMdmFSaFpEdUE0T2h0MXg1eUViaWl6RFJNcGIyaQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="macos「gemini spark」導入【米国/google ai ultra】 - jetstream.blog gemini / google ai 関連 macos「gemini spark」導入【米国/google ai ultra】  jetstream.blog">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">macOS「Gemini Spark」導入【米国/Google AI Ultra】 - jetstream.blog</div>
     <div class="card-date">2026/07/01 08:42</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1RYUNPOGV1cjc0eWFISFVwV3hhR2FzYW0yTUlFbVBGRzJocG5RSmV6UERFMVFtU3ZIREhsZVNPYnlDY29YajZYbHAwX1ZRdExzRnlvWlIxVXRVSG14TzdxZ2kxTWp0QVFTcWs1MndpbGFpcnZr?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1RYUNPOGV1cjc0eWFISFVwV3hhR2FzYW0yTUlFbVBGRzJocG5RSmV6UERFMVFtU3ZIREhsZVNPYnlDY29YajZYbHAwX1ZRdExzRnlvWlIxVXRVSG14TzdxZ2kxTWp0QVFTcWs1MndpbGFpcnZr?oc=5" target="_blank" rel="noopener noreferrer" data-search="google、最速4秒の画像生成ai「nano banana 2 lite」と動画モデル「gemini omni flash」を同時公開 - biggo ファイナンス gemini / google ai 関連 google、最速4秒の画像生成ai「nano banana 2 lite」と動画モデル「gemini omni flash」を同時公開  biggo ファイナンス">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">Google、最速4秒の画像生成AI「Nano Banana 2 Lite」と動画モデル「Gemini Omni Flash」を同時公開 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/01 08:25</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5VWjRJNkppeTF6UW16RFdTN0E0YUFuVGRpVFlTN0xrRXNzZnk2NUZFV09NTjNONk1PUS1fczRBRlgyNnV4ekV0LWRPY3lxVWJGYVk0S19RdDNkNm5DZGdRTzF1TFNIakJRSlh0SkFtMmJ1OVU2U1U5TjhR?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5VWjRJNkppeTF6UW16RFdTN0E0YUFuVGRpVFlTN0xrRXNzZnk2NUZFV09NTjNONk1PUS1fczRBRlgyNnV4ekV0LWRPY3lxVWJGYVk0S19RdDNkNm5DZGdRTzF1TFNIakJRSlh0SkFtMmJ1OVU2U1U5TjhR?oc=5" target="_blank" rel="noopener noreferrer" data-search="「gemini omni flash」開発者向けに提供 - jetstream.blog gemini / google ai 関連 「gemini omni flash」開発者向けに提供  jetstream.blog">
     <div class="card-source">Gemini / Google AI 関連</div>
     <div class="card-title">「Gemini Omni Flash」開発者向けに提供 - jetstream.blog</div>
     <div class="card-date">2026/07/01 08:03</div>
   </a>
 
-  <a class="card" href="https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE9TX25TSEM2ZFB2VmlwcE5UbXFjOGZCd211anJCaFNFd2FEbnNObHJMWHd5VnNnZllfc0RFdXlHTzU?oc=5" target="_blank" rel="noopener noreferrer" data-search="googleがnano banana 2 liteとgemini omni flashをリリース、高速低コスト画像・動画生成を実現 - shiritomo gemini / google ai 関連 googleがnano banana 2 liteとgemini omni flashをリリース、高速低コスト画像・動画生成を実現  shiritomo">
+    <div class="card-source">Gemini / Google AI 関連</div>
+    <div class="card-title">GoogleがNano Banana 2 LiteとGemini Omni Flashをリリース、高速低コスト画像・動画生成を実現 - shiritomo</div>
+    <div class="card-date">2026/07/01 07:18</div>
+  </a>
+
+  <a class="card" href="https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/" target="_blank" rel="noopener noreferrer" data-search="start building with nano banana 2 lite and gemini omni flash google deepmind">
     <div class="card-source">Google DeepMind<span class="badge-official">公式</span></div>
     <div class="card-title">Start building with Nano Banana 2 Lite and Gemini Omni Flash</div>
     <div class="card-date">2026/07/01 01:02</div>
@@ -1200,259 +1258,259 @@
     
     <h3 class="sub-heading">📄 記事・ニュース</h3>
     <div class="grid">
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1kektnQVJoMlhiZWN4SVg3T2k5c1J0V194UlVFUkRMdk5ZMjdURS1IbUZrYVpyU3gzQVFkSzl4RmcxTUlWQmhKWGR0ZFBQTHhFVVpSUVJaZDRGQ0NXczZZaTRmUHl5ODIyanFPQmF5V1Z6aFhoY1cydXpyR2d1NGM?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1kektnQVJoMlhiZWN4SVg3T2k5c1J0V194UlVFUkRMdk5ZMjdURS1IbUZrYVpyU3gzQVFkSzl4RmcxTUlWQmhKWGR0ZFBQTHhFVVpSUVJaZDRGQ0NXczZZaTRmUHl5ODIyanFPQmF5V1Z6aFhoY1cydXpyR2d1NGM?oc=5" target="_blank" rel="noopener noreferrer" data-search="長崎県内の企業、生成ai活用31・9%...9割は「業務に効果」 帝国データバンクが調査(長崎新聞) - yahoo!ニュース 生成ai 総合 長崎県内の企業、生成ai活用31・9%...9割は「業務に効果」 帝国データバンクが調査(長崎新聞)  yahoo!ニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">長崎県内の企業、生成ＡＩ活用３１・９％…９割は「業務に効果」 帝国データバンクが調査（長崎新聞） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 12:20</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DR1VNV0dLa0pLWUZZSjZTY0d3SENJYV9heHBuOExIOWdXdG9fVld2VVNVS19ncFgwMDhFdDRUV2hiLV9Nd0d3ZWF4MA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DR1VNV0dLa0pLWUZZSjZTY0d3SENJYV9heHBuOExIOWdXdG9fVld2VVNVS19ncFgwMDhFdDRUV2hiLV9Nd0d3ZWF4MA?oc=5" target="_blank" rel="noopener noreferrer" data-search="長崎県内の企業、生成ai活用31・9%...9割は「業務に効果」 帝国データバンクが調査 - 47news 生成ai 総合 長崎県内の企業、生成ai活用31・9%...9割は「業務に効果」 帝国データバンクが調査  47news">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">長崎県内の企業、生成ＡＩ活用３１・９％…９割は「業務に効果」 帝国データバンクが調査 - 47NEWS</div>
     <div class="card-date">2026/07/03 12:20</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE02TURQSlJoRkJyVmdySy1iV0JMaFp5eUFEalU0TUd1MFQ1aUpNLWctbGktSldsRVBvWVR1d2JZSXpuc2VwVmc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE02TURQSlJoRkJyVmdySy1iV0JMaFp5eUFEalU0TUd1MFQ1aUpNLWctbGktSldsRVBvWVR1d2JZSXpuc2VwVmc?oc=5" target="_blank" rel="noopener noreferrer" data-search="株式会社グッドクロス /生成aiデータでの入稿ガイドページを公開 business名刺印刷所 急増する生成aiデータでの入稿に対応 - pr-free.jp 生成ai 総合 株式会社グッドクロス /生成aiデータでの入稿ガイドページを公開 business名刺印刷所 急増する生成aiデータでの入稿に対応  pr-free.jp">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">株式会社グッドクロス ／生成AIデータでの入稿ガイドページを公開 BUSINESS名刺印刷所 急増する生成AIデータでの入稿に対応 - pr-free.jp</div>
     <div class="card-date">2026/07/03 12:09</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIc2N4bHNBWFhnZThfdXc1YVA1c2p4ZlpYZnNNMjRCRHp1ZHFhazhoQ0pTZm5JdUdtOFB6Zl8waVFNbVVRV0k2eHZMWQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIc2N4bHNBWFhnZThfdXc1YVA1c2p4ZlpYZnNNMjRCRHp1ZHFhazhoQ0pTZm5JdUdtOFB6Zl8waVFNbVVRV0k2eHZMWQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="新潟県、県議会答弁書案の作成に生成ai活用 効率化と質の向上に - 47news 生成ai 総合 新潟県、県議会答弁書案の作成に生成ai活用 効率化と質の向上に  47news">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">新潟県、県議会答弁書案の作成に生成ＡＩ活用 効率化と質の向上に - 47NEWS</div>
     <div class="card-date">2026/07/03 11:50</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE43T0NGNHAzRWplYmdacGEzZDdtbEtPTmJ1ZTgtbEVnLUE1aWNfQVlab3pQQ2RBZ3NvVHBFMHl3ZlhpeE1qT1FsY19YVklWaGU2Y3g4TWdyVG8zSDFzZUE?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE01WXZMcnA3aGk2Y3VQVkROMUFtVGhXOVBtVEtFTWZINFp4bHFRZkl1NkhGcGFXa0F1VG5YWWNIXzYySlAyY28zcmxmOGdJbDY1NkhhRy1sSTcyektaRm5OaXpGRTl4NV9SdTNmeExqZFRDdWpIZnBVdmQxQQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="aiで“作れた”、でも“守れない”。生成aiでつくったシステムの仕上げ・保守を月額29,800円で引き受ける「あとサポ」を提供開始 - ニコニコニュース 生成ai 総合 aiで“作れた”、でも“守れない”。生成aiでつくったシステムの仕上げ・保守を月額29,800円で引き受ける「あとサポ」を提供開始  ニコニコニュース">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">AIで“作れた”、でも“守れない”。生成AIでつくったシステムの仕上げ・保守を月額29,800円で引き受ける「あとサポ」を提供開始 - ニコニコニュース</div>
+    <div class="card-date">2026/07/03 11:48</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE43T0NGNHAzRWplYmdacGEzZDdtbEtPTmJ1ZTgtbEVnLUE1aWNfQVlab3pQQ2RBZ3NvVHBFMHl3ZlhpeE1qT1FsY19YVklWaGU2Y3g4TWdyVG8zSDFzZUE?oc=5" target="_blank" rel="noopener noreferrer" data-search="新潟県、県議会答弁書案の作成に生成ai活用 効率化と質の向上に - 新潟日報 生成ai 総合 新潟県、県議会答弁書案の作成に生成ai活用 効率化と質の向上に  新潟日報">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">新潟県、県議会答弁書案の作成に生成ＡＩ活用 効率化と質の向上に - 新潟日報</div>
     <div class="card-date">2026/07/03 11:40</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFB2WXFxUDUyZnF1RjBJNmtIb0hkX0JqTXVZSnRURmxhdGZFTHVpeEY3NERwOVFYcnAtdkotYU5SckREc0ZLMUQ3Mnh2VzNlRkk2LTFsc3I5Ym5Qc1JfRXJZQXMtN0VFQ1pvY3c?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">日本初AIタレント動画生成サービス「AvaMo」資料から説明動画生成までを自律実行するAIエージェント機能を提供開始 - PR TIMES</div>
-    <div class="card-date">2026/07/03 11:30</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZMzN1ZTRuelhVU1VEaThRcDNab2ljbXE3bWdGaWE2VTNVYnBUd2thRHFfRTk4UGtxaDNTSmpUdUlVU0ZQR1JqR3Z4NFJGYW5wOHdYMmxjOW90alYtT0E4ck85am9TZF9zcGc?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">日本初のAIタレント動画サービス「AvaMo」 資料から説明動画完成までを自律実行するAIエージェント機能を提供開始 - PR TIMES</div>
-    <div class="card-date">2026/07/03 11:30</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1ESVpzendCVE9IenV2MG9MRWpmZElvTWtsUnR3RkV1bGdwT1F5Y3lKZmhYTmY3Y3Z6cGQ4VzV2VTR1UXFTdWhDVGZZeHRBalF6LVVQWndHMi1hRkd5WnhacXhsWjVaNHZMbFE?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">「責任ある生成AI活用」の実践モデルを構築し、査定自動化のシステム実装に着手 - PR TIMES</div>
-    <div class="card-date">2026/07/03 11:00</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQaElxZ2c2NjM1ZTctMVl5QjVmenZTc0M3dVhDMGk0cmVuV25jMjVlYTh3R2ZhUXU5SnBFQ08xNmNqaFR5R0JfODhwQjAtNWJJUGJrVU9OUTVoeDFyenh2RzRBak9qWk9UOHFhSjNfbU51eEhYX05ESDRYRDlSVC1lOVdFNTZXSXM?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQaElxZ2c2NjM1ZTctMVl5QjVmenZTc0M3dVhDMGk0cmVuV25jMjVlYTh3R2ZhUXU5SnBFQ08xNmNqaFR5R0JfODhwQjAtNWJJUGJrVU9OUTVoeDFyenh2RzRBak9qWk9UOHFhSjNfbU51eEhYX05ESDRYRDlSVC1lOVdFNTZXSXM?oc=5" target="_blank" rel="noopener noreferrer" data-search="酉島製作所:上方修正と増配を発表、生成aiで恩恵を受ける海水淡水化高圧ポンプのトップ企業(フィスコ) - yahoo!ファイナンス 生成ai 総合 酉島製作所:上方修正と増配を発表、生成aiで恩恵を受ける海水淡水化高圧ポンプのトップ企業(フィスコ)  yahoo!ファイナンス">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">酉島製作所：上方修正と増配を発表、生成AIで恩恵を受ける海水淡水化高圧ポンプのトップ企業(フィスコ) - Yahoo!ファイナンス</div>
     <div class="card-date">2026/07/03 10:47</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1SR1hBU1ZTVXJzSHBxZHFZRW1JcHl0SWVKWFMwTHZHNS1ENXhpdDR2QmdQTUpHSVVHX0JDOWo5cjRLQ05zLVZXR2NZSlJMUmhreTZKUlNXNGF4cHYwYmpqd3ctZTVCQXlnME1ESnVaZmlMY1Ut?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1SR1hBU1ZTVXJzSHBxZHFZRW1JcHl0SWVKWFMwTHZHNS1ENXhpdDR2QmdQTUpHSVVHX0JDOWo5cjRLQ05zLVZXR2NZSlJMUmhreTZKUlNXNGF4cHYwYmpqd3ctZTVCQXlnME1ESnVaZmlMY1Ut?oc=5" target="_blank" rel="noopener noreferrer" data-search="快手のai動画生成「可霊ai」、約4,800億円調達 評価額2.9兆円で世界記録 - biggo ファイナンス 生成ai 総合 快手のai動画生成「可霊ai」、約4,800億円調達 評価額2.9兆円で世界記録  biggo ファイナンス">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">快手のAI動画生成「可霊AI」、約4,800億円調達 評価額2.9兆円で世界記録 - BigGo ファイナンス</div>
     <div class="card-date">2026/07/03 10:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2bzJzVHVON3V2TWg4bkc1VTNCTG5iV3FlS2Vmc1dTSzNyNmVLUk41YWlza0FiT1UzelphYW5wSjZSNjJVOFZUelVuNHlJc0FnanNrMVZId2JCbTFqRDVvVUYwclFHQQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2bzJzVHVON3V2TWg4bkc1VTNCTG5iV3FlS2Vmc1dTSzNyNmVLUk41YWlza0FiT1UzelphYW5wSjZSNjJVOFZUelVuNHlJc0FnanNrMVZId2JCbTFqRDVvVUYwclFHQQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="文科省、生成aiとセキュリティ指針を改訂...次世代校務dx - リセマム 生成ai 総合 文科省、生成aiとセキュリティ指針を改訂...次世代校務dx  リセマム">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">文科省、生成AIとセキュリティ指針を改訂…次世代校務DX - リセマム</div>
     <div class="card-date">2026/07/03 10:15</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9DR3d2NW5vM0RSRTRweUxuQmFjSkxrTGhVelpqTVh5Nk9CN3JYRHBVM3lBbHdCTFU0N3ltZEVLc3JrdjNPWmFYOXZPQnRIRk1nQnFUWVUwajB0bTJTTHh0TjZjSV8xcWxzWUtVZlpJQ1l6QmFSLWRlSmxCVkIwVU0?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9DR3d2NW5vM0RSRTRweUxuQmFjSkxrTGhVelpqTVh5Nk9CN3JYRHBVM3lBbHdCTFU0N3ltZEVLc3JrdjNPWmFYOXZPQnRIRk1nQnFUWVUwajB0bTJTTHh0TjZjSV8xcWxzWUtVZlpJQ1l6QmFSLWRlSmxCVkIwVU0?oc=5" target="_blank" rel="noopener noreferrer" data-search="ウェブマーケティングのシナブル、管理画面操作なくaiがデータ分析 「ec intelligence」にmcpサーバー機能 - yahoo!ニュース 生成ai 総合 ウェブマーケティングのシナブル、管理画面操作なくaiがデータ分析 「ec intelligence」にmcpサーバー機能  yahoo!ニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">ウェブマーケティングのシナブル、管理画面操作なくAIがデータ分析 「EC Intelligence」にMCPサーバー機能 - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 10:15</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPZi1qSzZHdXhKRXdnWjdRUHpJLTViYnFLMDI1Z2hNbzJ0eG1ZN1ktZEh3QTdkbjl3Vl9mcWVwdV9PdldQeTFfOC10eDFDSjgtQWNlWGNoSFlwX2dNSGJXOXZjYW1UOWFYS01TSWdqS2tGUE5tRzBicmUzQ1NaZ3FsOQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE84QzBpc3RDbU9UTDRVWUNQTUROVjBYS2ljTGFPcFFOc3lEUUFOU1cyVmJ5bUJ1RnhtMFo0SU5pSm05azUzaUZ0cVFlSmhlZlBwVkdPR2FLck01RjhDaFhYa1hORQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="リハビリ業界向け、ソニー系ai「renax」発表 - pt-ot-st.net 生成ai 総合 リハビリ業界向け、ソニー系ai「renax」発表  pt-ot-st.net">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">リハビリ業界向け、ソニー系AI「RenaX」発表 - PT-OT-ST.NET</div>
+    <div class="card-date">2026/07/03 10:09</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPZi1qSzZHdXhKRXdnWjdRUHpJLTViYnFLMDI1Z2hNbzJ0eG1ZN1ktZEh3QTdkbjl3Vl9mcWVwdV9PdldQeTFfOC10eDFDSjgtQWNlWGNoSFlwX2dNSGJXOXZjYW1UOWFYS01TSWdqS2tGUE5tRzBicmUzQ1NaZ3FsOQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="生成aiからフィジカルaiへ 伊豆の国市で実証実験 - 建通新聞 生成ai 総合 生成aiからフィジカルaiへ 伊豆の国市で実証実験  建通新聞">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">生成ＡＩからフィジカルＡＩへ 伊豆の国市で実証実験 - 建通新聞</div>
     <div class="card-date">2026/07/03 09:45</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhLVQ3R09oaXpURm1FUVNDOEhQU2h0c2hhR1didzJxSThWNnNKSkZ5TEluaHFuZ2Q1QlE5aG5xS0w2M0c1UEx0ZXFYN1Jld0M5WEhF?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhLVQ3R09oaXpURm1FUVNDOEhQU2h0c2hhR1didzJxSThWNnNKSkZ5TEluaHFuZ2Q1QlE5aG5xS0w2M0c1UEx0ZXFYN1Jld0M5WEhF?oc=5" target="_blank" rel="noopener noreferrer" data-search="【保険dxを担うキーパーソン1】ai時代、お客様に選ばれる理由は「人」になる―かんぽ生命保険 中根執行役員 × ブレインパッド 鵜飼上席執行役員 - グッドウェイ 生成ai 総合 【保険dxを担うキーパーソン1】ai時代、お客様に選ばれる理由は「人」になる―かんぽ生命保険 中根執行役員 × ブレインパッド 鵜飼上席執行役員  グッドウェイ">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">【保険DXを担うキーパーソン①】AI時代、お客様に選ばれる理由は「人」になる―かんぽ生命保険 中根執行役員 × ブレインパッド 鵜飼上席執行役員 - グッドウェイ</div>
     <div class="card-date">2026/07/03 09:03</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG9iYlRnUGNPdEc2SlhHVDVKTGlCX2VpR2F0UjFUMEI0QXAyWTBxMW56RldTTmlWaEZhOGVwZEJRdk5qSjJfTFVtVlpoOGdMUG9BaUtYODZyM1dfYmhkWU5UajZKYzZydlJwblZoSDBaWVF6Y3lOSUxTZ2dYRnN3cVZvY01GQnBpbDQ1aDhyVkFkZDR5WXpFdXpBWQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG9iYlRnUGNPdEc2SlhHVDVKTGlCX2VpR2F0UjFUMEI0QXAyWTBxMW56RldTTmlWaEZhOGVwZEJRdk5qSjJfTFVtVlpoOGdMUG9BaUtYODZyM1dfYmhkWU5UajZKYzZydlJwblZoSDBaWVF6Y3lOSUxTZ2dYRnN3cVZvY01GQnBpbDQ1aDhyVkFkZDR5WXpFdXpBWQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="科学者が教える「ai生成された顔を見破る方法」 - gizmodo 生成ai 総合 科学者が教える「ai生成された顔を見破る方法」  gizmodo">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">科学者が教える「AI生成された顔を見破る方法」 - Gizmodo</div>
     <div class="card-date">2026/07/03 09:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFA2UV9SS0FvOUJfeHk1eERGTDYtWjFsTnplT0RPanpIelIxdFMwN3VTdUI2X0YxSk03WTlrQXdYV284N0xYNVg1dkk4WGNwMHlOd3ZNdVQwYjB1d3BMNWJSTlBhUHVTdXpGQ3c?oc=5" target="_blank" rel="noopener noreferrer">
-    <div class="card-source">生成AI 総合</div>
-    <div class="card-title">【参加無料】『7月30日(木)・8月3日(月) 2日間開催』校務・教務に今日から使える。生成AI活用方法 - PR TIMES</div>
-    <div class="card-date">2026/07/03 08:30</div>
-  </a>
-
-  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9rSnpzN25xY1dNbnRIU0wzQ20xWXZHMDVvakRTV21ndWZ6Y19NU1RqV0h6SEVRZ0xOYTEyMndJc2YzT194b3l3Rk1wRXFhQlNhVjhpOThSU1FkY3ZpWDRnUTJQd0dwU1JLRDJTbk9QTVg4azFFWGxSREF0cw?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9rSnpzN25xY1dNbnRIU0wzQ20xWXZHMDVvakRTV21ndWZ6Y19NU1RqV0h6SEVRZ0xOYTEyMndJc2YzT194b3l3Rk1wRXFhQlNhVjhpOThSU1FkY3ZpWDRnUTJQd0dwU1JLRDJTbk9QTVg4azFFWGxSREF0cw?oc=5" target="_blank" rel="noopener noreferrer" data-search="調達インフォ、生成aiで仕様書作成の“9割完成”を支援『仕様書原案作成機能』を刷新し、対話形式でブラッシュアップが可能に - ニコニコニュース 生成ai 総合 調達インフォ、生成aiで仕様書作成の“9割完成”を支援『仕様書原案作成機能』を刷新し、対話形式でブラッシュアップが可能に  ニコニコニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">調達インフォ、生成AIで仕様書作成の“9割完成”を支援『仕様書原案作成機能』を刷新し、対話形式でブラッシュアップが可能に - ニコニコニュース</div>
     <div class="card-date">2026/07/03 08:15</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9rSUtnclJIcmtmZGMxR2h3NmF6WVJodEw0OWM3RnR3MVJwU3QwWlJHM1cwVzNlbmZEV3Q1akQ4akJIZ0FtQWZQc0hXWVhtWWVLRFd2elpfYmdNSVk4NVgwYzN5NVZIcGtQdV9NY2U5LUdXZGhpbEhnSXpFZGw1cms?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9rSUtnclJIcmtmZGMxR2h3NmF6WVJodEw0OWM3RnR3MVJwU3QwWlJHM1cwVzNlbmZEV3Q1akQ4akJIZ0FtQWZQc0hXWVhtWWVLRFd2elpfYmdNSVk4NVgwYzN5NVZIcGtQdV9NY2U5LUdXZGhpbEhnSXpFZGw1cms?oc=5" target="_blank" rel="noopener noreferrer" data-search="“開かずの基幹システム”、450人月→実質2カ月で解読 創業100年のカクヤス、生成aiで挑む「転生」(itmedia news) - yahoo!ニュース 生成ai 総合 “開かずの基幹システム”、450人月→実質2カ月で解読 創業100年のカクヤス、生成aiで挑む「転生」(itmedia news)  yahoo!ニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">“開かずの基幹システム”、450人月→実質2カ月で解読 創業100年のカクヤス、生成AIで挑む「転生」（ITmedia NEWS） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 06:50</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9uc3A5UU9FRlZibjRucVdKdlI1WHdtaTlySUZIVmRnNGp6aEdBdUhrT1JxYjlPUHQtV204RnlnemNHb2p4MktiSFp5NjNCSU1CcVNtRDVyZGlYM1d6ZUhrQUxLckhlUV90Um9UdUhwMVhMcG5ELUhxZGNsd2QyeUk?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9uc3A5UU9FRlZibjRucVdKdlI1WHdtaTlySUZIVmRnNGp6aEdBdUhrT1JxYjlPUHQtV204RnlnemNHb2p4MktiSFp5NjNCSU1CcVNtRDVyZGlYM1d6ZUhrQUxLckhlUV90Um9UdUhwMVhMcG5ELUhxZGNsd2QyeUk?oc=5" target="_blank" rel="noopener noreferrer" data-search="生成aiで「誰でも秒で80点」の世界観が士業の仕事に与える影響 (横須賀輝尚 経営コンサルタント) - yahoo!ニュース 生成ai 総合 生成aiで「誰でも秒で80点」の世界観が士業の仕事に与える影響 (横須賀輝尚 経営コンサルタント)  yahoo!ニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">生成AIで「誰でも秒で80点」の世界観が士業の仕事に与える影響 （横須賀輝尚 経営コンサルタント） - Yahoo!ニュース</div>
     <div class="card-date">2026/07/03 06:30</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUZTQ3VjU1ZjJnaGxxVVp6QmhXcEZ5WFN6MnhKWDUxWHBWTFlOYlo1LTd5LVppempBSFpjaUNlS3dsNnAwY09fWnVtZnhrV0d4bmxCNldB?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUZTQ3VjU1ZjJnaGxxVVp6QmhXcEZ5WFN6MnhKWDUxWHBWTFlOYlo1LTd5LVppempBSFpjaUNlS3dsNnAwY09fWnVtZnhrV0d4bmxCNldB?oc=5" target="_blank" rel="noopener noreferrer" data-search="なぜ日立の北海道支社は生成ai利用率100%を実現できたのか 「先進支社」を生んだ変革と「fde」が変える事業モデル - jbpress 生成ai 総合 なぜ日立の北海道支社は生成ai利用率100%を実現できたのか 「先進支社」を生んだ変革と「fde」が変える事業モデル  jbpress">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">なぜ日立の北海道支社は生成AI利用率100％を実現できたのか 「先進支社」を生んだ変革と「FDE」が変える事業モデル - JBpress</div>
     <div class="card-date">2026/07/03 06:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Yd0F3T0l2T1N5bDlDanZzbFRhekExQ3VMQ3FUdnV3dHZHcDRwLU1KX05tMVUzTldHSkNyV19tLW54b3VaMVdpLVlYMGY2SG42amp2ZWlWQQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Yd0F3T0l2T1N5bDlDanZzbFRhekExQ3VMQ3FUdnV3dHZHcDRwLU1KX05tMVUzTldHSkNyV19tLW54b3VaMVdpLVlYMGY2SG42amp2ZWlWQQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="生成ai×クラウドの高度人材を育成するファンリード、顧客向けai 導入支援事業を強化へ - 千葉日報オンライン 生成ai 総合 生成ai×クラウドの高度人材を育成するファンリード、顧客向けai 導入支援事業を強化へ  千葉日報オンライン">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">生成AI×クラウドの高度人材を育成するファンリード、顧客向けAI 導入支援事業を強化へ - 千葉日報オンライン</div>
     <div class="card-date">2026/07/03 05:50</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBaZzlEcG5LYjl5cVdkWmtYWnJHbllZUzZNUWdnSTdKWmxUUUt2cVM0QjNYa2Fna0lRcm1LaVZBQ2FrQXZwN3VQcW9RRWVRLTFQT2p5dUM0dHplTXQ4Wldad3A2SFB1Ykw2ZjlacE1GZGdnUHM?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBaZzlEcG5LYjl5cVdkWmtYWnJHbllZUzZNUWdnSTdKWmxUUUt2cVM0QjNYa2Fna0lRcm1LaVZBQ2FrQXZwN3VQcW9RRWVRLTFQT2p5dUM0dHplTXQ4Wldad3A2SFB1Ykw2ZjlacE1GZGdnUHM?oc=5" target="_blank" rel="noopener noreferrer" data-search="どう組み込むか考える段階に 表屋が生成aiセミナー - 中部経済新聞 生成ai 総合 どう組み込むか考える段階に 表屋が生成aiセミナー  中部経済新聞">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">どう組み込むか考える段階に 表屋が生成ＡＩセミナー - 中部経済新聞</div>
     <div class="card-date">2026/07/03 05:17</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5rVGRHSlNrYU9lR3pVczN5ZGJHN01URkhOTkNOal9WM0FKUzN6bTB6RnpyWDlTczBNVWV5UktfUTA5dmFtVjVJUnFuUGtFZmRKd2gyTGp0d0VpMTFuUDV5NnI2QTZtLVZsYnJOUA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5rVGRHSlNrYU9lR3pVczN5ZGJHN01URkhOTkNOal9WM0FKUzN6bTB6RnpyWDlTczBNVWV5UktfUTA5dmFtVjVJUnFuUGtFZmRKd2gyTGp0d0VpMTFuUDV5NnI2QTZtLVZsYnJOUA?oc=5" target="_blank" rel="noopener noreferrer" data-search="生成aiでユーザーのインサイトに迫る 感情と行動と信念の違い - 日経bookプラス 生成ai 総合 生成aiでユーザーのインサイトに迫る 感情と行動と信念の違い  日経bookプラス">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">生成AIでユーザーのインサイトに迫る 感情と行動と信念の違い - 日経BOOKプラス</div>
     <div class="card-date">2026/07/03 05:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LTVBYSHkxN3NVQ2xvX3JKOXBDYzJGTG9yRG0tSEFQalBfZU5oa0d3MUZ0QWxvR1B6SnBvN1BBNGdfUXdXWlJoZWVMRW5fV01RZDhydUxNZ056WjdW?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LTVBYSHkxN3NVQ2xvX3JKOXBDYzJGTG9yRG0tSEFQalBfZU5oa0d3MUZ0QWxvR1B6SnBvN1BBNGdfUXdXWlJoZWVMRW5fV01RZDhydUxNZ056WjdW?oc=5" target="_blank" rel="noopener noreferrer" data-search="(media times)生成aiが「ただ乗り」、転換期のウィキペディア 運営財団の新トップ - 朝日新聞 生成ai 総合 (media times)生成aiが「ただ乗り」、転換期のウィキペディア 運営財団の新トップ  朝日新聞">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">（Ｍｅｄｉａ Ｔｉｍｅｓ）生成ＡＩが「ただ乗り」、転換期のウィキペディア 運営財団の新トップ - 朝日新聞</div>
     <div class="card-date">2026/07/03 05:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8yWFVEN2d6ZTRYMjI3dEI3NnhXWWJCdTlDY0lnaUVFX25pVWoxNmltQ3V0aHNaeXRYRU9JTDBCZFVhTnU1LUhJTVNRQWs2MG9rX1JZN2tPYnBwdUl4QkQ4M052b3pCcjlNS0JWOA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8yWFVEN2d6ZTRYMjI3dEI3NnhXWWJCdTlDY0lnaUVFX25pVWoxNmltQ3V0aHNaeXRYRU9JTDBCZFVhTnU1LUhJTVNRQWs2MG9rX1JZN2tPYnBwdUl4QkQ4M052b3pCcjlNS0JWOA?oc=5" target="_blank" rel="noopener noreferrer" data-search="コーディングエージェントは不要、事業部門の社員がai活用でアプリ開発者に - 日経クロステック 生成ai 総合 コーディングエージェントは不要、事業部門の社員がai活用でアプリ開発者に  日経クロステック">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">コーディングエージェントは不要、事業部門の社員がAI活用でアプリ開発者に - 日経クロステック</div>
     <div class="card-date">2026/07/03 05:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1vVHNBNnlIVlNjNno0X2dFVG5hdjhra0txS21RZGhKVmtTbHhuRW9peVdIUDR1azlDTk9CT2xWdlkxZ09aMWlyeWczOUNMS0JOMmo4dmM3YTlwZ0RlNUUtQk9ySl9vMlFTNmFPbA?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1vVHNBNnlIVlNjNno0X2dFVG5hdjhra0txS21RZGhKVmtTbHhuRW9peVdIUDR1azlDTk9CT2xWdlkxZ09aMWlyeWczOUNMS0JOMmo4dmM3YTlwZ0RlNUUtQk9ySl9vMlFTNmFPbA?oc=5" target="_blank" rel="noopener noreferrer" data-search="ベクトル、pdfからaiタレント動画自動生成 制作時間97%削減 - 日本経済新聞 生成ai 総合 ベクトル、pdfからaiタレント動画自動生成 制作時間97%削減  日本経済新聞">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">ベクトル、PDFからAIタレント動画自動生成 制作時間97%削減 - 日本経済新聞</div>
     <div class="card-date">2026/07/03 05:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LbmFXdm1XYnMyM081YU94ZmZEc2VWX3FNRDJoTG5GcHkxQlNfUTRWZlRRaG1paVpxdEhMVWEtbVJ1d056eHhDM2lYb3JNMk9BMXlRbGhmU0wxNUF5R2wtQ0xTdmRqcWdv?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LbmFXdm1XYnMyM081YU94ZmZEc2VWX3FNRDJoTG5GcHkxQlNfUTRWZlRRaG1paVpxdEhMVWEtbVJ1d056eHhDM2lYb3JNMk9BMXlRbGhmU0wxNUF5R2wtQ0xTdmRqcWdv?oc=5" target="_blank" rel="noopener noreferrer" data-search="プレスリリース:polimill株式会社、兵庫県多可町(たかちょう)と「生成ai活用・開発に関する包括連携協定」を締結 -- 生成aiを職員の人材育成と組織の知的資産化に活用(pr times) - 毎日新聞 生成ai 総合 プレスリリース:polimill株式会社、兵庫県多可町(たかちょう)と「生成ai活用・開発に関する包括連携協定」を締結 -- 生成aiを職員の人材育成と組織の知的資産化に活用(pr times)  毎日新聞">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">プレスリリース：Polimill株式会社、兵庫県多可町（たかちょう）と「生成AI活用・開発に関する包括連携協定」を締結 -- 生成AIを職員の人材育成と組織の知的資産化に活用（PR TIMES） - 毎日新聞</div>
     <div class="card-date">2026/07/03 03:40</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qaVpJd1lyS1lDaVZrc2pXWHpfcnU2ZG0zNTFmLTFSV0dPRDQxaG1nbW1sX05hV0hINE54UG02bkk0eU1ucHhiWnUzYkdFYXlLVHVYVlZBQkJQSl9jdmc?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwMWRFcTBsd0F4eF9TNHhMRmhZeVlZbVl1cnRhdktWNV96MDlMc19GeFg4bi1WeHBvcHFpX1RsNUMtQlo5TUh2dTdtbm12c0dFenR6UWJVdmYydl9PRnlaT2xNXzJjSFN5?oc=5" target="_blank" rel="noopener noreferrer" data-search="aiが特許dbを自由自在に操る時代へ。企業の生産性を圧倒的に高める「知財aiエージェント」提供開始(pr times) - 毎日新聞 生成ai 総合 aiが特許dbを自由自在に操る時代へ。企業の生産性を圧倒的に高める「知財aiエージェント」提供開始(pr times)  毎日新聞">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">AIが特許DBを自由自在に操る時代へ。企業の生産性を圧倒的に高める「知財AIエージェント」提供開始（PR TIMES） - 毎日新聞</div>
+    <div class="card-date">2026/07/03 03:40</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qaVpJd1lyS1lDaVZrc2pXWHpfcnU2ZG0zNTFmLTFSV0dPRDQxaG1nbW1sX05hV0hINE54UG02bkk0eU1ucHhiWnUzYkdFYXlLVHVYVlZBQkJQSl9jdmc?oc=5" target="_blank" rel="noopener noreferrer" data-search="生成ai活用の幸手市立中学校の授業を見学 - 選挙ドットコム 生成ai 総合 生成ai活用の幸手市立中学校の授業を見学  選挙ドットコム">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">生成ＡＩ活用の幸手市立中学校の授業を見学 - 選挙ドットコム</div>
     <div class="card-date">2026/07/03 01:01</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TLUQyQmlSOFI5Z2hMSnBZOTVpbUUzRDcyME9wSEVieHVUOGVaWG5RQkJRM1M0aUpCOWJNNnhQTWtqNldPQ3M3T0dLUE9Hb0xzVG5KQUctVkF0bVppSnJONm82Q1I?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZVGVCNE1UVWtjR05DSC1DT0xqQlktSmpMRm9NS1c1bGRCQVdITDIzOG5pbHdRenVBelZ1ZWdjTlNPbGpJZU1NWmVFckRXdHU0ZlJFdUxaNmpNMUlKeHZmQTY2elNjVS1LalBveWdibjlFWktCbGN3bjBpcw?oc=5" target="_blank" rel="noopener noreferrer" data-search="【生成aiの台頭以降4年間の意識・認識変化に関する調査】生成aiの登場初期と比較して製造業役職者の生成aiへの印象は約 - ニコニコニュース 生成ai 総合 【生成aiの台頭以降4年間の意識・認識変化に関する調査】生成aiの登場初期と比較して製造業役職者の生成aiへの印象は約  ニコニコニュース">
+    <div class="card-source">生成AI 総合</div>
+    <div class="card-title">【生成AIの台頭以降4年間の意識・認識変化に関する調査】生成AIの登場初期と比較して製造業役職者の生成AIへの印象は約 - ニコニコニュース</div>
+    <div class="card-date">2026/07/03 00:48</div>
+  </a>
+
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TLUQyQmlSOFI5Z2hMSnBZOTVpbUUzRDcyME9wSEVieHVUOGVaWG5RQkJRM1M0aUpCOWJNNnhQTWtqNldPQ3M3T0dLUE9Hb0xzVG5KQUctVkF0bVppSnJONm82Q1I?oc=5" target="_blank" rel="noopener noreferrer" data-search="伊勢原市公式line 生成ai運用を開始 24時間休日夜間も対応 - タウンニュース 生成ai 総合 伊勢原市公式line 生成ai運用を開始 24時間休日夜間も対応  タウンニュース">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">伊勢原市公式LINE 生成AI運用を開始 24時間休日夜間も対応 - タウンニュース</div>
     <div class="card-date">2026/07/03 00:00</div>
   </a>
 
-  <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWdaYzZ6eVNSY3YyaklOVGwyTGRVSy1BRmVGSzhXUVoyOUdmeTNnUDVwRDd4aVZVRnlPNWtBc29XMzJRckZ5SFI5X0ZmMlU0Nm96cnFxeVM4U0RPQzkwWnRneDJBQQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWdaYzZ6eVNSY3YyaklOVGwyTGRVSy1BRmVGSzhXUVoyOUdmeTNnUDVwRDd4aVZVRnlPNWtBc29XMzJRckZ5SFI5X0ZmMlU0Nm96cnFxeVM4U0RPQzkwWnRneDJBQQ?oc=5" target="_blank" rel="noopener noreferrer" data-search="「画像はnano banana 2」は古い 生成aiは組み合わせて「即戦力化」 - 日経クロストレンド 生成ai 総合 「画像はnano banana 2」は古い 生成aiは組み合わせて「即戦力化」  日経クロストレンド">
     <div class="card-source">生成AI 総合</div>
     <div class="card-title">「画像はNano Banana 2」は古い 生成AIは組み合わせて「即戦力化」 - 日経クロストレンド</div>
     <div class="card-date">2026/07/03 00:00</div>
   </a>
 
-  <a class="card" href="https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america" target="_blank" rel="noopener noreferrer" data-search="mit in the media: innovating and educating for the next 250 years of america mit news (ai) during a &quot;washington post live&quot; panel discussion with asu president michael crow, president sally kornbluth explored how universities are pr">
     <div class="card-source">MIT News (AI)<span class="badge-official">公式</span></div>
     <div class="card-title">MIT in the media: Innovating and educating for the next 250 years of America</div>
     <div class="card-date">2026/07/02 05:30</div>
   </a>
 
-  <a class="card" href="https://huggingface.co/blog/cerebras-gemma4-voice-ai" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://huggingface.co/blog/cerebras-gemma4-voice-ai" target="_blank" rel="noopener noreferrer" data-search="hugging face and cerebras bring gemma 4 to real-time voice ai hugging face">
     <div class="card-source">Hugging Face<span class="badge-official">公式</span></div>
     <div class="card-title">Hugging Face and Cerebras bring Gemma 4 to real-time voice AI</div>
     <div class="card-date">2026/07/01 09:00</div>
   </a>
 
-  <a class="card" href="https://huggingface.co/blog/ibm-research/scarfbench" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://huggingface.co/blog/ibm-research/scarfbench" target="_blank" rel="noopener noreferrer" data-search="scarfbench: benchmarking ai agents for enterprise java framework migration hugging face">
     <div class="card-source">Hugging Face<span class="badge-official">公式</span></div>
     <div class="card-title">ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration</div>
     <div class="card-date">2026/07/01 03:32</div>
   </a>
 
-  <a class="card" href="https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/" target="_blank" rel="noopener noreferrer" data-search="skillopt: agent skills as trainable parameters microsoft research ai agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. learn how skillopt turns">
     <div class="card-source">Microsoft Research<span class="badge-official">公式</span></div>
     <div class="card-title">SkillOpt: Agent skills as trainable parameters</div>
     <div class="card-date">2026/07/01 01:50</div>
   </a>
 
-  <a class="card" href="https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630" target="_blank" rel="noopener noreferrer" data-search="q&amp;a: what is agentic ai today, and what do we want it to be? mit news (ai) computer scientist phillip isola cuts through the hype to explain how ai agents work and what the future might hold for this rapidly advanci">
     <div class="card-source">MIT News (AI)<span class="badge-official">公式</span></div>
     <div class="card-title">Q&amp;A: What is agentic AI today, and what do we want it to be?</div>
     <div class="card-date">2026/07/01 00:30</div>
   </a>
 
-  <a class="card" href="https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable" target="_blank" rel="noopener noreferrer" data-search="why specialization is inevitable hugging face">
     <div class="card-source">Hugging Face<span class="badge-official">公式</span></div>
     <div class="card-title">Why Specialization Is Inevitable</div>
     <div class="card-date">2026/06/30 23:39</div>
   </a>
 
-  <a class="card" href="https://huggingface.co/blog/eee-community-evals" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://huggingface.co/blog/eee-community-evals" target="_blank" rel="noopener noreferrer" data-search="featuring every eval ever results on hugging face model pages hugging face">
     <div class="card-source">Hugging Face<span class="badge-official">公式</span></div>
     <div class="card-title">Featuring Every Eval Ever Results on Hugging Face Model Pages</div>
     <div class="card-date">2026/06/30 09:00</div>
   </a>
 
-  <a class="card" href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/" target="_blank" rel="noopener noreferrer" data-search="memora: a harmonic memory representation balancing abstraction and specificity microsoft research ai agents can't remember past conversations. they must constantly reload or retrieve context, which grows less efficient as tasks get longer">
     <div class="card-source">Microsoft Research<span class="badge-official">公式</span></div>
     <div class="card-title">Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity</div>
     <div class="card-date">2026/06/30 06:14</div>
   </a>
 
-  <a class="card" href="https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629" target="_blank" rel="noopener noreferrer" data-search="inaugural music technology research showcase celebrates work of new graduate program’s initial students mit news (ai) associate professor anna huang delivers the keynote address, “in search of human-ai resonance,” to a capacity crowd.">
     <div class="card-source">MIT News (AI)<span class="badge-official">公式</span></div>
     <div class="card-title">Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students</div>
     <div class="card-date">2026/06/30 04:00</div>
   </a>
 
-  <a class="card" href="https://huggingface.co/blog/allenai/discoformer" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://huggingface.co/blog/allenai/discoformer" target="_blank" rel="noopener noreferrer" data-search="discoformer: one transformer for density and score, across distributions hugging face">
     <div class="card-source">Hugging Face<span class="badge-official">公式</span></div>
     <div class="card-title">DiScoFormer: One transformer for density and score, across distributions</div>
     <div class="card-date">2026/06/30 03:02</div>
   </a>
 
-  <a class="card" href="https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629" target="_blank" rel="noopener noreferrer" data-search="3 questions: beyond data-driven aesthetics mit news (ai) in a new keller gallery exhibition, alexandros haridis sm ’17, phd ’22 traces centuries of ideas about aesthetic judgment and explores how d">
     <div class="card-source">MIT News (AI)<span class="badge-official">公式</span></div>
     <div class="card-title">3 Questions: Beyond data-driven aesthetics</div>
     <div class="card-date">2026/06/30 03:00</div>
   </a>
 
-  <a class="card" href="https://news.mit.edu/2026/david-autor-named-head-department-economics-0626" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.mit.edu/2026/david-autor-named-head-department-economics-0626" target="_blank" rel="noopener noreferrer" data-search="david autor named head of the department of economics mit news (ai) a faculty member since 1999, autor is a leading researcher in artificial intelligence and the work of the future.">
     <div class="card-source">MIT News (AI)<span class="badge-official">公式</span></div>
     <div class="card-title">David Autor named head of the Department of Economics</div>
     <div class="card-date">2026/06/27 01:00</div>
   </a>
 
-  <a class="card" href="https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626" target="_blank" rel="noopener noreferrer" data-search="llms help robots understand vague instructions and focus on key details mit news (ai) to help robots do chores in places like homes and factories, a new approach from mit uses one language model to clarify users’ instructions,">
     <div class="card-source">MIT News (AI)<span class="badge-official">公式</span></div>
     <div class="card-title">LLMs help robots understand vague instructions and focus on key details</div>
     <div class="card-date">2026/06/26 22:00</div>
@@ -1471,6 +1529,8 @@
 
     var tabs = document.querySelectorAll("#tabs .tab");
     var sections = document.querySelectorAll(".topic-section");
+    var searchInput = document.getElementById("search");
+    var searchStatus = document.getElementById("search-status");
 
     function select(topic) {
       tabs.forEach(function (t) {
@@ -1486,9 +1546,54 @@
       }
     }
 
+    // サイト内検索（タイトル・ソース名を全トピック横断で絞り込み）
+    function applySearch(raw) {
+      var q = raw.trim().normalize("NFKC").toLowerCase();
+      if (!q) {
+        document.body.classList.remove("searching");
+        return;
+      }
+      document.body.classList.add("searching");
+      var total = 0;
+      sections.forEach(function (sec) {
+        var hits = 0;
+        sec.querySelectorAll("[data-search]").forEach(function (card) {
+          var hit = card.dataset.search.indexOf(q) !== -1;
+          card.classList.toggle("search-hide", !hit);
+          if (hit) hits++;
+        });
+        // 動画行・見出しなど、中身が全部隠れたブロックごと隠す
+        sec.querySelectorAll(".video-row, .grid").forEach(function (block) {
+          var alive = block.querySelector("[data-search]:not(.search-hide)");
+          block.classList.toggle("search-empty-block", !alive);
+          var heading = block.previousElementSibling;
+          if (heading && heading.classList.contains("sub-heading")) {
+            heading.classList.toggle("search-empty-block", !alive);
+          }
+        });
+        sec.classList.toggle("search-hit", hits > 0);
+        total += hits;
+      });
+      searchStatus.textContent = total
+        ? "「" + raw.trim() + "」の検索結果: " + total + "件"
+        : "「" + raw.trim() + "」に該当する記事・動画はありませんでした";
+    }
+
+    searchInput.addEventListener("input", function () {
+      applySearch(searchInput.value);
+    });
+    searchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        searchInput.value = "";
+        applySearch("");
+      }
+    });
+
     tabs.forEach(function (t) {
       t.addEventListener("click", function () {
         var topic = t.dataset.topic;
+        searchInput.value = "";
+        applySearch("");
         select(topic);
         if (topic === "all") {
           history.replaceState(null, "", location.pathname);
