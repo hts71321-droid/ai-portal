@@ -309,7 +309,7 @@ function renderHtml({ articles, videos }) {
     background: linear-gradient(135deg, #2b2b28 0%, #4a3728 60%, #b5673a 100%);
     color: #faf9f6;
     text-align: center;
-    padding: 36px 20px 0;
+    padding: 36px 20px 18px;
   }
   .hero h1 {
     margin: 0 0 6px;
@@ -320,6 +320,16 @@ function renderHtml({ articles, videos }) {
     margin: 0 0 20px;
     color: rgba(250,249,246,0.75);
     font-size: 13px;
+  }
+  .tab-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(43, 43, 40, 0.94);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+    padding-top: 8px;
   }
   .tabs {
     display: flex;
@@ -519,16 +529,25 @@ function renderHtml({ articles, videos }) {
 <header class="hero">
   <h1>生成AI情報ポータル</h1>
   <p>最終更新: ${updatedAt}（自動更新 / GitHub Actions）</p>
+</header>
+<div class="tab-bar">
   <nav class="tabs" id="tabs">
     ${tabs}
   </nav>
-</header>
+</div>
 <main>
   ${sections}
 </main>
 <footer>Powered by GitHub Actions ／ このページは自動生成されています</footer>
 <script>
   (function () {
+    // ブラウザのスクロール位置復元を無効化し、常にページ先頭（タブ）から開く
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+    window.addEventListener("pageshow", function () {
+      window.scrollTo(0, 0);
+    });
+
     var tabs = document.querySelectorAll("#tabs .tab");
     var sections = document.querySelectorAll(".topic-section");
 
