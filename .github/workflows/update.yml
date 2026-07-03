@@ -2,8 +2,14 @@ name: Update AI Portal
 
 on:
   schedule:
+    # 毎日 00:00 UTC = 日本時間 朝9:00（このときだけメール通知も送信）
     - cron: "0 0 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      send_mail:
+        description: "メール通知も送信する"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,6 +34,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          SEND_MAIL: ${{ github.event_name == 'schedule' || inputs.send_mail == true }}
         run: npm run build
 
       - name: Commit & push updated site
