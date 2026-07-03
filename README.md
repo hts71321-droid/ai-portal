@@ -6,11 +6,15 @@ my-portal と同じ構成（Node.js + GitHub Actions + nodemailer）で作った
 - 毎日 GitHub Actions が自動実行され、最新記事を集めて `docs/index.html` を更新
 - GitHub Pages で誰でも閲覧できるサイトとして公開
 - 更新内容を自分宛にメール通知（Gmailのアプリパスワード使用・my-portalと同じ方式）
+- 記事は **Claude / Copilot / GPT / Gemini / その他** のトピックに自動分類され、
+  ページ上部のヒーロータブで切り替え表示（`#claude` などのURLハッシュで直接リンクも可能）
+- 各トピックには公式YouTubeチャンネルの最新動画（サムネイル付き）も表示
 
 情報源:
 - 公式ブログ（RSS）: OpenAI / Google DeepMind / Hugging Face / Microsoft Research / MIT News(AI)
 - 一般ニュース: Googleニュース検索RSS（Anthropic/Claude, 生成AI, ChatGPT, Gemini, Copilot など）
   ※Anthropicは公式RSSが存在しないため、こちらでカバーしています
+- YouTube（チャンネルRSS）: Anthropic / OpenAI / Google DeepMind / GitHub / Microsoft 365 Copilot
 
 ---
 
@@ -58,7 +62,8 @@ my-portalで使ったものと同じ仕組みです。まだ無い場合は：
 
 - **更新頻度を変えたい** → `.github/workflows/update.yml` の `cron` を編集
   （例: 1日2回なら `"0 0,12 * * *"`）
-- **情報源を追加/変更したい** → `scripts/build.js` の `OFFICIAL_FEEDS` / `NEWS_QUERIES` を編集
+- **情報源を追加/変更したい** → `scripts/build.js` の `OFFICIAL_FEEDS` / `NEWS_QUERIES` / `YOUTUBE_CHANNELS` を編集
+- **トピックの分類ルールを変えたい** → `scripts/build.js` の `TOPICS` / `classifyTopic()` を編集
 - **見た目を変えたい** → `scripts/build.js` 内の `<style>` 部分を編集
 
 ## ローカルで試したい場合
