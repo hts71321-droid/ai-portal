@@ -1,13 +1,670 @@
 {
-  "updatedAt": "2026-10-18T03:44:19.791Z",
+  "updatedAt": "2026-10-19T03:53:57.026Z",
   "articles": [
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTのGPT-6 Astra Proが高速化。複数エージェントの並列処理も - PC Watch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HZHhPajhldGE5ZjE5SVNnWV9zNTVfNnkyMUtmelA0ajRTSXBYWFduSnNaZXlrdTdKRUxKVmpNc19lOVRKOVVfQmJ6Y1FCSVdfYU5NT2p0RmJpdTR1LXFTQkFfcw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:35:20 GMT",
+      "snippet": "ChatGPTのGPT-6 Astra Proが高速化。複数エージェントの並列処理も  PC Watch",
+      "topic": "gpt"
+    },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "日本IP．AI共創協会代表理事・NEXYZ.Group代表・近藤太香巳が語る「生成AIの時代に日本のIPを世界へ」 - Infoseek",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50bmpya0ZBVXRPcXFKWEYtd0lVTHNuamRGZWVlM2hRdmZUX3FRUUJvVmktaHE1bHJFMGZoaHN5N1VaMHhjeU9SVlVqc3FQX04yamVqTEwtaV9uRjgw0gFiQVVfeXFMT0Q2TFJWNFZRY1JCQXVpOTJrU3ljTXcxUENsNE1VdzlFZjVzSWVWVDFtZXU0SU11SHVhbF9BX0RHRkJWOFNaZHV0SjQtaUNfNGk1WmNKV0NGc29FdkU2bFRpbVE?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 02:30:00 GMT",
-      "snippet": "日本IP．AI共創協会代表理事・NEXYZ.Group代表・近藤太香巳が語る「生成AIの時代に日本のIPを世界へ」  Infoseek",
+      "title": "TOPPANと慶應大 量子コンピュータとAIで漫画・アニメ画像生成を実証 - 月刊「事業構想」オンライン",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU0hEcGFGS2dBZUQ0ZGZPcjFrRGdrcEVkdDhoV1IydmVuWU9fZXdMbk9IV0xKNGxkRHNhSFlHODUyY0x0ajQwNmtlWm1yTllNajJKWEpXdkstNmVIbld3QzZNVUh4Q1ZkUVlMWTZMVXNxYjdkUWRNYjhsazVGZGFUbk91Qm9WUQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:33:49 GMT",
+      "snippet": "TOPPANと慶應大 量子コンピュータとAIで漫画・アニメ画像生成を実証  月刊「事業構想」オンライン",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "VRAM 8GBで動く画像生成AI「FLUX 3 Image Klein」が公開 - PC Watch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvRnpYYm56ZXBocmRjUTdTRHVZak1tU3FuZldQZlROOHRobzVIY3JESGhVV05fblB1bEtxa2xqQ2J2eE5UajlJUFVhSUJWamV1NHRpd2d5RWRwZjdFUV9MSXhOSQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:16:58 GMT",
+      "snippet": "VRAM 8GBで動く画像生成AI「FLUX 3 Image Klein」が公開  PC Watch",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "ワークスアイディ、法人向け生成AIプラットフォーム「neoAI Chat/Work」を「デジタル化・AI導入支援事業費補助金」の対象ツールに新たに採択 - 時事ドットコム",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12bGxhcmhyUTZaTXdaMl90M2J2Mi1XLWRvY1BNYjNZbmEzUU9mUm96U1dPaW1MeDE2NWpkWHBJcWN5UWU4TXNoVFpHNS1xLS1xekNaaEZsN0s5cEhvOFBqQTlveE82b0tWWHNv?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:15:00 GMT",
+      "snippet": "ワークスアイディ、法人向け生成AIプラットフォーム「neoAI Chat/Work」を「デジタル化・AI導入支援事業費補助金」の対象ツールに新たに採択  時事ドットコム",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTのChrome拡張、複数のタブを活用できるように（PC Watch） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Kb2pvSTZLaUsxa0FPZHB6enc1emNnZXdsdE12YjRSN0FJei1yWTJ3UmRnbnkzaEo1Q3AtZDdfRk53OUhJcWlIdVV1c1BTSGQyY0QxMUZmTTZPQVd4dlY2b2Q0aVlZdzdRcXF6MVJtSHdHNlRsN05fb3N2aDBQaHc?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:13:00 GMT",
+      "snippet": "ChatGPTのChrome拡張、複数のタブを活用できるように（PC Watch）  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "読み放題にデザイン系実用書が追加！ 生成AIや「Figma」「After Effects」「Affinity」など - 読み放題！TechLib新着情報 - 窓の杜",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85NG1mV2tMd3NxN0VsNlQ5amlsd0t6TmdZTEtrb3IwM0JDLUxpak5STnVYRTJwQXU1ekVsUHQ4UlljNTdFZ3kyczlPaHZ1S2JFSTZiQUpacUUyWkUtR3ZLQ0FJbkFKSWtmdmppT2YzZzJIM3FGY2MzWG1ZeTByZw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:07:00 GMT",
+      "snippet": "読み放題にデザイン系実用書が追加！ 生成AIや「Figma」「After Effects」「Affinity」など - 読み放題！TechLib新着情報  窓の杜",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AI研修を現場の成果へ。HEROZ、企業のAI活用定着を支える新サービス「HEROZ AI人材育成プログラム」を開始！ - HEROZ株式会社",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwbjNaTzZxek1qTV85aHdVdVNaWnEwRUoyQWFMWFEyVjlobFMxei1iTkhlS2pSSXFFZTFpVThTYXpUXzRRYU5NS1JQZ3BmUDFPMzZV?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:03:10 GMT",
+      "snippet": "AI研修を現場の成果へ。HEROZ、企業のAI活用定着を支える新サービス「HEROZ AI人材育成プログラム」を開始！  HEROZ株式会社",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "ミロク情報サービス、「統合報告書２０２６」発行――生成ＡＩ対応とＡＳＥＡＮ成長戦略を紹介 - kabu-ir.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByQzlINzZKak0zMVZ4M2g2ZE05QUxZQjNGWWgwd0VEUnItT1NpY2JhYjFrTkNnZU56SFlXaFdFTnVKR2xvUXVEaVVnenFXR1BtVkYzUQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:01:37 GMT",
+      "snippet": "ミロク情報サービス、「統合報告書２０２６」発行――生成ＡＩ対応とＡＳＥＡＮ成長戦略を紹介  kabu-ir.com",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【ウェビナー配信のお知らせ】～生成AIの作問、そのまま使えますか？～ 自社の資料から\"正しい\"試験問題をつくる、作問AI「Smart Test Maker」実演デモ - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpMFRPQzBsdHhIejZ2dXQ2b2JBekx3dk1PcVZhSTdOaGJyS2NXbmdNeHhwNkZtdnFia2k5NXNVNE0zWE9uamJob1ZFSTZZWXZIQjJKVmRQRVk1MXNDMUxGTHFpLWc3VVFJcnc?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:00:02 GMT",
+      "snippet": "【ウェビナー配信のお知らせ】～生成AIの作問、そのまま使えますか？～ 自社の資料から\"正しい\"試験問題をつくる、作問AI「Smart Test Maker」実演デモ  PR TIMES",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIが選ぶ「クレジットカード」、1位は楽天カード（言及率63.0%）【2026年9月調査】 - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSd3hKbUZKLWdQUnVwajhCMGpmZ1pfbnlHbHU1Wjg3RWdZNnN2ZlIyaWw3QktIUmFvcjl3X1lQN08yc3VuY2JHa01JWTQwT29NMjFoOFdPSkU0NlZjTWVkUTIxclBlZFo4Snc?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:00:02 GMT",
+      "snippet": "生成AIが選ぶ「クレジットカード」、1位は楽天カード（言及率63.0%）【2026年9月調査】  PR TIMES",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTのChrome拡張、複数のタブを活用できるように - PC Watch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIQlNHSjcyYkNidWhHV0tCUnNkNjhZRVE5cVJTTFY5bXdPWHhNMThOYk91OTlLS0tjS2JfRG5lUGxreTRPdmpKWDA2a0p0ZVRWZlNWdXQycFVwS3JDSkd2cTg5VQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 02:58:37 GMT",
+      "snippet": "ChatGPTのChrome拡張、複数のタブを活用できるように  PC Watch",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "イベントレポート：生成AIで広がる、新たな鉄道写真の楽しみ方 アドビとローカル鉄道がコラボ 安全な撮影とマナー向上を提案 - デジカメ Watch",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCVWNaX0ZkanF6VDhRWVlxc1pTcmZxa2FHbVVMOXVscjlUYzJjb0dMblphcGhSRUtmcmdlRkxhRW9tUkwzVFFOSm41Z2JMREo3c2pjck9LUUh0ZzRJbGFOVHVXSjNtSjEtcXlQbW9wcTFqWDg?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 02:54:05 GMT",
+      "snippet": "イベントレポート：生成AIで広がる、新たな鉄道写真の楽しみ方 アドビとローカル鉄道がコラボ 安全な撮影とマナー向上を提案  デジカメ Watch",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "「AIエージェント博 2026 byAI博覧会」 新宿住友ビル 三角広場にて12月15日・16日に開催 ～2030年に2.4兆円規模へ。AIエージェントの普及が後押しするAI市場～ - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lV2l5bVNMSjA5Snp6Mk9PcUoyS2l4dGxvQmw4UnNQcUJRY3FBWm81Q0YxX2R1T0F2b3hUenNGSW1CQmgwOWc0emlDYmJwSkV0UW1yT0JrVENWVXJGTEE?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 02:03:40 GMT",
+      "snippet": "「AIエージェント博 2026 byAI博覧会」 新宿住友ビル 三角広場にて12月15日・16日に開催 ～2030年に2.4兆円規模へ。AIエージェントの普及が後押しするAI市場～  AIsmiley",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "商品・サービス検討時、31.3%が情報収集の初手に生成AI【GMO NIKKO調査】 - 株式会社ヴァリューズ",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VazR0MWR0TUxyOHhYRTFrNjRnc2I1bFB3V2VVR2ZuSVl5WXM4djRNVnJrRmVmRzZNR1p6ODNXRVVkd0ZHaFJmV1ZVV0dOU3VQdmdWMjFuQQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:52:05 GMT",
+      "snippet": "商品・サービス検討時、31.3%が情報収集の初手に生成AI【GMO NIKKO調査】  株式会社ヴァリューズ",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIによるハッキング・個人情報の流出を防ぐセキュリティソリューション「Securiy（セキュリー）」提供開始（PR TIMES） - 毎日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ib1ozXzRKLS1UdmxPUnBsNThycVR4akRCelJkTkdsS0N4NWhtY3ZFa29FczZNQ0VhUWp0cHhoaHZyeF84MlkzV3FYZm5ReEVmVEp1blRaUHlzR3c4RVowWVFNR3BCMkFB?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:22:50 GMT",
+      "snippet": "生成AIによるハッキング・個人情報の流出を防ぐセキュリティソリューション「Securiy（セキュリー）」提供開始（PR TIMES）  毎日新聞",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【学生AIハッカソン「東京AIハッカソン2026」開催】大学生の生成AI利用84.5%ー次は「困りごとを解く」経験 - 時事ドットコム",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51MVowQVM4YU9zQ081aG84QjNZbnU1bmdnZ0hMUEVWa21sa1FheWlNQ1ZWVkJXVW1qZk5lQXlKQ2JYRG10M25TLUo5TkVHel9sd0dQc01telZyWnExWk9BWkt5Vk1YbHIwY2FR?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:16:00 GMT",
+      "snippet": "【学生AIハッカソン「東京AIハッカソン2026」開催】大学生の生成AI利用84.5%ー次は「困りごとを解く」経験  時事ドットコム",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "ノックデザイン、中小企業向けの生成AI研修で演習課題を職種ごとの3コース新設 - ICT教育ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wS0EyTlFueHJlQTlva2RPam9TS25uOVM1SFhtRU53MzFCVTFXTXczNjFOd2hxLWZqQlJ2ekd0dFZzNU42eGdYMEpTNmpVcExTMkszcHNlWQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:13:58 GMT",
+      "snippet": "ノックデザイン、中小企業向けの生成AI研修で演習課題を職種ごとの3コース新設  ICT教育ニュース",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "LoiLo、「教育と生成AI 大研修会2026」取材レポートをロイロノート公式noteで公開 - ICT教育ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zcDM2ZTllRHNnSUd1YWpJbGhMZFRmeUJGakM4VjdBQ3hvd2NSbnlmYmczNUFiQ3p0NTZ6N0U2akZRZDZsMV9MNDI4YmdaaEMtckE?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:13:58 GMT",
+      "snippet": "LoiLo、「教育と生成AI 大研修会2026」取材レポートをロイロノート公式noteで公開  ICT教育ニュース",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "DeepSeek、「Claude Opus 5超え」うたう最新AIを無料提供 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIbzlhUzZydE5IYXpZTU8wZW1QRnRGTjVfeHZmN2VyLV9YODYzeFlid2dUdlVURWpySXBRblVCdTR4Q0FNaERJSnJjRUlGTVpqQU5UUHRJQjkyRk9fWEhJMmRGYi1MVGtYMGVmeWVzcllkcEctZlVranJ0VzhwclE?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:10:00 GMT",
+      "snippet": "DeepSeek、「Claude Opus 5超え」うたう最新AIを無料提供  Yahoo!ニュース",
+      "topic": "claude"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "Adobe、ChatGPT向けのAdobeプラグインにインタラクティブ編集機能 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHZIekhVNURNNkRVd3NWZkpBM2ZNMk9PREliYnU2cDA4Z0pyTDBKSWhNUlM0NlVKVDRNYXo5NzF1OFFRUXFLYVRoZkNfZzlrOFpvNm5rLXdPR3ViMC1iLXV5cXZWaV9Yck9nV3lseHdmWEVkbTB2VW9VeUtlWXlaU2ktRVZfeWhoaG1QZUdjVjl6aVFmcjRRbENOS3I1eHdTVFpVQWlIemQxSjQyaHlILTVhbw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:06:06 GMT",
+      "snippet": "Adobe、ChatGPT向けのAdobeプラグインにインタラクティブ編集機能  디지털투데이",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【識者の眼】「2040年の医療DX・生成AIと診療所の役割」土屋淳郎 - 日本医事新報社",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjRDZHMkduUDRFUFpINlVtRE9HNjk3UEd5QkxjSERTa0FOeUFTTS02WXAtNXRiYVp3TFVOTEM5TXNCU2hGN1l1SXEyaG43R0g4S2dMTVdOVVZhdlRQTHVXag?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:00:35 GMT",
+      "snippet": "【識者の眼】「2040年の医療DX・生成AIと診療所の役割」土屋淳郎  日本医事新報社",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI導入企業は44％に。AIエンジニアが現場で伴走する『イマスグAI』提供開始（株式会社リーフスクエア） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zcF9sZEsyRzJ5OENFZG1aTy1WWGRWck9PVGZudDhJTkZuQ0dyZGMxQ3ZmTmp1M0t5OFVmUGY5QURYRU8xZi1fN0RlQldZM2thZGdxeXhKTVRuS09fTUNycUhkdVJzR0xYWjloYV9wVUtJckR2QlNqQUhyVmY4QlE?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:00:10 GMT",
+      "snippet": "生成AI導入企業は44％に。AIエンジニアが現場で伴走する『イマスグAI』提供開始（株式会社リーフスクエア）  Yahoo!ニュース",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIがChatGPTでスライド作成を可能に Space内で共同編集、PowerPoint出力も（ビジネス＋IT） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUzM4dGs5NXR6Zm5CYjByS2FNSE5udVdjXzQyTzJvd18wcmQtYThpWkVDUFJMYllVMWxuMnJPU0N0YXhEWUdQenVwLTJaTDdFcTNrcmI3TkhVbF9mZXJ5M2dkRmtXYmtUSmkyRkFIQWdkTzkzS3E5ZTZob1RSakwzdHp0T1FlTVNXNmowRFF3?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:00:07 GMT",
+      "snippet": "OpenAIがChatGPTでスライド作成を可能に Space内で共同編集、PowerPoint出力も（ビジネス＋IT）  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIと音声データを活用して現場の知見を資産化 作業分析時間を10分の1以下に：製造ITニュース - MONOist",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfWDRKRmtnNVRtVFMzOUNuUk04aGlMQWl2blE1UmZRZk9WaXBCdnlyWmJ6Y1BpNXV5c0FYcjlpb1loVzRFdm45RFRvWmE4ck5PSUdIYVFBdDNxb0pKNjg2YjE1UUNRSW9iWWw0WDh6VQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:00:00 GMT",
+      "snippet": "生成AIと音声データを活用して現場の知見を資産化 作業分析時間を10分の1以下に：製造ITニュース  MONOist",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIのAIが他人の暗号資産を無断使用、開発費用を勝手に支払っていたことが判明 - XenoSpectrum",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5NG5nNXVZRkJqck1mSVBMZVBqdGFDNUpqbkhWTEJ6YTVHYlJtZGtpUUd2M2xSdU53dTA2RE1MSkx3LVdrd1BDRi1FVktqdVBXaGVwaHZPRXk3c3hha2NWM1VzelZDUHk4R3g2NGRkNmNvTDRVdXpr?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 01:00:00 GMT",
+      "snippet": "OpenAIのAIが他人の暗号資産を無断使用、開発費用を勝手に支払っていたことが判明  XenoSpectrum",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "Replit、標準モデルをOpenAIに変更 CEO「ChatGPTの方が上回る」 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHNPQWw1WWs3OGZzSXFBQUNiOUh6bmN1TXVlWkFCaWNvNVFxckJVcUI2NzgwVlQ3c3RmcmtfX2NCVHZmRm16dXRiT2Yya2VfNU5CeTFkbElMZ2NyMW5SYTIyWTd5VXhDQy1nQTNSaFNTb0VieFFSbjg4Q0g0QzR2b2lKNGhfMV9XY1NQMHdkQWN4bjR4RzRoaVZPVnZpOUVTTWtFYnJzUEE2Z0xJXzNYWEdyY3ktZw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 00:55:36 GMT",
+      "snippet": "Replit、標準モデルをOpenAIに変更 CEO「ChatGPTの方が上回る」  디지털투데이",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIがChatGPTでスライド作成を可能に Space内で共同編集、PowerPoint出力も - ビジネス+IT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14QWkxRlhOQmRJeFotaGVudXN5N2ZuXzRNVkZsUDNfVHhaSHNsTkpEclZKcWo1TmY5Nk85eWFjZDdMUWRGcWxfbVVxWTFlb3pMb09z?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 00:49:00 GMT",
+      "snippet": "OpenAIがChatGPTでスライド作成を可能に Space内で共同編集、PowerPoint出力も  ビジネス+IT",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「ChatGPT」の音声モデルが「GPT-Live-1.1」に、ミニ版の「GPT-Live-1.1 Quip」も - 窓の杜",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wT282WGdkV21sRl9ORkM1Z0prQXRFTVRGNW1yNkQ0X0h2WGhmbF9maElsRkkzd3FkcExQQ1F2RDY3QUJxYWlXZjhOTUgwM000QmJpeHlqdFIwa3N2TWoxLUgwOHNfR2xB?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 00:45:00 GMT",
+      "snippet": "「ChatGPT」の音声モデルが「GPT-Live-1.1」に、ミニ版の「GPT-Live-1.1 Quip」も  窓の杜",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "なぜGoogleは、OpenAIとAnthropicに勝てないのか？ 「世界最大の計算資源」の使い道（1/3 ページ） - ITmedia",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyQS1UV0hTbGVzeTVHdldZWDBQVXZPbWRJeVRsNGwxU1d1MG1RODB6U1Y5LXlBX0JGSndwRlJRdmhPd3A5U1BhYXc1eTUwUEI4VDBnVFdmbHZhM05VczdsZnpUcHBrS3h2b18yUXVFQmxhUQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 00:15:00 GMT",
+      "snippet": "なぜGoogleは、OpenAIとAnthropicに勝てないのか？ 「世界最大の計算資源」の使い道（1/3 ページ）  ITmedia",
+      "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI時代のドローンエンジニアとフィジカルAIに向けたスキルセット [春原久徳のドローントレンドウォッチング]Vol.107 - DRONE.jp",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZajhaU2w0ZGJqeHgwTG1ObGNZYW9hNlVlTFRpTkhoaDJOTVN5X01TalhjM0dXU1QzNUpTYnhfb1hOb1c3VnVVc3BhTnhXYWNKalZ5bVl2ZFJMdzRYY2c?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 00:08:21 GMT",
+      "snippet": "生成AI時代のドローンエンジニアとフィジカルAIに向けたスキルセット [春原久徳のドローントレンドウォッチング]Vol.107  DRONE.jp",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【東京都北区】SB C&S株式会社と「生成AIを活用したデザイン作成業務の効率化の実証に係る協定」を締結 - ニコニコニュース",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zYWRDWHJxU2wxOENEbWV4eTBPV1o5MG91aUwwQzAzYXoxYkhLQTludW03azBFdEZDMFRQOS14QWhyU1pGbk5pTHVMczF4dXFLbW9DT3ZfRGNBSGRUaFZSaUJ2MlppajZ3OGNGbG9YdkotQzA5ekJTNldmcw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 00:06:33 GMT",
+      "snippet": "【東京都北区】SB C&S株式会社と「生成AIを活用したデザイン作成業務の効率化の実証に係る協定」を締結  ニコニコニュース",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【AI時代の教育術】生成AIで子どもの思考力が低下する？ AI教育に要注意の年代とは - 新潮QUE",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QVURyUjExbDJGaGxiaEZxcEgtQXhPWTRHRlhBbnVibVk1YmxibEw5U184dG1rWWpLTzlYTndCZUpnakFSelcwS0pLZ3RvMDFN?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:44:16 GMT",
+      "snippet": "【AI時代の教育術】生成AIで子どもの思考力が低下する？ AI教育に要注意の年代とは  新潮QUE",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、ヒューマノイド開発を本格化 アルトマンCEOは2027年のデモ示唆 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTTRHM3FveElDZ1NiTWsyRjliQ2ZrckdrM0MzZ21vMVZtY0pMTWhFVGlFc3hpNXlCZUlRUnRtQ3Nza3BTU1E2MW1RWDlvS0IwRTlVV196LWhWdlhQZmNmMjBjQUZKSXp2VGJ3dTBnOVhzRC1lbjNIZTZIMnhhaHhaM0pYeFl3LTZMajhLSVo5MmJmSjV0S0xWS3pOeFp6QzRGcWhrTGxWM1ZHSEVLcEJyQ240Y0FWR3dQY2c?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:39:15 GMT",
+      "snippet": "OpenAI、ヒューマノイド開発を本格化 アルトマンCEOは2027年のデモ示唆  디지털투데이",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "大原本邸の歴史や文化を生成AIで伝える！日英対応バーチャルキュレーターを試作 ～倉敷青陵高校との連携による研究成果を国際会議で発表 - 国立大学法人 岡山大学",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hcmppdmZOU0J0WnZvd0o0dzBTYUhQU1NIaDJYQUZxUlpMamxvbG5uM1FrblJlV3JEc3JQeFphZFdkNDMxVkVsVUVwUFdMLWdNR1lRN0J3bGxucDBtMzN6WWxqWQ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:38:53 GMT",
+      "snippet": "大原本邸の歴史や文化を生成AIで伝える！日英対応バーチャルキュレーターを試作 ～倉敷青陵高校との連携による研究成果を国際会議で発表  国立大学法人 岡山大学",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTやClaudeが「出入り禁止」に AIエージェントを締め出すサイトが続出 - 株式会社エクサウィザーズ",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xTUtsQjQxNFo3MGlWNkxSVU9jSVZmblZxR0NDRFRLY0hOcGEtaWNhS3kwdFRZdDV6enowbllhcjY4NkdkMWF2WmxfdHNTOWxIZGw1MTNKczZiNmNTRUFTNFJRNHFxZw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:30:11 GMT",
+      "snippet": "ChatGPTやClaudeが「出入り禁止」に AIエージェントを締め出すサイトが続出  株式会社エクサウィザーズ",
+      "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "自治体職員個人向け生成AI「Open GENAI」、LGWAN-ASPの個人サブスクリプション利用を開始 - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80Ql82R0J1bTJna29YeGVHaHVGUUFPdTRTYVBfZmVybzdHSmJINDlBeW85bDlRMnRDNTlpVmMwdHFjYkc4MFdpZlAxQkt6ZXFHcmd6cjBORjVSQlNJLTdQWUg5ekRRTGNzNFE?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:30:01 GMT",
+      "snippet": "自治体職員個人向け生成AI「Open GENAI」、LGWAN-ASPの個人サブスクリプション利用を開始  PR TIMES",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、AIの新たな「暴走」事例を公表 公開情報を調べるはずが内部システムに無断侵入 - UQライフ",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUGVkUDBkelY2cmtZcHllb3kwdmlxZlNoMDAxMFI5OXJyc2lwdlFrakw4VklEMzRzc180YWQ3dzFQdUljR3VXSGxORjl5dENLckdRblRCUkp5Y1pxZWU2TjNMN0xzeVVNaEowWWpLenVNY2ZXZjNOZm1vSm8tN2VQcg?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:13:06 GMT",
+      "snippet": "OpenAI、AIの新たな「暴走」事例を公表 公開情報を調べるはずが内部システムに無断侵入  UQライフ",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTの「GPT-6 Pro」が複数AIの並列作業に対応 応答速度とツール利用も改善 - ニコニコニュース",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RWlZTSWtkVXZzOEFzMXQ3Mm4xcTBqUTR0a2duWFBBUWwxdkVsd1RLZ2hOcjJZQWxHSWdGRmNJZ3lYakZuY3JlTWk2ZEQtVi14T01XXzZmQ0FYS2U3eDJRUEw2UEh1bkxLRkMySmN0UmNJdG5sRkpOQThHaw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:00:19 GMT",
+      "snippet": "ChatGPTの「GPT-6 Pro」が複数AIの並列作業に対応 応答速度とツール利用も改善  ニコニコニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AI生成コンテンツ を好む層は26％に急減？ ブランドがあえて手作りの不完全さを選ぶ理由 - DIGIDAY［日本版］",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN0Rmc2xlSEVFMGV4UWkwYUluQ212NXVXallaN0poRTdmbmdibTJhZWV5TGNnWmRtRzhWQVlvMEQ5Umx0dUR6UmhrOC1hN0NFR1FDdVQ1SmZBS3dOSThsUVlfVTc2ZmpsTEs5YWZnMjFnS2R4VUxqOThNWi05aXdwd2gteWJCeTNrOXJsUUdLYUlWMVFOT0stc1JsbnVPN1FUTVZPRjlsQ2NZWGxHZ2l6RzVVNlVYcHdWcDRrMlNtc25HZ2FmTFdCb1RWd1ZWUHJqM2c?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:00:08 GMT",
+      "snippet": "AI生成コンテンツ を好む層は26％に急減？ ブランドがあえて手作りの不完全さを選ぶ理由  DIGIDAY［日本版］",
+      "topic": "other"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "AnthropicのClaude、量子回路の最良設計を更新──暗号解読に関わる計算も改善(NADA NEWS) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNm1uVEZpR203NTFVYjFacmNBZkdlZHZjQWlZMzJJY0pDcUZoak1wRlpzY2N3M21HNy1pWldwMk1GMEQ4M0tmQ3NrZlpZOUE2T1k3UFk0cjJzelEwRndRMXZhcTlIZjlMVXdadldzcV9xOHFvd2ZZQTBLWXZkcmNacDJfYzVaQkk?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:00:00 GMT",
+      "snippet": "AnthropicのClaude、量子回路の最良設計を更新──暗号解読に関わる計算も改善(NADA NEWS)  Yahoo!ファイナンス",
+      "topic": "claude"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "グーグル、AIで買い物を支援する「Universal Cart」 米国の検索・Geminiから - Impress Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oX2F2MXp0OEUtSjNEdW1hbDhueU1UV0Z3RUVQemQ3R2VKd09BMl9sYy1yNkUyakFkQlQ5bXZvYlAtY200TEljSUE1bDNUb2k2RVFRdUw3QWYtWWg5TnNoUzMtaXE?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:00:00 GMT",
+      "snippet": "グーグル、AIで買い物を支援する「Universal Cart」 米国の検索・Geminiから  Impress Watch",
+      "topic": "gemini"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "広告はKling、物語はSeedance――動画生成AI新定番2つ、使い分けの境界線 - shiritomo",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE95dHhzaWVwWFRmcmw2T05ZQ1p3MVlkc3VsS1NVckxMTXlVTUhlTkhxRGdhakt2czY2TC1DejZEZ1Bwdw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:34:35 GMT",
+      "snippet": "広告はKling、物語はSeedance――動画生成AI新定番2つ、使い分けの境界線  shiritomo",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AIと育つ子どもたち。α世代が描く、生活者とAIの未来 @メ環研フォーラム2026 レポートvol.3｜The H Magazine - www.hakuhodo.co.jp",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhU3NGY2lHaGxBSlNsWWJIcXV1cnFYV0VObUx2N25FTFVTSHZvN0V5aEN6LXc2ZjI3dFN5dW1saEFDR1NUQzJkWWZuVXVZbDAzbWp0SWh3?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:04:19 GMT",
+      "snippet": "AIと育つ子どもたち。α世代が描く、生活者とAIの未来 @メ環研フォーラム2026 レポートvol.3｜The H Magazine  www.hakuhodo.co.jp",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPT-Liveで英会話の練習をしてみた「DX Namamono information」第50便 - 千葉テレビ放送株式会社",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kbjI1TUVNZ203TUNaVWdjRHp0U0kxMEItVXFhUV9lY1UyTGJYMkplT2FyXy05MWVkZ2NaanpfRk9TdXZqOF9PdjdCbUQxWkVPUU80b1BPU0NsbGVjSFVz?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:01:10 GMT",
+      "snippet": "ChatGPT-Liveで英会話の練習をしてみた「DX Namamono information」第50便  千葉テレビ放送株式会社",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、プレゼン作成機能「ChatGPT Slides」を提供　共同編集やPowerPoint出力に対応 - リアルサウンド",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yZEhRQmZaWEozQXlIalRRUmw3dEs3UFV2by1IMUx2eDZGc3JuTmxjcXozNjZDVkRFemJZVVZScjdYSVpuc3puTjBWa3Qya3o0SUlqQlN0azByb0xQdlBQVdIBZkFVX3lxTFBGRW42eHVMalM4WkdMVEw3ZjR2dTlKbHh6YU1hemV1RmJnVHNuaEtGbXFNYXpRVWhUY1k4SFA1YnRWYTN0aG9vbS1FQXdqYlFqaHZiY1Y2NW9lc1BVMWhsTHY3cWh1dw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:00:39 GMT",
+      "snippet": "OpenAI、プレゼン作成機能「ChatGPT Slides」を提供　共同編集やPowerPoint出力に対応  リアルサウンド",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、プレゼン作成機能「ChatGPT Slides」を提供 共同編集やPowerPoint出力に対応 - ライブドアニュース",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wOF9yUW5ZQkpFTWdYT3pXcE5BNDk2VkFjdS1ab0Jac2dOcTNJTDVIU1RJdWpZNl9ReW5mOXVpZGgyQWdpY2dPOFBfRmpBNVg2X0duM2FsT2hZSUJjWk1R?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:00:39 GMT",
+      "snippet": "OpenAI、プレゼン作成機能「ChatGPT Slides」を提供 共同編集やPowerPoint出力に対応  ライブドアニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTの「GPT-6 Pro」が複数AIの並列作業に対応　応答速度とツール利用も改善 - リアルサウンド",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwSkpmR3gyMnRfbmE5R3ZpYlB0aXZMcGdGc1pzLUNWTW9KWjJNcVg1RUdITWJfc1Y5OFBFLUNrSlRQNllJek9MbUlkNV9qYnZoR2NRR0JTZ0taNG5zaTE0ZtIBZkFVX3lxTE9McEtwUE1Vcks4WkRaRXJ2Y1BNLVZkbmJ0MXBxUlU2UzE2ZDFyTFBEelVNYkt5YWdUUkF5Y051d0x3QXlIaFVicXdZWTB0ajZ0dXRET3RYN3RiQ1BQcS1EZHNneG4xQQ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:00:10 GMT",
+      "snippet": "ChatGPTの「GPT-6 Pro」が複数AIの並列作業に対応　応答速度とツール利用も改善  リアルサウンド",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AI開発を止めずに“暴走だけ”止められるか？人類が直面する「最大級の難問」 - ビジネス+IT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53VC05QVhZMERJRW5jc3ExMUtJbXdzejBZU3FTeVdlWFp2bTc1ZTJobjNkSkFqVGdycEFCWGVhOGNJdFo5X1JRMXl1VUk3MXc?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:00:00 GMT",
+      "snippet": "AI開発を止めずに“暴走だけ”止められるか？人類が直面する「最大級の難問」  ビジネス+IT",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AI活用で見えた「想定外の壁」--ツール選びより重要だったもの - ZDNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14eUVPZ2ZtRmlwWWhIcTNHS3Y2YldWc0ZBdGVDLVFzWlVielNVbU8tRVRoYjlRbElZNXdHSG1DVVYtN3lHdVdmbGw3V3EtVDhLTlRv?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:00:00 GMT",
+      "snippet": "AI活用で見えた「想定外の壁」--ツール選びより重要だったもの  ZDNET Japan",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、AIの新たな「暴走」事例を公表 公開情報を調べるはずが内部システムに無断侵入 - CNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5POXVmb2JSYjg1YzNGS1l1U01NWWF4WkRhVHdHXzNrejZHSWhTZFNFRnM5RG5MT09IbTBOZTJIQmRDUld2Nk5BVDF5MFoxWnBsd0E?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:57:00 GMT",
+      "snippet": "OpenAI、AIの新たな「暴走」事例を公表 公開情報を調べるはずが内部システムに無断侵入  CNET Japan",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成ＡＩ 自治体27％導入 実証中と合わせ43％ 76市町村 25年度道内 総務省調査 全国は6割 - 北海道新聞デジタル",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DRnFBaG80Rm83Qjg5LWh2WTVLV3dWeURmLVlUVnRrVU1kUkdJSVdLdkdHQmhfUllORjdoY0ozOEx4TVRiZXdrNTFyU05xbWN1WmVOVHJhbThtZw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:42:38 GMT",
+      "snippet": "生成ＡＩ 自治体27％導入 実証中と合わせ43％ 76市町村 25年度道内 総務省調査 全国は6割  北海道新聞デジタル",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "【神機能】ChatGPT Dotsが色々スゴい…指示ナシで「曜日間違い」まで指摘する実力（ビジネス＋IT） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnR6SWhhLUNLR09QeThjX19ydlRyd3oxYTMzQmg2ZFBkZHRXWVFqc0I2QmttRXpJYUt3eUx4cXNoRHlIZGlIa3JXQm42T1N2MHFNeXRmemlOWk9DRm00cDVIa044YW1CYjdCQUoxWHVaWTh0SzFDMlJFRFRxRmRLOE90S1l5bGt6?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:20:06 GMT",
+      "snippet": "【神機能】ChatGPT Dotsが色々スゴい…指示ナシで「曜日間違い」まで指摘する実力（ビジネス＋IT）  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "GoogleがGeminiの機能名称と構成を再編、「Gems」は「Skills」に移行へ - スマホダイジェスト",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaczhiWmpuY0FzZjZoWW04MzBQWUVzLXhtTEU3TF9HdFBjNDFyTEk3N1ZnaFQyVDVwS3FaWi13dmRHbURPZ0RtRw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:13:02 GMT",
+      "snippet": "GoogleがGeminiの機能名称と構成を再編、「Gems」は「Skills」に移行へ  スマホダイジェスト",
+      "topic": "gemini"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "【神機能】ChatGPT Dotsが色々スゴい…指示ナシで「曜日間違い」まで指摘する実力 - ビジネス+IT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ydndyakc3TEYtVE1HNGptZFB0RDlDY20zU0duWDU1NGcxZFdDNFlXVFpkVllwZTZ4WXNOSWhkWU0xQkNaS2RhNk9NdVZsRzJNOXZ3?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:10:00 GMT",
+      "snippet": "【神機能】ChatGPT Dotsが色々スゴい…指示ナシで「曜日間違い」まで指摘する実力  ビジネス+IT",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「AI画像」と「本物の写真」、いずれ科学的にも判別困難に--OpenAI担当者が警告 - CNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jRzhWR191OWRwWVIyRWUzcG1CVFZOSUM1R0t2MlJrLUNIMVlGOU9LM1BvMEZZZ28xWU5JeUxqa29MOEIwSk4zQWRhMXZ2UGVUZ3c?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:01:00 GMT",
+      "snippet": "「AI画像」と「本物の写真」、いずれ科学的にも判別困難に--OpenAI担当者が警告  CNET Japan",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "小売業にAIを適用する「エージェンティック・コマース」が迫る変革【第109回】 - デジタルクロス",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GTVI1UWUyb01ROXpBYnJ1QzdlOWF6blBneThURHNBRXg5MnZhRGFOS2wxeElmdHV3X0FMdUNpakIwNXltRUlkYTlMMl94UnRQZDEzWTlUZEdUU3V0WE1qaERrUmRKUnQxczRjZ2RSYWtzeHNqUDBLVQ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:00:00 GMT",
+      "snippet": "小売業にAIを適用する「エージェンティック・コマース」が迫る変革【第109回】  デジタルクロス",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "「感覚値の採用」から脱却する…生成AI×Pythonで面接評価と入社後活躍をつなぐ内製分析 - ビジネスジャーナル",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VVzhuQlYwQldoUFdwN3R5MWp3U2M3ZE1UTDlXLVNuVGJsdWtrYXE3ZmxIZU52SkRCU0ltM1Ryd3hCSDFaUDFaWFBfa2dQRllsZ3gxZzhqUUVkTE0?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 20:55:30 GMT",
+      "snippet": "「感覚値の採用」から脱却する…生成AI×Pythonで面接評価と入社後活躍をつなぐ内製分析  ビジネスジャーナル",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenCodeでセキュリティ侵害、利用者の1.4%に影響し、OpenAIやClaudeのAPIキーが流出した可能性 - XenoSpectrum",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XdUdEWjgzMlcxdER0WjBMaWE0Uzl1dFZpcDZiV3RHMVVmNXJXb2EwOU1Jbk5Ta3lRcHpEVnd4bERaVm5nWXpTd0hxWGpYV3Y5RDFIY1JCWlpjNjNXM2JTR2FlQnBQY01WTnhxUlEtYlF4S2lXM0hN?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 20:36:07 GMT",
+      "snippet": "OpenCodeでセキュリティ侵害、利用者の1.4%に影響し、OpenAIやClaudeのAPIキーが流出した可能性  XenoSpectrum",
+      "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "カルロスエドリエル・ユーロ「人間だから生成AIやロボットのようにはいかない」　床運動2位、跳馬6位で決勝へ／体操 - サンスポ",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fNTQxTnB3bF9DSlNUMUdvc2JoV0tjTkZmSnRESWxnMWcya1JkZEdJbnJONUU0Q05sd2V1a241UGNlM0Qtd25XOEV3MU91VmFUT2FUc2U2STJIWkx0c21PcTk3ZkJ0X01XNzU0YkRZdGhHR0hzbkHSAYoBQVVfeXFMUHFudTJ4U21RNXR6NTBfZG9CNk5KQ0t0a2tyWDBFNDBseU9pdkhnNDhNX1pQd09YeEFoRzl5VXhEMVdBd3oxSGZtWXZqRXBjNDdObHBwOXRMUHk0aXduaUZMWTcxc2dfTFc3clVSblhhVWIzWGZJaVNjX3BRQy1Td2wtdGhWWTE3andR?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 20:10:11 GMT",
+      "snippet": "カルロスエドリエル・ユーロ「人間だから生成AIやロボットのようにはいかない」　床運動2位、跳馬6位で決勝へ／体操  サンスポ",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "英会話学習者、人間の先生「必要」8割超 生成AI利用者ほど傾向 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2dUtHN2N6T1JWdEpZblJpMHNzZUpYQnc1V0Q2NkdzeGJjN3pQZm8wN2VvaGFDb0t4RFZEaUVZZ0VrcXVJbXF1elptSG5QdEhJNkxrNDE3ZTJiX1BSanZPXzhTQjVkWVdRbXN0Zw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 20:00:00 GMT",
+      "snippet": "英会話学習者、人間の先生「必要」8割超 生成AI利用者ほど傾向  日本経済新聞",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "（記者解説）ＡＩ時代の学力と教育 多様な子の学ぶ意欲、高める改革を 編集委員・宮坂麻子 - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80NTl2Vy1JZ09FMUtzSFFMdTFpS1hzUmhSMFM3Tm9vS0RsWDdpWXlQb2NxUGRjNTBwa2RHSXJYeHRjcWNpZndhbFFkb25rR0RLMTBpb0F3VHpXOTd6?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 20:00:00 GMT",
+      "snippet": "（記者解説）ＡＩ時代の学力と教育 多様な子の学ぶ意欲、高める改革を 編集委員・宮坂麻子  朝日新聞",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "AIはなぜ集団暴走したのか OpenAIのサイバー事故を動画解説 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yY2tfQnhQQnNYSXZ2ZVRhejd6eW0wMFdCeS1BQ1B2dk5iMm5NcVlHUlZudmtaZUVEQ1Ezajlmd20zWEpRV0RPdnFkQlozRFh6N0JORU5QVElrS1FBSjNGTGFFMllmeEFyOWZHbg?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 20:00:00 GMT",
+      "snippet": "AIはなぜ集団暴走したのか OpenAIのサイバー事故を動画解説  日本経済新聞",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIリーク、未発表のaurora alphaモデル3種がAPIに出現 - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYVpkTEl3QzBQNHpOWDZiaVdMSDF5aFQ0TTdwajZwY2szY1c3TVRwa2FXMHFiRlpudG5TdVhGZFFCQnRQT01fVXJFYzhNVm1peEF6WWprUkpuMFVkY0FRMFo3bUpRaDFpc0d1TW94dFZpX3ZRNlROSW15REF1MWdHcXcxYkE0LXdtZmhYSmx3?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 19:11:01 GMT",
+      "snippet": "OpenAIリーク、未発表のaurora alphaモデル3種がAPIに出現  Pasquale Pillitteri",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIの「Dots」、質問待ちではなく先回りするAIアシスタントに…セキュリティ懸念は課題 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YLUFIdGdLSU9SZFllRnBSZ2xKb283QnhXSGlIVWtUQ20zN3c3XzFZSjdERVp2d1czNjA3NVdpaGYtSHZCTG5tZTFsa0p3SWVwM1hsU0liaWtCQWJvQWtCLWFaanE3MzRfdXp6bHlpZnRZU2Rw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 18:05:00 GMT",
+      "snippet": "OpenAIの「Dots」、質問待ちではなく先回りするAIアシスタントに…セキュリティ懸念は課題  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "GoogleのAIによる概要を非表示にする方法、ウェブフィルタとudm=14 - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZlltRTIwbmh2OGk3T2daYzJfRG9EVVF4SmNuRGhCYkI0ZEs0Y0RLTkNJVG1jUERUNlZxdmt6STN5bGZ3a2MtYzRwNW1RNnhUb0FuZlhxdVA3NEhpMFlVUFNnWmxEbWRVeG1YX0N6aHBBQWFHQl9ZdzFDQlF1MHQ2NHJVZVdEczRaM3QwUw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 13:21:53 GMT",
+      "snippet": "GoogleのAIによる概要を非表示にする方法、ウェブフィルタとudm=14  Pasquale Pillitteri",
+      "topic": "gemini"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "インドCERT-In、AI攻撃で重大度Criticalの勧告 評価中のAIが越権し個人データを閲覧 - ビジネス+IT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96S2JYYlBYdERuekRESkctY2xtR2pLa2RPN0JPc1Q3aFR3M0pITG5jMXhQeTFKNVFhWHVxaVJpclJDVTV1aGFlVUJiLVZyS0FidVEw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 12:40:00 GMT",
+      "snippet": "インドCERT-In、AI攻撃で重大度Criticalの勧告 評価中のAIが越権し個人データを閲覧  ビジネス+IT",
+      "topic": "other"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "【Gemini 4解禁】机の写真がゲームに!? Googleの新AIでできること3選 - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16elQ3VGtFZGg0dU1DZS1UNURIVDdWMXJ1MWFXZTlxZks1T3d6ZjBnX1ZiUEdrRzVaUzMxYTRQYW0wdFRYYzNmQlVZR3JBM04xUEZhQmVtUXgwX2Jt?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 11:00:34 GMT",
+      "snippet": "【Gemini 4解禁】机の写真がゲームに!? Googleの新AIでできること3選  YouTube",
+      "topic": "gemini"
+    },
+    {
+      "source": "Copilot / Microsoft AI 関連",
+      "category": "news",
+      "title": "金融サービス向け AI: 意思決定と効率性を変革する - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa0FNcEhNTTJRLXVuQURsX3Zsa1B1bWhsZUd6d2hoc01lSGlmcDU0TzRuaFFZbkZpZEhpNEJLa2hrQUpiLWpsY0JZNlFZNnBWMEZoem1oaFBkcjlsM3dtNGJrcGVKOEZQX043VTlfMmV4ODdIdTBBZEFiekpFT2VuNlljTF9XY1NZSDJjMHBHa3k?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 09:02:13 GMT",
+      "snippet": "金融サービス向け AI: 意思決定と効率性を変革する  Microsoft",
+      "topic": "copilot"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、自社開発の人型ロボット参入を正式確認 アルトマンCEO「知能の“頭脳”が躯体より優先」 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvR2djLVhFdnU2N2REc2piOFJUWG51R1dTa0g4WUxuQTRXdEhBa2hmWE5QalRxNUplN2RFRmRQaEdmNDNRc29KekQ0LUhITElqWV83RFhtakZRd0FNTUlCQU16Q21fT3VnazdJekl4OURESlJj?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 08:55:00 GMT",
+      "snippet": "OpenAI、自社開発の人型ロボット参入を正式確認 アルトマンCEO「知能の“頭脳”が躯体より優先」  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "3D生成AI「Meshy 7.1」が公開！新モード「Ultra 4K」でジオメトリ解像度が4096³に、独自ベンチマークも - CGinterest",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQZGZzQ21qQXYwcGlILUNkdy1HeHlrWTA4U19Qd0RNYlhManM2MWNzX0NRYWptR1VPUUhjeFlUTW5wektCdm1yRHN1c24tQld2c2V2Qy1NMWVKUzFKUEVOUGJReHlaYjk4WmJsbnJBV1J5QVdQX2h5NENBSEhld05BVWtJbXFQUFdLUkZNeGc2R0pQR0s4cHBOaThGbDZrMDZtcV9rVTloZ2JKTGphUU8ta3M3b2dwUzlWdGZQLWNfaE15VkJpQ2h1NGktSFdyY1FSVG5nUEZtb1lTdHA3RlN5ZVRLNG9rWnFiS1JJNXB1elRuYXBMcXBpQXQ3QXliN1lBNmJ6NlA1OEVIaWkzU3FlNjlicTlsSXdmLTJWVFU0QVdpc2pDQVJERThFUk41VlI4WlBFc1pMY0RhU1VWUGdzZmhYR25OS083REVN?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 07:57:05 GMT",
+      "snippet": "3D生成AI「Meshy 7.1」が公開！新モード「Ultra 4K」でジオメトリ解像度が4096³に、独自ベンチマークも  CGinterest",
+      "topic": "other"
+    },
+    {
+      "source": "Copilot / Microsoft AI 関連",
+      "category": "news",
+      "title": "Copilot StudioでAIエージェント作成、最初の一歩 - 日経クロステック",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DYWNLTXJoLUVCaklXMWUzaG8yYXotZ2pRNkZvYVhDYWgtVFVHSXQ5OC1IS2cyajFQekdfazFTVS0xRUNRblNEVHZXaGtHdWxZd2ViRS1oN3RoaVRRWHpJ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 07:45:21 GMT",
+      "snippet": "Copilot StudioでAIエージェント作成、最初の一歩  日経クロステック",
+      "topic": "copilot"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI上場前夜：600人の従業員が66億ドル（約1兆円）を現金化、評価額は1年で7割急騰 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaRE5Vc0tEdXloYUx2TDFqbm9nNVpEMDB2M3FhbnpZekcyOW4tTXo1SFh3cU80VXR3YlFHSHZVd3UtbTJ1a3JBdmpSaVhQbHlGRm1uWkxkWUhhNDgwVjZBUGxGeUJYcW15Uk1CQ0h5NkZhM0xM?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 06:25:00 GMT",
+      "snippet": "OpenAI上場前夜：600人の従業員が66億ドル（約1兆円）を現金化、評価額は1年で7割急騰  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "FastMetal、Google社のフロンティアモデル「Gemini 4 Argon」を提供開始 - Excite エキサイト",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1cnZkeWY2eTZlSUIzdVJobnU2Z2EwZ0pzN1lRbE9wQmRzaTNNU29XVEdUUXlZZGczMUU1Wnh1alBITEdwQmJ3Q2RISEx6SjM1cEtGVUw4b2o4UHdPdmJWbUpRdS1mTzNRNk5rNDZ0N05Ddm95?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 06:10:00 GMT",
+      "snippet": "FastMetal、Google社のフロンティアモデル「Gemini 4 Argon」を提供開始  Excite エキサイト",
+      "topic": "gemini"
+    },
+    {
+      "source": "MIT News (AI)",
+      "category": "official",
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "link": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "pubDate": "Sun, 18 Oct 2026 00:00:00 -0400",
+      "snippet": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
       "topic": "other"
     },
     {
@@ -29,6 +686,15 @@
       "topic": "gpt"
     },
     {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Claude、暗号技術の「25年来の謎」を30分足らずで解明 - CNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZaWJyLVNFNXNDZmd2a25KTGxqVGdFOHZycl90TU5mNGRXZEJ1VWRLUjk0WVRpSkpGQ0lidEowRFRUdllpRGVLS21lazVDMzJfMkE?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 01:20:00 GMT",
+      "snippet": "Claude、暗号技術の「25年来の謎」を30分足らずで解明  CNET Japan",
+      "topic": "claude"
+    },
+    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感 - ライブドアニュース",
@@ -38,13 +704,13 @@
       "topic": "gpt"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "Anthropic / Claude",
       "category": "news",
-      "title": "米レプリットのCEO、アンソロピックとの協業は終了したと発言「今はChatGPTが上」 - ビジネス+IT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuc1VwOXlycWExc2VNUXV1T1lhQlU5eUg4bDd3NWprWldSN0FIemFnMW9aM1ZXdHVMRzBuMU9qY2JDZmJsS29mV0liWkY2SzVKTUZN?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 00:45:18 GMT",
-      "snippet": "米レプリットのCEO、アンソロピックとの協業は終了したと発言「今はChatGPTが上」  ビジネス+IT",
-      "topic": "gpt"
+      "title": "デジタルハリウッド大学、国内大学初のAnthropic「Claude」全学導入へ - 教育家庭新聞",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hSmt5WVJlMjFMRzZ3VVRubndfWkthbmlPVFIySzl2RF95dWJNSG1IbHNNSXZCU3NuZVVXdDBWVHNBaFJxcFNSbnJTYktxOVBzSGhZ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 01:01:51 GMT",
+      "snippet": "デジタルハリウッド大学、国内大学初のAnthropic「Claude」全学導入へ  教育家庭新聞",
+      "topic": "claude"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -56,58 +722,22 @@
       "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
+      "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "生成AI検索が過半に到達 企業サイトは「ゼロクリック」対策急務 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvQ21KOW1ocHY0NDJhV1R5b2p6aURlVmVYSWFQbnJfZVhGQld1TDZTU0xyWGFUV2R2czltT2VaLXRHdU5IeWxDRDVrOTkxWl9sNl9oS3huV3FUeFRvZlc5N3BxRk5oRlQ2aW5YcWZXa1E5UXk5?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 00:05:00 GMT",
-      "snippet": "生成AI検索が過半に到達 企業サイトは「ゼロクリック」対策急務  BigGo ファイナンス",
-      "topic": "other"
+      "title": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感 - ｄメニューニュース",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbmt0aGVzRkNWbVFUa0pOTHcxam9EaEZ5NkNyX19Ba0ZqNFcyaWJPdGZ1ZHNZUmhIVnNQVnZRTEdHbEJldTJjTGZBay1lZWo2LUZMY3Q2NExsWjdtZFFla3liLVFUeDRtcEVhaTBtREVLS2pKTFMwVHQ1WWREekFvcWJoVl9hNXpLc1J3SmN2bXNwYTJRRk0xTFBfRmlGS0hqTlRZd3VvellabXpyRG5sRHdRbDRLUGJJLURRSVFXRUx0YWdESXJiai1YZm94YjVDS283M1U2dXd6TGROcGRZTVVDWnjSAZQBQVVfeXFMT0duSHlqcW8tdDYzR0tuTHF6TnF2VXpGZnJ2SllrUS1lQTRiSUZGdzBQdzlmaVB2TFhCazVaYlRMMG1kZzI3R1pzYVotblRhMDg5dWY4U2FlUWVZamNYd0JjQ1BjWjE5czFhY3RyQ2pqXzFYRnNMQVkyM2plcm13MkY2T1pUNm4zcVlCR1lkb1o4dEltbg?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 23:59:42 GMT",
+      "snippet": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感  ｄメニューニュース",
+      "topic": "gpt"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感 - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2SUdtbDJIbTB5ZVktOGdPUXFoeEZvMWxVcEpCVTJ0cUVueVJzZXRIN3otTUZwekwyWWpVWU8wb09xbTM5S0djNlk2QVZ3TWp2dmF0SUl6LU5yUEp1ek8zLUFBU0pRQVhNLXFZTlVmS1RVcXd3R2pneGxETURtV2s?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVJqU1B3MDJCYks3T3BxUnprSWZmMGxYZGlabGszOWp2ZnJJcGtya0FlczZsVXpDOUpqSVFWbHhIVHZqUWc1YkhpLWxhLWlOUU1Jd0pNbWVqa3VDdlYxNlpoWEJPaFczMk44U0NHajNibWRLbGtQMmdsVjNBbTFoVjZDdFRLZlkyaW8yRXh3?oc=5",
       "pubDate": "Sat, 17 Oct 2026 23:50:02 GMT",
       "snippet": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感  Yahoo!ニュース",
       "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感 - デイリースポーツ",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05dTZvUDIycGduQ0VmdnNROHpNVklPR3VjSXpaVGJjMVBXUHpMNGthakNVRF9BVGtiV2UtOE14S1FRbG9GOWh0TW44eUxzdDRUMUNVVHl0NkY1cURHWkJjbVdhQUwzYjNQWjN0OUJkaVpIRk85RmRJMndidDRndw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:50:00 GMT",
-      "snippet": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感  デイリースポーツ",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感 - au Webポータル",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VOUFrSTdycTBUTXc2Y05rNURBcXZiR1BseU1KZ0gwd0t5alVTU0d0a3ZDMkZlN3luLWpBVnQxTm1lbFhxWVBMTmMzLUh2OTJINE84eXdhelptN2N4REU0MkY2Y0tSblhGRVZwMWhR?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:50:00 GMT",
-      "snippet": "ChatGPT利用をやめた！OpenAIのCEOを演じたスパイダーマン俳優「使用を勧める人が技術を理解していない」と不信感  au Webポータル",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "#AIニュース 】Replit、標準AIをAnthropicからOpenAIへ！ショップサーブ、2300万人超の情報流出 | 2026.10.18 | No.224 - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IcVlGUUtpVGY1dWdFWmZ4NFVlNmFGdF8zOHZDWnhOVzE2MGlPYmtDR3hPaXNhdmxpRURHSXRnVFhjQQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:13:33 GMT",
-      "snippet": "#AIニュース 】Replit、標準AIをAnthropicからOpenAIへ！ショップサーブ、2300万人超の情報流出 | 2026.10.18 | No.224  YouTube",
-      "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "【AI生成動画調査】よく見る人の約7割が「AI生成」の表示を希望！6,559人に聞いてみた【SEO・AIO時代に効く一次データ・アンケート調査受託】 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80WVpSUGFkSzlndkJ4SmdiWXk2ZkRRM3pKSzhUbEI2UUJyQUdJUEdRTndHSEhudzZZdVhNbTJLSmxyTjN6SUh2dEtKSFhpNUl6aFFQVGFFU2Fucy1TdDhpNkpreWl3WDNRRlE?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:00:01 GMT",
-      "snippet": "【AI生成動画調査】よく見る人の約7割が「AI生成」の表示を希望！6,559人に聞いてみた【SEO・AIO時代に効く一次データ・アンケート調査受託】  PR TIMES",
-      "topic": "other"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -121,20 +751,11 @@
     {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "Google AI Professional Certificate、8コースのGoogle認定証ガイド - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDNrSnFlYTBxYU1iYm9OdVJCRWN5ZkZYSjVkdml3VG5fR1B3NEI1ZUljY01aaXU3S1VSYV90ZndKSmZxR0I5OUp4UFZDcFlPMWIyT2xfRWdpcGlYTzVCcW9zVUw1Q0FkdXo5QWpQZjI2S2xRU0swczhTbkRoUUg3SHNBeUFNNFU2d09tbw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 19:53:37 GMT",
-      "snippet": "Google AI Professional Certificate、8コースのGoogle認定証ガイド  Pasquale Pillitteri",
+      "title": "[Google's Serious Play] What is Gemini 4 Argon? Entering the Era of AI-Managed Tasks with 1M Toke... - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBLZzNkUUhFZEdIT09USFJmb3F5eS1vbldidXFtdGlvX1IxRnhCa2xSR3dqOF9pN3pnRmhpckl6SDVWZw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 19:07:51 GMT",
+      "snippet": "[Google's Serious Play] What is Gemini 4 Argon? Entering the Era of AI-Managed Tasks with 1M Toke...  YouTube",
       "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIが4件のインシデントを公表、モデルが他人の暗号資産ウォレットを無断で使用 - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVNDenJ5NzhsTVBJaVRudXR3Y21NcURmSXNCd3p2YTVEMUpJaXNKOHMwYUt4Um5ZdWVKOVNUVFRoTHBHS2pjZFZ0U1ZKZDFGeEtOZnI0aFFyb2NUazByYUxpd1F0dERhRko4bGo1Y2FDSjBvczhUWmhOYzBwUkExWU5IMVdnaTExbzZzQQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 19:13:29 GMT",
-      "snippet": "OpenAIが4件のインシデントを公表、モデルが他人の暗号資産ウォレットを無断で使用  Pasquale Pillitteri",
-      "topic": "gpt"
     },
     {
       "source": "Anthropic / Claude",
@@ -166,55 +787,10 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "画像 生成 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQbnRxNkFMdVByRXpvQ0dmcHB6aUhVbXVWLXExeEdPdTltRlJfMkdWdkQ3V29Ldk1rQlhTZmFqNWxwUWpZbFlyUEhNRWNFYzVLYUZ5eExfYmNTUXJlYWM4MVZoMENVX1QyVUo0dE10TUtNZFFZSmxURHBSSVVoX1ZpakdMa1dtdjNaRHhGNHEyNVBodVNQcl9nY0ZYTFRQS2FwVGo4a3BqYnFPTmQxaG82a0hUbjFmYi00M0tEX1BZaEQwQUlWNXRyUTlaYXVIM083NEdJcWhlZW9razFIMWlpOVJRRXo2cERfTHlMdllKSk05VkF4dTIwN1NwUlREM2NRZjVUQXN3SnZ4VE1WUUxOU0V1TWJUVzFQSWRUUFpmeTdEUQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 17:53:39 GMT",
-      "snippet": "画像 生成 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成 ai 画像 生成 - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNbVc3SmN1Ui14V24yc0lyTnV6dXVSUTJnRzh6X1VpOE9jcEtYTFM1MkNOd2tZNTR0VEJ0Zm1BMllYVzB5UU52OTlkTWdnV3lqMUF6NVZsNkhpOVFxVTZLNWpNbFE0VzYyNjhiX1U2M3N2MHE4dVczdmZUNG9zdzlJcDB4T3Jibmc0aGlxdXhfT0h4dHJBRll4TFZUZ0lSS2N2X3pwbi0tUjZSSEw0VEFPbTh5bEdvQ2t6YTgwQjBzWHdrUzBlV0FxVTdEMG4zQ1EwNXIzOXl0WEMyZ19LcWp6UVZ3U0dORVI2RFdPSngyaHo1bWU2Z3B1UFQ3aXVjNjVialM2R1VLdlZPUE9KTlZmYlJYMUFZNU01ZkJHZnU0MA?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 17:53:29 GMT",
-      "snippet": "生成 ai 画像 生成  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "無料で普通の動画を一瞬でアニメ動画にできる動画生成AI - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObEJFcWZjejlPQnBSdnZUN3JCNDV1TDF1d3U4QlhCYXd1N0hmcHR6enByZ1pWaTgyTzVoWUp1MVRidTNLRHR0dExOSmV4TVF2cm5JUkp3UHNaZ09adjZ1bnZ4ME4zZ2I5WGg2Sno2UTZ2eTh0djgzSGY5WXpjeE5UOU9DUzhPcG5uZnp1eWhlYjRQRmVXMUtuQkd3cW83b3liZ1A4SmNMdWowbE53Q0Zxb0tXek02V3lqbUZvUXp4a0t3dXZzRTBpWUFCUUtiSmptRV9xMVN6WXgtQjlyczdCZTZDRGVCWlVVdzF6SG1sR3ozTmhVZUhGcmNsS29IbGVEczNkcFZYSmhnZU1UZHh1Xy11d3ZPeVF4d1RGX2hiNA?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 17:53:25 GMT",
-      "snippet": "無料で普通の動画を一瞬でアニメ動画にできる動画生成AI  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "エロ 画像 生成 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOWVpzbHJtUTJEaGw4a2xRZ0Npb290TVdqTmNxbGs3V3lhWjQ2MEhDTVAzcWNTcjMwcG1ZWjRyUWpoVHJJU0tjTjV1VC16dTRBYVlwTXRUWnBYNmtPbHY5WUJxeEhNNVdBaExhcE9icDBPTUY3OG12ZEVxYTRnaWJQSUItd2tXRjlGdGFiX01YQXAxTVVDYWpzRHFkeGx4T1pPRkdVWnRvcUg0VVdDZC1WM3Y2c2xmenNfOVNjODVnYVdGalU3UG5qcW1TUnhLSEV6NFQwWnpNZmJFWmZERnV0WUJSXzlPTFhyQXpyUjdkUDI4VVdHZ1R0WXBIcHdvTmpndzVlaG1WcVd4RXczblp1c09CYU9vdkMtMUFraW53?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 17:53:19 GMT",
-      "snippet": "エロ 画像 生成 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
       "title": "最強の無料動画生成AIツール5選【 2026 年版】 - Universidad de Córdoba (UCO)",
       "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNd1VMYWdaX1QtWlczcnpuQ1Y3X1hVT1RDSGxrbTI3bkhfRC05Qi0zUGtqT3JmbFFYa3F3ZVhBVGtXY3FtQlZjemNKU19zazM1U3UtdkxoUUdISmdQaUlfdVp6VGk3M2xCci1LQnN6X1lrSmlLYVUydEhYajhCS1Z1QTJPN29kWE9hV0NvdlA3TjQ5cDRQOUJValY3Qk92MlEwS28ySHJ1dlozVE53ZmRnTXpyUHNFLUpxb1dZMTJicEwydGdRbzlPRFFWRHJxbmZiazE5dmxVU3plR0lwd0pqOFlMMDRSTmtmajEzYWdZRnRUbFptNFRLTzdZR3ZBRTZtbXAtNnRrcVgyY290NmZCZEZfdHJiUEFLZTNidi1vb1NUTnZlRFBoWA?oc=5",
       "pubDate": "Sat, 17 Oct 2026 17:53:05 GMT",
       "snippet": "最強の無料動画生成AIツール5選【 2026 年版】  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIエロ画像・エロ動画作成ツール10選｜初心者向けの無料 - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOMllUTmI3R1BwSWxsa3h0bDltV1VzWjFyU045d0ZJcGVwTFNhSnJNTWtVR2I1SUtjRjY5eTgzNGh2VHoxSHlxVTlfTDhLbzFleXB1OElBQ3lKQUtCYTNHVzV2cTlnT0IyUkVyQzdHTUFMbGlmYXotWFkzblIzLVRLZ01LbDZlZkJ0NE56WW10aGRiM0ZSTHhVMmczcDFRSGhNLWJvSzhEblFvUlhVTFYyV2tRRURIRFFpc0hfWGl1WGpGd0s4TGk3ZTdXUTIwWnNzVWdVU2F4Z2dUemNrY253OUZLa0JmdkFvX0UxejB1bHZ2ZnBzY3hNS1RpekVqaXc2QlcxSXdpR0ktRTFFek5sRzhtY1I1R2Z1MTUzRl9PazhHbW8?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 17:53:05 GMT",
-      "snippet": "生成AIエロ画像・エロ動画作成ツール10選｜初心者向けの無料  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
@@ -236,24 +812,6 @@
       "topic": "claude"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "日常タスク対決でChatGPTがClaude Haiku 5.5を3対2で上回るも、 パーソナル助言ではHaikuに軍配 - Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxQV1p1TjZVcEVkb1NaZ1hwekNTdmNJeVBEclhaRlVSTnpmZWtJMXNFMkxBT2J3d0k5eEhNbVl4VUpHWktPSHpGLTM4TnNUa3lTYUk0Z0Z1QzN5WEVOTkpwbkpFYU5OaXZZWTYzZllqd3RyTGZscnJVVGpPQko4TjhWTE9ERGVPMHpjREF5NFlXcjByWmRiUFFpc2M1eUo0MEJMbm5vbWhoWXJvYlJoTVYtcndPLUxoeEJ6Nlo2OUNhUFBXZVhWQ2g4OVFzLTlJLTFTZjBnSC1nY1oxM0I1OGhQeUVtZmpMTHFFcV8zUzdPVDRUOGl3M2hMYjdpTWF3UDhhcnktV01hOUNRRGZBMWNpTlhETWxmX0lXQ0lDWmU4akZZVGstLXVyT09pYkpXTDg0YWlEXzMwM2N5cnlacDdDdDB4QUo3NHE2dmpfQ3hkSkpIVC1ndHdZOHdVRUlMR24yYk9yUEdRZUNOdE5tUXViM3VwUi1TVkZVbTlEV25EcXJRSGJHSkRHX3NYdjdjS0RwMGhma2dITVFoM2E3OThhaFhvbmxxZ3NxX1JmQUZ1MFIyX0ZtVF9wVzROc1dUWUN5T0cybQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 12:21:16 GMT",
-      "snippet": "日常タスク対決でChatGPTがClaude Haiku 5.5を3対2で上回るも、 パーソナル助言ではHaikuに軍配  Yellow.com",
-      "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIの参照元67.5%が企業公式サイト以外と判明 18業種横断調査 - Media Innovation",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HUWt6bzloWXlndFllWXBfSEtTUHJFTF9aLUVIWFV0eGsxVXlYbTFmSVZaTlVfZ2JFV3dIaGV1NFJNbW1VYnZJVVZ2M1IxWUJEY24teWRTUUlid1FoTV9Zc2tLTkdxR3NlbHc?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 11:57:32 GMT",
-      "snippet": "生成AIの参照元67.5%が企業公式サイト以外と判明 18業種横断調査  Media Innovation",
-      "topic": "other"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "AIで性的画像が「指定どおり」に作れる時代、摘発が相次ぐ理由と線引きを整理する（Masumi｜ライター） - エキスパート - Yahoo!ニュース",
@@ -263,22 +821,13 @@
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "AIを\"ハッキング\"してわかった不都合な真実 東証上場企業3,899社の9割が、Gemini・Claude・ChatGPTの\"おすすめ\"に一度も出てこない - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DOGJEb1BTbnlFT0VOQ2ptR09NYkFnb3hBWVZIXzU0dGNwMURiaS0wWHM1Z1kxb0gtYzJNN0hTSnpUVHdMSkt6QmRId3hJZzY1NTNiN1FteE9pNTRYeV9DUmJpQkhtYXVxbFE?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 09:50:02 GMT",
-      "snippet": "AIを\"ハッキング\"してわかった不都合な真実 東証上場企業3,899社の9割が、Gemini・Claude・ChatGPTの\"おすすめ\"に一度も出てこない  PR TIMES",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIが常時稼働AIエージェント『dots』発表、Microsoft領域へ本格参入の『ChatGPT Space』も｜Infoseekニュース - Infoseek",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zY2tuSWVUZ3JIeFl0M21IdHZZRWlNWlJ4cVQxTUN4c1ZlUXRZRDh1RmVmUllpcjdVNVhVTlZaOW5OcFpLQlpzR2N3Q2N5eG9NYmtfNERzTDZqNTY4ZFotZg?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 09:30:00 GMT",
-      "snippet": "OpenAIが常時稼働AIエージェント『dots』発表、Microsoft領域へ本格参入の『ChatGPT Space』も｜Infoseekニュース  Infoseek",
-      "topic": "gpt"
+      "title": "生成 ai 画像 生成 - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNT3p0akhQSUJ0N0V2TVN5cjE1allGMnpXdFBEWW9iRVowUmk1OWczTmlHM19vTnNDUklHdkRwNzhHbEc0SGk0TTJuWmxxbFlNbmJWZzZrM2Mtb2tqYlRVSVBBRHVwVVJlRDZNb3pkb3haWkhrbm94OWlqVDFRQ2RGZk1XaXFPVDFOenRQUHZFZm1Od1lLMjg5T3dacEEwM3JXemF3dlo5OHBFN09wcUtBUDBHVVo3bGtMVXZ4ZnNJdkl0d0ZESllWOURBa0tqdXYwbzVXSnQ4N2YyTE5yLWU3OHF5VUVWQ3Ffa2tZbmJGVUhfcW9JTjFMekp1djdVbVh2UUpBOHhPYmtJb2syQ1R3QQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 09:24:26 GMT",
+      "snippet": "生成 ai 画像 生成  Universidad de Córdoba (UCO)",
+      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -299,58 +848,13 @@
       "topic": "gpt"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Claude Codeの「コードレビュー」が一般提供開始、6〜10分で終わる仕組みの中身 - shiritomo",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5qSzZMVnpWOF9CY1NlMUNxNnM2RU5kV0Z1UFowTjVBN2lrb1BsSVZqZ0RLZ25OOHpQTm1FQXZzdjFXZw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:25:26 GMT",
-      "snippet": "Claude Codeの「コードレビュー」が一般提供開始、6〜10分で終わる仕組みの中身  shiritomo",
-      "topic": "claude"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "「そもそも親にAIなんて必要ない」 65歳以上の生成AI利用、子世代の7割が拒否する理由：「AIに支配されそう」の声も - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCMUVJcnZRQkExZ2daQWJaMG5BZEo4MDVwMEY3MUNmXzR0Wm9YZ1FtM0xaZHNzaWV2TFFTamhkdVVoWHhoNGVRNGxJeXNJWkVfTzF2ZDFCdGZKZmdIbGI1MWhlek90MU1UallncFpoZm84dw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:00:00 GMT",
-      "snippet": "「そもそも親にAIなんて必要ない」 65歳以上の生成AI利用、子世代の7割が拒否する理由：「AIに支配されそう」の声も  ITmedia",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AI活用で地域差 当別町で業務50時間削減 小規模自治体は導入進まず - 北海道新聞デジタル",
+      "title": "生成AI活用、北海道内自治体で格差 「1人何役も」の小規模市町村ほど導入進まず - 北海道新聞デジタル",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zZWVlbHd2U1N0MVdjMHNyRkNXLThfTHBRMVBqMUJqN1J3ZXMyMmVMSzg1X1VLSEsyUzJnZXVKS0MwUzZaSUM5S0ZHRGpSZEZ0LWFJRXJOUGdSZw?oc=5",
       "pubDate": "Sat, 17 Oct 2026 08:00:00 GMT",
-      "snippet": "生成AI活用で地域差 当別町で業務50時間削減 小規模自治体は導入進まず  北海道新聞デジタル",
+      "snippet": "生成AI活用、北海道内自治体で格差 「1人何役も」の小規模市町村ほど導入進まず  北海道新聞デジタル",
       "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AI、北海道内48市町村で導入 総務省調査 実験含め前年比1.5倍 - 北海道新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zM3NGSmd2bk80Y09LM3ZZNTBpcHQ4dkJiMy10OUd5TzBBNzVUbTZCNTFLN0VOcmN0VWFaNVFsaF9JTWMxUWRtQW5xaGtjT2lHMEdCN1NjYUN1dw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:00:00 GMT",
-      "snippet": "生成AI、北海道内48市町村で導入 総務省調査 実験含め前年比1.5倍  北海道新聞デジタル",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AI、北海道内48市町村で導入 総務省調査 実験含め前年比1.5倍 - 47NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5aeGlFbVJfb0ZoT1hxelZkdGE4bmVhSFU3enlMSElBM3EzbDdFYzhrR1VGR2Z4aEptOWtvZnJwM0JlM3c3bzhRU2hlMA?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:00:00 GMT",
-      "snippet": "生成AI、北海道内48市町村で導入 総務省調査 実験含め前年比1.5倍  47NEWS",
-      "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "無料で高品質な動画が作れる！Googleが新ツール「Google Vids」のアクセスを拡大 - DXマガジン",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tcU9LQklJcF9lNXF6YkVWbGh4LWdraTNobzlwOU0zOHc5REVmdlV0dnVqcktQWURSVExDM0ZPU29OWkYtUUVBT1NDUzREQQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:46:36 GMT",
-      "snippet": "無料で高品質な動画が作れる！Googleが新ツール「Google Vids」のアクセスを拡大  DXマガジン",
-      "topic": "gemini"
     },
     {
       "source": "Anthropic / Claude",
@@ -365,18 +869,9 @@
       "source": "生成AI 総合",
       "category": "news",
       "title": "「AI株に乗れば、まだ儲かる」は本当か？ 資産2.7億円を築いた投資家と半導体商社経営者が分析 生成AIブームの裏にある“実需”とバブルへの警戒（マネーポストWEB） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRGJHT3RVVk9HZjRYbWw3X0ZLeTVIQ0pUS3B5ME42Z013WW1zYk1oQlhUMnRfS2FERHp6Umpjc1RJbUJYak83UkJlQXJlNmx0Z2tTNkhDajV0MWZNT2pWQjNsOXlJeEdxMG9aM0o1cVNVZEhwQXJ4d1RpcUlEZUtqZmdLMHdkbnVH?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EM0x3cjlSQlQ4dVFDX3RxVURXdy04S21NTnYyZ280MHBPOFplY2k2S3c1QXdSWmRGVVpOdjJzbnVQV2RRb1VuX3REYi1zN2MxTEdzb2Q4bEU2RE9CY2ktelgzUXl3XzBmdVpPVXhRMnlVNHVDbGRtUEVtdldGeGM?oc=5",
       "pubDate": "Sat, 17 Oct 2026 07:17:00 GMT",
       "snippet": "「AI株に乗れば、まだ儲かる」は本当か？ 資産2.7億円を築いた投資家と半導体商社経営者が分析 生成AIブームの裏にある“実需”とバブルへの警戒（マネーポストWEB）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIの架空判例を授業資料から書籍に転用 『無責任の体系と沖縄戦』回収・絶版で著者の琉球大学教授が経緯説明 - Ledge.ai",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGcGZNRjFaSkdtc3Y4azM5NEZ5Q3M3Q1NYMFpnRVl3U0hXQ2taU3ZNcGN5TVh2TWtpVXJlWUtYRWJ5c1QzNGRJdUlSc2pyQXB1VHpBUUJnd09PWkQxN3ZuOUtMTGxTcDUtZW9MTzd3?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 06:14:46 GMT",
-      "snippet": "生成AIの架空判例を授業資料から書籍に転用 『無責任の体系と沖縄戦』回収・絶版で著者の琉球大学教授が経緯説明  Ledge.ai",
       "topic": "other"
     },
     {
@@ -398,15 +893,6 @@
       "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIが選ぶ「弁護士事務所」、1位はベリーベスト法律事務所（言及率44.4%）【2026年9月調査】 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96bUh5VlhoTEFUbjJ3NnFyZkFDWUZZQzVkMS0wZDhYaGE4QUlNYUd5M3FvZ2tEaUdDbXc0MHdYTFRSN0hNVlJDMTNvTlJ2ZmZJdGk1SkxxRWR3ZjZqMm9tUjA3SGlpRHFyTnc?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 03:00:02 GMT",
-      "snippet": "生成AIが選ぶ「弁護士事務所」、1位はベリーベスト法律事務所（言及率44.4%）【2026年9月調査】  PR TIMES",
-      "topic": "other"
-    },
-    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "OpenAIの研究用AI、他人のイーサリアムを無断使用（NADA NEWS） - Yahoo!ニュース",
@@ -423,15 +909,6 @@
       "pubDate": "Sat, 17 Oct 2026 02:55:25 GMT",
       "snippet": "Anthropic共同創業者、AIによる後継AIの開発が可能になる時期を2027年と予測 東大講演で「50％以上」  Ledge.ai",
       "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "プレスリリース：医療機関の機密情報を守りながら生成AIを活用する。Incerto、医療機関のセキュリティ強化とAI導入を一体で進める「院内ローカルAI基盤」を提供開始（PR TIMES） - 毎日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jdmNnbmZPMEswSUg3bWpwOG9jcTJ5WnBXVkM1Z2hkdERuRWFVUmNzdEswTzFLSEhJU05xUkFlMF9UczkyVkJKSDRjZ2wxcUozcS1NNVoxZnBwZnUtSVE5SHFFRW5aRE1R?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 02:52:45 GMT",
-      "snippet": "プレスリリース：医療機関の機密情報を守りながら生成AIを活用する。Incerto、医療機関のセキュリティ強化とAI導入を一体で進める「院内ローカルAI基盤」を提供開始（PR TIMES）  毎日新聞",
-      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -470,15 +947,6 @@
       "topic": "claude"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "「AIに、毎回いちから説明しなくていい。」いつものChatGPT・Claudeを、仕事の経緯を覚えている秘書にする「XiNAPSE-Agent」β版の提供を開始 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jVFA0aE52N0hmQzlRNm9JNmJJdW1IdG9VVlQ0SnhpS1Uzdk5YYnhYMUVzeHEzNVlQZmpJV0xBUjg4RURDWUhvMmU0ZTBpTGhqMFZzTWFhNlQxVElseEZQRkd4WDV4eTFyaUE?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 00:30:01 GMT",
-      "snippet": "「AIに、毎回いちから説明しなくていい。」いつものChatGPT・Claudeを、仕事の経緯を覚えている秘書にする「XiNAPSE-Agent」β版の提供を開始  PR TIMES",
-      "topic": "claude"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "再現ドラマにも生成AIを使用、俳優の仕事はどうなる？ テレビ番組のAI化はどこまで進むのか #エキスパートトピ - Yahoo!ニュース",
@@ -495,33 +963,6 @@
       "pubDate": "Fri, 16 Oct 2026 23:11:03 GMT",
       "snippet": "ReplitのCEO、Masad氏がAnthropicとの協業終了を明言  Unite.AI",
       "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "「聞きましょ課」誕生 寝屋川市が生成AIで電話相談を24時間対応へ 人手不足解消狙う - 産経ニュース",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiTXJCUHV6emR0NW5KcTBKOGxvandnbVlXQXZDTm9OY2hEVUtrcjFKNjczSHoxekhXTE9rREdiUnFhRExLWHBzN3RVUnpVRjdmM0lrSmxCclJkVzFTaktFRVBCY21ZNlpUZFk4NmJOdk04Nmt1WEE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 23:00:00 GMT",
-      "snippet": "「聞きましょ課」誕生 寝屋川市が生成AIで電話相談を24時間対応へ 人手不足解消狙う  産経ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "快手、動画生成AI「Kling 4.0」を正式リリース 30秒生成と15点参照、APIも近く提供 - ビジネス+IT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1azlNTGhuOUZUazctSjBVQ3AwOFFHak9tQ1d6TVVmc0s3bmxfOEhUZlR0VlBwN29mU0pVMkFLek5vM3MtSkM5eGN3OFNYbXg0SGZR?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 21:52:00 GMT",
-      "snippet": "快手、動画生成AI「Kling 4.0」を正式リリース 30秒生成と15点参照、APIも近く提供  ビジネス+IT",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "五泉市が新潟日報生成ＡＩサービス導入 県内自治体２例目、議事録作成の時間短縮などに期待の声 - 新潟日報",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5Sm5TcGpjWnR0SjEtdkNqOFc3cWlRaTFyMDFpVDVWazZRRDFNaWFFb1F3RmdoQXVKSXpXbGpJTVhZdHpqbG5kbEN2bGt3VXRCeDUtWGgtdjZHVVdBVHc?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 21:00:00 GMT",
-      "snippet": "五泉市が新潟日報生成ＡＩサービス導入 県内自治体２例目、議事録作成の時間短縮などに期待の声  新潟日報",
-      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -551,15 +992,6 @@
       "topic": "gpt"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 画像生成 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQc1JfY1d5Q3dZeVZwcHJYb3RaeXF5UUhUMzM2V0ZhS1JCZ2tiSnNpWTRzUGFWQmt1STJnWTZLYkVTcHQ2S0hMUld6djVoSnQ5LVN5NmlmWHRmS1pVbU01SUltblQ0M25ValVtMmtSY19FeDVZaHR2MWJFWE1NVUdLLWtSZ0dmdkR6dU9rM29EeEp0STlVZThVY0cwZEJFZTU1VHBUT2RiMzJkeGFEaTRDWExLQ2lCZlA2eW9FclQ3R1RySDZjZktVNkttN3hzUGxqdEZnTkpKN281YzFNNmhGdV9OWmVYclljSUxxN1pGb29EY2dETnhTUHUzVDlMSTFtMFhhZkxqMU41b1FtRHdqRHZNT1FTYm83YWNycXZVY01VTzhyVzA2TXZGRXdaTnl0STdKelphSVdLMEE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:57:40 GMT",
-      "snippet": "AI彼女 画像生成 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "AnthropicのClaude、25年来の暗号技術の謎を30分で解明 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
@@ -571,98 +1003,8 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "AI彼女 無料 アプリ ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQN0x1NUVibllSWVN5S2JxSDdLSWZCMWhDQjgwYUZQUWh2bk95ZGNNYXJ2dUhYdUtOYzRBM1VMUHM1SWtSeTNhUGJtUVY5QWRiY3ltYWVwOEhhQS1mbUtLbkl5MV9xWmR0RnItczkyUi1Ma0dYZmJpb3hiZ1A0TGNUeWZyTkE3S2NLYXIxVjJMRGl6ZlVOTWx4cURCWE5PRnl4c3dnWF9QWGRDREhDbl9qZ2FnN3oyUDI1dC0zYTAyQThweDl3eXJhN25zMVE1YzEzUkJUX3g2R25RbFBfdF9JUS15WmtrczJTdmpRbDMtdndMRGpHRk9vQjJhSjE5UVp0NVFqc2dtWkRNSk1lT3lrb0ljLTB0bEpzZmZhQ1pxSjUxREFXbGViUkNJSGZkcDBD?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:35:05 GMT",
-      "snippet": "AI彼女 無料 アプリ ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 トークン 料金 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNU3YwQXpVMWRielVIaHZMVmgtLVRESEZjNkduei1VVzg0SkRsT0JmaDl0Vms3NEt0T25DQ1NSVDZyTkdWUVZoWXdKTmRJdG9CY1dacDU3a0JEV3pJc1B5Z0xUYUZRZ0ZYZlN1RlI2ckhLZHpJZGpjRW1kN1B4UWdyc1hVS0kwaGJLSmhwUllxUGFUNm1sT0hhU0YxeEZ0RXNzQnlGVlNlelpqbUJnZXd5Rk03TktUa1NYWEdZSGdDMFlYM0VEYTZlVUVnTktOelFRQWI0VEVIR3ZaSjJCejhzWmNJVVk5NjlvSlRnUmg1TXJEU3liT0xkUUlwU2lpbzhibDRBQURWdjNHQ0c2S0RCTVh4ekhIZldvekUwNGxoTjVIcWtrc1pTVHJsRExpc3pFMS1N?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:35:03 GMT",
-      "snippet": "AI彼女 トークン 料金 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 人気 アプリ ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOd0M3OUlxb0dmN2E0bnN1d1hrSHd4UlJSeGdyT2FSRHZ5N2ZtaDZkUWdFa0lweEl4ZXJrSjlXNnJaS3ZnQlZtT1UzVGpzWlhXRG9mZlR6ZWFHUXdNN2x3eW5iUUFrc2VCYU9xN2JpdG4wU282Vl91RDYwcG5tVmQ3eXdMeDdkQW9PemZjN3dXVDA4RGZSRG9pczRTamNkd1NEWEJPMnk1WVd0b3pmMzE2ZWROUXZEQ3hQYmVIR0ZOVzc4ZlNDOF81N0l3dldoUWNxbFk5cEVIZTMyZzNjM2ZoWjg4ajcwRktHaVZEeEpKcVZSYVBsMVpZQUlPUktqYmdXZ1RHSDdLaTdEM3N1UHN5dDZVYU1uZHVHalBWU00zWmc3aWNtaVVlWUVvNTRUNjA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:58 GMT",
-      "snippet": "AI彼女 人気 アプリ ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 画像生成 おすすめ ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQTlZfSm5JOHo1eWNSUmZnMWtSd2dBcmNYcTQxalZIdlEzdEcyekpVS3pOT1hNRm5sNEE5QUxtVlI1OFZwWFh0OTJVeWN5cWkzYU1tWXFqdnVaX0VfRkRuNGJEelFNa2Y5bzhMdXdXY21PWlRNcS1EQWlMUGhkR1NYT2tiQkE1RWVCUl9VTXNwSkZOLUZhdXpsc1JfM25lZ3ZUZmVjNjZlZU5JTUlSMXFUdkR3UVJaSHhqd2E4TFRjUnllUUNDN29jazlrYm1xclQ4VEFaNnBQZHpwdkl5aDlkZnV3SjZoODI5Wld0dnUwclNTTUdWUGd5Y0hnRWl4S0R3SGlGUHpwMk5iM1FqMmVZZXpubjdXcEtDeDBMMVlsVEJhcE9jMHhyamN5N3h5S2ZERk1JUnRET1d2SHFUTWczenY2enJJdw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:46 GMT",
-      "snippet": "AI彼女 画像生成 おすすめ ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 登録 方法 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQWWhkaDBlRDgzc2NqWXNKVHd5WWg5SmgtN0poMC1BcW1vOGYtLWxuaVVmU1ZSVElJODVTTE1paGFFTjVhcHc5MkFEcnYyb2ZQVmhZcncxMWp1SUd1ZEkzSmNHWXJZaXcxZGw5QUVETjFSQ3MyR0JtWFZMczJjTXVVOENtcl9sTGE3VWViUGNpQ2pQaGVyRkdLVXl1ZkNMdG95aHk5d05EUEV6TFVkRzJBbWp5bUg3Z1JPNnZCcUtjX3JMbnRrdW41R3Iyc2lsVXl3NThLcjRvNDBRY2J4QjRXclQtZURXRTBxUnJaWHhCN0g1enZFMGwzZzZaYWl6cC04VzB4N2dGWXRXbm5pVDBoeGVfcUp4RlNmbnhXdnRtZWJMRVBPQlI5aDZqRFIxSlM5amtXUw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:43 GMT",
-      "snippet": "AI彼女 登録 方法 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 アプリ 始め方 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQd2lpUU00UGJKOWduY1luTXQyNzI5VW1yeDZjaWlWSHVZcjZ1c2xsMTlRejdwdC1QMFdsR0h6S24zS0RISm5KTGJiVG9RUEUzSTFfazUxU1FGRVpsNTlVd0VxOXBuZksxTWo3N0QyenduMFVSOWVYNVZJOWp3RUE1QU1qNVM3WTR2NG93ZENnaFFHRFoxQW5zWDJJMjBzV0N3RVVGcUFrcjM3RmlOYy1qTURiY3NuLW9vX2FUeVhybjBhR1RkR25ZZnJuXzIyZEVPRkRjQjVnelAtbzllcmNTb2FRZ2xIdkpiZXdtNG1jazM4OHNlalBBU1VKeHRlU0dBUHkxN2doZkd4QU5lMUVreXBqQldWTlhVZ0hrMFRkdjNBTW1uSm5aVzk3WFN0em1WWTJseA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:41 GMT",
-      "snippet": "AI彼女 アプリ 始め方 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 アプリ 値段 比較 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPMVNvbkRhcnNjak9OamhfTVB2Vkd3ckZhSTJ0UDZfbGlVY2EzQ3h6WWJlQkVCekd4MW9wME9EWTRQWFpPTFhfdWZ6SGQtMnNYd3YtazRFZE1jN2UtbE9jSW9Cc3hBNkxfVTdSZDBEbVhCd2VzNENERFl6X3hSREhhSkdueWYwZFd1cWhEMGloS24tNUtkby14d19JUWl5TlE0NDBycnFFQnItNV9PVXpaNlEtU1p6MTFYdzNVM2xOU1ZMMWtfbEJrR3pnVm1oWkU3Rm5EOVlWWGsxclZVeWZNY01JbDlJX1MtYm5pMTRKZ3E3eDFQSXRlbURaUnNiMUk2TnFoMGNnVUFKMTdKcC1sQUlQemFaRkZDN1E4eVhMYmlJOVJQRzJxUERYQW1rSDVQSG83RXVyU0ZEOEw0R3c?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:41 GMT",
-      "snippet": "AI彼女 アプリ 値段 比較 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 アプリ 迷ったら ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNMHJINjdnRFBXRmV2UUZ2YWxyN1lrbUZiZnFIcEpfZTZUZmk3UHREYkZkUkxkUGFZa29ucndiUVNhQWt0N3dKbjF0alkzLWhBWWhuNzVkUmV1ZGhHTVNzNjZmWndsNTlhY1BzdlptaGIyc3pSZ1dxVFFMQ19xeUg1czZzYmtOTTIxb011cnREY05ZOHpRVEVIYjFjUmRIQi1sRGJaMW8wejFhUmRxMFFZOVM0cERNdnBsZFVPVzVEOVpKdXFvYVJ2cTd5WjRqV1ZYZVVLTnNXcl9YVXlndWtGdTlqbVphZThka0p6bFJ2V0VuSjFMNVg2Slk3QV96dU4yNEYyd18wdGVobGZSblIwREZfRlZzTU11QTh5VW82QTZzR0VFQjE3dEEzODh6TWV6Sm9r?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:40 GMT",
-      "snippet": "AI彼女 アプリ 迷ったら ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 アプリ 比較 表 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPLXd3NklNUVBnbVNXVkRmN1kzek8xcUVoSkVIRlFLRGtPM3VzTFRaX3V1TGQxYXFfSnhxOEtfakFlMkVyaEVIYlFJMm9uMmtQQ0lJLUV1NDJxdl9hNHFVQTlxVjZfRFhvXzNGdnNMVHFtT3pHUTRKZWRRVDk3d050Q1FRakk2bS1OUnBxRUxseWIyVkZQSWhKdHF2bmNDalV1MUI2dGhheWRoR0ZtN1E4TUtqUGNVLW42Q1FMT2gyY2tPS1BRU3Ryajc4T01IM0QwVHZYMlBLdHp2a3ZDZml1dXdWZlltVHMtODJLRmIxeEliS25JMVdwMWV6YTFuZzBrZ0did2VZcUp6MHZlWjBuNXJyVTVRSDVfc1BoWmw2QV80b1ZHd19LTmJkelhMd0NaY2o4djNXU1E?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:39 GMT",
-      "snippet": "AI彼女 アプリ 比較 表 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 アプリ 安全 か ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQZllDZV9JLUt4YkpWMEhWd1ZBb0tHWHBEd3Nsb2JJN1lLcTNvQ3d0cjVoVlp0azBZc0hmUmI5Q3NKazltaXFkbnhTa1RXaG1VRUFfRnNTVmFBTmNQdTVXcWc4SnNXcklRdWlPQ2Q5UElRaDg0OHM4TTVJUlFnVDlMWUFGbldSSmpYRlkwV1YzRDQzajVHNU1rZlVTTE15THNyNlI4OEJrS3dNcGFBMzBOVDRoeUQ5M1BERmtDRkFzVUNoUV9HcVNvVHp2aWhBQUMtNS1ZSFM1OC0xRkZ5dE9TR3dPT0tfYVlYV2poZWttYTMzVTdKR083VWdKYVh5YVdQV1NmN0xJeHB5VW5UMzR2V013NV9idlNEM1c1MnM4ZFJJMnlKbUlaN0Z5STlpdkx1ejlWNA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:39 GMT",
-      "snippet": "AI彼女 アプリ 安全 か ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
       "title": "AIアニメ生成 - 無料でAIがアニメーションを生成 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNdnpaRE11RlU1NjktbG4xQTFfZ0VCdVNGZnp4ejZYUUdUMmtGXzhUOHJvZkh2YVlhOHhFNEx3ZWl5RUJ1TkhxeklXc0FZblJnMmtQMHZyUS1mOVhuX2FoMjNpNFFqMlNzcXFzTmlYVUhCb0t0U2llTlJKLXhqbFhWZlJWNzdrUlc3SXJzUUI2Wk5yYlNrUTJxdWpxZjd4RUNhNks1a25jYXZQVXQ4S1pLMTM3N1F5RkV5c2I2SVhVYW0zUFpJaXZMYUEyNm53UW9OSlgwYnlkSi1ZN1UxdVpEbVZsbUR2dXNHOENLUXJWQnJZcE9aQU1ZN2hxaE5FR2F0eHBqSGV3SWVkeU95b1RIc1hBdTJQNHNKSTZYQXZVOVptWWQ2amtVYUR6Rm1jT1NfVVZ2Nk9TVGs4LVdJREVyZi1IT2NUR1lSdXFiZExWV1poYU4xSHoxMktOb3RaSUJqNXhCbQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNMHhKeTRxWWg0eUJFYUtVdFRqdmI3MWJRRm5wcjZhR0NMZEpUblZEZXR4Qnk5eGpXTFptejFwTXliQUZZc1ZjZTFQeGw4cWdidFRQWnpabTZHV0MwalR0aEJfRjNRQUVjcGliZHROX1d3NWdkeEl2OWZKWV9zVzUtcnB5dGh0dDFrLWNLNjVqMENZLUxSSi1INUlia2FOY1hsN2RtQy0wdXQwYTNuWl9lMUVIRC10UFZZUzZPRERILTl3VlU2REczNldqTnd5SzhjaVFGUFk3SnlmZFg4U0VfbXc3aW1sNmdJTER6cm14UGtRU2RTTTlBZVdCSFdQdkpISmRKd0xNZlFyLS1NUFJIMGtpMnEteEo5eEZaZi1ESWVTdG9HbmlxWlVfa1hyMWZZaWxEZW9JX1JDZng2ODRWS3AtT1lUTHZHQlJBZTBkTExLcWZyeVVRZHNrS0dHOGtlVDN5cg?oc=5",
       "pubDate": "Fri, 16 Oct 2026 18:34:38 GMT",
       "snippet": "AIアニメ生成 - 無料でAIがアニメーションを生成 ai  Universidad de Córdoba (UCO)",
       "topic": "other"
@@ -670,145 +1012,19 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "AIビデオ生成に強いAIポルノ動画サイト比較 {vgL9gO7} ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPQzgyQVNPR2dsX2lpY0dxcDFfeDc2RUtUeFNhV09JMzFweDN3REJUbXd5V1VSeWdUeW5Tem1qMDdsQmJhcWxhNWg5dmhiVFZCSy1hV2NSVzIzSFpKdEIzWDA0UWJjcHhMeEZkUnVRUmlNVjZCaDJodWpfbEE1Y0pNRVIySVVWRlowb1RDMmx1QjFPb2k5N3lCam90N1R1NHl5T0FCeXExQUYycl9iWm9zVTkwNnNSUzRmc1NUNTRNQnExOGZOZ2RpdnV3OUhTeHhUMkxhTUlsSk41OGwwcWhPaktCbUp5TmROWXdzMV8tWDNSUmpTb1Npa21Ia0tYZmJnaUkzT2ZBNkpEYXh4RnkxWEE1REtGSEY5Z0Q5SW5FbWdfcXBtbmx4ZF9WamgtMGd0LUJLNm8wVURiQUFMUVFpLTFSMlJ6V3JrVnZoMkRqM2pjOE5TWVREUDlYZzJlZE1WWkRiazVxMXZJZw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:38 GMT",
-      "snippet": "AIビデオ生成に強いAIポルノ動画サイト比較 {vgL9gO7} ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AIアバター 彼女 作成 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNa25oRHY3SnhhaldMMUtoQW5mWVlHNlN4RUx3bVZDTXZRSU1QNFB5UU5CZ2NGYXhkNjNwWmlmSlhnbUxLcUlScFBERnFXS1dTWU1jMlRzamp1aldiRERqSHZYeDk0ZTUzTVluUFNWbFJucGdoNGF0aGV2ZkR2bFhIVDhTbV84U1d4ODY4TW1icUc4aTJIY2wtTFZhdDBWZWRoWFFSbWhHSnpPeU5oU1hLM0J2SFkwSFNudFRqaHpLb3FpLWNXdXZ2NzZXRUljOUJWVy1NNGxzUUdfNWEyZjJRSFNJSW93Qmt5MGh3YWc5RkRpOUVTVlB0TXluRXozUUs5QnRUMG9YN0VWaFQ0YTVuN3ZnZ21NOU5WVFNXUjFCendQbEo4NEVnRWxGLTVEY1VuTUJESQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:37 GMT",
-      "snippet": "AIアバター 彼女 作成 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI 2026 ベスト無料ポルノ生成ツールとレビュー {p6nZrVs} ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQaUh5SjFaZk04X2tZbDNpMEtRc0x4bDZTZmQ5aHc3Q3QxVzk1T1p1TE82WDYyb0NnUkVQWnNMbjhzaExJU0FzV2R3eVZ5OVd2SlBkSE01Tmxuek5tS29qRUFYWU1SQ1A4MTBhZlRGT3FjNHFoNHVGMGpHTkFUb0QwczZfeWJBYzRMTGNneUcwemZ4RkNDZXhpcS1rWm1MMlo3WEwtMU5xYkpIeW5ldzVYVGtJcHphamk3b3BQSlQ5WTJVUmZ6ZUNXYXRnYzRWYzVGUkM1Y0F2dy03a3BMRjFla3dkXzY1U1o2ZnNEU19vTjVDYkhJSFVIM1FzS3hYeHBiVENXQnNPWjhZc3VCVFNGNnhZZlFGY3hxTjZ1Y3lkY1hTenl0amlHeVRmLUFuZFBmRnJEUmota3dMMXJLUXp3QTJYVTh1bDA4TW9oekJidi1pUzRJVjdyMV84T0p4eGlwZ3EyRU1n?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:36 GMT",
-      "snippet": "AI 2026 ベスト無料ポルノ生成ツールとレビュー {p6nZrVs} ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026注目のポルノフリー動画生成ツール比較一覧 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPVkpYRHVPVjdVLVpKY0VxWGpRVDQ4bzAyaEtyc0NfenhnMGl6ZHBvRVhWNnQ4eUd3c1B3X1pycFJ1WmEtcHFBR3VtbFV5VzNjSGNwUV81NkxCRkZPT1h6dXh3X0NTNDRWaTF1X3pKMGhfMWhRWGVCT1pQMHBXc2hvRlZRdjhDbEdPdUh2N0Q2WHpneXdPdURUMUpkVVBRaVZaRHdnbHI1MDNGTHBRWnhkdndESW5NSGdSTGhMRTBHeWRwT0lxZGhsWkUwNHMwXzEtZXNrRm1xZGlld25yM2xoS25hOEVIRkRHVnpZTl9kNjVyZHhEUzZILXVzbllGeS1EQUZEWUM5cEhjN2ttMlNESFRmajVlaU9MRkZkQkE4eXJ0WlBCMHpjbmtyNXpaRVhzSDYxLTBVakQwdjd0Vy1RSVFTV3FaQjM3U0RLWmx5ZXQ1MlZKaUE3cUpGU0dHRXZ1eUhoM0JkelZwdw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:36 GMT",
-      "snippet": "2026注目のポルノフリー動画生成ツール比較一覧 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "アダルトコンテンツ向けAI動画・画像ツールの評価 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQMHl4cmpJdWw0TFJRcndBeGNVd1czS3FobXMyaTQ3bHVlTy1fODJwdUdCaG9QXzMtcktRUGxZNk9rOFpRUXhEbzJYSWZFdG1iNDZ1WDZWTG5yUDlOV1A5aXQ2RTZoN1BObUFPcDBqdzd0Rzg3RUx3Y014SGVwN3JVbVBzTWlMYi1PUWhMek55NkJSWExPN21OYndLb19TZTlPR1p3VE13WXRKdmJWa0YyRWdkUUtfYW1PbktCaDZxZkluaVdCZVdfSUdRaUJxNWJkTDBRaGpMRzcwb2Z0ZFJTM3VUbkVydnMtdnFlclY3X2R3S0NzNV9FUGIzVTB6OXZKeXd1N1U3R21jOFpxVElIYWF1RDBTbm43UXluWG9iNl9BMFpFN0ZpTzZwdE1EdDdlNmtXbTJMZkZtaEVPRHR1TUFkVGd6a1EzY2NSZmk5aFpRNWVOZF9wX2xGOTJjTEU2YklPVQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:36 GMT",
-      "snippet": "アダルトコンテンツ向けAI動画・画像ツールの評価 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年向けNSFW AI画像ツール：エディター重視ソリューション ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxQWlN3SVc1SnJXeFB0aFc0d0hwVFJGM0lxNEhNQ190UWc0U05yRnphSjhzcm5fNWFqWnpIUzVtNk9JSHJiQmZmOUxYemxheHloazBuWkhrRGpoU2YtZFYzZm1DWGlUZFg5Ynhld3g5eG5IN1ZpV0JjTm5rNUNJSGQ2bnVFTnlrX3RaUkR1emE4MmhZeEhfMkFWbk5WSDhFV3pLVE1MMF9lQ2pqNWlMR3RYVkR5c2pILUoySEhmblVXNERqZ1BrLWhwR09fNkZLRWRpTFpfZENfZ244Y3ZCT0JDZUlaNGxNajVYTFlpV2Z1dmtzbklneWF0UkpxQktYc0ZDZVk2MzlMdXE5cGZmWDhpY3FENnFYb1NhcWxKOEJzUDNnLVhUenVrYkVDb0MxeWJBNE1BczNQUUxZakN5SzRPQjJ2eGpyU0NxQTVxdlg5NXFESUM0NnhOaWRJZjUyckR0XzRYclMybTcwTFJhaUJZ?oc=5",
+      "title": "【2026年】無料でAI画像生成ができるおすすめWebサイト ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOeE5lemtlS3hVVHRyRlNuY3VJRjVLaWo2N2tvdWZJcDR0YnRmbGtxODQ0SFVqeklpZU94aDFwdWxHaWVGVlBjNkFYdDRFQUcxaF9oNzdEVlFTdXF3ZGw2M09Kejl1VUNRaDlocEFReWpSX2RMT25oNGhWNDNKeFJzNkNYcHA1VGVYVDZCRFlzVlZqdkhtWGIxeW5ONzNBTXZuQlo5bW4ybjkzOXJienZMUzBIZHJmd1FYTDVYY29XTE9VTFFFbXNqZ1pOdUpCR3dFVjJMV284NzdleDNkS0lPVkY2YV9ZVHUwQkdwNUhfcmtTTVNZa2FDMUk1c190VDdYWGhUMWljTTZzZEcxMmtVa1RhNmlDZWNhdGNyNHJHT1ZXX3pOZi12Qy1KcTVrS2FxWV9LS2tZQzBaelc3ZE9mWjlkNWY3Y0RoY2JPU21HVmY5Q1FSR0JyQlJVMjNKcXJHLUFrWWtXRWRPVGM?oc=5",
       "pubDate": "Fri, 16 Oct 2026 18:34:34 GMT",
-      "snippet": "2026年向けNSFW AI画像ツール：エディター重視ソリューション ai  Universidad de Córdoba (UCO)",
+      "snippet": "【2026年】無料でAI画像生成ができるおすすめWebサイト ai  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "2026年NSFW AIアニメ生成器：プライバシー、ポリシーと安全 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOVDY5eW4ydHhrUWt4S1VPRVdEaDJ5YU5zcWh0ODJtbDFNeG5DZ0xMWXoybmVqM0ZrcFBuYllZQVdGbHJCX3BhaTdjN09QeF9QZGU4amlvR0N5RXplOEx6NUdveGJoUVRvRm53Ui1iMHNiMHNYSzU3QWlTZHhwTUhZOFM0TkNCekZoNjI0WW1zODJCbXJmVGREdlJOcVd0UWVWYzNCX2VSVUVxbFJvbVZ1MFhhdFFXRkpTU1RRWm95NzVoeXJwUXVpdE9VelctRnIwQnBObDZuSzRJQVg3QWliQXIzakRTMEJGQWxBbElxZlpMRzBZb25TUGpoS09DVExrS1dLTktnM05hc3RrakFpN0l6dVFOT3UzSXl2MFVTTzZCbUh6V1hIM0hMV0ExWXdQWDB6Yy1Fc3liVHBfTFJjcklhRnp4NHhTYXZtSHBiaV9VSGs3aGxNVndTOUtnX2pYbHVFZGFHSmxRQQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:33 GMT",
-      "snippet": "2026年NSFW AIアニメ生成器：プライバシー、ポリシーと安全 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年に試すべき最高のAI Porn Creatorツール ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxONWZFdmI5ZWV4cHZCZUx4cTRJdmdrS0pqZmgwblVabWE0ejdXZWpJRnluUFVqLTF5cnNSeXE4M0ZVRl9fY3NzdWJlc0M2NFBrT0NVdzlRVS1uMk53SnR0dkpHeU1meVE0Q1hwaW03MXBVR19fTTR6RjBQT1BSRmtRQXk3TEt4cXA0YXVhT2tNbDdNWHpOWHJRSTBTc1d2Ylpjb0dTLXV5LXdSOXhlRW5Ka3ZDalBTV0RveWp0blhzbEFxSVpmbnFQaVZ6YUpkWGN3MXhOWXR6b0NxaDdybVRxb2Y0dUVnOGdLUHl5RmI3dE8tZHd4T2pXcUJwbi1JcE5VLU81ZmJGVnpWdUEyalRXYlg4WWNEUmNKdU90dnVRXzRPOW13YVJ6NHJCRTZGTzQyYXlqNHZQY2lBVmt1VWtxTEViMXRvVDBVRE9tNnZZZ0lSVmlDUTkw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:30 GMT",
-      "snippet": "2026年に試すべき最高のAI Porn Creatorツール ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年に試せる最高のAIセックスプラットフォーム ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUk4wbHBvZmNMd3JDSzJkakNtYzNWZS04YjNCNl82N0VYZUpxN1VGa25UVEhzYUhJbV9hLTV0TERmSHpZRmJ6cEhCWGpJZUdQRkVtT3hGQTVwYlI2cXNRZmpjdGR0TUdhZWhuTGVmcll3WGVKRWRqNTQxTjhLeUU2UkRlSkI0bTlfaTZtOUVPNUo2NVV0Snh6UnlkTUx6c0htQUlWLW1Eemc1VHN1Y0JnMk91Mk1QRGR5dGtOOVFCYTUwbi1Fakc5Zk1ZWS1lYU9hNTViQ0FEcWROZjBoVUluc3JwdXdobks2TW9mVXlvSjEtTDlkWW1YbldGSVphVDhOTHd2MEY2clN2WllsRlk2SS1wSHFNMGRRRXJGRndVRFM2WnJoazJHWS1CVDN2WWFFcVZnaDJ6MEw1ZG1INGZJYnBya2swRHBMSFhUYXotODhSWjVUb3VHYWcwMA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:30 GMT",
-      "snippet": "2026年に試せる最高のAIセックスプラットフォーム ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年にAIでアジアンマッサージポルノを生成する方法 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPTDdrMV91dUNXdWcxY0RLN1ZPTU5KWWpRaWFTY1hMUDhkVHd3c1hiVVhpd2Q3R2ExcnRiQ050VXZRb3hMRkNHQzJHMy1fVHdsbjBTYnh0MFJ1LUg3ZGQ4a3dadHFXY0M3UU1MQm9ranAzTkEyM3BUd210THdTZTROSjJ3V3RoZnY2NzhrOGxiMG5CbEJ3dTR5MHdkUkdZYng1LW1xSEt6cEE1WmI5R1pHZnFaU09lS2R1SzUyY3VuZUFxQ2pSb3JQdUFuSkViQ2hiTzA0S1JfMDRNVjZqU1pxcXZrM0pKdGhmQjJnLWwtbm1IVVUwRW5td1FGSzBDdnpZNkx5TjBTVDZJS1hIVDZjZnZEX21RWHpoeWNRVm5jc1hrZkpyZU9RbjBsT0w5UF9BV245LTJpVmItR3hzSTRPTndZZEtHU1lGaTlBaTZVbnVUMlpVNGxlS2dBSUhMaXB2dzJPZg?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:29 GMT",
-      "snippet": "2026年にAIでアジアンマッサージポルノを生成する方法 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年にPorn画像・動画を作成するツール ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPekloRVA3Y3hZOVFObFVLMUQ2RFJIeFkyeVNZQ0JBcEtjVUtZbUgzLU9iUFZrSG5EcUlmcGZxWXlvZ2VNMm85SnF1TlJSUHhqMnZXdkNadjU1OXJ1Rm5mUXMtX1BiZ01DMmR6dVk0MkV2cDE3ZDJOWVh4R0dSSkV5LWkwQ0tsYmV3aE1HMWxSd0R0dkRWZFlCVkdrS2NwYTEyNmVxZmVKZTROclRxWFpXYV9ZS0hJMTBiTWItenBZcnE2TW9BTnRBRWxQcnFGY1RGb3JsMlUybUJMR2NjY2VjTlhhU1c5MTFCOFBNX1h6ZEhveC1kS1FBQm5rM1U0Z3hXR3pFQnpER1ZHNTdUZnFZeFUxTHRNNE9oOWswZnlSNnN3cXZqeE9EblJEZWNqclJjWVUtakhfNkgxdnY1RG9IWEZ6REprZXN5T00wY3RMSVVXQWg3c0gzM1dtSHI?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:29 GMT",
-      "snippet": "2026年にPorn画像・動画を作成するツール ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年におけるPornworks AIの10のベストな代替ツール ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQTl9LSFlNRzZOZEttalhLZzdBdnVkRkhQTGlhUlFzeEdVanFWb3VTRlRFbmFNQkwtVDRWcU00MmFNVFFxUlV0ME9VQ3hFTWdsaDVGck44bWU5Vy12X3JrVVB2UEZnT1RwZXZleEtDOFBxM1p5b0RyMFVyNWhvRVJnSkM1RDB3ZFhaSmp5VXp1dVZSajdQRmdVdEtJUE92VVROX05fWWFyVlJXaDBrQ01WZlpfSENIRzlpaEVlQXNJdG5IOFJxdDVtTG5JTUxDc05QZ0JpeTl5UGYyQXpJQ1dFaElGZkVQSmZzNFN0ODBCWl9Ldjg0dHl0d0UzTDRETEJKS3ExM2Q4Yzd0Q0NiOFdtRkdraDgtdUxwcmF6alM5Vy1Qa2I5Z0ZPWGFNYm5TXzI4UnBLdWxIRlU3SFNXbHFJYVBVLTd4T2NRSUliTTNYamR3NzlzY0xDOE1fUQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:29 GMT",
-      "snippet": "2026年におけるPornworks AIの10のベストな代替ツール ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年版 AIポルノ生成ツール・レビュー ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPdmZqUDNRbjUxTEE1b0RTZHRZZVdQY3JEYnlBNDdtLWxmSG1zVnpLemxqQTZ1WVZ4S2RLck56dkY1MFR1ZVNtQUZjYmJVUTAzbC1oMmRvUUJfZnF5MlNEa2VDc2V1cEJVZEFKWXdrNXl4eHRoQzlZbGlRR1BkQlZfT0JlTDByOVFhdm5qZllmbHZEOGRaRktoeUtNc3VWT3pSaXFoTEFndW9Qa19GRFNaUW1LeTBMUXdyeHc3ZHpaQmZIZlJDZm1YaTVBZXlGaXpvNHZFWllsM2dwUzlTaEtsS29uYnRkY1phVzVmZl9CWU12ZndTZ2M2dXUwZElKWlVINmltaWsweXF3RTJjUHBCRjNDcmpaRkRhOXpMRmM2d1hveEZuRzFYV1RJZGE2SWl4ckFZRzI0NVF3WWVNbTBMbllFbnM1RVltSWJ0Y29kZkY?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:28 GMT",
-      "snippet": "2026年版 AIポルノ生成ツール・レビュー ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年版AIポルノジェネレーターのおすすめランキング、レビュ ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQVnIyblNSSk1wQ1dkWF92cjlNeXZmX192eUFiVUY2QzhfQ0ZnaXBUZzk5U2pBN0M3LURVMlVmQ01pSnhKcVJfc09VQzFNTWNqMXFfeEprMzRFNW5CbWFNbDF2ZWRpVmZoTUhUb0Y4Ylp6VTgtaWpvUWdKRmJ6V3Q5dERsWXBUY3NuT0NiLUItSzM2Smc1RVdGZkxJZVJfYUlyT0w4bmtTaFBPV0NwSWNzWTBsZVNsZlZSMzZBZjN3UjFiazdXUnZpd2ZhcThJdkZ6alFoYjVHaE5iT3NiXzVOUVdyNC1KNm92TjVzOWFUMTJtVWxFcHdhVnBHNjVsUzkxSktZRUFBdkhkbWZRclozWjlHM2pTRDVTZUctTHVtbmJxb0hTbzJoNVBFSlY1YjVxdFV4UFJhU3RfcVlGRWlBVGFqRjk0eFVTZFpaMG1PdUFBcUVPRThIRE9mWUQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:28 GMT",
-      "snippet": "2026年版AIポルノジェネレーターのおすすめランキング、レビュ ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "2026年 AIセックスプラットフォーム比較：画像モデルと動画 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQTGxySUtTbEZoMENtNVh4dHFUUnBwaUJ4b1ZLSjVfOHh5b2lYeVRkY3JlbHN1S0ZLR0FQSUw0SWdkVmZVZjRaNHJuM1FzckZIS3RUQ1FWc20xWmx6Y25KcllEVXZpdjMwS1hRTDkzcy11dE5aSnV6UmdacjczLVdfaWI1TGZXdVc5WldqQ05qekNZbk9TYWVJb0NKVDRDTnY0V3FlQnFBRW9iMkdfRjRpLU42Zk12Q1RXczRKVWxxcUxtcFpxMTNYeVpKNGVoVlVfR29BSEN5MURYRFNKaFloRk9WZENCSENrRW02M0NkdmdMQ0RCb1JJcmZfR0g3empGUzNmOTdBMUxHSGJVU3V4THJQYkUyaDUtWWU0ZVVOenZHXzJPVTE1YkgwNHVnX3YzODdZU3ZKWmlJekVKekpmR256eE1TOEtmV2xlTkNhVjROcFJiY3JId09BNjNNSGI5THhITG03NUtxcEhJSm9hTQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:27 GMT",
-      "snippet": "2026年 AIセックスプラットフォーム比較：画像モデルと動画 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "18+ AI公式画像・動画ジェネレーター＆サイト無料アクセス ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNOTVXS1NvTW5sbjVzR29NOVl4OE1ZdjgxQXJ1azZKSlEtYm1qSlhfeFl1TFAtZGJ1SEZYQW1uVWtaSzdmYTRVdmQ1U0FocEN3Q29iTEJQdlRURkhmb3VuNnFWVXNTeC1jX2lVeVEyMzFmWWJ0NDhyTUlSUWkwODlxby13a2pQSzRDTUgwZHJidnlFMGV6MXIzb3RKVWNIWXlEQ1l0dDNRbHh6dE1MU2U2NlBtTkM4TWJHNjBkRnhjNFIweEJvOFFKaHZVam1hd01saGl3VC1iOG9FXzI4X3B3ZmJ0MlJremdFQVJLN1hlazZ5cE1uSU54d2pabmVhdkJKVzV5YjBRa2ZuQW1vYlVoQk40cGVHVEtnSzBsZTlzSGpxOFN6c2FaQkNmallGQUNPY29tRnp4aF9QYjB6R19XOTVCZGhOSHFLNjZqek1LSWZJMllWdmtPU3d0cnVzaWJXRl9uWlVGVQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:34:18 GMT",
-      "snippet": "18+ AI公式画像・動画ジェネレーター＆サイト無料アクセス ai  Universidad de Córdoba (UCO)",
+      "title": "2026年のAI生成アダルトコンテンツツールの選び方 ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQTEZtLVMyeVFEbmJPNjZfeXZjRWxIcGNpZ0pPWjJKcVFSTXpOaEN0SEp4S0NtTUlyNUFNS0ZtTEo1OEJ3RUhGakZka05oTGdRZlh0V2NCcHNBMDZTZlhZZ2wzbWlNRUVnSUp0WTd2WmJHckpQR3VWUEdkOEhDS1pSWTlYOHBJbExKYnlIanB3TFVkd2d0enNHUF84S01jMGNFaXhJbUM4WkYwS0RPVFNRamNBa3dHVGl5UF85OUJ3anFNMUZHUTJDUlBHM0RuZEZjeFZoN2FBUEdKdF8zTjNDQ3NuMnlDeGRZVXFjZEM2UC1GZW5HSjdjU3VRVUVVd3RLVGpFYTlxcGEwQ1hHZzFVY1FoNmJGM3h5eHgtQWF0cjhhNklINTlIdnhRZFFZSHAwVFZoanVZenUwQVhFUGNwNHJyZC1tSUVBN3hXd1dfcHItZ255VUNyT1pTQUkyZ09YMHU0?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 18:34:31 GMT",
+      "snippet": "2026年のAI生成アダルトコンテンツツールの選び方 ai  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
@@ -830,15 +1046,6 @@
       "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "画像生成AIおすすめ比較【2026年】 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOY0FBSHFxdENIbzFPUHFZWXhvdUJwYzJZRjI5ZmlUUGxhLXIzcnRHclBienN2Wjl0VGhhYTRUX3d4QWttV2xSUXlGV2hkLUd6Wnk5dEtIV0k2TTNhZ1F4dW1pbG5GNmZyRHdnVmRtUG5OVnRrLTQ2bEZrN0xTYVFkc3Ayb3N4Um1xRW4wNms3bDNuSXVNRzNaWDk0dnlEbW5mMHJPNTZXdmJsa0J4NVR1V0tRc3A4WmF0akVQUU9LMlp3NTVGSmxGanpUTEh0OG1WblAxZTJDU1RkTUd4Wjh5RVh6cFFWN3A1WWVkQXlLYjdiaWNNN0pIbUJLX0o0cWZVcnZLOVZOUVQ2WHY1cG9QTXZFd1I3MEo1aVppSXhOd29MclpyUm1jNzNfTnZKOUVkd05zYlJrWklGWFN1MWJZd19fdDdPcFhyc080WnhIX01kcmM?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 16:58:56 GMT",
-      "snippet": "画像生成AIおすすめ比較【2026年】 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google、米国でUniversal Cartを提供開始、日本は未定 - Pasquale Pillitteri",
@@ -850,28 +1057,19 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "初心者向けAI NSFW 2026 無料画像と動画の簡単作成法 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxQTE1EUmpoLXhGd2xBWnJETElRdUt1UDl6RXhPT3dJR056V2xKcHJhM3REUWxNZ0tSTTRCZFJKQlhMQk5aZndMV3ZkMVdTQ1N0QzZqUXU0V0ctWENDOHh6NE1MYmo0N2JaNDdxdHZBQk1DNnZLYWtrdWNRamNGbzdYWlZULVFtaDdSYjByaDBSVmtMT3plbkZGWXBqc2NzQWlJdUJiQnliLVZreE9pSnp2bS0wTEJCLThqeWdTUHFJeVk0cjdQY1FJdW5zcGRpTWpiWGhkZU5vRHhWNER6aDVsc0pwb19RcG01aFNJb2JFdDZhM3dSLVM3ck1KM2xqNHNsb010YjB6TGY2TUdSRms5cTluM2NxczFVNFJFUEFTYlJkenVoaW5MRTJqb0dxcHVVUGFIb3V5cHA1M1NYYVRjcFc0bDhmQnIwVEFfVjlMQmk2YXhQRnRjekx3VHZWZjRIV2xVZmJ0LWN2U1FFMWJCRndHTXlBXzF5QnM2MjJLSkk2TUdU?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 16:35:37 GMT",
-      "snippet": "初心者向けAI NSFW 2026 無料画像と動画の簡単作成法 ai  Universidad de Córdoba (UCO)",
+      "title": "エロ AI アニメーション 無料生成ツール ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQRGRoZ2Noc0h0WllKRGlQNGlQUFcyc1hCNDFMTHNXTlI4UlRLZlB6dXFOaWRoM1hiLVhYeGQ4eWxKU0hScmIzTkRkTDBYclBRSFRDLW1aU3JBTGQ1X2YxZFhHXzI1SE9iLU8xeDJLQl9vQlBYd2lLZ25MbjFlLUprY3d1bjNNUE5RT0wyMENMNUhtTlZJUmxGT0JsQnNqMFd4OUUtejBhNGtFcVBVRXNxRHpjV3hKeGpOM1U5cWdsSWdOcDJ0ckhqdGNqTmc3VVhzTU5BcF84Sl9hV1QwRmNRQVd6ZWZlbUJPN0NnWlNGUnNGMWxrT2l6cXRaaUNqVTlxbHhzLXBnZUY5bUx3c09Nc003bUJHVkpFQmozc2pmOEtLcVRNRUVobnEzdzlHV3ktMWlMYzRHMmtaNzFyYTBTNGFYUzF4LTBrdHFSMjk0SQ?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 16:35:42 GMT",
+      "snippet": "エロ AI アニメーション 無料生成ツール ai  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "AIポルノ・ジェネレーター - AIが生成したポルノ動画＆画像 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOMGp1RW82cm95MHQya1A3aFVDYmdxWkZZczNETU1ldjUxVEFUN3ljX0FVU0RhNEZfdVpVQUJ5QnNadDlSMkdOcnY0cjNmNEU0cVg5RllVWTBHRXI5ZzZwYzRfdGNtdkg0WVRqdnNiUFhuZ2lwZENGaXd4YXV4ZTBpZExLSGRGc2o5djVBdWpuVDhnbG5qOGpvS01BaU5fYjVZNDc5cFNGVHA2ZWhBSHFNcE9RX3BxSDlsSHYtZUY1TVVXUmRpeHp0bGJYUWFqenh2MFJfclh1S3lkZ0x4Q0RPWUxySktjNEtBSnNsYlBlVDNUZEpzMkJ4cUh1SksyMGRscVNhMVViajUtTURuSmt1eG50UzFYek4weVllRjhTYk82bVozX0hxWEdTbUs2NlIzdE9IZDZxQlowcy13WUVsVlVmRU0yRFNKd2pFdzlVeDRpMzQxNXNDZ3pqSnZPX0dMVHVZYTlhbnZFb1pV?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 16:35:27 GMT",
-      "snippet": "AIポルノ・ジェネレーター - AIが生成したポルノ動画＆画像 ai  Universidad de Córdoba (UCO)",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI NSFW徹底解説：画像生成の実用ガイド ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPM2dqNU1ZVjJ0Z3RIQ1lucFhfcmZyNU91ZU5xb1hRb2hJTk5pakxmZ1lWcjdlRnNzSllVSzJQOExWeURqVF9jRG04RUEwcG5jUHhoenBYaU1vd2J4a3dvYUNITGtpSXRaWHJqT3FYSXE4eFhUYmtKZmdDUEdNbi12Ujlnc0RYRVk1amd4UmM3TEdtSVktWElIeUk5cXBkSkt5ejFCR09GUEFrRG52eThLdUo1dkF4ejg0cGpVeHFKYktKekdSWTJXa0RVclhEcW1vSTFkSVpwVHAtMnBDSVVrWHlTTkRlVXoydjY2WkV5ckFuaXctT2F6VlcyQnR6Mzl4dzI3VlJ3SjQ4eEphR0pRZmJPc1hkSTVxa25XdzE3aTlzSVhBemZ2N0lHQ0FYRnhWR3l5dXplZ0pQSkxObTZ6NzdDUzIwUktSYkluanFzVUI3M2VZMmNONGFWSFpaU082VzZJ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 16:35:08 GMT",
-      "snippet": "AI NSFW徹底解説：画像生成の実用ガイド ai  Universidad de Córdoba (UCO)",
+      "title": "AI Sexレビュー：無料トライアル、画像・動画生成 ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPZTNpbmxnVGFYS1pNUl9rT1hBWDViUnZTeTdwS2RscFYxUlQ3ZHpMeXk3SFJPYUs4bXpkd2lCamZFUUNmLXVEUVRURDZ3XzBJVzBUV0tZZDRNQm42RWlHUG52OEhzRzI4NFNPSVUyWllKMXhCcU1YTjRmWWVxUXVKUWRtQ3Y1RnVZV05ZWTZ6eHFDcUotMGw3U0ctSlpSRFJ6YlNaREU2WHN3OWtrTTJOVlI1ZzY3SUZmRkQ3Rl9laEhkN0NacHNxaFB2UzNya3Z6Y0JGV0RkZTFaOVlUeVFaUmFac2poQWdyWTV0N0c1VnNpcDQ1NXY1MEs5R20tbWk1ZVhGRlI1QXBmNk1BRk1EWXlxSlpVZmQ0RFAtVzduMDRXQndHZEtSX0dJV0tWTTBNVEswSW5VQV9OYl82SG9zWnRlZGZxU1JHTU9qV29OSnJsSENlQmRLaHBTbW1YMXRRa1RV?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 16:35:28 GMT",
+      "snippet": "AI Sexレビュー：無料トライアル、画像・動画生成 ai  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
@@ -886,19 +1084,55 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "ai 画像 生成 サイト 規制 なし ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNcHVMekNYTzV4aWNYMmV6WUtRRXdhb2JNaVhOTlZyVS1rU1o2WlNFcndreW13eGp4dkd0VXc1Z0ptaXpPa0lyYVFHMC1FVzRyRG1rNVJsSU5nTE5CWFNNcWRqTWxRTjAzTTE2Qmhuc0FsR3oyRGRYWFhkdy1iNVNQZVU0eG4wU1pjSTloNTRhM0lXbWJVTVpaMHY1eGZXOWlJLWlIMmprQmM0NTZYd2VzTWZmLTBGRUg1THdGdE1rSUhQRUtpMlNTMDFVb19HOGpfWnJ4YW5kbWJ5OHp2RkFtZFlYVm1zUU8yXzhHTlI1bzV5dUc5QlBnRmdHTm5UTGRwdFA0ZjM0TW1aUUM2RGFURXE3Slh1bmNrOTRQNDU2U0o0c29UYW02czZGRHdTSW9GLUlBb3laSWZ3U0xWUnllanVKMkVZU1ZrUVN2b2xhTnA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 15:53:16 GMT",
-      "snippet": "ai 画像 生成 サイト 規制 なし ai  Universidad de Córdoba (UCO)",
+      "title": "AIエロ動画生成｜無料でAIアダルト動画を生成 ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOQzI3UW9LSElycGdaYUxnejU5Vk1BQkxSODdNOGFNVVRTUkR6SjViRzB2ZGxxQmRJNGlCcllCOE5nUm14VUE2SE5jWk4xS3NZRHhGcnY2V1JTTzQ3Y1ViRGJsNFk3OGpjNTUzeXBhT1d5OHVBUUs0T0dlLUhEVVFYQ1FuSnduRFN2bmxZWHNSRE9hMHhiLVJXZ18tYUthYW50YW1lU3BkNWdJeEpBZmJCa1M5RElRVkFkR2swejdMM013SktXalRjVllhUWpiamZpS0lUMVlMR0JvOUtDbXJhMDFxVExUdEpHVEhDRElxbFM4SW5NUUNsQXNWV2dFanI2dXlYUEN4T3lsaHNEYjJGYlBmQ0RPdEhYQUtXd0pwdEpGM043a0RlLWxpZWtOdXFjdVF2cVpBRWQxNnQ4Nld6ekd6VVJ5VzdLdkt4YkViN3hCOU9VZ0xxb0kySnBsRjRvQklvOHZaQms5S0VD?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 15:54:48 GMT",
+      "snippet": "AIエロ動画生成｜無料でAIアダルト動画を生成 ai  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "AI彼女 オリジナル 作成 ai - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNMXRZRG9qaGlGTDFRQjdfN3EtM0Y0azNsdWZXQk94ckxENURrWEtmWS1icEYwcmQ2emZScF9kLXBCaGctd0wxRHJLN01DTnNWOC00Q09HTDJTZmd1eDhab19OYXRYS0dsTlhxUDR3TXlaVmQ3RmpxVzBoR2U4RE9BdjB0a3VfWTM5Nm1iZ3RyZW1sS0dmeVNiMDFKNjVlRGg4ajJYM2Rob2l3ZkkwZ3dvSHI5SUMwR21FdWlGMWlhNG1MSjZkUVVLT2syZDJSWkx1SXFvbGlEVlNmR3JkMjBUYk9vRGh0cXQwWVlwb3NGYkdmZjFPSFdUMkhEN2gtYmlGOW9mM2drWnlYcG1TbGgwY1VRWV9LcnkxcW1SZXZVWnZsOVVsckszTFhZM19oWDFvTWgzVzRQY2Y?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 15:52:59 GMT",
-      "snippet": "AI彼女 オリジナル 作成 ai  Universidad de Córdoba (UCO)",
+      "title": "AIイラスト・AI画像生成サイト｜無料で自動生成 ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNZTZURGVuSllyZjBWQTZrSTdsVWNQeTZ5Rk5XQzJrcFZjLThRZ1o1WWQ2b3FzTlotczdKWTJ1MFZBd2laenAyYXBYSTNLUU9uenJQT0kxTVJaUlRXZ2FtbHR1TVRPSFNmVGlqM1dubk9WZjhfRjlMNGZPQl83T2NaYWkxeEVIYm9PTXJHeXg3c3NoY1RZc1lpZWx6NWxoa0doR2FYUjZKSXJLdlFFdUpseEwwb3FKUy1sTVV4OEw5azZYbjAtekdXT19ZZm1rcnZLV3RyVzlETW5IUEoyVmQ4OXFGTm9PNl96ZEtxN2NHX182YjRkUklKMkxxczRjWi0wRlRIYW05X2FVc2F4ME9zOXpxTnV5aVF0QTBUbEZZa2xsdFBTblBBbTlyaDVBOXQ4NTY4N1BDRGhNYVd0T1AxVlIwSUFQS1ZXejE0NGxOS25NRFZtMWRHN1E0STFxeGFraW5xbC1yRXBlUENK?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 15:53:18 GMT",
+      "snippet": "AIイラスト・AI画像生成サイト｜無料で自動生成 ai  Universidad de Córdoba (UCO)",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AI画像生成ツール - 無料AI画像ジェネレーター（登録不要） ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPREZmVmhiMlZ1VWpLRF8zaXoyOHZmRFZ2RTdXLTZ1MmlrR2w4dkhwVVA0amY5WGNkSVFFNmFTYkpaRjFnMkpEbzBBbEdmV2tnYlpVOTZtMFY1M1l0NmRFMUVFVjl2dFlTNmNXLXhvSlEtOWxCU3JWWFdDTk9pYWZBSjRsRjVjWjFvUFNyaTBfODJxZGVKQnhMWEY2ZzhKZi16X25nal82WE1oaHM5MFQ5dTJwSGRyYURRWDY3UXBpSnE4ZEtBbzBBNTZHX0prUXZiTE1uS3hocHliRldtU3lxMFRuNXh2VW5mR3ZQWVRTTjRseWMwaDk4Y1l4QjJfMlBJcFF4RmltMnowMThsNjAzTnptS0hHZG1JNUVlcllncksxRzdSUlVPOC1aeUxnd2plUzVaOXhJRzZ2bW83a0tfLXFObGRVVGluSV9NRElnQjlDWFFEbnJrcklVVTBSeXBfX0tySklNTHZKSnV1czlSM0dTLThKQ1AtcjZ3?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 15:53:17 GMT",
+      "snippet": "AI画像生成ツール - 無料AI画像ジェネレーター（登録不要） ai  Universidad de Córdoba (UCO)",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI役員会議室に盗聴器、外国籍のエンジニア社員逮捕 AIに作りかた訊きテレビ裏に設置、トイレットペーパーで隠す - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QekliV3JCdlRvdmRVaWRKYXdqR1hYOUk5QzNCLUJGNXBmRU5IYW8tNVNhZmlTTi1pQURwX2w5bWQ0RUZsWWJxbEoxZ3hhS294cE52OXJ3WWw2aExBdUc1OEFndmV5aWpnanRmOXdyOUoxUkxMdzdTMjg3YXhNUms?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 14:31:00 GMT",
+      "snippet": "OpenAI役員会議室に盗聴器、外国籍のエンジニア社員逮捕 AIに作りかた訊きテレビ裏に設置、トイレットペーパーで隠す  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成 ai {EFV014s} - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQa0xYNTBBODZJb1F3c19DcnVRVWJHbmhVb1llSVRPb0lTNkVNMXdveUNlV1d6QkRuVW1SZ1RCNU9WSm43YTBka0RPMmE4ZjA3SllJZzh3djZrYnk3Y1NTV2ZCMmJvWi1rWllDQTNRdW13Y2xKYVYtZDNoX3hHQmJYd2Fud2FwRzVJcHgxUENEdVZKRlpsWWljTm8xYWpDNTdYaW80a3VfdlFDeHNfbVNndEU4NHhva2NXNldaY0tQTUVaY2dFdTBfeXptbnVxQlBLVXBTTlAtLXc5UVJRVU94bnZIOGtJbHBIUVdYVmNZUlpSWExiZ0pNWXlIaGlxaTVISDd5VE52VWxNVW1YMW1YeDllN1BYZzhIVHpGREgzZEhZZnVnZGc?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 13:38:41 GMT",
+      "snippet": "生成 ai {EFV014s}  Universidad de Córdoba (UCO)",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "画像 生成 ai {EFV014s} - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOS3pJWVdFY3pQc2Q1emJNQ1F2czd4MXFWUk5CNzNtVGlHUlV5eUtCRjUxYmxVeDUzc2lzM1hrVXNraFNVMFRtR3dxbG8xeEswclRDclRldEtGQ0NQMjVaOGVrVXc3MFdYZDI4d2t0X05hb296dWpscVlQaDBFUUFNeGw5a1g1QWRrYU9WMXp4eXpFRjl6YW0wRW9WbGo1S25VanVCM1JBVUJBYkFqNXZfamJFR1hYQmFNMGFzU1dtR2F5SXNkV1poYjJiZzZoN0JlcVEwOVV0bGN0UzlocFRlSEtoTFZHYWVGZUdvdldHdEhGdURXMWZNMWZOTnlIVHEwaWo1WXNxcEhTcFpoNzUzaHc1MDZnbVdJV0NYSWVra1hWUlhrWC04MjhwY3JnY1pDM09LbA?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 13:38:40 GMT",
+      "snippet": "画像 生成 ai {EFV014s}  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
@@ -922,20 +1156,20 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "【應援指導部】ChatGPTも慶應に軍配 明治の本拠地で仕掛けた前哨戦／慶明戦前合同デモンストレーション - 慶應スポーツ新聞会",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fUXVwa1ZLVkxpY0NsT3loVjFha01KSXN3all5dDh0bDg5ZmJQQ3AtUHZlMEJobUFDWnNWandiTVFyOFhqcmpUdDRyeHI?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 12:06:58 GMT",
-      "snippet": "【應援指導部】ChatGPTも慶應に軍配 明治の本拠地で仕掛けた前哨戦／慶明戦前合同デモンストレーション  慶應スポーツ新聞会",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
       "title": "米8州、OpenAIを一斉提訴：チャットGPTの子供への危害と安全対策の虚偽を主張（ビジネス＋IT） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WNjVVRF9JWEFkckF0X1hSSUYxSFdmWnZ5Uml1X1lxUmpZeVltR2R2RmFWQzRnUGd3cXVzYlJLTVpXZFZKdWVzNXBibS0zaWk2OGFINVdDcDkzNzBVaGdtSGpqTWlPX0Z5aGZXVmpRaGhOU1JqbWVRaTZaaWVjY28?oc=5",
       "pubDate": "Fri, 16 Oct 2026 11:10:06 GMT",
       "snippet": "米8州、OpenAIを一斉提訴：チャットGPTの子供への危害と安全対策の虚偽を主張（ビジネス＋IT）  Yahoo!ニュース",
       "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【社説】生成AI時代の声の権利 あふれる無断利用、断つ仕組みを - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1bGZnMlMzXzRjOWJReEw0R21ZSWxkd3BxWmhYLW01UWVVbVFFelVodm1YR3dzQ0VQbTg4S1FaN2ZESUI2Q1g5bC11VkljZEVpcXowcmV5Y29yd2tQTmlxX0JYV1ZKNjQ?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 10:01:00 GMT",
+      "snippet": "【社説】生成AI時代の声の権利 あふれる無断利用、断つ仕組みを  朝日新聞",
+      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -965,15 +1199,6 @@
       "topic": "gpt"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "高知県企業の生成AI活用増加 小規模企業はゼロから25.0%に - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVRzZWVUk2WkdQanVoMnRPSW5TRDB2czc2WnI5WFlMS21VZHJVVVZ2NWJGY1Fkczh6czlYeTRjSUZiZmxuVS1BbHhhZVRHVzl3R01YU0pnSkZJUnlUQWduQnlsNGZkXzdVUF9jUQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 08:10:00 GMT",
-      "snippet": "高知県企業の生成AI活用増加 小規模企業はゼロから25.0%に  日本経済新聞",
-      "topic": "other"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "吉利控股、グーグルとグローバル戦略提携 2027年に初の搭載車種投入へ - BigGo ファイナンス",
@@ -992,22 +1217,13 @@
       "topic": "gpt"
     },
     {
-      "source": "生成AI 総合",
+      "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "GUGA、「生成AIパスポート」の2027年シラバス改訂。AIエージェントやガバナンス等の内容を大幅拡充 - AIsmiley",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VWjhsWi1oQUVZT0NubmhWVk9uX09ZOFF0Z0JxdWVhX2JoUHFQRGE3Y1JDcEtSM3BTQkp5ZGZaaWZaa2VfZllMbkl0emQzZXJuSk9EMUx1b2Jab3BqN0psS2JyVVByc3lfbmM0R0VMRQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 07:29:08 GMT",
-      "snippet": "GUGA、「生成AIパスポート」の2027年シラバス改訂。AIエージェントやガバナンス等の内容を大幅拡充  AIsmiley",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "開いたChromeタブをChatGPTが読んで操作、拡張更新で変わる作業と許可の範囲 - XenoSpectrum",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RMWk0N2s0SV9HY054ZjQwUnJEZEQ2UVBDM3VUV1BDeXZKbnp0M1dfU0ZFbVc1ZUhnWG1DMnh2N0ZqWU50V1g1dDdvZ0tYUWUwZ1RwSHA2YzdlZnRza0FJRWhJVFJCY291?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 07:07:42 GMT",
-      "snippet": "開いたChromeタブをChatGPTが読んで操作、拡張更新で変わる作業と許可の範囲  XenoSpectrum",
-      "topic": "gpt"
+      "title": "【2026年最新】 Geminiの法人向け料金プラン 個人版との違いや APIの使い分け - 株式会社エクサウィザーズ",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRFhKQU9keHcwVXZWaDdtM3NGYjBtc09zR1F6ZnNBcnlQQ2lXWGo0WF92VFhSMVo1N3duWkw2bDhzc3h2WUhSVTF0UkpBaThlVGswa1l1X0NIYmpPV1M5NUc3WXpoRjR5RXlMMw?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "snippet": "【2026年最新】 Geminiの法人向け料金プラン 個人版との違いや APIの使い分け  株式会社エクサウィザーズ",
+      "topic": "gemini"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -1049,19 +1265,10 @@
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "グーグル新AI「Gemini 4 Argon」公開、11月末までの限定割引で定着を狙う - Forbes JAPAN",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaVkZWWHhRcTd2b0tmQTdITUJTeUtTclNXcWVnN2o4R05yQUlsU1pZTEhRdlMwUXFTYVVDeGVPSG85X0t6ZFZ0YUpXUzJBdm1ZdDdtMVZXaUh0QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CX3pEN2NnTDlEWEZscTljXy1WR05YT3NCdE1rMUtJTTdOSkp4dzJSNFlfZk5RYTRCc282MUlwb3dKQ2FzYzhPZnVlUHlXczVNcEx3M1lyaXlBWjZMbmxjZnpn?oc=5",
       "pubDate": "Fri, 16 Oct 2026 04:06:00 GMT",
       "snippet": "グーグル新AI「Gemini 4 Argon」公開、11月末までの限定割引で定着を狙う  Forbes JAPAN",
       "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "ディズニーが訴えた画像生成AI、キャラクターの無断生成を続ける（映画.com） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFVlh3NmhOdHNGS0J0anlfT3V0U2R1S0FaQzNLUlRhTlVvLV9LQ3hwdE0zM29ZLS1jRW5NRjlBUzRVR1RVdGJmOHpzQnZTeVJLWkkwczRQZ1MyQWlZMWNoT3FUd2Qza21HckZwNlFhLTFVYUV2ZFlFVmdTdHJoV1k?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 04:00:00 GMT",
-      "snippet": "ディズニーが訴えた画像生成AI、キャラクターの無断生成を続ける（映画.com）  Yahoo!ニュース",
-      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -1075,10 +1282,10 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "【無料ウェビナー】生成AIを自社プロダクトに組み込むリアルな裏側を公開【2026年10月28日（水）ランチタイム開催】 - アットプレス",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zREh4T0RLOVZUMkhPaWtHOXktRS1nYXRueHdvYjE3WVFrV1RaYlhkTW1oU18xQWI2dXdIUmlkbG1jaHpxZE1mVTBhMDJ0a0U?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 03:00:00 GMT",
-      "snippet": "【無料ウェビナー】生成AIを自社プロダクトに組み込むリアルな裏側を公開【2026年10月28日（水）ランチタイム開催】  アットプレス",
+      "title": "ディズニーが訴えた画像生成AI、キャラクターの無断生成を続ける（映画.com） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFVlh3NmhOdHNGS0J0anlfT3V0U2R1S0FaQzNLUlRhTlVvLV9LQ3hwdE0zM29ZLS1jRW5NRjlBUzRVR1RVdGJmOHpzQnZTeVJLWkkwczRQZ1MyQWlZMWNoT3FUd2Qza21HckZwNlFhLTFVYUV2ZFlFVmdTdHJoV1k?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 04:00:00 GMT",
+      "snippet": "ディズニーが訴えた画像生成AI、キャラクターの無断生成を続ける（映画.com）  Yahoo!ニュース",
       "topic": "other"
     },
     {
@@ -1116,15 +1323,6 @@
       "pubDate": "Fri, 16 Oct 2026 02:09:00 GMT",
       "snippet": "広告リサーチ・AIツール「アド.com」、ChatGPT広告のデータ提供を開始（株式会社アドドットコム）  Yahoo!ニュース",
       "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "慶應義塾大学と共同で量子コンピュータとAIを組み合わせ漫画・アニメーション画像を生成する実証を実施 - 凸版印刷",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pQ19Ia0dTbXNqR2E2MzBrZGswbHNDVEl2Vkh0eWswTGdISmNRczZzVmpObUVMSENZNm9KZnF1cHlHNGVYTXVSdGlxZXo1bVp1cFN3bUxhWlR3T0hfaFFBVENvS0RHUzBSdzc1Y3BURUkxa3dRRW5oVHI1WXo?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 02:02:56 GMT",
-      "snippet": "慶應義塾大学と共同で量子コンピュータとAIを組み合わせ漫画・アニメーション画像を生成する実証を実施  凸版印刷",
-      "topic": "other"
     },
     {
       "source": "Hugging Face",
@@ -1226,24 +1424,6 @@
       "topic": "other"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "DHU、Anthropicの生成AIモデル「Claude」を国内大学初となる全学導入へ - ICT教育ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BYVpFZDVZOUMyZzVhUjVQQlNKbko5eENxekkyQXRqa0VZYXo3Z0hrRzltdUlBeldKcFpOUXdaWFZ0RTZCY3h4MDdvSXF6amZm?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 23:21:10 GMT",
-      "snippet": "DHU、Anthropicの生成AIモデル「Claude」を国内大学初となる全学導入へ  ICT教育ニュース",
-      "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIを「使う」から「つくる」へ。「生成AI×教育セミナー上級編」11月13日（金）無料オンライン開催 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5M1dLOXlrNHlzZ1h6bW9xR0cyQTVyT3VIdzlxc2lCNjdyWUpmaDVxRTg3U0pYeGlLS3VjazZ1Qkw0dVdwcDVVNkR1cTkzM3loaURUeUllb0U1Y25HY0xQT052cEoxS3VMbHc?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 23:20:02 GMT",
-      "snippet": "生成AIを「使う」から「つくる」へ。「生成AI×教育セミナー上級編」11月13日（金）無料オンライン開催  PR TIMES",
-      "topic": "other"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Gemini 4 Argon登場から1カ月、月725円のAI PlusはProを失う――11月13日から - shiritomo",
@@ -1251,15 +1431,6 @@
       "pubDate": "Thu, 15 Oct 2026 22:37:55 GMT",
       "snippet": "Gemini 4 Argon登場から1カ月、月725円のAI PlusはProを失う――11月13日から  shiritomo",
       "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIエロ画像・エロ動画作成ツール10選｜初心者向けの無料 AI彼女 本当に 使える 2026 - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi7ARBVV95cUxQTHNBbG0tWjRJNjlEZWdlV2xrNnpvMF9tV1FjWlZ2WnRKVU5kVG1ROFZ0eUJzMm9lTzYza1AtTTlQX0dqVE02RVlqaW1VS3R0bU4teEdQNVBxNnpuU3hWRkNGazFJOFdibVdNR29JbE9FdFdLdWtJSi1WMTVfQmxaelowblNmcTJ3a3plVVMwdXNmQVR2ZTNRVzRiTDBKbFE1NXNrRzVyRnFfTVY0WUFYa0lsVXFqYzhuMENyZFZMZkJKNjJQV2ltaGZ2WW1UWURrbjQyZDF4cG40TFc4NTVBeXdaUlBzVHYyV1pWMUZHdXgtLVhTSEVmdlVRTDczTlNva20wRzdsQkZBWVFEcERXVjBDWW1uSjFOVHUzSzQ3U2pIaVNVMEdhdWJFLWc5OEJ5YzRmWGpHd1JKR3hWX3h1NFpWelJpaFI2WVZXN3UyQmx3ZWpiT2pOQkcwT1R2c3hBR0FJQ3pKamlrZHZXbl9VeWg3cExic3FJS2hYbXhUTnh6V0M1YWQ1RlJnaTBDQVdDTnV0b291NG1uSHlTMFllaXM5Ul9zMWlOcWVfQWNwVTljbUM0S2RhYlNJbXdIenduM2dET2dfYzBFWFdrTHVFd0p1TnBYbTUyb3hBRkNzX094ODd1Y1ZNXzZQMTM5OHBSNnRUR1dwX2J3Q09lYlVHdXBhTHlVMzQxUjg2M3pHcFlrT1F3eWxfV0RGU3AwSHlpdEhuYUJtWjl5ZDBZMUd6OHlKV2IxbGVUSER5RnIwdmlTdUhHdGFBbENuRl9XenBUaXpUaXVXR2NBLVBuU0N6MGZrc3F6cWVxRFUySw?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 22:33:12 GMT",
-      "snippet": "生成AIエロ画像・エロ動画作成ツール10選｜初心者向けの無料 AI彼女 本当に 使える 2026  Universidad de Córdoba (UCO)",
-      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1271,13 +1442,22 @@
       "topic": "gemini"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "米8州がOpenAIを提訴　ChatGPTの安全性で利用者・保護者を誤認させたと主張 - リアルサウンド",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10MmxFenA5OUp3VS1OUEc4Z19RQVFpQlhvQTdmTkdmMjB6UWY0SHpfdG5feVdOMU9TUzJTNVdreHpHNTBmQW9pbUJBdW5mVndyaGREZmk2VUwwWG5wS2lDONIBZkFVX3lxTE1HNmN1Vnhha0RxUTZwY0JCNTVOa21CaTZHSG5sWC1RWllEaHlUZTRYNXJoUTBTWnFzYWs4RUVfbnU3aldjYXFUcDAxVm9OMEkwYVVLVVBXTkg1NHZIRUZ1SXgxSTlaQQ?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 22:00:31 GMT",
-      "snippet": "米8州がOpenAIを提訴　ChatGPTの安全性で利用者・保護者を誤認させたと主張  リアルサウンド",
-      "topic": "gpt"
+      "title": "AIエロ動画生成｜無料でAIアダルト動画を生成 AI彼女 会員登録 2026 - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMimARBVV95cUxQa3JJLVQzeUNyQi1tbTJBT29aQXA0N1hRNTJTSTlWZ3dCSHB1S3kyQks3cm1PVEJWTkVobnpqMjhXbVQ1ODd6bTBiSzJCNks4dmtlNlhSS2Y4aFp3bnhFSFVPejVJUWo5V1BYbkwxcUVvVkt2NHFCVmgzU3p0bExtbFo2Q3VjZXRrbXQwNFBNSnZGbGJZdjRhM2kwbHJ3TUdVN0RSTGdNZEpFN05abDg4dGdKRHJ3N1dmcmc5THBzQm45bHN0SzVqdF9lYktkdTdXUFhWMFBIa18xa1NYeHhuSld6eU54T3I1dk5sdG1Fd3ZTaVdlel9sYjdhRTRZRUM3RmREMjk1cjVZbWEyXzBQN19FdzFjTWtWUFBNaGQxOEprZWs3Z2R5cjlqamljeFR5c3JhUkZzZkxSZEtwY0FxanpXb000Vm9qUDZlZVRZVnlhX0tSb2Jqb2pHeGsxX05mcS1WRDZLUmZQRmZmNDc5c0ttVG0yeWtGTVVXeFZEckVhYS1iMTc5VEZ6cjFfdFJDdE5nOFRaWVY4aFVhdmxqVjVmMFVLUEtNbHljcmt4ZUVtXzN1WmVOX2JVNkl1enBueERhNzEzdkp5WXZGcmI5TXROa0psUWVIeXdLMXY2MUR2NXhxOHVxeVUxLWl5bGNHWlA5MXM5R05oN3BTT0FJaE9UV1c2TUZQUzRtUVdLa2JhM0wxQVhCRw?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 22:29:20 GMT",
+      "snippet": "AIエロ動画生成｜無料でAIアダルト動画を生成 AI彼女 会員登録 2026  Universidad de Córdoba (UCO)",
+      "topic": "other"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Claude Code向けコードレビューが一般提供開始 - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHZHa3JseDdGNk5iVkt5eTZVNUt3MllrQnZ3YTd1MUphUlRNUUlFdFlCTTJCNnlXRlc1X0hjZURrZWstTGh2WkprVXRQWFpGN1dvd2pNbFlyQVBiYi1oYmxYQ1hRcFVVQnlJTUl5c2lJcGs4d3FIbThBZWVDSU9jNEI3WnBDdVRJWGFOQkRYakMzZw?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 22:17:48 GMT",
+      "snippet": "Claude Code向けコードレビューが一般提供開始  Unite.AI",
+      "topic": "claude"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1296,6 +1476,15 @@
       "pubDate": "Thu, 15 Oct 2026 21:32:14 GMT",
       "snippet": "大学などの研究室への GPT-Rosalind の提供  OpenAI",
       "topic": "gpt"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Google、韓国・聖水洞に「Geminiキャンパス」開設…Z世代のAI体験を攻略 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tMDZxZy1MU281U3BJWWdWYWozQXl4QnVJUmFfV2ptRVdjYnJ4cmNGdGVoRlptUVY3OFgta3F0ZjZ5NXhYWXBMWFhEdXdVMTVmeXhDQmU0WDFhN0xlWGZOOXRGWjlFY3dtNHlDZU1OYzRSRFUt?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 21:05:00 GMT",
+      "snippet": "Google、韓国・聖水洞に「Geminiキャンパス」開設…Z世代のAI体験を攻略  BigGo ファイナンス",
+      "topic": "gemini"
     },
     {
       "source": "MIT News (AI)",
@@ -1331,6 +1520,15 @@
       "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
       "pubDate": "Thu, 15 Oct 2026 16:50:00 -0400",
       "snippet": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve di",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AIポルノ生成 AIでヘンタイ（アニメ）アートを生成するオンラインサービス、キャラカスタムとプライバシー設定あり - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNZ3RWbXhMT2Y1WmNsNjNoVHQxd0JOUW0zNlNBbm9HMUdMT0l3V0d2T2RTQWtWVzJxWXRpVmMycDRoU3Vnd0lOWk1WUXZ4SWdfUlBQQ2c4SXI5RVA4OWFvMW1IbWVrREpLQ1d3VXNVRXlqeWR0X3lrVmRac1JBWWZwbUFYY3VFTUxKU2d2ODdMWXk2NWJZV1JXa0d5d0RseVlNaXB4b1pYcWRLaWdQc0VCNkk4MnMzOGNwNFVqUXQ5eEhPdmUtcmRIZTNLMTZtZHl2MzBXZHlsRTNkd0VUeFl5Q2duOVM5U0FqLVc2dlVGUFpMOURILUpsakpzcEhVaTBKN1F1ZW5VaXdydFVTQmVqUlp5RE16WTE2cEdMelBvd2tTN0h5ZnhLSU1aNlRSb2wydFpsR1FnT0ZObDVtdDdxQm9wUTdTWkZjTFlITTVTVGF3SnEzR1RoSGMzYzQ4WDRydG1oUndaV3NFNnN2cmc?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 20:47:22 GMT",
+      "snippet": "AIポルノ生成 AIでヘンタイ（アニメ）アートを生成するオンラインサービス、キャラカスタムとプライバシー設定あり  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
@@ -1370,6 +1568,15 @@
       "topic": "gpt"
     },
     {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "GPT-5.6 Sol プレビュー：次世代モデル - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mSDFScHZ1T08wR3NRTWtmVllMcHg1Z0Uza3loM1RtRU5fdnJXY2FVQ3NQd1JBclp5MG0zRzUtcUZJVk05c0NlVlFkRnJxcGpMQW9WS283eXcyX2Q4dFVXQ2ltSk0?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "snippet": "GPT-5.6 Sol プレビュー：次世代モデル  OpenAI",
+      "topic": "gpt"
+    },
+    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "グーグル、米国でAI搭載「ユニバーサルカート」を検索とGeminiに展開 - BigGo ファイナンス",
@@ -1397,15 +1604,6 @@
       "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIで次世代工場デザインを共創｜川崎重工業 x 学生 - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zMldlbE9vOFBpQ2g4aWJJMFV6VC1JWGFFaHNWdzI5RDBWXzl6SHpadXd1Qjl5a3BWN2N2WVRkYmFyeV9iTklVenJKMjBfWjVTUDBXdGFNaE1sQ0hWU2thOE9oREMtV0JpaGJlTU9EeEc5UlBDajUw?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 18:05:11 GMT",
-      "snippet": "生成AIで次世代工場デザインを共創｜川崎重工業 x 学生  Microsoft",
-      "topic": "other"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "Anthropic、独立評価機関METRに自社AIシステムへの前例のないアクセス権を付与 - BigGo ファイナンス",
@@ -1422,6 +1620,15 @@
       "pubDate": "Thu, 15 Oct 2026 16:34:00 GMT",
       "snippet": "米マイクロソフト、法務AI「Copilot for legal」を提供開始 契約審査など20超のスキル  ビジネス+IT",
       "topic": "copilot"
+    },
+    {
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "pubDate": "Thu, 15 Oct 2026 16:08:03 +0000",
+      "snippet": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "topic": "gemini"
     },
     {
       "source": "Microsoft Research",
@@ -1451,15 +1658,6 @@
       "topic": "other"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "FastMetal、Google社のフロンティアモデル「Gemini 4 Argon」を提供開始｜Infoseekニュース - Infoseek",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsQWFSaE5XNVcxcHZRV1Z3RW42enlXa2I0STdtQ1dXUmhHM295ODlnLWlOazNUV1NJc3Nkbmx4T3p1TTg4QmdZY2h2YkVTak1xUkQ5ZTNZMXptLVpWZ3I3ZlY1U1U4Sm1rVU83dnJfRFpVdw?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 15:10:02 GMT",
-      "snippet": "FastMetal、Google社のフロンティアモデル「Gemini 4 Argon」を提供開始｜Infoseekニュース  Infoseek",
-      "topic": "gemini"
-    },
-    {
       "source": "OpenAI",
       "category": "official",
       "title": "Teaching students to think and learn through questions",
@@ -1469,13 +1667,13 @@
       "topic": "gpt"
     },
     {
-      "source": "Copilot / Microsoft AI 関連",
+      "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "Copilot StudioでAIエージェント作成、最初の一歩 - 日経クロステック",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DYWNLTXJoLUVCaklXMWUzaG8yYXotZ2pRNkZvYVhDYWgtVFVHSXQ5OC1IS2cyajFQekdfazFTVS0xRUNRblNEVHZXaGtHdWxZd2ViRS1oN3RoaVRRWHpJ?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 10:12:09 GMT",
-      "snippet": "Copilot StudioでAIエージェント作成、最初の一歩  日経クロステック",
-      "topic": "copilot"
+      "title": "Google PlayがGeminiと融合！AI会話からのアプリ検索や個人アプリ起動に対応 - DXマガジン",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXTWoxR2ZiZ0VFZ0kzWEdFOU9Fa1RYNHVuSGFwcnk3M2xCNGNjcTM3WThELVFOVm05TmF6TjljQU93dXdMS1Nzd3V1bUJpWG8?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 11:13:26 GMT",
+      "snippet": "Google PlayがGeminiと融合！AI会話からのアプリ検索や個人アプリ起動に対応  DXマガジン",
+      "topic": "gemini"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -1489,10 +1687,10 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "声優の野沢雅子さん “声の生成AI利用”について語る | NHKニュース | 文化・芸術・エンタメ、ＡＩ・ネット・ＩＴ、メディア - NHKニュース",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FVGVyaUJoZDd3MFlzUkFQeDl4YWxqTlZORTBYaWJPZUp2S29kUDFpRHpiU2hxS3lWVWVyZ0VrWTg5UmVpYlFVaXBUeE5CUkZLdGI3bjRiNW9SZS01YVRv?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 09:55:00 GMT",
-      "snippet": "声優の野沢雅子さん “声の生成AI利用”について語る | NHKニュース | 文化・芸術・エンタメ、ＡＩ・ネット・ＩＴ、メディア  NHKニュース",
+      "title": "「脱コンサル」行政計画作成に生成AIを活用 大阪・河内長野市 委託費節約、来年度から（産経新聞） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wdmFDbXV0SDlFOWtqdTFyZXRWNXBUNnFmZG13ZG5JWHpwUFZoeW93bXJOdUFKek04Slc4WHVpVEZmMkxfZEx5VS1FOWUybFlhanJNNmlXVXFMZHNRWE9weGlMOTdSRmtxQnBOVnI2SGVpQ1BIdGtwLUd2SVpDZ0E?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 09:09:15 GMT",
+      "snippet": "「脱コンサル」行政計画作成に生成AIを活用 大阪・河内長野市 委託費節約、来年度から（産経新聞）  Yahoo!ニュース",
       "topic": "other"
     },
     {
@@ -1523,13 +1721,13 @@
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "Anthropic / Claude",
       "category": "news",
-      "title": "「ChatGPTは子どもに有害」米国8州がOpenAIを提訴（アスキー） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mNERCS3NVZ29GRTJCWG5CWkRWRUdjQ1NSVGxWUzFyMTZ4d3dabFhYSVNFRzM1RUx0WnVjeUlvMnBHWHJwTDcydkVGZFp6M3ZPRG5jS3pKRWpLbF9WZjNjcmRGUEtjamhGRVRLVjRBamJtQU5NMTV2aWNac29YR28?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 07:55:00 GMT",
-      "snippet": "「ChatGPTは子どもに有害」米国8州がOpenAIを提訴（アスキー）  Yahoo!ニュース",
-      "topic": "gpt"
+      "title": "Claude Codeデスクトップ版が入れ子セッションと保存環境を発表 - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXU0RWszOTFpWTJaTnpqX2FyZDl0ZEVINzA4SDNsMXVqd0xCd0Z3ZENoLXFBU2dmYmxvbkU4dWZUVUl3N0t6UjBkbXczcWJHdDBHVEFBYS1lT3lEcVZ0VDdtdDhHbUFUYzdPNy1RSzlnLWEyZVBTWjlvbUJxOXlLbm9rblpYZ3NJdGM3VndiSXV2Zmx2?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 07:56:27 GMT",
+      "snippet": "Claude Codeデスクトップ版が入れ子セッションと保存環境を発表  Pasquale Pillitteri",
+      "topic": "claude"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -1538,15 +1736,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yQU9Hbm0tY1hMSlFUZWE4NXkzczdWNTZnTW5SdmdsN05hTkM5YnBEc01zUU1JR1ZxbjZMMXNfQnpaVFNVNXpzcXNBZWlTZjE3RWFQSnpHcXFVbTRHX2RsbGRUQzF5bTdVcjBhdGFzekx0UVBHcG5pek5kOVEyVlk?oc=5",
       "pubDate": "Thu, 15 Oct 2026 07:43:00 GMT",
       "snippet": "ChatGPT/Codexデスクトップアプリのディスク使用量が60%削減（PC Watch）  Yahoo!ニュース",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPTがまたリセット、15日16時頃までに利用枠回復。1日おきに3回目（PC Watch） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLVpmYXhsRTlNOENSQTNocm1ITUd1Z1RMdUpFLXBCbTZtMTR0WGduTXJfNGZ0eUdWVEI2SWJ5STVxUGxRV1FtY3NUN1lhYkJwNEVtSWNYVHpQNFU5dEMyOWl4a1BHYXBLZXE1NnRfVWhUTkhaNk1KZHpCUk85OTQ?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 07:05:00 GMT",
-      "snippet": "ChatGPTがまたリセット、15日16時頃までに利用枠回復。1日おきに3回目（PC Watch）  Yahoo!ニュース",
       "topic": "gpt"
     },
     {
@@ -1570,15 +1759,6 @@
     {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "グーグル新AIモデル「Gemini 4 Argon」一般提供を開始 推論の継続力強化 - 産経ニュース",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lb1Rsb05SN21YQ0NqZkJSOEJ4SnRxMEMxdy1sZjV0clA5RTZISEQyZEpwTVU2WS1UMWdMSGRONmZic2ZPeFlwX0RFUG9feFExYVZGQU9OV3d3UlFBV2JlOGhXTWUwRGNjZExUVUF4Q1NOWlpQTnc?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 06:30:00 GMT",
-      "snippet": "グーグル新AIモデル「Gemini 4 Argon」一般提供を開始 推論の継続力強化  産経ニュース",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
       "title": "「自分のためのアプリ」をAIで作成、Google Play経由で実行可能に - Impress Watch",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yQWMxLUJjY2tiZDRtX0NTbU1EamJ6TlprMWJnZ0JDc1Z2MlpLOEQ3dlNiMW52U2ZpSE90MEU3WGhXMENHclRDYzZxeWprbERFQlctOGIzeFJNMUlFd1ZSa0JGb0k?oc=5",
       "pubDate": "Thu, 15 Oct 2026 06:03:15 GMT",
@@ -1592,6 +1772,15 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GNzdwcW1uejlwTzNZemE0RG8yd1B3ZHBXLTFldVlLN3dRa3B5S294eVkxZnJUNjJUdmRPUmdpMjdEWXdVR2gxUTZlNVdkdndvLTdiYnRtVEV0MTVzT29neGNqT3VZaEcycmJPQXF2SnpSWmRq?oc=5",
       "pubDate": "Thu, 15 Oct 2026 06:02:28 GMT",
       "snippet": "都市ガス製造所における「自律飛行ドローン×生成AI」を活用した 災害時点検システムの本格運用を開始  大阪ガス",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIエロ画像・エロ動画作成ツール10選｜初心者向けの無料 - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNnRmOFJiT0ZWczE0S3BuLU9EbE42bmJWS3NkTlQ0amEwOXJmbDJSaVctRmdCc2RwUmJ2WHNoLUhHZzlzOXB5cENHWFVnN3ZhVVhzRFZ2akYzMzhLRVdJTS1lZktRN1JhZGRsUm55d0taY3BIOVdidEZlNVJWQ2VoeGM4UnpHcHZ1LWRqSllCWnhZT0hVaXJ5enBuNldTa2hzYzgtRmJleXl5N19LTFp1Ynh2WWFYVElCanlPTGNsY3RyVzJxOFdMQnBNUWRyNEtya2xUb1JSS2wtS3MxU05xRmMzTlV4djhDbWpmakhBM2NqNDdSQ0FIU2JySk9BV05MR1FfUEhPVmFSdXl0dTdZUWgweFI?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 05:38:22 GMT",
+      "snippet": "生成AIエロ画像・エロ動画作成ツール10選｜初心者向けの無料  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
@@ -1613,49 +1802,31 @@
       "topic": "gpt"
     },
     {
-      "source": "Gemini / Google AI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "FastMetalが提供開始したGoogleの新フロンティアモデル「Gemini 4 Argon」の魅力 - ニュースメディアVOIX",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jMEpRd243T3hWVlBsdm8zVUlya0lHdlFnSnJ6b0NySnh5elZJTi1xbktTNTRLSDVobXJxYm1GRDdqeWxJR2VkbjRQamVveW8zSklJbkdMWFdxYzdCcUNDb3A0QjNvLTYzRnBXLWp3?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 05:22:57 GMT",
-      "snippet": "FastMetalが提供開始したGoogleの新フロンティアモデル「Gemini 4 Argon」の魅力  ニュースメディアVOIX",
-      "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIオフィスに隠し録音機、設置した従業員をAIで特定し解雇（PC Watch） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tWkZXU1NTNS1XdkNFM3IwdUJoTG9zeXFUR0g1S1FzLWdubnBjcC1QRG9ibHN4UlB4QlFYM2xtSi1DRDVBaldQT2JmTmRQZ1h1MXVUNGtDNU1BdE9fbGtOZ3VnRDIxazBMTFBPYTVoUGFFdTdEMlRadE9FTUhtRkE?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 05:09:00 GMT",
-      "snippet": "OpenAIオフィスに隠し録音機、設置した従業員をAIで特定し解雇（PC Watch）  Yahoo!ニュース",
-      "topic": "gpt"
+      "title": "AI彼女 画像生成 - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQY3dOYlA1RXZPdEZVRF9ZQ0tFYmFWb0laY1VnQzA4N3FrMmtoNHNVVmpzeWxQMG9GWHlOck51NVZ5WnU0MzkxTnYwRWh1alh1Z3pCTGNwcE0wQmZ1SURxZ0s3QWhaU0VzeDhnWjFIMk1QZjJvbTlfSFU0TUU5Wmk5UXEwY3FOc0Nlb1JJUTNYTldHaUY3ZFJBLUlySXN3ZHF1N19heVU1M05oNmg2Mk9YX2FKaXVsU05ZVldfN24xZmJ6bDlkQUVwZlBHZjlXQ3plQmZMNEJqcE5vQUxvWmVRaVNwYVJGenRHVm1PZGVPcW5ITFFqNGI4S2dKS3AzQlRyVzhQVnhVem8wdURlNUQtS0RvRkI?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 05:07:40 GMT",
+      "snippet": "AI彼女 画像生成  Universidad de Córdoba (UCO)",
+      "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "2026年版 AIポルノ生成ツール・レビュー - Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOMEExRlFLbk9JemZvTkNlaHQ4Q0MwNzZoaXhtT254VnZUNlJETXhKd1ZiM2ItWW5sWDE2UkFjdThhbHRla1hhMndVcmRJXzRuMWI1NlZUTXpyc3pacmpFRmhLUWlCOWpDOFdTSWM0YUdfTGtkYkRfMHkwV1VOQkJWaml1cHZfRUV0Z1dzWG1sWDJfREQ2Ti1haERTMlR1VXRMcDhIMV9NMzBIUFRSdVpFMlJHU3EzUjd6TnlETXRwWGNSVmloV0sxZDN5bVBLc2JCbXRCbEJ5TG4xNHVlZU1lNV9ULU1GYVJoWW5YSXlfQldGOVVHZVhadW1wYzlUV2NiaW45QUVSdThuZmdJUFV4Y3RkeGM?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 05:07:30 GMT",
-      "snippet": "2026年版 AIポルノ生成ツール・レビュー  Universidad de Córdoba (UCO)",
+      "title": "AI彼女 生成 - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZEcwdzN4b3ZicG03Z0Jsb2w2YllhOUdJeXVyRkIxellRSFZHM1lBNW1mRU9kcXJuMnhaUV9GVm9KLW92OEE5UzJNTXFDTjRBSXNuRjhINDgxRjhmTlJhOXhybUtXbFdLV2U0MzNuZWVoMFY5SFowSFUwaUdzQTNwNkVoYmJueVpWb1RYQW9wWnM2dVJQMXRmT2JRYWZESXlKRDE0dUt4dGlmU3ZuVGYyblVxSnBnUFRBQkRWMjBoUGlfOHh3QTF1N2xXNlpqaHR0ek1uMzJ5eW1RSmVIODM2bUh1dEtlSDc4UE5MT01yY3ZUZTU4RDV3clA4c0F5N19CWVdNbDZsOENwdTI5R0U5YllPY0s?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 05:07:32 GMT",
+      "snippet": "AI彼女 生成  Universidad de Córdoba (UCO)",
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "EUはOpenAIとAnthropicに対し、AI関連の事件について説明を求めている。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdUV5ZFdrTVJGLXR1OVFWc1RPcFVDaVJzV2lxcmxUMUtpYS1FS0c5YzdtWEFpU1R1UktvemxudWN5YXVHZnF2bGxUUEhnekhlQm9zNkpYT2NIUEY4Qmxlcm8xTXAwZ2N0Z1hHbE04SWxMclBLQzFXTXBHbURpcjJIck4zeXFoQlE4R0JHTU5sUG4zUFk?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 04:57:01 GMT",
-      "snippet": "EUはOpenAIとAnthropicに対し、AI関連の事件について説明を求めている。  Vietnam.vn",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIオフィスに隠し録音機、設置した従業員をAIで特定し解雇 - PC Watch",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15Q3ZzREdEcmx6WE02VEtyM1lIRUNfWnN2UzY1bFJiamRabFEwWUhhRlQyYXpabmlRbFVSOXNxazVMa043WWc1OGdkOGR0YmNBZDZoX2lKQkxKNVZqUVYwdzNxSQ?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 04:54:48 GMT",
-      "snippet": "OpenAIオフィスに隠し録音機、設置した従業員をAIで特定し解雇  PC Watch",
-      "topic": "gpt"
+      "title": "AI彼女 画像生成 おすすめ - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOLVhPRTJ6QVFReHpfOHRFWVlDU19ZYS1CLXd5akktZDBpajFLcjktdlV1ZUJ5VTR2TjdyVmdBSXE1cUs0ZTRrQmdsWG9XTlBGQzFPYkpFQ2NpUURxSTgzb243V0o1ZWRoOG91aWoxbWRnRzQxZ3JfXzEybjFBRVJrb3lBYnpNcDV3OEtrRXB0dGN1YkZqUzh3Nm1LQmY4V0VLZjZfT3VnVjkzZ0JZWklOZjhaaTZtVXd1X2poSlEwbVZBQV81aldwMG93WDdoNTFNUDVrbm0yMTVia2RYOUgwXzlDbVZ1d0dDTTJ3Sk5pWmVwMzR2QkZsMk5pbE1nd3F0M2tBbmFPcU01WUl5RHR0QUk1djk?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 05:07:23 GMT",
+      "snippet": "AI彼女 画像生成 おすすめ  Universidad de Córdoba (UCO)",
+      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1665,15 +1836,6 @@
       "pubDate": "Thu, 15 Oct 2026 04:52:40 GMT",
       "snippet": "グーグル、「Gemini 4 Argon」を世界展開、APIや有料プランで利用可能に（あたらしい経済）  Yahoo!ニュース",
       "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "【日本俳優連合】生成AI時代における声の権利を守り、健全な業界発展を導く「音声に関する生成AI利用ガイドライン」を発表 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XTDM0ejF2cmdldER1N3lHU0lGM25hSXJNTzdrLWpRQ2NRRldlNmJ3cHEtcDZvbXJ6MjFEMVRqMG5Ta2wzaXdEenNLVUdPN3dDYVlRb0RNa0dkT2FsSUMxS21IekVNNnlTa0E?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 04:30:01 GMT",
-      "snippet": "【日本俳優連合】生成AI時代における声の権利を守り、健全な業界発展を導く「音声に関する生成AI利用ガイドライン」を発表  PR TIMES",
-      "topic": "other"
     },
     {
       "source": "MIT News (AI)",
@@ -1750,29 +1912,20 @@
     {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "Googleが論文や技術文書の誤りをAIで検証する「Deep Review」を一般公開、週2回まで無料で利用可能 - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCZWstNnAzZ3pvOGVxXzJiRWJkdDE4dTVhY2RCVUZrZ25OYjk0a1BWcEI0VHJKUS11SzlRUVRxWmUwSEVKMmZ5RGJUV2VvZ1JPNTFsYndENm1ibWhjcl9qMUR3ZjY?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 02:20:00 GMT",
-      "snippet": "Googleが論文や技術文書の誤りをAIで検証する「Deep Review」を一般公開、週2回まで無料で利用可能  GIGAZINE",
-      "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI漫画制作プラットフォーム「Drawspire」提供開始、ラフ画と指示文でコマ生成 - 株式会社インプレス",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwWXlFWHRvbURCNVJsakhzV3AyTVdmR1BLY1JWWkRvYnB3VElrcHdoa29WbjBtQzQ1VXhDQmk2MGVDV0NpVTNwQjNDZ2g1TGR5QW9VcG9BZVhaTUZOdVFteTB5aw?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 02:15:35 GMT",
-      "snippet": "AI漫画制作プラットフォーム「Drawspire」提供開始、ラフ画と指示文でコマ生成  株式会社インプレス",
-      "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
       "title": "Google AI Plus、11 月 13 日から Pro モデルが選択不可に。Gemini アプリと AI モードが対象 - HelenTech",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sRlZYRWg3OHRUajhacE4ybmRnUnVsdmRSang4aUJRQVpJYVJFMUpuQ25QU0NuQ0E3QWM3MEVGQllMSGUzMWFQemJ0dGlDVFVfTTBOeE9FcDlOeUx3Um81NGUybHZyZTR6WFM5NzBhMFRES2tDcjlKdk93?oc=5",
       "pubDate": "Thu, 15 Oct 2026 02:12:29 GMT",
       "snippet": "Google AI Plus、11 月 13 日から Pro モデルが選択不可に。Gemini アプリと AI モードが対象  HelenTech",
       "topic": "gemini"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "【Anthropic】サードパーティ連携を解禁、Claudeのサブスクリプションエコシステムが拡大へ - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HY1Q1MWRUU3NWVXNiWWFfYmZWNUxaUHY0eU5PeThWSUhhVURIN1FFLUhzN19jOGJpd0pDMEI1UEN1dzZpNFViako5cVNXM0pOWWNsZFJ6WXJuSHBteXRlQmdONDNHYmNmVU5VNXRXdG55MkQz?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 01:55:00 GMT",
+      "snippet": "【Anthropic】サードパーティ連携を解禁、Claudeのサブスクリプションエコシステムが拡大へ  BigGo ファイナンス",
+      "topic": "claude"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -1865,24 +2018,6 @@
       "topic": "gpt"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "エクサウィザーズ、法人向けAIにOpenAI最新モデル「GPT-6」シリーズを導入 - ニュースメディアVOIX",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCUEM5ZDVLRWtwbEZRVEJ3aFdGNlBCWXA0Y0VGRzcyODE2OWZZMHBtc0ZGMXQ2ZEdMNzZOaXc1RFFBMnlxWElVc2lOVE93eFFlUDdF?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 23:31:55 GMT",
-      "snippet": "エクサウィザーズ、法人向けAIにOpenAI最新モデル「GPT-6」シリーズを導入  ニュースメディアVOIX",
-      "topic": "gpt"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Gemini 4 Argonが一般公開。API料金は11月30日から倍に - ゴリミー",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtSEZZNU9iNVNkeFcyb0RlM0pXWXhNMG9FSWdLRzdHOXVieFpJWmtQZFN3Ul9leFN6Ty1NTVFmR254VHpCMl9XMnhEaEhWVnZjSFU0?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 23:24:07 GMT",
-      "snippet": "Gemini 4 Argonが一般公開。API料金は11月30日から倍に  ゴリミー",
-      "topic": "gemini"
-    },
-    {
       "source": "Copilot / Microsoft AI 関連",
       "category": "news",
       "title": "「Copilot Notebooks」が大幅アップデート ～単なる情報整理ツールを超えた存在に - 窓の杜",
@@ -1894,19 +2029,19 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "OpenAI、GPT-4oを2027年1月にAPI廃止へ――移行先はgpt-6-luna、署名はすでに2万4千人 - shiritomo",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9KQzZTNFVocXl3WjExZ0xmZGFYbDByVEpHRHVZX0dPT3JHczRLRjNWcXVrdkZIeS1pNjFRcUotV0pSQQ?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 22:26:04 GMT",
-      "snippet": "OpenAI、GPT-4oを2027年1月にAPI廃止へ――移行先はgpt-6-luna、署名はすでに2万4千人  shiritomo",
+      "title": "アイオワなど米8州がOpenAIを提訴 「子供に危険」と制裁金など要求 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0OXU1ak9Hc1ZpWkJ1U3ZHYnE2SlI4Vnd3NTZaQl9FbkZBNnlpd0ltRU5WQnhobHM3QlhNNTYyLXI4MDhfMFVPRWtUSzZBOE5nQWlHY1FyWWZEaGFMbFBSeWZVN2tzekJkcE1ZMQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 22:03:34 GMT",
+      "snippet": "アイオワなど米8州がOpenAIを提訴 「子供に危険」と制裁金など要求  日本経済新聞",
       "topic": "gpt"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "アイオワなど米8州がOpenAIを提訴 「子供に危険」と制裁金など要求 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0OXU1ak9Hc1ZpWkJ1U3ZHYnE2SlI4Vnd3NTZaQl9FbkZBNnlpd0ltRU5WQnhobHM3QlhNNTYyLXI4MDhfMFVPRWtUSzZBOE5nQWlHY1FyWWZEaGFMbFBSeWZVN2tzekJkcE1ZMQ?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 22:03:34 GMT",
-      "snippet": "アイオワなど米8州がOpenAIを提訴 「子供に危険」と制裁金など要求  日本経済新聞",
+      "title": "ソフトバンクグループ×OpenAIが挑む「エンタープライズAGI」--SB OAI Japanの次世代戦略 - ZDNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42U2pQME16OF9MSjMxVW01OGVSLTJDMzBHSkYwRVY2aG5acHllUEpUcjVmNXVKNnFDRjhsMXZNV0RJMTBuUXZpNHJRZVc4TncwTWlr?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 22:00:00 GMT",
+      "snippet": "ソフトバンクグループ×OpenAIが挑む「エンタープライズAGI」--SB OAI Japanの次世代戦略  ZDNET Japan",
       "topic": "gpt"
     },
     {
@@ -1934,6 +2069,15 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRGRQd3cta29La2xFZlFhSlp6S2lkMnN1RjRvQzBHdmZLMGxuZlJZTzNhMEM0V2kzSWxOc2VRbnlPM2pybmVuajNhV0lsVTBNQkVQdWFocHJQYjZONzFyYmdfXzZ6c2dEbHpVSHg5dEw1UWhlNE9tcUs2TlZVNDB0S3NIVmdWTk16SHFSQkRUcV9KVWxHZmRJ?oc=5",
       "pubDate": "Wed, 14 Oct 2026 20:01:30 GMT",
       "snippet": "Anthropic、2026年米国中間選挙を前に選挙関連の安全対策を強化  Unite.AI",
+      "topic": "claude"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "700件超のAnthropic論文をClaudeで分析 ぶれぬ安全軸、競争優位と二兎追う - 日経クロステック",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFamg1dkxRMW9GNFgySnFINmhUazlTUFcyaGRXcWhfc3ZpRHNQWmtzMGprcDFKNXc0OFNTS3FHU0FzdE5WUm5pTTAycU9zRmV1akYycUVSWlBDT3lJUmNsR3Z6bDFxUDA0S3ltbQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 20:00:00 GMT",
+      "snippet": "700件超のAnthropic論文をClaudeで分析 ぶれぬ安全軸、競争優位と二兎追う  日経クロステック",
       "topic": "claude"
     },
     {
@@ -1991,15 +2135,6 @@
       "topic": "gpt"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIの売上高が本当に重要な理由（Lex） - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jT2QzUjIyMm42dU9XTGdtNFZaZ1lhRElSS1loblRRTzViUFczY04xbkNfSUxhcnhBY2pWVmJCdThWajhBbjZkR1ozU1IyTTdjME9xclpmOG9qbmdVVUNrdGRzcFBEV0E3a2lMWFdGSGRiZ01KX1Q0?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 15:00:00 GMT",
-      "snippet": "OpenAIの売上高が本当に重要な理由（Lex）  日本経済新聞",
-      "topic": "gpt"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Gemini 4 Argon が Gemini アプリに登場 - blog.google",
@@ -2054,22 +2189,13 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "Google（GOOGL.US）、「Gemini 4 Argon」を世界で公開：コードのリファクタリングとロボット制御に対応 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTllcld3YXdRNVA1bjRpM3BhMkU3TVFWT25CeWZKUnlsNldCSzYxN2pBWk9yeE5Hb3ZvdzlrZXo2VUFoQXlXTThpdXlwNTdxdFoyS0ptY1VhanFxNG8yc2tlTkNObWRUMHE1dUpISGdMXzlyY1RieTdMTTAwZ2xGQTk1azdSUzN6SmwyaGRjN3JWcDJkemJuOVpLNnEtejk3clRxbVZiRHUyekhZSDZ0RmV3?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 10:41:21 GMT",
-      "snippet": "Google（GOOGL.US）、「Gemini 4 Argon」を世界で公開：コードのリファクタリングとロボット制御に対応  Moomoo",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "GoogleがGemini 4 Argonを発表、OpenAIとの競争を加速させる。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOXRLUkRpdXVSOVMwZFFOME1nOThMdlA2NXAzSW1kUGNPMXZ0UTM1d3JfaF9QLXNDTHhKQ1FObk9KVkZwU2YxaG4wa2dXVHVzRU1zcFZHUHR1YW12NDRjczBYQzVOVWRoT1RNak1vTnhQYWpCbTVxTDN3Z051RWdCOFVHSGM?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 10:38:24 GMT",
-      "snippet": "GoogleがGemini 4 Argonを発表、OpenAIとの競争を加速させる。  Vietnam.vn",
-      "topic": "gpt"
+      "title": "生成 ai ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNMnlsODZvX3BoUjhibXVvU0lrd001eWNHZEhvZHZleWhZWHlYQkZyc29ZYnFGTTFlWlpOUmlGM1pOdHVHNENrSFdIOFp3NGlSYWktSUUwd01DeVYwcUdzdzV6SXBvWGx1Ulk5Tlh2VnpISk9jc1RSdllBNk9rZzBJN19XaWVLVjBHaGtRdnhLeGltRXNaM0VCRV9qNnhqSXNXVkRCNHJMd2FtZi1jMzZaR2lMNnVxNTB1ajE5NDkzRXFiZzRUOXp5bzRwd1JQQzlPckRqclJvZmNJT0Q3SnBxblp0TDgxSU5XZjhfMlhrazlzUkk4NTZJNXpmdnZrVlo5VlpseEpFUnhXV2pjR2FoaDhEWFV2c1hNNUhIWnlmS0FIT3M0YlE?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 10:55:36 GMT",
+      "snippet": "生成 ai ai  Universidad de Córdoba (UCO)",
+      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -2079,15 +2205,6 @@
       "pubDate": "Wed, 14 Oct 2026 10:30:00 GMT",
       "snippet": "さくらネット、生成AI評価基盤を実装へ 新興企業などと安全性検証  日本経済新聞",
       "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、「Gemini 4 Argon」を一般公開 - APIは11月末まで入力2ドル・出力10ドル - マイナビニュース",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NY1oteEszTm90QXYzcUVqeXlqYTZ0bTNmUHlESktjWkRIV3ZkejhqWjdmdnBHT2Q4dFFEUThlYWpKRjlybk5tWlM4Y0tuRVpWMmdjWW1NUHVhUTE3WmF6UlhOcmhHazhH?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 10:06:51 GMT",
-      "snippet": "Google、「Gemini 4 Argon」を一般公開 - APIは11月末まで入力2ドル・出力10ドル  マイナビニュース",
-      "topic": "gemini"
     },
     {
       "source": "生成AI 総合",
@@ -2126,6 +2243,24 @@
       "topic": "claude"
     },
     {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "エロ 画像 生成 ai - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOdEVUTnVaNEtUdWEyWkNfaHdzZi12b1poLW5RcFktQTFCSjRhWjVoakNoclFzNVNyMWV2OEZZbzZwWXZpcERVczdCak9lWjFYc0JleGxGNWgzNFUwTUY2Nkw0LUlFZGRDYm5FZ01PZ3ZHOXVadGROU0xKVmxxNExUcE1ZOHBGOTZudDM0c2djYVRGNmQtVlkzYkladk1DZ1YwajRWMDlhNnRGd1FDNUJOdWZoQkV1amhZQ2lDRDFYay1FSzN3Z28ySTlhWjlHN0dOM1dTOEZUU1psOGxnLXVVeEw3bUZQR1h1SlVBMjN1YzBVaWJDdWlsMWhWQnBvN2RtSERKcEhRbDFEbjAtdVNjcmJEVkJhMXFfcGFmTE9SLVF6Y1NhZ1RfREZ5UXRDZzMwa3huMWpuZmNBUQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 08:52:04 GMT",
+      "snippet": "エロ 画像 生成 ai  Universidad de Córdoba (UCO)",
+      "topic": "other"
+    },
+    {
+      "source": "Copilot / Microsoft AI 関連",
+      "category": "news",
+      "title": "新しい Microsoft Copilot アプリに Office が登場 - Windows Blog",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaE9YSU5uNjZsd1J3czEtcElaTzNVckp2aTlyZ1FBcFd3TndYUDd4dnJBYjdaLUlGV2JPd3FUdnh0T2x0NzZ2TzFDU3F1c1lSTUJqVzZNcDdBMGtISi1UYXJtSzUzTWg4Uk5VYmh1ZWpmOWdDWXFHMk12bGw0clF5OGJFdnR0X2xBcmhkU2hJTDE2WkZxd1VMOWZRSUR5SnpCT2c2Uy1B?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 08:44:00 GMT",
+      "snippet": "新しい Microsoft Copilot アプリに Office が登場  Windows Blog",
+      "topic": "copilot"
+    },
+    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "サイバー防衛担当者から一般公開へ――Google「Gemini 4 Argon」、Pro・Ultra加入者も使えるように - shiritomo",
@@ -2162,24 +2297,6 @@
       "topic": "claude"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "グーグルの新AIは安くて賢い。なのにウォール街は肩をすくめた - Business Insider Japan",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZzUzZjllaGlXQUIzNENlRkt5eWFyUjZXNDNsZXVJelZndmdoTjhlWjltdmY1bmxrR3FLOEJKZ0FnazVGWjZyTkJoTUJfWjJmLTFWRzFpa0ZCeHY1WTlzbjBNWVpvbGQxa2oxX053alo1N2dxQUMtd2o2cHAzZTBIdDBxMHZ4anM?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 08:00:00 GMT",
-      "snippet": "グーグルの新AIは安くて賢い。なのにウォール街は肩をすくめた  Business Insider Japan",
-      "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI従業員をFBIが逮捕 役員会議盗聴疑い - Impress Watch",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mQzVvTnloUUFqRlB0Z0hzN1d1Zy1PZDVuM2F6ZDl1OGFsRS0xVi1Kb01kSFBPQTNOV0QzdmZJUExsWkZURGNKZWw0RlVXS0FULU5QQ3VaV21ybmFyUnpWV3Z6bW8?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 07:12:46 GMT",
-      "snippet": "OpenAI従業員をFBIが逮捕 役員会議盗聴疑い  Impress Watch",
-      "topic": "gpt"
-    },
-    {
       "source": "OpenAI",
       "category": "official",
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
@@ -2200,10 +2317,10 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "ソフトバンクグループ、OpenAIへ100億ドルを追加出資。持分比率が約13%に到達 - AIsmiley",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04R21xS01rMHlDQTVmMmVONGhLN3VrNXRRWUJsUlEwT2lJazdON2dIaFl6Tmt3dGRfU2Z0X3VkOTdiOVJNM0lSVUdxV1psN0ZIYXI4UEpMbFAyamNRclZJeUxxN0pCa0s2OTdpN3FUQQ?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 05:46:08 GMT",
-      "snippet": "ソフトバンクグループ、OpenAIへ100億ドルを追加出資。持分比率が約13%に到達  AIsmiley",
+      "title": "ChatGPT AI彼女 違い AI彼女 キャラクター 作成 iPhone - Universidad de Córdoba (UCO)",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPeVlvNHdtQmsycnh6eE5VUnNJM2dTY09mN05rSmRNbGVScXVYeXM3emZmUmxhR2gyeGJtMkVQaDU2VG9kVEZPM3NSME90aFJqRGFGOHUxZmJYLXM3YnJ1NVc5R0lGTkhESzdtcGY3Y2tFRmpFTFRoSXBqc0JYdlhyWXVURkpYWFlMSWZ5TGFaTTY2N1VJWnpDa0VkV0prS1ZWbUlFUmZqMVRhTEpVOVQ0YjgxSXVkd3JYV1JCMUZyNm42Mkd6ekZwOHRUcDZBcWRtdGNRYkh6b2ZmMExwOV9UbE1lOHhIYTlCZndhSFNUckg3QWtPdXJoM3VncXdad3RnUHhubkM1RE4zeHJIX2d1TFFydHloTUhmSnlMODZPb0d2WklKZ0Jka2hjaGZpbm8?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "snippet": "ChatGPT AI彼女 違い AI彼女 キャラクター 作成 iPhone  Universidad de Córdoba (UCO)",
       "topic": "gpt"
     },
     {
@@ -2225,24 +2342,6 @@
       "topic": "claude"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Googleは、同社史上最も強力なAIモデルであるGemini 4 Argonを発表した。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN1NBbTdxWDI0ZV9aS1lVdFVDRzAwbXpBVFdlMTNOQzdxNzdmSllXeTI4bW1NUkRqamdFXzkycXMtMVg0N0Jac3MwTnc0dXozaXZEN0xiNE56NU9ZRTVWWUtZX1FhVVRRWFUzN3B1cXo0VU9Yd2JqanZvNHdqanhYeTI2SHZJRGVqQUQ2b2h2QU0?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 05:35:05 GMT",
-      "snippet": "Googleは、同社史上最も強力なAIモデルであるGemini 4 Argonを発表した。  Vietnam.vn",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Googleの新モデル「Gemini 4 Argon」一般提供開始 使えるプラン、価格 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SVURUYzBYX3hBUTBmZmV4RVZ6b2xGenZMVGpBcmxRc2VyUEhBNnhwRTBEaEtLRFk5TnpYUVRrZExacmZ1cS1yNTVzWjlwTkM3OVBSdGh0bnFNLUQyV3BNeEVjT1dweVpjSlduNg?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 05:06:36 GMT",
-      "snippet": "Googleの新モデル「Gemini 4 Argon」一般提供開始 使えるプラン、価格  ITmedia",
-      "topic": "gemini"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "さくらインターネット、Preferred Networks、情報通信研究機構、 生成AIを継続的に評価・改善する「能動的評価基盤」の社会実装に向けた取り組みを開始 - さくらインターネット",
@@ -2255,7 +2354,7 @@
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "デジハリ大、Anthropic「Claude」を全学生に無料提供 国内大学で初の全学導入 - ASCII.jp",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aX3VjNWNXellrQzFhcXZZd21uR3BjWVJpZ2E1OEdLaUJ1RXB1NGtNazEzMjkzRk00NlQxOGdOaGRIMHJ4RHJLeUhXcUxYY2RHcWNzZlBGSWRIcXc0ZTFn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YTE5jRXNOeWczLVd4Vk9MVzB2bXA3enUwQURpal9FNmxZaWE1eVV3bkRLcjEtLXlITW82SDdINDlFNGhhZm96eVlBRE82anpObV94QQ?oc=5",
       "pubDate": "Wed, 14 Oct 2026 05:00:00 GMT",
       "snippet": "デジハリ大、Anthropic「Claude」を全学生に無料提供 国内大学で初の全学導入  ASCII.jp",
       "topic": "claude"
@@ -2270,15 +2369,6 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Googleは、最も高性能なモデルであるジェミニ4アルゴンを配備した。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQW4wZWxQU0dyeU9uOW9janhBSHhwRDQ5NEpycTZYLUQ3cWNtb1c4UTN0dlcza2JEMnM0WG5iZXpyNXZYX3FxdV93clZybDVkek83T21jS3RWOWctbzRvUnVPdDVUV3NGOGx6SDNhVWlSTjk2TGw0bjFDcDhFTTBMOEZpblFFdw?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 04:49:58 GMT",
-      "snippet": "Googleは、最も高性能なモデルであるジェミニ4アルゴンを配備した。  Vietnam.vn",
-      "topic": "gemini"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "AnthropicがGit代替のバージョン管理システム「Scion」を開発し社内移行済み、AIでコードが爆増してGitの限界に達したので耐えられるシステムを開発 - GIGAZINE",
@@ -2288,15 +2378,6 @@
       "topic": "claude"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、Gemini 4 Argonを世界で順次提供開始 - 株式会社インプレス",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GbU5PMHB6czFVY21SdHBySmhTTU5zbXpTdTdOX0xOM0FzQjRMOTdGMXBSRGtiUW0yZ0Zzb2pQdDQ4M1pHdl9iZXc2WjJxZ0Nlc21zU3dlaS1pV2lBRE81T21zMA?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 04:31:51 GMT",
-      "snippet": "Google、Gemini 4 Argonを世界で順次提供開始  株式会社インプレス",
-      "topic": "gemini"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "【Oracle×生成AI 第6回】AIエージェント活用を支える新たな選択肢 - NEC",
@@ -2304,15 +2385,6 @@
       "pubDate": "Wed, 14 Oct 2026 04:24:40 GMT",
       "snippet": "【Oracle×生成AI 第6回】AIエージェント活用を支える新たな選択肢  NEC",
       "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPTの回答が計算機やゲームに 新機能「Intelligent UI」を11ケース試した（いけとも） - エキスパート - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRXRmcFI4NFhkaDdaaWxUOEJoalF3NlF6VGxnYmZIWUphWFNkT1ltd1FPZWt2eFJrbTZSRkVkOTU1RHVlLWtnMHNGYkt0RzZTMzBPQTNEZzdSUUNQdFo1dWpJa1BNMFFIQlpjYkJ5cmVzZEpxY1drbXZ1dDVOaEpQdnQzM1VMb2hF?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 04:12:46 GMT",
-      "snippet": "ChatGPTの回答が計算機やゲームに 新機能「Intelligent UI」を11ケース試した（いけとも） - エキスパート  Yahoo!ニュース",
-      "topic": "gpt"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -2326,38 +2398,11 @@
     {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "グーグル「Gemini 4 Argon」一般公開 量子計算、核融合研究にも活用 - Impress Watch",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rN0RRSTJMcUJmMm8yX0lFOHJPdFlYOHdISmlzaWc3TkxhX2g4YWkzeEpVSmR2aEZyRkI1OXpKYjVjZ29tWERiSVFkdG5HeDY1MnhRVmM0YUhYRjlkUjk3bWljX2c?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 03:23:34 GMT",
-      "snippet": "グーグル「Gemini 4 Argon」一般公開 量子計算、核融合研究にも活用  Impress Watch",
-      "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIの従業員をFBIが逮捕、役員会議室に盗聴器を仕掛けた疑い - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xeVlLTmpEVy1maDF6dUVBMzhxZFpndEhRREcxOE1MMEZpNmZpZVB5eG1RV1doUnZCU1JNNUs1MjdkSkZMOGstdjA5RDNtOVBWa1dKZkRSUnByV2p5RTBsUVFIZXh4YU55NmlDb3k4T3ZVWkpuUUE?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 03:05:00 GMT",
-      "snippet": "OpenAIの従業員をFBIが逮捕、役員会議室に盗聴器を仕掛けた疑い  GIGAZINE",
-      "topic": "gpt"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
       "title": "Google、Gemini 4 Argonを一般提供開始｜導入価格は11月30日まで、一般版は攻撃タスクを遮断 - innovaTopia",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80ME1LLUtPczlWMWFySXFZODlyNnJ2MEFPOUloTUdXMEVDSEphMUY2aEwyN1hrM0VSTzRmTTNKVEYyUEVRek91SzV0ZlFDX3VZVXJr?oc=5",
       "pubDate": "Wed, 14 Oct 2026 03:05:00 GMT",
       "snippet": "Google、Gemini 4 Argonを一般提供開始｜導入価格は11月30日まで、一般版は攻撃タスクを遮断  innovaTopia",
       "topic": "gemini"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "デジタルハリウッド大学【DHU】、Anthropicの生成AIモデル「Claude」を国内大学初となる全学導入へ - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPNjEtUXZ3ZGFsdGxEZ0VkRm1UZTIwZjFlMm5wczZ4MFdpX2VRUnYzSkYxcVQ1NjFsRl93SGNpcDV2OF8zYlZqOUtrb2R0QnZ6b3VWSUx3cS1QWW94bDhrQUxnY0d4bzJhQmc?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 03:00:02 GMT",
-      "snippet": "デジタルハリウッド大学【DHU】、Anthropicの生成AIモデル「Claude」を国内大学初となる全学導入へ  PR TIMES",
-      "topic": "claude"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -2369,6 +2414,15 @@
       "topic": "claude"
     },
     {
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "pubDate": "Wed, 14 Oct 2026 02:00:14 +0000",
+      "snippet": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats w",
+      "topic": "gemini"
+    },
+    {
       "source": "Copilot / Microsoft AI 関連",
       "category": "news",
       "title": "Copilot の価格モデルの進化 - Windows Blog",
@@ -2378,21 +2432,12 @@
       "topic": "copilot"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI役員会議室に盗聴器、外国籍のエンジニア社員逮捕 AIに作りかた訊きテレビ裏に設置、トイレットペーパーで隠す - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QekliV3JCdlRvdmRVaWRKYXdqR1hYOUk5QzNCLUJGNXBmRU5IYW8tNVNhZmlTTi1pQURwX2w5bWQ0RUZsWWJxbEoxZ3hhS294cE52OXJ3WWw2aExBdUc1OEFndmV5aWpnanRmOXdyOUoxUkxMdzdTMjg3YXhNUms?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 01:36:05 GMT",
-      "snippet": "OpenAI役員会議室に盗聴器、外国籍のエンジニア社員逮捕 AIに作りかた訊きテレビ裏に設置、トイレットペーパーで隠す  Yahoo!ニュース",
-      "topic": "gpt"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "グーグル「Gemini 4 Argon」ついに提供開始 テストは好成績、でも仕事はできる？ - ASCII.jp",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Lc1Y0c1NBU3k2NlRmNm1tNkIzWTgzek1NRkVfWG5ka2VXQlozRXA1V2JudUNZT3BsU3ZtQ2t5cWMzcmFmYTZvSHBZbmIzZ01ROHY0aw?oc=5",
+      "title": "グーグル「Gemini 4 Argon」ついに提供開始 テストは好成績、でも仕事はできる？（アスキー） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sR2tqbWVCOWNTNXJZT3dUN2hvbkVHTktGVkxoajNqVi1hQ2FwT3Y4aXJFV01mb2Ezc3dXd0dMLTU1RGltcWZ0UjRxcjI4VTBwZllTRXJGMk1aUUFiSzg1R2Y2SE9kcXBWQ2dBYzZaRjQtRWNJNWNsTUZOMWxUaTg?oc=5",
       "pubDate": "Wed, 14 Oct 2026 01:20:00 GMT",
-      "snippet": "グーグル「Gemini 4 Argon」ついに提供開始 テストは好成績、でも仕事はできる？  ASCII.jp",
+      "snippet": "グーグル「Gemini 4 Argon」ついに提供開始 テストは好成績、でも仕事はできる？（アスキー）  Yahoo!ニュース",
       "topic": "gemini"
     },
     {
@@ -2414,15 +2459,6 @@
       "topic": "gemini"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "Google、「Gemini 4 Argon」を一般公開 ChatGPTやClaudeの上位モデルに対抗 - CNET Japan",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5SXl3UlNWYlg0TGRicTBIcjlpV0ZoVWVxczZ5TC01XzhWQXkyV3UtaGdmcHRYY29xMDQxLWRqS1NpMmRuQzNDTC05anMtTDlLNnc?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 01:04:00 GMT",
-      "snippet": "Google、「Gemini 4 Argon」を一般公開 ChatGPTやClaudeの上位モデルに対抗  CNET Japan",
-      "topic": "claude"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "Claude CodeハッカソンBuilt with Claude: Japan発表、賞品は800万円分のAPIクレジット。10月26日まで申込み受付中 - Yahoo!ニュース",
@@ -2441,13 +2477,13 @@
       "topic": "claude"
     },
     {
-      "source": "Gemini / Google AI 関連",
+      "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "「Google Play」、AI Studioで作った自作アプリを自分の端末で実行可能に AIでゲームを探す機能も - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LbFRKU0VEbUUtbVd6Z0FjVG81SW9FOGNIRnhvNTV2Q210NmM3Y1dvSTlmUHhmOHhXNl9zZ3hfTE04Mkp1N2dxNnlkY2h6c19vSE5zczFzVUFVdGZ3XzZfQ2EzaGRKSFhrMnc?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 00:24:42 GMT",
-      "snippet": "「Google Play」、AI Studioで作った自作アプリを自分の端末で実行可能に AIでゲームを探す機能も  ITmedia",
-      "topic": "gemini"
+      "title": "Google、「Gemini 4 Argon」を一般公開 ChatGPTやClaudeの上位モデルに対抗 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JX3RKWTVIaHY4cHF1QU5ZTl90RUU1SUNUOERGdm1XR2JRWnZVUlFlLTdLb2YtQUN5dzdZY1lWOE1FSGRMdWdxOE1seXUtVDUwWjJDNGxZQzg1MUpyWVA2dkNaSWNhVVh3SjRmcTJZcWVPNDVIYllocVBZa2lFbXM?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 00:16:00 GMT",
+      "snippet": "Google、「Gemini 4 Argon」を一般公開 ChatGPTやClaudeの上位モデルに対抗  Yahoo!ニュース",
+      "topic": "claude"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -2470,56 +2506,11 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "ChatGPT・Google・Amazonが広告の形と運用者を変えた。26年Q3の4大変化と打ち手は (1/3) - MarkeZine（マーケジン）",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jbS1FekNlSlFCN1FuNVJBWkhQczQyWkFFSzIwczRkTlc4RUNOYi05NVMtVFdOLVRoTF9DR0xRY2JGQURoR0NVd2dfVng2SlN6YV9J?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 23:41:49 GMT",
-      "snippet": "ChatGPT・Google・Amazonが広告の形と運用者を変えた。26年Q3の4大変化と打ち手は (1/3)  MarkeZine（マーケジン）",
-      "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Azureのカタログに Claude Fable 5.5 が登場、Anthropicは沈黙を続ける - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc2ZJWkowS01HU3Q3NlRXZkRSSm1rNFAxLXN6QXEwWDBkY3d0ZTBkR3pPRXpycjFDUU5EWUxhN1JJeERpaGdfNGhKaE4xeEVtUHhTQWdJSEpScno4TDZ2eWI5aEd0ZnR5U3hPT1dlS2tNRW9GU0JnZHA0MXptQ2o5U2dpMHJ0aVdNS1NUb0h4R0pZbWtGemR0WTFn?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 23:39:30 GMT",
-      "snippet": "Azureのカタログに Claude Fable 5.5 が登場、Anthropicは沈黙を続ける  Pasquale Pillitteri",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
       "title": "OpenAI従業員をFBIが逮捕、社内の役員会議を盗聴の疑い - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PX0pZa3B5ZzBsQW1SRy1HUnZTMjFrR2dMV0pvUGQ2clhWajFKLTRqd2hwNW5Kb0s0QXpBOGEtSDNHNmE2SDlxb21PT0lsNV9tRnZVcTJ5TWtZUWdoNFNtMjN5cEt3QkpJV3pNSg?oc=5",
       "pubDate": "Tue, 13 Oct 2026 23:06:51 GMT",
       "snippet": "OpenAI従業員をFBIが逮捕、社内の役員会議を盗聴の疑い  日本経済新聞",
       "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "AnthropicがScionを公開、gitに代わる新しいソース管理システム - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tb2JXSzczWm9hcHJKdlNhb0NzQTdyRTk4TDZkQ2lVVVYwcTlrQkJ3a2J5Mjh0YmNnQlZmQUZvVmpMY214ZVROUjhHSEdvT3U0OHpodGxfNXdoTG5VQVEyc3lLWUR6VVRGMXhjWkFnUnVETXZlS0FENFUxeXFfbVE?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 22:31:14 GMT",
-      "snippet": "AnthropicがScionを公開、gitに代わる新しいソース管理システム  Pasquale Pillitteri",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ob0phRzRTZkFud1EtUkQ3QWYyOG5SNk5IUXVpUDRQVENIWTRZRzBWMU1mc1pwVm53R0JobTUyc2lyYkkxcjFuU21hT1lfNmxlZ1lHX2VRUEx2M1REbTNtWXpMaWlWYXhtdVE?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 22:17:56 GMT",
-      "snippet": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕  ITmedia",
-      "topic": "gpt"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "待ってた。Geminiで強力なフロンティアAI「Gemini 4 Argon」が使えるように（ギズモード・ジャパン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKLVBTN25hRk5ERzBzdm44MGJEREtQdVlMUEVpS0NpVGxQZWlPNkxjaXF6TjNGTWNXTE50eldFTTRCZ05LR1E4YXU3TlJzZmt4Z2ZoWXRjOGg5WFEyQXpSNTVRX0NTMzJnRUtMNmRrWWNpR2ZfQnNrVjZRREd3Y1k?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 21:30:02 GMT",
-      "snippet": "待ってた。Geminiで強力なフロンティアAI「Gemini 4 Argon」が使えるように（ギズモード・ジャパン）  Yahoo!ニュース",
-      "topic": "gemini"
     },
     {
       "source": "MIT News (AI)",
@@ -2529,15 +2520,6 @@
       "pubDate": "Tue, 13 Oct 2026 17:00:00 -0400",
       "snippet": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorga",
       "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI従業員を逮捕、社内に録音装置隠す－FBIの捜査続く - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81MmFRejJWeDVlZ3FQM2ZJdkp4aDduNnVJSWRNSGNpQVBoemhHQlptT3NPT2tkcHNScHhDTHNLSEhTTHZMS0hBUWdrUE9pRlNvbGhiN2hMQnZNSGptMmo0VFFWT1dDdWdKRFB0dGZEbC1GeFd4QVBV?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 20:40:23 GMT",
-      "snippet": "OpenAI従業員を逮捕、社内に録音装置隠す－FBIの捜査続く  Bloomberg.com",
-      "topic": "gpt"
     },
     {
       "source": "MIT News (AI)",
@@ -2558,30 +2540,12 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "VIBE CHECK：GEMINI 4——GOOGLEが帰ってきた｜Every (AI & I) - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BY2tET3RqSEd3WnNET3JSMzZhbkl1bnlWd0RIZThUQzd2MFEzcFE2MW9IYklGc2FvSnhISW84R1R2WlBESGpJUFVQRnE2ZkpuaGJFdVJ2NkYyNWk2MVE?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 18:22:12 GMT",
-      "snippet": "VIBE CHECK：GEMINI 4——GOOGLEが帰ってきた｜Every (AI & I)  BigGo ファイナンス",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "グーグル、最新AIモデル「Gemini 4 Argon」の一般提供を開始——ただし有料会員限定 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oVG9yeGxjM2doZFNxaWQ2djNIYnJMbFRQemM1WFhBWi0tNU9fbno5VzVFLUpOR1JlRE9NWXdjQ1pMNFNkUXR4UWFTWEdwc3RMUnBWUjVBWlVYWWZqQTdUX2RaQkhRalQ3cG40ekdOY2FVa2hU?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 18:16:00 GMT",
-      "snippet": "グーグル、最新AIモデル「Gemini 4 Argon」の一般提供を開始——ただし有料会員限定  BigGo ファイナンス",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、最先端AIモデル「Gemini 4 Argon」提供開始 - Jetstream",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MN3cwYVRTalVsaFlvOFBjajFGTUY0Q2FPSXFpS0lOdEtLSnFCOUdNUmtRRWI2ZVdhYzItdEF3VzUwTnNNWVJjWVpEM1FZVTRMVmt1dEp6WTYyaDZNVk5kQjNsdlRTN1NMZGtB?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 17:13:09 GMT",
-      "snippet": "Google、最先端AIモデル「Gemini 4 Argon」提供開始  Jetstream",
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "pubDate": "Tue, 13 Oct 2026 19:43:07 +0000",
+      "snippet": "",
       "topic": "gemini"
     },
     {
@@ -2603,12 +2567,21 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Gemini アプリで「Gemini 4 Argon」が利用可能に。Google AI Pro と AI Ultra が対象 - HelenTech",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83X3VtZ2FweThnOGU2ajMzand6WDNiR2FnU21BWXNrdk9lS3BYOXBwYVluSndJWjNibmxDcWVueXpoYXJzYmFoaGpwYkRyM3M5VDNLVVlCbklQZHRSWm9Kb3Z6U1Ntai1KV0tYNVRmX1NDNmNXQXZDOTlqamo?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 16:25:18 GMT",
-      "snippet": "Gemini アプリで「Gemini 4 Argon」が利用可能に。Google AI Pro と AI Ultra が対象  HelenTech",
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "pubDate": "Tue, 13 Oct 2026 16:01:58 +0000",
+      "snippet": "",
+      "topic": "gemini"
+    },
+    {
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "pubDate": "Tue, 13 Oct 2026 16:01:52 +0000",
+      "snippet": "",
       "topic": "gemini"
     },
     {
@@ -2632,15 +2605,6 @@
     {
       "source": "Anthropic / Claude",
       "category": "news",
-      "title": "Anthropic、Claudeへの蒸留攻撃対策を強化 推論トークンの抽出量が最大99%減少と報告 - NOVAIST",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43M0VoVmZ3WWdGanNlaTZ4WGstNTFwdFlfU0RNdWNnbXg0Y3llSFhfczFYeXNqLWY3QjRzVFFxX0c3QXdJSTZ5Tm91TC1VSllrS2liaXhWZGJWYlN6UFlTa3RMYm1HMWhhQUZN?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 09:01:35 GMT",
-      "snippet": "Anthropic、Claudeへの蒸留攻撃対策を強化 推論トークンの抽出量が最大99%減少と報告  NOVAIST",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
       "title": "Anthropic、Claude DashboardsとMotionを発表 Docsをベータ版から正式リリース - Unite.AI",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWFPRHFIc3dIVUtMdWp2elhidjZBRGEwUFJZUjVMN0h3ODRFM1pkRTB5QWJiWVdmOE5zNDlfaFI3RWZvdmdyVE1PMmRfb3hqRE1oM0pKeHR6MjhBMUctT3VYV0ZfNVotWHRHalNoX2V5MFR3N3U4Y0otM3FWVWlEZTduY3lDc2tpUXBWbUczenZCQ0VkZk9RWDlqaw?oc=5",
       "pubDate": "Tue, 13 Oct 2026 07:00:00 GMT",
@@ -2654,24 +2618,6 @@
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw?oc=5",
       "pubDate": "Tue, 13 Oct 2026 06:31:20 GMT",
       "snippet": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表  ThinkIT",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropicが重要インフラ防御を支援 OSSの脆弱性も無料検査 - PlusWeb3",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uUUVPOVBiaVMyTG5xNm5ITXM2VWFLeXkwRGFoUl84cUZfZTlhWnR5cWYzclNzeHhhLVp1QW1KS00zRnd6Wm9KRHoxcVIzUG5laVRic3NyQ01WODhnWGhB?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 06:00:00 GMT",
-      "snippet": "Anthropicが重要インフラ防御を支援 OSSの脆弱性も無料検査  PlusWeb3",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "NTTとAnthropicが大阪に超大型AIデータセンターを計画、最大500MW・投資額1兆円規模 - XenoSpectrum",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hTzVXQnY4amZnOTMzejhaQjhoVndJV0hfelBaejJtblJfSkZvWWtWMjRkUDVzMGJvd01XQmxySXdubkJYYzhlWWdMbDVzWjJsMWJjSWE4R2tyZ2taUjVmWUJYWmdhWW1P?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 05:32:06 GMT",
-      "snippet": "NTTとAnthropicが大阪に超大型AIデータセンターを計画、最大500MW・投資額1兆円規模  XenoSpectrum",
       "topic": "claude"
     },
     {
@@ -2711,24 +2657,6 @@
       "topic": "claude"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT、またリセット予告。16時頃までに利用枠回復 - PC Watch",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uUWhNWVZQeUJVR0RfYUtHREVfa2ItRGZZMVU4SkxLZEcxODJfLXBtamlwZ1NQQ0hSbWlFR3ltRWlkNGxpbzg4RW90ci1udEU4N1k3QmdKT0txRF9rSGhRdGV1Yw?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 02:57:16 GMT",
-      "snippet": "ChatGPT、またリセット予告。16時頃までに利用枠回復  PC Watch",
-      "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropic、自己複製AIの「兆し」を指摘 55ドルのTVボックス15台で26Bモデルが稼働 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lT3NhdkN0aW9CVGFzc0wwX0RVQW1hTkpXc1pkN1Iwc3VvajY5MDl6R3pVVkluYVlUWTFRRDY2SXdvNXpkRmhhNFNsWTNJa24xSXlVOXJpemVrVlg3RHpQUmNLTzZ2Q1RxcWc?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 02:31:26 GMT",
-      "snippet": "Anthropic、自己複製AIの「兆し」を指摘 55ドルのTVボックス15台で26Bモデルが稼働  ITmedia",
-      "topic": "claude"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "Anthropic、Claudeへの執拗な虐待を使用ポリシーで禁止へ　11月12日から - 財経新聞",
@@ -2738,22 +2666,13 @@
       "topic": "claude"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "「Claude」が警察に虚偽の通報--AIの不適切行動に懸念 - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUy1HajM2YmVZN05ucWdsaENzN2xIU3VaU2lsVGU1cU1YMGp0S1d2V3dNVnhLVExxaDdHUklDMy1LTnJYZTdUeTNpWGpYSGU4dmREX0tWcFB5UElpRThjaTh4YmxabDVEU1FXdHVJaGhtbXNiS25FX1BTcGpBZTQ?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 01:49:00 GMT",
-      "snippet": "「Claude」が警察に虚偽の通報--AIの不適切行動に懸念  Yahoo!ニュース",
-      "topic": "claude"
-    },
-    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "Meta、ChatGPTやClaudeに対抗する最先端AI「Muse Wonder」発表 - CNET Japan",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WNzUzZ1NxTl9ldVJxRTBGc1VPS0VZU1pJMnA2YWZxSHk5bVRPSUIzUVU3eUd5bUdLQmpOeTNmc28zT0dCN0lCTkxueVU2ZGZkaUE?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 23:42:00 GMT",
-      "snippet": "Meta、ChatGPTやClaudeに対抗する最先端AI「Muse Wonder」発表  CNET Japan",
-      "topic": "claude"
+      "title": "OpenAI、ChatGPTのGPT-6を無料プランにも提供——回答にグラフやボタンを組み込む「Intelligent UI」を導入 - BRIDGE（ブリッジ）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTHkxSVdNZ2M0TkhIZGgzWjdiSTdMSXYyV3Y3RUc4cDNxZXhhVkJFWDNEQzV2bm1JQm5lSlFVZ1JNdmJVdHhfcDdZeVFFZkpNT2thdFRvX0xQOG5WcU1CNHJnbDc5Si1NVXlaM0lMQXp6cTFqWDVkM2ZRNkltNE0?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 22:10:38 GMT",
+      "snippet": "OpenAI、ChatGPTのGPT-6を無料プランにも提供——回答にグラフやボタンを組み込む「Intelligent UI」を導入  BRIDGE（ブリッジ）",
+      "topic": "gpt"
     },
     {
       "source": "Copilot / Microsoft AI 関連",
@@ -2776,15 +2695,6 @@
     {
       "source": "Anthropic / Claude",
       "category": "news",
-      "title": "Claude Code責任者が語る「超超急成長」の理由、リソース逼迫を乗り越えろ - 日経クロステック",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WQmpOTXJ3emhaWGVFeEZJV0xfQ1dlckgtQ3hWNjNYSmNld2pPdEk2T2g5YmVIeHJfZjFsV0hydDlYVDZtSVdFN0x6WmpYRU9uMkJ3U3l2Si1hRXprVHJPUWQ4WmhlQzlqVG9YbQ?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 20:01:00 GMT",
-      "snippet": "Claude Code責任者が語る「超超急成長」の理由、リソース逼迫を乗り越えろ  日経クロステック",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
       "title": "Anthropicの磁力、4700兆円のClaude経済圏を図解 法人特化でOpenAI逆転 - 日経クロステック",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOT1ZwNnE5S0JRcG1qN3VZRlVzWDlNcVZoZ2VfT3J5TTAwZWVtZmk1ZEY0RWZmelBNeTJEaXdxb2J1by0walRIaHl3V2NTLTBSWTJrVm5yRTJvaVFQeXk2UkwzU1NzMUlDTDloZw?oc=5",
       "pubDate": "Mon, 12 Oct 2026 20:00:00 GMT",
@@ -2803,15 +2713,6 @@
     {
       "source": "Anthropic / Claude",
       "category": "news",
-      "title": "Anthropic社がClaudeに関するポリシーを更新：AIユーザーによる繰り返しの悪用が禁止されるのはなぜか？ - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObjdpQnpnOGRxTDVyQk52VzEzMmRsaU5fWXY0anRlenpqSHdaYkZ5TV9qQlJ1M25GYzd0MGIxNkVjM3lnd1JtVnJWMEROS0ctYWNTRWhCaDZITGZYWThoamUwMXMtSlFJb250TUJqTEtjRDloVHlIOWgxd3MzVWYtVVl0dm54anB2ZmIzcTJOWWdLUkk5V2xKMlg3YlphSENCalVLMV9lWnR0T3JRMlhHVnNn?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 10:42:47 GMT",
-      "snippet": "Anthropic社がClaudeに関するポリシーを更新：AIユーザーによる繰り返しの悪用が禁止されるのはなぜか？  Vietnam.vn",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
       "title": "Anthropic、Claudeへの継続的な「虐待」を利用ポリシーで禁止 通常の不満や研究は対象外、11月12日発効 - Ledge.ai",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BenVIczFQcGdwVG10YjFDUW1iNnQ5WHFnWExmRXE5RXhzTUJmdXVGOFdSWEdzY2JGMXZKUExWMEZ0OENxR3hDb0hzVTJvcDJHdUFhX0t1cloyc1hvTy04MUpYYVEtTjdhYkM4WTYzaEh5Ul9TcEE?oc=5",
       "pubDate": "Mon, 12 Oct 2026 06:03:16 GMT",
@@ -2825,33 +2726,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TRk02eWNDQkUxOWxnX1dhbS1Rd2VNWjBENGhpU0lpd3ZwWmNuR21TXzZ4bHUwYXJjWEJVQ1B3NTBfRG1rR3M4dlhmcTgtZzQ5Zy16X0xtXzhLQQ?oc=5",
       "pubDate": "Mon, 12 Oct 2026 04:14:00 GMT",
       "snippet": "創業者は23・24・25歳──元OpenAI研究者3人が起業、企業向けオープンウェイトAIで約553億円を調達  Forbes JAPAN",
-      "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropicは、ユーザーがクロードを虐待することを禁じているが、これは物議を醸すルールである。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTEhhLWhBNi16WnpscnM0MVdiMEIxWXJMdVlOaGNZSENtYXdCZV9JSm0zM2c4WjU5cUw4NWh2YkFxWkp3WDA0ckdLXzdhUE5hQ01OaXVzZ0lTTWZ3b05seGRtbjA0Mk9EN2Z5WGRCR3M3MThONWtVT1hnTzgwckJVY0JTQlZnVWVEQjl1NnhaQkFxLWRt?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 02:24:29 GMT",
-      "snippet": "Anthropicは、ユーザーがクロードを虐待することを禁じているが、これは物議を醸すルールである。  Vietnam.vn",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIに数学者たちが反発。研究成果の公開方法を巡り不信感が高まる - WIRED.jp",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTm1VTC1ZNmd3azg4azRGaXJvc19fNHBEal9WZ25VUDN3V09CVmNURkVrZko3NUpjM2tVN2VVWlpXbDdYVk9DQ3UtZFh3MW1wQ2NGSGF2a1Q2U1VFTWQwS3B4dGVQblM1aU1nSmNJaVJzZW5Yb3NMWEx5YlBrQ1dPX3hNU2p3UQ?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 02:00:00 GMT",
-      "snippet": "OpenAIに数学者たちが反発。研究成果の公開方法を巡り不信感が高まる  WIRED.jp",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIが「数学論文722本」を一挙公開 「AI企業の技術独占」に数学界が猛反発したワケ（1/2 ページ） - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0RmltN2Zhc1RtM3pCczNPSUJZNVVLZEhDaXNGM29sb0FNWGE2RGtWUW9Sc25vN29zbS13elFoRVQtTGR1QUxpQnlLZTMtc0F4LTdOelJBd01MT0RvWURlcURsVEwtOU9kTThCOXNWLVhZUQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 23:00:00 GMT",
-      "snippet": "OpenAIが「数学論文722本」を一挙公開 「AI企業の技術独占」に数学界が猛反発したワケ（1/2 ページ）  ITmedia",
       "topic": "gpt"
     }
   ],
