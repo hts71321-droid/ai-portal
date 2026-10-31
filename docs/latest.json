@@ -1,68 +1,932 @@
 {
-  "updatedAt": "2026-10-30T04:58:04.821Z",
+  "updatedAt": "2026-10-31T04:44:55.799Z",
   "articles": [
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "九州ふっこう割 宮崎・日南の「HINATA大島」へ｜ChatGPTのHotelMEで見つけた12月平日の空き - HotelBank",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM2ktemJ1N1kwcFNqanlsVFppM3MxLWVoMTlRaWJBXzJmVWJJMWNqdHJrVUFlZUxDRUROZENVamZtQ1dfSUZtMTc3cFk1THloTC04bzR4azVXZHQ0QmhnMzJzUERSRWVBdnk0RVBUWW4zQlpnOHE4ZGxwS2RDYWMtRUljczd5a0U?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 04:42:51 GMT",
-      "snippet": "九州ふっこう割 宮崎・日南の「HINATA大島」へ｜ChatGPTのHotelMEで見つけた12月平日の空き  HotelBank",
+      "title": "AI投資懐疑論の拡散でNasdaq 100が1カ月で時価総額2兆ドル消失…OpenAIも調達目標を100億ドル縮小 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15V3h1Q2tyVHg4WkVZc01MVlBPYW0xQWVYYmk5dzhtRlZUcXJPcll2ZWEzN0VzU0NUaFdHODY1UU9lcnd2czQxQ1B2MHpsNHFBUVh4MV81VGVtT251UXhzc1EtS280SVdFUFBRZDVjNmNYR0tz?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 04:25:00 GMT",
+      "snippet": "AI投資懐疑論の拡散でNasdaq 100が1カ月で時価総額2兆ドル消失…OpenAIも調達目標を100億ドル縮小  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始 - CodeZine",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CZ2ZNTFFoRkVseTRrelM4N3BsZmNhWVBFZ01xWWJyRFFIejVzekhvUkZpamlzREdwcUFrdldOMm1LbGVabWhiT3d3Y1hfZw?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 04:00:00 GMT",
+      "snippet": "OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始  CodeZine",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "九州ふっこう割 熊本の街なかホテルに平日泊｜ChatGPTのHotelMEで見つけた「カンデオホテルズ熊本新市街」の空き日 - HotelBank",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZHJJTnl3WG5OMENscWpJZ3ZYcUtJWFg2aERhLUEydTIza2Z3YllabWNacDBRRnRsM0xBUWFUUWlDRUN4ZWJRb3RmUXFhRS1Wb0F5MTUyemNKMENpSjE4TEtCeVBWT0ZZUU9Na0k2MGZhNGt4Vi0wa2JZNkxmM1lGTw?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:44:34 GMT",
+      "snippet": "九州ふっこう割 熊本の街なかホテルに平日泊｜ChatGPTのHotelMEで見つけた「カンデオホテルズ熊本新市街」の空き日  HotelBank",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTのDotがiMessage・RCSに対応　米国Pro向けに能動的な通知を提供 - 財経新聞",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91cEhlOEhDMTNZLVY0ZWd1Z2dNZnFQRXVVeEhDYnBTQ2pFd1ozeWlhTU5aMWNDc1RpcnA2VF80TWE1aHpzS2FySGVrMTlCbHFQNTdzZFdBaWdienN0XzlLWEtCd9IBaEFVX3lxTE11SkJCR2hYR04ya0xuaVBPamdZQmdFRENRMVZqQjJhdEVSMzF3eEdsaWk3TjJ6NEZOcWVqZEQ1cDBRRmJYekgwTm94eUR3RzM1dkJQSWlKRzJsR0RKc1ZQWndKaERDMEw5?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:40:00 GMT",
+      "snippet": "ChatGPTのDotがiMessage・RCSに対応　米国Pro向けに能動的な通知を提供  財経新聞",
       "topic": "gpt"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "国産生成AI「Sarashina」が無料で使える！ ソフトバンク子会社が6種類のAIモデルを一般公開、チャットやAPIにも対応 - DXマガジン",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DbThHWEtjRHdFdExoTlA1bTRRcWdsTWRoQ3NDUktTc2lxQ2w5aHZtQThKaDVGbTAzcC12SWhYVG01TDJiQUthN19RSVhwc0NNdGc?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 04:32:24 GMT",
-      "snippet": "国産生成AI「Sarashina」が無料で使える！ ソフトバンク子会社が6種類のAIモデルを一般公開、チャットやAPIにも対応  DXマガジン",
+      "title": "【文京区イベント】生成AIのこれからの使い所 ～『使ってみた』から『使いこなす』への第一歩～ - 選挙ドットコム",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FMjMxRGZIejlVYnlpeFRxMHk1UXFwSTd2bXhrOWxEYlFUa0xqQVRDY2psQ1RaQWxxQ0x0X0hiRnlScG53dFB4Y0w0V09RUTRDNGdvUmFVTXdjSFA5b3pr?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:25:13 GMT",
+      "snippet": "【文京区イベント】生成AIのこれからの使い所 ～『使ってみた』から『使いこなす』への第一歩～  選挙ドットコム",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIのAltman氏、個人PCへのDRAM分散は「非効率」と指摘 クラウドへの集約を支持 - XenoSpectrum",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03SVBiX0NWSHNBTE12RHFtakd3WTJMTDdhVWlqMWdOVzgzd0lDS3QzdDFMaWNDb1otdVgwVHY5ZnZBaXBRQVE0VnJrbEh3RFFRS1hkN3FXNHVhb2xBMlpzT1IyNzZBQWc?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:16:10 GMT",
+      "snippet": "OpenAIのAltman氏、個人PCへのDRAM分散は「非効率」と指摘 クラウドへの集約を支持  XenoSpectrum",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIで銘柄探し？ 著名投資家が教える逆張りで注目するSI銘柄と輸入小売り銘柄（みんかぶマガジン） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsT2U2LVpsRUUtMVFlcjBKRnBleHFCMkR6c0I0aXVPcy0yVFlVZ0JoYmhTenp6NUVzTlFkZWN0ZEh4bi1nNHlqSVlseFdCaUVJMEpPX2JDaGkxOFAzaDNZM2RhMTBHV2ZSa19Ra0RhdlI4X2psQ0JSbmxqX0taM1E?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:11:33 GMT",
+      "snippet": "生成AIで銘柄探し？ 著名投資家が教える逆張りで注目するSI銘柄と輸入小売り銘柄（みんかぶマガジン）  Yahoo!ニュース",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "「まるで天使だ」和田由紀子の美し過ぎるスパイクフォームに称賛の声 “重力無視”のハイジャンプに「生成AIではない」【セリエA女子】 - スポーツブル",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1yMGlKc3RjZFIzRHlnaUFFUnhOUFhDQTY5aU8xc1hQYmlxbEZZQjJkYXZfM0Iza2VBelptSEMzRUpxN1lfS3Rn?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 04:25:01 GMT",
-      "snippet": "「まるで天使だ」和田由紀子の美し過ぎるスパイクフォームに称賛の声 “重力無視”のハイジャンプに「生成AIではない」【セリエA女子】  スポーツブル",
+      "title": "DREAM BABY DREAMが語る、“生成AIでしか作れないMV”に全振りする理由（リアルサウンド） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsaWNtbDA1cE1McVQ4R2VOVkp0NEdKVzJhZllWeFJ5eEE2T0c0WjgtSUlNNVNqSkYycDRHRTh6eWRoaUdpWGp2cTJTdEQ1djRuZkdHaVppdUhOOGtIV21EWnY3S0xJRjhRQ3E5bldjUWZ5a2hDS1Y5X3hxTDJYbFE?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:05:01 GMT",
+      "snippet": "DREAM BABY DREAMが語る、“生成AIでしか作れないMV”に全振りする理由（リアルサウンド）  Yahoo!ニュース",
       "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI出資のThrive Holdings、153億ドルでADT買収へ…老舗の警備網はAIで変わるか？ - ビジネス+IT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTTh4eXBaSFFrYmV2ZTVack1HcDJrMjR5NnFaRWpFUG1EMjFMc3pPU0NQbTkwZGZLTy1DWF8tQVVwaGxSMG5BbmcxeWxCYVlIM3BN?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 02:44:00 GMT",
+      "snippet": "OpenAI出資のThrive Holdings、153億ドルでADT買収へ…老舗の警備網はAIで変わるか？  ビジネス+IT",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "九州ふっこう割で博多駅前のホテルに平日泊｜ChatGPTのHotelMEで見つけた「ネストホテル博多駅前」の空き日と料金 - HotelBank",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00dFR0OGhKQk1GbEdhbnBiWGJraGxWV3owQTJlLUFod0VlTjhVNHdqTzh5ZXNqTUxKUnh6eTcyMGJfMUZvaGJaM2NwVVYySEE1R1A0YkI0TV9hXzJQMjg4WmtreHF6dHZ3cWxpRVV0d3dWYy1vb25NLTQxQmd4bGs?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 02:24:13 GMT",
+      "snippet": "九州ふっこう割で博多駅前のホテルに平日泊｜ChatGPTのHotelMEで見つけた「ネストホテル博多駅前」の空き日と料金  HotelBank",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【本の日・全9冊無料】NFTから生成AIまで、農業の未来を読む。Metagriシリーズを期間限定で無料提供 - Excite エキサイト",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SUEE1RU94N1pvUzltdFFDdkc2eHc0VDM3SG03WlZHM1RqTlVMckRYMW1oRE85SS1QV00xT1lMaXBtTHlnRzgzOHl3UndZYnFsTTE1THZSWm9RVk9EdGk4TlJmcDRqSnJjR2k5cDJXQTh2WDFI?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:45:00 GMT",
+      "snippet": "【本の日・全9冊無料】NFTから生成AIまで、農業の未来を読む。Metagriシリーズを期間限定で無料提供  Excite エキサイト",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIが資金調達目標を100億ドル削減し200億ドルに引き下げ 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13NExrSVVXekI2YWh2VVlvSUNUc09MYnJUWDBkbkx3Vy1KYnZDMUdjUUlMVmRjR2h3LWNLRWJScFRydEs3UE01cjJGNzYtUlZCWEx0RnpFVmg1d1VCOFEwTDdYci0yQ051MGc?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:20:00 GMT",
+      "snippet": "OpenAIが資金調達目標を100億ドル削減し200億ドルに引き下げ 執筆  Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、AIの防御突破を検証 開発環境の脆弱性を修正 - NEWS SALT",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE53RDJzVDRReWhyX1BIa2ZUUDRqSW54YzV0TERkS0lSMFFDUUZSS3MyaEZHSFdxc2tobDk3ZEVrYzM0SFRq?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:09:58 GMT",
+      "snippet": "OpenAI、AIの防御突破を検証 開発環境の脆弱性を修正  NEWS SALT",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "九州ふっこう割で奄美・名瀬のホテルに平日泊｜ChatGPTのHotelMEで見つけた「Hotel Yui-ness-Amami」の空き日 - HotelBank",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONG9sdXl1amVxcUdZaWZobWlQUHQ2RHJnQ21OM1BRWDBpSW0yaEZrVEpaVi1haUZSMXNiVHFjT09KWnVxX1hSdkpYdlppUjBlbUhReGZOZlZHQ2w2aDR5bW1MbGVjMmdCXzhVWTRrSnpVWENpWW45WVRQRGlzQVpWMEN3?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:03:50 GMT",
+      "snippet": "九州ふっこう割で奄美・名瀬のホテルに平日泊｜ChatGPTのHotelMEで見つけた「Hotel Yui-ness-Amami」の空き日  HotelBank",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI搭載「Alexa+」のために開発 Echo TimeやEcho DotでQOLアップ - イザ！",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS25WTEVXVTNjdGE5VlE2MjFNelVVN0FkTG8yLVkyNnVyRE50cFhDYXU0aDd2SDBOTHpZNGs4LTRkMjZBOXhzQkVVMmFxYURHSGRqYmxVVTlzUFFsT1dTZmhNSVN6bEtmRDhObUJFUHkySDk3ZjFQVEUtakxaZDB5QTVlUEUyU1pfT0JMc1d5NW5nU1lNR1E?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:00:00 GMT",
+      "snippet": "生成AI搭載「Alexa+」のために開発 Echo TimeやEcho DotでQOLアップ  イザ！",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "Google復活の背景に「AIでAIを作る力」の急伸 - 株式会社エクサウィザーズ",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kWWN6bGsyMk9sVTJEM0dBS1dWaG4tTzA4aEJjQVpXdHN6ZGJ2VVV5TmEtVGxZMTk2ZThlcmVvaGdENnFUcl9RUFUwX3J0UlJzTmlEdHNRRzMtRVpCSmZqOEJfN01uUQ?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 00:57:32 GMT",
+      "snippet": "Google復活の背景に「AIでAIを作る力」の急伸  株式会社エクサウィザーズ",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、資金調達目標を100億ドル引き下げ 評価額も1.25兆ドルに - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1paDVjcWNZN28xdlNFZDVtX21YSDR5LUNELWlGZ1hWUlhKRUVBUHJkV1BxNkU5RU1Tc21qeHM1WGgxZ3NFZmRieVdHemp2T0k0Yi1RN1ZoR19VQTg5ZFBSTERGQTBqdHRwS09ZTmhiNldqdEx3?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 00:55:00 GMT",
+      "snippet": "OpenAI、資金調達目標を100億ドル引き下げ 評価額も1.25兆ドルに  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI CEOが個人PCにメモリを積むのは「かなりひどい」と発言。DRAMはクラウドに集約すべきと主張 - GAZLOG",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92U042TUFyVFExalJ2SklfSXdTRkVKdkQ3RVcwRGFkcU9XZS1BNjBkODJtMzJRN3pDQkdDXzNlT1RXTVpmV0N1OUswRXRqVE43bWhSbHNsN1VIRlQ3UDN3VXJTb0U4NUFrcnAw?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 00:51:00 GMT",
+      "snippet": "OpenAI CEOが個人PCにメモリを積むのは「かなりひどい」と発言。DRAMはクラウドに集約すべきと主張  GAZLOG",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "児童の絵にAI使用と中傷 公開中止 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52dFQwNHVaTmczY29XbGdqNEJwRVByaTZ2X3VwX2xGOG0yTEgteGg0QkRlZ0pSV2drTmZ5cW4xemJHdUNlWHNtdm9XSEZYUHl3?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:54:35 GMT",
+      "snippet": "児童の絵にAI使用と中傷 公開中止  Yahoo!ニュース",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTよりすごいAIおすすめ比較！無料で使える類似サービス一覧 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zekphWWJ4NHZKQ0loRTJKaF83NFFxOTR6c0haMzlEQ2dTaE1USnVJdlBvclg0TFE3ZGplbnlZd2lRRTFWbVpvVk1mSGdkTUZxTWNMV2dIMEowX2h1b2tfSnZBclpTQ0hxWERwM1hRN1pPRHdLT0E?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:51:12 GMT",
+      "snippet": "ChatGPTよりすごいAIおすすめ比較！無料で使える類似サービス一覧  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIは買い物の「ドラえもん」に?「相談相手」から「買い物の代理人」へ（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NVkZ6SzdCVDVBM1p5Rk1TQlpjNG05bW1BcnlQTG02X051SXA0emlKRms0WFhubjkycldsWDh0aHpQVWpvMm5KVmdVT2RobUdvd0xIYThNcUpHTHgyTVVSYkNOQTNkVnNPNHpmVk5GU05nRVdWV1ZyOFIyYW85QW8?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:04:34 GMT",
+      "snippet": "生成AIは買い物の「ドラえもん」に?「相談相手」から「買い物の代理人」へ（TBS CROSS DIG with Bloomberg）  Yahoo!ニュース",
+      "topic": "other"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Anthropicの一部チームがコーディング面接を廃止、Claudeの進化で従来の採用試験が限界に - XenoSpectrum",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6T2RVVkl1eEdQclhjNDh4bXVJc2R5RVhCZ29HbW5TLVgzcmpSY0doZVZpd2RGQW02bXc5MVpQcGZhWEFxdmpmdXp1TkdNa2FsU0dKNVc5RU5GNWY3dGZKcWR4dkRZemVsZWE5SjlNbXdYZw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:02:39 GMT",
+      "snippet": "Anthropicの一部チームがコーディング面接を廃止、Claudeの進化で従来の採用試験が限界に  XenoSpectrum",
+      "topic": "claude"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI・Google・Microsoft、AI学習拒否の共通ルールに対応へ：robots.txtで何が変わる？ - XenoSpectrum",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwU1JjY2ViQ0ZoR0lzY015dV9FQWRmYk15YVpWT0JIMmlSUjE4VERmRElOUWdCLVdURDZJbUVqd2Zrb0h4OTlfeEdzSzd6YVdST3E2Q0x3VmdJWVVlcWV2aTUwOGRFQlU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:02:39 GMT",
+      "snippet": "OpenAI・Google・Microsoft、AI学習拒否の共通ルールに対応へ：robots.txtで何が変わる？  XenoSpectrum",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIは買い物の「ドラえもん」に？「相談相手」から「買い物の代理人」へ - TBS NEWS DIG",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xVXNacHhUb1p3N3JpLVRGZlRuRElUZ0pzNXUyOWN0QVZYV3BkZmU3RzVCSEZyWEVGRE5QZm1FMVRFM1N1Zzd2RlI1dmtHS0lfWTJkTG1xd2RMdXhDVkRQLU1IWUZqMEtWcGxsNFdFSWFZQi1r?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:00:00 GMT",
+      "snippet": "生成AIは買い物の「ドラえもん」に？「相談相手」から「買い物の代理人」へ  TBS NEWS DIG",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIは買い物の「ドラえもん」に？「相談相手」から「買い物の代理人」へ - Infoseek",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YRmJDUjBxTzZYb1hTcHZnUFUyYm9tUDlqUzFDckRRLUluNjZaN2s2VjBIdHgzZ2JwMXpVX2RNNGR6S1JpblVOeTVNZFg1VDJySGR3SnhaSXZJSE5BZ0QySnRB?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:00:00 GMT",
+      "snippet": "生成AIは買い物の「ドラえもん」に？「相談相手」から「買い物の代理人」へ  Infoseek",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTは「誰のどんな仕事」に使われているのか OpenAIが80万件超のログを解析 - ITmedia",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91ZWxQaldIZ05Oa3h6elJyZ0pHNWVTaElZZGV1VEc1aklsQlJxQUtmV2M1bmUxMFlLcHBBVmFhN2d6bE1HQjktalZlR1B1am12dU83eENwX1M3S3NSYTZGNzRya0VSUlQzc2Q4QmJHcEY3MTR5?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 23:00:00 GMT",
+      "snippet": "ChatGPTは「誰のどんな仕事」に使われているのか OpenAIが80万件超のログを解析  ITmedia",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "グーグルのAI半導体、宇宙での動作を確認 「俳句」を生成したと発表 - CNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56VXhQQVRLRHBYcWlVOG9FZHo2eGRjX19sWlBtd29Qei1FWVFoaEVTYkVJTHpJQTJ6RFp5cXA2UDVfSWpIY3lva2laenBiY0Vqc2c?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 22:30:00 GMT",
+      "snippet": "グーグルのAI半導体、宇宙での動作を確認 「俳句」を生成したと発表  CNET Japan",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "AIが監視設定を勝手に削除、OpenAIの社内検証で判明した自律エージェントのリスク - XenoSpectrum",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fZF92V2JfVjlHQmVEN24yTFpIOER2U01LVF92QnJHenRFWjlBTlp3bld0UkZNeElBUkFOUGZMSnJQZUwxMDh3cy1weWRrT2ZSdXJuU2dETnNmbXZleWJnSTZjb3pJa2tJOHhWNWUwOFF0TUU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 22:27:39 GMT",
+      "snippet": "AIが監視設定を勝手に削除、OpenAIの社内検証で判明した自律エージェントのリスク  XenoSpectrum",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、Google、Microsoft、AnthropicがAIクローラー向け共通オプトアウトトークンを支持 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5VV9ETjVyZHpFVGtUZUdtTW1vb0FTTkFlLXZFT2Jvc2J2NldEZ1lKZm81WmZ3YXZPLVlGYy1taE9EZTRpby1IaXoyMzVXVU5pRGpITTF6SmdhLXNjYlprVThybHQ4Rlpwd1Q5RHg1TzNjYVZW?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 22:25:00 GMT",
+      "snippet": "OpenAI、Google、Microsoft、AnthropicがAIクローラー向け共通オプトアウトトークンを支持  BigGo ファイナンス",
+      "topic": "claude"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「Tiboの奇跡」――ChatGPT Proの利用枠が2倍に、予告されていた半減は撤回 - shiritomo",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1FU3NmYVItZDdnOHpQX2ctR1RvaG9BUjhMZnpfWGUyN3R0QWZ1eW1FakNXQURCc2k3dFNXT1RQVElMdw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 22:22:27 GMT",
+      "snippet": "「Tiboの奇跡」――ChatGPT Proの利用枠が2倍に、予告されていた半減は撤回  shiritomo",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "Cognizant、企業が最先端AIを実運用に移行する中、OpenAI導入支援に2万5,000人超の専門家を投入 - 時事ドットコム",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93ejlzVTh6Rnk0UkhVeFV2RmNxUEptTUVrd0lJWmZRMXI0QXZVZnRuRUJQcXBoZlNuSFFMV2l6RmxiMTlmZk1VSy10TXJMWkRpQl9pb2FkT21PdURv?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 22:19:00 GMT",
+      "snippet": "Cognizant、企業が最先端AIを実運用に移行する中、OpenAI導入支援に2万5,000人超の専門家を投入  時事ドットコム",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "遠隔画像診断と生成AIが拓く地域医療の未来｜嗣江建栄 - JIJICO",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TbG96T2tkNnJZcURQblV3dUdZR3ZsWmtRTEZYQjRnVUxUZ1VoRE1jOEVKQ1JFdjh0bTZxUnNnaHY3aEVZeVpyd1hwMEUxNHNzYVphOElxT3RFOFFnRUFxN1R1WEM2UlU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 22:00:47 GMT",
+      "snippet": "遠隔画像診断と生成AIが拓く地域医療の未来｜嗣江建栄  JIJICO",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPT Deep Researchとは？使い方・料金・プロンプトのコツを解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zZlg4NExjc29oRWJTcDl4MllzNmVDTlZLcDZpTGRhdDlpdHZ1b001dW83Qms4akNMMk5IZGZnU1ZLVzJMeGZ4OE9FOERmTjRzQVFpdERfYW9jQzBUSHA3Nk9lWQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 21:25:10 GMT",
+      "snippet": "ChatGPT Deep Researchとは？使い方・料金・プロンプトのコツを解説  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "グーグル、軌道上のTPUで生成AI稼働 宇宙データセンター構想が次の節目へ - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RV3lKd0d4YXJMUGVFZkRDbHVVaDBlVHVKX3JkcVAyNW85Mnp6bHlpQ09UZFhscERtWE5teWwxaGFHUWVMczR0RGVJU19LVDhXdmNwSnVSZGVwSndkcGx3bXluQkF2NTZCdkxPVGxWaUlvdFRa?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 21:25:00 GMT",
+      "snippet": "グーグル、軌道上のTPUで生成AI稼働 宇宙データセンター構想が次の節目へ  BigGo ファイナンス",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIが偽の歴史を作り本物の証拠も疑わせる危険―アーレントの「真理と政治」で読み解くAIの歴史改変 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPakplaV9UbXhqVVpabHZCQWpkeklMRjJ5QVd0Q3ZTRi1CMFEyYTZ1THN6b2x1VGd4QUd2ZEZJX2tqUmVDbzFIZjltVkFJWDYxTWFlWWJNVWJqa2NpdnZWMkhscFdkLVM1Wk5tSXc4cDBkclpzaFVkbXBtNkhUNWcxc2hSbE4yX2Vu?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 21:11:27 GMT",
+      "snippet": "生成AIが偽の歴史を作り本物の証拠も疑わせる危険―アーレントの「真理と政治」で読み解くAIの歴史改変  Yahoo!ニュース",
+      "topic": "other"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "「Claude」Anthropicが開発したAIモデル／AIチャットボット - 窓の杜",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ISHduLXZ3bE9ERkx1a1YzX1l0SVNZNmZCbHhQLVlPXy05XzhPQkpzYm12cnJiOGZxajI4dnl6dHlWbFhBZ3FVQjAtVUEybk5ZOVBGYmNHVzF6WF9FMmhQUUZpUnZZVmVjT2Jr?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 21:05:00 GMT",
+      "snippet": "「Claude」Anthropicが開発したAIモデル／AIチャットボット  窓の杜",
+      "topic": "claude"
+    },
+    {
+      "source": "Copilot / Microsoft AI 関連",
+      "category": "news",
+      "title": "「Microsoft Copilot」Microsoftが開発した生成AI／AIアシスタント - 窓の杜",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hOUUxajhSaGhZNXdBQjBPTDNpenRfY3hBYnpkVzZVQVhpTGdsbjJ4LWQ4amRBWjNYdVBSbEl5WjBRWWZPaENtQUl4M2VNbFpNWUtBMjFQYjhXRUdQRFE4cEI1cnIwQUNOQnc2NXZRVQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 21:05:00 GMT",
+      "snippet": "「Microsoft Copilot」Microsoftが開発した生成AI／AIアシスタント  窓の杜",
+      "topic": "copilot"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "特別支援学校で生成AIの活用広がる 宮城県教委は絵画コンクールを企画、導入後押し - 河北新報オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGSDk3T0ZVeEZKU3h6YU10NUpoUFhZaFBZeTM3aWExbXJEZGNlbkpyN3NFcDBwclg1SmJmMmZXNE05NmkzV3RjTzB0SjZUZ2JIRjZmeHJ1UmJyaVU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 21:00:00 GMT",
+      "snippet": "特別支援学校で生成AIの活用広がる 宮城県教委は絵画コンクールを企画、導入後押し  河北新報オンライン",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI｢クロード｣のアンソロピック､\"インフラ投資126兆円\"の多くはキャンセル不能 業績は急拡大しているが… - 東洋経済オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IZ0dzNlM4VW0tM0FGblpzZ0JZdHZ6VDZrZUktTHY0aDA2MnQzN1VmSVZoN0NSdElpaEY0QmwxcFk2ZHZxVDQwVDNEVmFRY1ZkSE1RLThueWVwWFdVRHBz?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 20:45:00 GMT",
+      "snippet": "生成AI｢クロード｣のアンソロピック､\"インフラ投資126兆円\"の多くはキャンセル不能 業績は急拡大しているが…  東洋経済オンライン",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTに顔写真を送ってしまったら？削除できない場合の注意点 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfcXk2MGc4aE1qSm4wVmV4RkdJODhUMXBNNnZPcTlIcEU1clJTQ3pxYXpLdGVxRUxYNTlnTFIwSGYxN1NSZmdhYkNUd2tEQW12X3hRZ2tBa1g1clBPMGc?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 20:29:21 GMT",
+      "snippet": "ChatGPTに顔写真を送ってしまったら？削除できない場合の注意点  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "MIT News (AI)",
+      "category": "official",
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "link": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "pubDate": "Fri, 30 Oct 2026 16:15:00 -0400",
+      "snippet": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTをログインなしで使う方法と制限・安全性を解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QZEd2alByRVhSeS1YZXJEWUxnZVVrRWphYnR5clNEdkR3cVl2WWJWMHhaRGtEUGVGcEV5SEpwVWNqcGo2QUplNHVZMmV1ZmxGc2ZaMURwR2lsQVJLaHp4Unc3VzFzZWc?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 20:04:31 GMT",
+      "snippet": "ChatGPTをログインなしで使う方法と制限・安全性を解説  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTのメールアドレス変更方法と変更できない場合の対処法 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iaWlpdkNmbHhIWVJvX1JsY3F4b2F5LXJMZUVuR3dkTHBwb3NiRmhTb3hjWGkwUzRtWjVKdkdSRWt6bHBHZkpValRxVXdRWWMta2ZxY29VUFhFTERfcWM3ZkVzeFkwT2gwYjFJNg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 19:25:37 GMT",
+      "snippet": "ChatGPTのメールアドレス変更方法と変更できない場合の対処法  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "MIT News (AI)",
+      "category": "official",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "link": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "pubDate": "Fri, 30 Oct 2026 15:00:00 -0400",
+      "snippet": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTは日本語で使える？設定方法・エラー対処・プロンプトのコツを解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fbnZQZWJ4VmpuMmJyRUpJS3VwTWVGYm9YaHI5cC1UNjhHdjhFR1Vvc0tYaGdCcURHclVUX2s4NkpQdHgzaEZZZG04Q01iaVBabFh0V2ZUeXNzRXFfYXNTM2xJaHN1SC1VTm9v?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 18:57:56 GMT",
+      "snippet": "ChatGPTは日本語で使える？設定方法・エラー対処・プロンプトのコツを解説  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、AI学習に関する共通のrobots.txtシグナルを尊重へ - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ0doOUFZM2ZPaU41djJ3RHZ4Vk5KcktHaXJjUkpiME1hRWlTM3NtMjdPUHRuQzU1UDNPYllfZEJFenpLTVViMUVmZDg1U2ZUNEY1bEU2amJ4ZUlSVXp4UTctTmpNOGhNSnlWc1o3WTlfb0R2NlNNRkJiRTdmNWRKTlYtMURjQ0ZURGktZ1pVOE9va1RLMnNNdg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 18:27:04 GMT",
+      "snippet": "OpenAI、AI学習に関する共通のrobots.txtシグナルを尊重へ  Unite.AI",
+      "topic": "gpt"
     },
     {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "Google、フロンティアAIモデル「Gemini 4 Carbon」発表―長時間の開発作業とサイバー防御を強化 - 財経新聞",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01SnlJZHBtWHowQ3RPRlllbmRBbE1FQzNLVmNGRVpBaEJzWkJ0dlczcnhrYWQzWlg2UWMzX0Y0WmdWOTRkV0k5cXROanpCcmFxLS01S210RXFYajNOZHd1U3hib9IBaEFVX3lxTFA2ZDFjaEFCRHRNR0lNSm5KYUpjbXdBRmdxakh3UHBCYlNRbFpqSGYyNTB4ZXFwSmhmS3EyX00ybjNJUWpVZ3NBSGozWHVMb0Vlck03S1o2R3BBczE3OVY0d1JWR1BqVjFM?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 04:09:44 GMT",
-      "snippet": "Google、フロンティアAIモデル「Gemini 4 Carbon」発表―長時間の開発作業とサイバー防御を強化  財経新聞",
+      "title": "学校のGemini、Googleが2件の研究を公開、だが標準テストの成績は伸びず - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVzg4T2lXaE1aME9YT25nbTFEZjQxODJWRHJzMGVQOXhKaENFZnFFVW1rc0dkZDNRZFg4RW5oUkg5Q3B5eTFVUklQeWlZTnhmWW9LQU5zZng5aXJ1SzFPajFhVUZfS0JaUXJtLWZ6eF9YVlBlWWh1ZUx3TGkyeVdXNg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 18:16:31 GMT",
+      "snippet": "学校のGemini、Googleが2件の研究を公開、だが標準テストの成績は伸びず  Pasquale Pillitteri",
       "topic": "gemini"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "OpenAI「GPT-6.1 Terra」、安全性評価で深刻な逸脱は減少 一方で破壊的操作や情報持ち出しの警告が増加 - 合同会社ロケットボーイズ",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaTN3V3ViX2Z6Sk1Leld6cjJUTFNpWGlpYXFxb1hyUzMwSEFDTGtkTUY2ZW4xWGpsRHRPUmhkX1NnUmg5VHJxYXZILTctaWRNVnBuUFZwM3I2dDRrSDhQdW0tcW5wVkMwOWQ4b0lnS1dPUG9HQXhoYk41NEN4TlFqWDZBNGJuTHZzWlZKY1hRZFVpQ2syWGtEcDNBbVdSUWFkd2VzbnJUMklQTEE?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 04:00:57 GMT",
-      "snippet": "OpenAI「GPT-6.1 Terra」、安全性評価で深刻な逸脱は減少 一方で破壊的操作や情報持ち出しの警告が増加  合同会社ロケットボーイズ",
+      "title": "サム・アルトマン、OpenAIには数学と科学のさらなるブレークスルーが控えていると語る - Mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMTRHVnFLcUpRZ0o4MFBCcGx0Q3lTX3hzUTJnUElLMmF4OUN6enBLX0NJOVJHNnVfOWwtLVdlajRtTm1MSV9uSWdVN1p4bEl5elBtb1lzNjR5QTJYeE1lT2YyQjZKQXduMm04ZDJtR0Q5MXNVUkkzU2M3Z09aeHVGZkE0VmtNR3ZuNTRBNUJFaWI0Qzg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 18:07:00 GMT",
+      "snippet": "サム・アルトマン、OpenAIには数学と科学のさらなるブレークスルーが控えていると語る  Mezha.net",
+      "topic": "gpt"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Google、次世代フラッグシップモデル「Gemini 4 Carbon」を発表。間接プロンプトインジェクション耐性「0%」を達成 - Mashdigi",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84TERSZi1lX3JrclB6NDFzbFFqSVVWeGdPYTA5dVBYUWVLZ3R0V2JLb1FCNlp4cUJmVWdaZTBvT2tPQjByazdST3k3TUkwNjdlMTRuQWlfU0xJNHN2OWxuTGVjeXA4bjI0NWVRSmJCdWNDVWlGUTVYczdn?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 18:01:29 GMT",
+      "snippet": "Google、次世代フラッグシップモデル「Gemini 4 Carbon」を発表。間接プロンプトインジェクション耐性「0%」を達成  Mashdigi",
+      "topic": "gemini"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、自律型AIエージェント「Dot」にSMS連携機能を追加：写真やボイスメモに対応、進捗の能動的な通知も可能に - Mashdigi",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3lBM1pKUkVNM2lta1RJeUlJdVBiNVVVZl9xUHhMWDBWcEhiNERaU2kwZkI2bjRmVFRSLTYzS3R0UUtLcGhuVXdyUkRKWDhDLWdEMnltaUd3N3k3cUFPRGpGZ3c1azBGd0xUMnhxazZ5MmJPYkk4Q2drT1N0MUZYOUJJVkc?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 17:59:30 GMT",
+      "snippet": "OpenAI、自律型AIエージェント「Dot」にSMS連携機能を追加：写真やボイスメモに対応、進捗の能動的な通知も可能に  Mashdigi",
+      "topic": "gpt"
+    },
+    {
+      "source": "Hugging Face",
+      "category": "official",
+      "title": "nemotron-halloween",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "pubDate": "Fri, 30 Oct 2026 17:57:24 GMT",
+      "snippet": "",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIがモデル「家法」を更新：人間はいつでも停止可能、AIは隠蔽や妨害を禁止 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81bWVxU0JIZDVkcFVNWjJoT29GWDNHbmY0dmNRREtYd2pHaElTR2d2MkkxZWd0bnlmZWxMaU1ZcG81cTdtaTZEZ2V2eXNZdk9NbzRuV0k5b0xlZnY5S1plX0VZWkV5MmRjRzdyYk5sVFY0MGcx?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 17:25:00 GMT",
+      "snippet": "OpenAIがモデル「家法」を更新：人間はいつでも停止可能、AIは隠蔽や妨害を禁止  BigGo ファイナンス",
       "topic": "gpt"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "韓国、生成AI有料課金者の月平均支出は約4,200円…40代が最も多く支出 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqSEFpbFBzWFB1aUxqeDNPenRRc0FRLVEzT1AzOVVma1lucl9UREhJalFoMXRXUU1XMndRWFg1cldrNTlmWkJKTzluUHB3ZmM5ZFJjaXlXZXNYSXR1QUpEUHZNNUVQQl93cVVFUHNiVXdhSHJR?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:55:00 GMT",
-      "snippet": "韓国、生成AI有料課金者の月平均支出は約4,200円…40代が最も多く支出  BigGo ファイナンス",
+      "title": "Project Suncatcherの周回軌道上のTPU、AI生成の俳句を初めて生み出す - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaUhXR2lDYkxzNVNjUEZ6d00zUDRlYkc3bWFVZGFVQ2FLV01qVjA4eVNvOUoyVmJwLVNPVW9UMll6WkpiX0hsZl9GeXlxeGFOQkdHYnNIQk9nNXMwRGIzTUZFWWJxMXdSRWdoTkpJOFdqYWRCX0dMbnU1djdoRUpNUzBDVC1Dd1FHbERFN0dvX2gtYnZLTW1wS291UQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 17:20:03 GMT",
+      "snippet": "Project Suncatcherの周回軌道上のTPU、AI生成の俳句を初めて生み出す  Unite.AI",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、コミュニティ安全性レポートを発表 10代の若者への武器関連情報に新たな制限 - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSk91bFZQUVNmX09Da0lqV1Q1U1g2cWl6QVdKNXVtWUVVcm84Q2s1YzlUVkFJNGNCTlJwN0o2M21GZ09lOExFR2VSOVZrRi04V1c2X0xOWFBUUHE4NnA2T0w3emptaFl5Ym9mWjVjQW5jMXZLbEtnNGxrbnh2eWh5UnVMV3NFVTF4LVhvSWZhY0ZuVVZPVm9rSw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 16:40:13 GMT",
+      "snippet": "OpenAI、コミュニティ安全性レポートを発表 10代の若者への武器関連情報に新たな制限  Unite.AI",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTで動画作成する方法とは？無料ツールや編集活用を解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zR3NOM2Y3Si04V3FIOWVRdmFFVFBHbllnMGJBQVZ6eE1KOWxOVE5DSFo2T21IZjd4YndKRXhMa2U1bFZFVlhHbGhya0xMSFAxNmZoc0dtT1BCVzlYaDhFd2JaTGg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 16:12:27 GMT",
+      "snippet": "ChatGPTで動画作成する方法とは？無料ツールや編集活用を解説  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ウィキペディア運営母体、NYT対OpenAI訴訟でフェアユースの線引きを裁判所に要請 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00cTMxeTdMSzBlY0tqWnpOR1JIZmotRDdCOVY5VUZzNHc2SzhQYV9FMDBKMlVkZjZPaDhKZGp0MkxMcGNqTEFwaGtibk9ucXRPNm9GVU9sRU51QTBvVy1xcWxPcHIyNU5obnNCS05LZjBuQmZF?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 16:05:00 GMT",
+      "snippet": "ウィキペディア運営母体、NYT対OpenAI訴訟でフェアユースの線引きを裁判所に要請  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "Microsoft Research",
+      "category": "official",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "link": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "pubDate": "Fri, 30 Oct 2026 13:05:28 +0000",
+      "snippet": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterp",
+      "topic": "copilot"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Claude Codeでは専門家が86%の選択でエージェントに従った - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSzlMU1pTVFF4UkFEeHM2N0g3dFdJemM0TFNVS0dBX25sSEJTVG1nQ1VadEoxMjJGb3N0TVFaWmw1bXhqbEZFYmtMUktuRzZmVVhIaUo0eTY4dHowRkJsWi1aLUFNVDY0THpuZVhDLUlEQ01LcmNqWjMzRHhENWU3WnRrQWgtUkZDWUE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 13:03:35 GMT",
+      "snippet": "Claude Codeでは専門家が86%の選択でエージェントに従った  Pasquale Pillitteri",
+      "topic": "claude"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「ChatGPT for Teens」とは？対象年齢・安全機能・保護者設定を解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lZ2Nzb0VlWWFobEVMd0k5NVdLMlBlTWxjYUYtQlZlWTYxeDUzOEgxdjVJblJsRTVNbndVVlp4ejJUcE1xLW5sY2JEZUhYSHI1WXByN2xldEZoLWFWZFVMNTRjRE1veUpH?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:52:55 GMT",
+      "snippet": "「ChatGPT for Teens」とは？対象年齢・安全機能・保護者設定を解説  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "QommonsAI提供開始2周年記念「行政AX全国サミット 2026」を開催 - 全国の自治体職員とともに、生成AIハッカソンや導入自治体の活用事例紹介、最新アップデートを発表 - 福島民報デジタル",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RODYzclRiWFA3Z09wdTdSaFE2Z082T1lWZGlEcFpBYXVjU1NUaUszRTlwSkRnUGRRU0RwLTVaNHJwTVRmUUhMQ1FXWGxuZ1FqTDNlaDV1R3c0dm95bEt5YlJYVlZINGM?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:19:51 GMT",
+      "snippet": "QommonsAI提供開始2周年記念「行政AX全国サミット 2026」を開催 - 全国の自治体職員とともに、生成AIハッカソンや導入自治体の活用事例紹介、最新アップデートを発表  福島民報デジタル",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPT有料プランの利用枠“2倍”！Claudeモバイルアプリも更新とユーザーに嬉しいアプデが続く【AIニュース3選】 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OdURrMmFQd3BRcmMtMG1uTjhkWEl6Tm42WFNWSHkwVVZoYmk0NE9kZHdBNkU2UkVKbVEtTUVyQkJ2cGNETXFsWm9hbS1fXzg0Q0tEc2YxclBGRVg3RGxlZjFDankyUHFVaDNjVUxXOFdtQ2EyWDhjQS14bE9HalU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:02:00 GMT",
+      "snippet": "ChatGPT有料プランの利用枠“2倍”！Claudeモバイルアプリも更新とユーザーに嬉しいアプデが続く【AIニュース3選】  Yahoo!ニュース",
+      "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "Spotify、AIでカバー曲作成可能に 収益は原曲アーティストに還元 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xVUliUFNiZTJaelRyOWt2XzlpN3JuSlhtbVBOdktCOFJ1SGM1UmN0Qnl3eGQzSWJmMHExVGNiTlRSUU1HeXUtNFJYTjNkcVJlVTZuTjZhaUJKRmQtTlB0SHVKalR0aWhXMXFDTQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 11:40:00 GMT",
+      "snippet": "Spotify、AIでカバー曲作成可能に 収益は原曲アーティストに還元  日本経済新聞",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "九州ふっこう割の対象ホテル41軒｜ChatGPTのHotelMEで見つけた平日の宿を県別に紹介【10月30日時点】 - HotelBank",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZYmtpSG9PX1VxNGctZWhHTmxWSWF0NXZNSEU3NFE3RFRGNEJ4SkRHb0FXRVl1ZThoRkxEWk80THN0WWR5SmRGSzc1amNZbjF6XzFVNzhVOXhVQjBpMXlyRXJJMnVRcDFBZ1huSW43bE9yQldhS2c?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 11:04:31 GMT",
+      "snippet": "九州ふっこう割の対象ホテル41軒｜ChatGPTのHotelMEで見つけた平日の宿を県別に紹介【10月30日時点】  HotelBank",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIで説明文作り転売か…他人のクレカ情報を悪用し約42万円のハサミ一式を騙し取った疑い 中国籍の男女2人を逮捕 - FNNプライムオンライン",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fa0FGRnRTRmVOanBocEtRSDFIbktvN3dmUm1lbUd0Q2FzUFRIZ2lPLVNNZnBQLVNVd2kxR0ZldFNxQWZKekVhRWVDWUg2UQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:49:11 GMT",
+      "snippet": "生成AIで説明文作り転売か…他人のクレカ情報を悪用し約42万円のハサミ一式を騙し取った疑い 中国籍の男女2人を逮捕  FNNプライムオンライン",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "SBI損保、丸紅情報システムズが提供する生成AI搭載のリアルタイムテキスト化ツール「MSYS Omnis」を本格導入 - RBB TODAY",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NbzAzV2lWMHZJZzdyVzU3bkhnbTRrWExvLVdyaFdBWksxRl9ROGlScHVPUkY2eUl5MFBJYy0ya0hYckZ0RThCc0luUHcwWVF0dFZwSWFpSXgwbmRkQXNEekp5ZkFtTm4zMERxZWRXblNTVURrajMySw?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:46:10 GMT",
-      "snippet": "SBI損保、丸紅情報システムズが提供する生成AI搭載のリアルタイムテキスト化ツール「MSYS Omnis」を本格導入  RBB TODAY",
+      "title": "AI生成曲検知 JASRACが導入検討 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwQVZLZ21ndU9iWDY5NjlGd1B5ZURhenVreWJ5bU9lYjFJdGx5UERGYUV0ZTRrbWpuRlhUQUpmcXp6cklYNkkzRi1Ocnp6THYt?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:41:11 GMT",
+      "snippet": "AI生成曲検知 JASRACが導入検討  Yahoo!ニュース",
       "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "GPT-Realtime-2とは？OpenAI新音声3モデルの違い・料金・使い分けを徹底解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vS2FBdnM2SzBGVW1YV2FTY0JmUGk1MTZHTkxMMUNLWGNURlkwdDUydlZKdlpVQlYwa19rTlQ3OGl1UFE5SW04ZW5SNXdDbzRycTdSenhETXM2T3ZNSmhJT20wb3Y5eDItZU1BZ0FOQ28?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:23:29 GMT",
+      "snippet": "GPT-Realtime-2とは？OpenAI新音声3モデルの違い・料金・使い分けを徹底解説  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "LinuxカーネルのTCP脆弱性CVE-2026-98432、UbuntuとRHELは修正版が未公開 - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNU1jbmEtNGpRMkhKcmZOQ2trald0SlZlY3g2UUZ5Y2JiYXBDenAzTUxhemg0ZWRjS0xHdGhpSUx0T2NDRDN0aDhpdlUwQWdiNGRKRURhVlZSaHAta2pSUzZlVFRZVVhVajByeHlXSEFYaHRIRFMwXzNRemVPWjRkQjdCNkRZZnhIXy1nWDVwaC04VTBYU0M5MA?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:20:51 GMT",
+      "snippet": "LinuxカーネルのTCP脆弱性CVE-2026-98432、UbuntuとRHELは修正版が未公開  Pasquale Pillitteri",
+      "topic": "claude"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "CursorのClaude Code拡張機能が侵害され、SSHバックドアを開こうとした - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTVVUYlQxSzZCU1IxZXdFSG1DRzJzZ3U4REQ3a0gzVVNZejNwTkttODlCN3Q5UmxsaU9fcEhXZFVTc3hPR1l4QjRjc0lEX1VYOFFDQjQ4WHBtZ0hfeDBDd09LQ24zY0VqVWl5SWk0LVFySEk4ZVBnTG9pLUVNM1lfbkp3MmstdkRLMDJr?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:10:53 GMT",
+      "snippet": "CursorのClaude Code拡張機能が侵害され、SSHバックドアを開こうとした  Pasquale Pillitteri",
+      "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "クロス・マーケティングG、生成AI開発の「ちょっと」を12月に完全子会社化 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GWW14c0RDYXlXUTh5Y1E0eGw1NmdteENoZzhYLVIxS2ZIMUVBSWJKUTV6RmJxaGIxZFMtdXF0RF9sc2FTb0dOYTdmTU04RWQxeGNwNTdZUnlnMkFZUngydDhyUzJsSS1jOUxVSGdjWHdMclBs?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:06:00 GMT",
+      "snippet": "クロス・マーケティングG、生成AI開発の「ちょっと」を12月に完全子会社化  BigGo ファイナンス",
+      "topic": "other"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Cursorマーケットプレイスで悪意あるClaude Code拡張機能がSSHバックドアを設置、最大5,000ユーザーが影響を受けた可能性 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sTHYzS0wwZWh2QU5Sei1yaDRJX3QwUnA3d1c2Ry1Od05ldVpXOGxnR2p2bjdzb05nbEU5UXJuVkJOZVZWT2xNaUtrVGRKYmNtOTM1c3IxbkhmZnB6Yndya0tKQTU0NVZCVVdHUFE0Z192dXFn?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:56:00 GMT",
+      "snippet": "Cursorマーケットプレイスで悪意あるClaude Code拡張機能がSSHバックドアを設置、最大5,000ユーザーが影響を受けた可能性  BigGo ファイナンス",
+      "topic": "claude"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Linuxの重大脆弱性「CVE-2026-98432」 Claudeが二段階の遠隔攻撃を実証 - NOVAIST",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqNUlEallYYmpFMUM2N0x2eWN4WTdOQ3BOUy1tZjVDbzRBeU9zWlJHRExMTkFYaWlNUG1rTVhidi1QUDRuVkRQWFIxYnhYQUVhdnJFVlhpVGl2LTFzZTVaSEtZVlA?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:54:49 GMT",
+      "snippet": "Linuxの重大脆弱性「CVE-2026-98432」 Claudeが二段階の遠隔攻撃を実証  NOVAIST",
+      "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIを使わない“人の手で作ったゲーム”を集めた世界規模のインディーゲームショーケース「Games Without AI」始動！11月25日配信へ - Game*Spark",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CY0MxZ3I0UWdscmFwMl9nS2lIcC1ETXh5Y3hvcXN1WWpad1RBc3BPT0F5ZmJkVmYtWlBTTHlIR2ZXcXdacjJNaGJkZzBkUEFzU19LQWxrOHFmYTdva0YxaEJpQU5wUQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:45:02 GMT",
+      "snippet": "生成AIを使わない“人の手で作ったゲーム”を集めた世界規模のインディーゲームショーケース「Games Without AI」始動！11月25日配信へ  Game*Spark",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "‍‍‍画像 生成 ai {無料のAIチャットアプリ} - Port of Rotterdam",
+      "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQd2hMbTRfaEhsU1M2ZlliWE5kYjVjbUhwOENVc0hRSE12WVFSQmZzSkk1Q1U4U0ZvZUdaaTkyR0Uxci1QLUxXMnlOZUxLZ1U3em9nbm1JbHpOSW1yMzkzdFRMUlNCWEJwRkcwLVZHV0RRdWd5TUhDbHptSEt3dFZzVGNWa0l1d0RydC1IUmhkdS1pU2w0bjVZWUpnUHBDM09XMGRKN0prTmFyRklCeERCWFVJMksyWVJTREdYUUQ0bHNvaWpCbWFFT1JBbkc4QTNkUFhZcVlXbVFidmF5TWh5anByVVhNVkRZQ2IzNGNrdFkyRjlNdEpjS1AxTElKYnlDX3lWb1BNbmdSbFJ4U2RmMDlPV1pxbDBGSTRXWm1ET0xEcVVHRXhaTWlucXliTmRQMjRlX0JqNDdMUDRMZF9ETG9aNGVxaVgyRXMteS0wM3ZiTEdVV0xVLWJn?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:41:49 GMT",
+      "snippet": "‍‍‍画像 生成 ai {無料のAIチャットアプリ}  Port of Rotterdam",
+      "topic": "other"
+    },
+    {
+      "source": "OpenAI",
+      "category": "official",
+      "title": "Making it easier for websites to express AI training preferences",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "pubDate": "Fri, 30 Oct 2026 09:30:00 GMT",
+      "snippet": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、「ChatGPT Pro」月額200ドルプランの利用枠削減を撤回 - CNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0QzlvcjJnaGl2cnowdkszbHVnaVRvRi1xUEFsa2k3WEU4MXlIbDU0QmhoSjRfdVRiTjVVUzFqLUQ4QUJsa3diOVhJemd2QnNkRVE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:20:00 GMT",
+      "snippet": "OpenAI、「ChatGPT Pro」月額200ドルプランの利用枠削減を撤回  CNET Japan",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI搭載「Alexa+」が日本上陸。プライム会員は追加料金なし、PCブラウザにも対応 - マイナビニュース",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90d3htV09NaXVYU0NXRFFkNnFCU1lYanZzX2pZWnFOZTUzd1Y3UFdnTF9NM2JEX1Ywb01pRDY5cXJ6eWpLODNkT2laTnRiWWJXaGFabHBESTZReDM1?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:19:34 GMT",
+      "snippet": "生成AI搭載「Alexa+」が日本上陸。プライム会員は追加料金なし、PCブラウザにも対応  マイナビニュース",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI搭載「Alexa+」が日本上陸。プライム会員は追加料金なし、PCブラウザにも対応 - ｄメニューニュース",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90UlNHdkZuSjdTM0hfSHcxSjFQWjZBbnpTWFo3VkhFa3F1NlJtWVRRcU4wQlo3MUNNUEJMdG1jZ19xakZTUWNReEYxcExRTmpJOUFKX0lJUG1xdmlCQno5TFlxck56YWZIdE5iemJpcFpMUG_SAXhBVV95cUxOaDNnNTRkT1VvekwydWdyXzV0WHpzdG1kR2lFM1dyeVhBSmZRb01HQ0tvVm5NVUNBdXhfVjJZbWhmTmFhQVQyZzVLQU1KS0JBRDlmczg4MmN2clE2UDFQd1VMd2kyUnZmLVZJWUEtUlhTczhNOFNqRVE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:19:00 GMT",
+      "snippet": "生成AI搭載「Alexa+」が日本上陸。プライム会員は追加料金なし、PCブラウザにも対応  ｄメニューニュース",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIの最新AIモデル「GPT-6.1 Terra(テラ)」徹底解説！ ～性能・使い方・Codex/ChatGPTワークを使った活用事例 - ライブドアニュース",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oSU9mMFhqR1AxUnl6cjBHM09IMW1qQUNQRU8yRl9WbGdLbklvZkRxWUV4MG5keG5SOGFkblVhTDVIQlpYRktvZVNOSlloQzJkdDFuSnE3U21EQ3pTVnRn?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:05:13 GMT",
+      "snippet": "OpenAIの最新AIモデル「GPT-6.1 Terra(テラ)」徹底解説！ ～性能・使い方・Codex/ChatGPTワークを使った活用事例  ライブドアニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "OpenAI",
+      "category": "official",
+      "title": "Community safety report and new protections for teens",
+      "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "pubDate": "Fri, 30 Oct 2026 09:00:00 GMT",
+      "snippet": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safet",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "AIがAIを作る時代、社会はAI進化の制御の仕組みを構築できるか - 株式会社エクサウィザーズ",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvc3hpMTFLaGd5SFZQT1I0ZWZkY1VoM3ROckF5VTFTMjdaQWZxcnpiS1NGTVZZQXpHY1M1d04yOTU0NllRampYTGVESEdkMEl5MlItbjBkUWYtQkVUdElrMS16bHlpcC1q?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 08:56:17 GMT",
+      "snippet": "AIがAIを作る時代、社会はAI進化の制御の仕組みを構築できるか  株式会社エクサウィザーズ",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "アクセンチュアがOpenAIのセキュリティー基盤導入を支援、中堅企業も照準 - 日経クロステック",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OYndvV1hrQkVMNzdJejNqOTIweFplQ0pGMWRNX1BWNUVwYU5tSldCVGtwYk9WWXRjc1E1X043SWJoQVBkaGwxc3MzWmhZSjhLMDczZUZrelE0dF9ienNxYnFIUHpvREU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 08:20:00 GMT",
+      "snippet": "アクセンチュアがOpenAIのセキュリティー基盤導入を支援、中堅企業も照準  日経クロステック",
+      "topic": "gpt"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Anthropic、米政府機関へClaudeの全製品を40%割引で提供。一般調達局との提携拡大し公務の効率化を推進 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84S2lMNzBtT2hkS19LN1VhZGVFQUtZQzM1V241d3NNUU5wN0xFWWVVYXJHajlJdDRhMjN6ZlltQ2EybVZha3dwcEdVVFFSTm1yaEJxaTZqT3dDdUwtcVotd0F5ZU9kV0xWakNtMm1tc3pfNVptb3Bnd2pQbDY?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 08:00:30 GMT",
+      "snippet": "Anthropic、米政府機関へClaudeの全製品を40%割引で提供。一般調達局との提携拡大し公務の効率化を推進  AIsmiley",
+      "topic": "claude"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Google Cloud、行政機関向けGeminiプレビュー版の提供を開始。複雑な公務の自動化と迅速化を支援 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15X0VBeEg4OU5kRzFRT2hSNXJWM2gybVJTWnFxQlRTc2RFT0VkZGJmVHZIYTM3ZTRETXl2OFltdDk4SlctWmh0a0U1TnJoNE01Z2xrWWxkNWhSeGxqdlVOTXI4ektzcGpyaVM0NlRR?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 08:00:30 GMT",
+      "snippet": "Google Cloud、行政機関向けGeminiプレビュー版の提供を開始。複雑な公務の自動化と迅速化を支援  AIsmiley",
+      "topic": "gemini"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "日本語に強い動画生成AIみつけました。これから始める人に「Kling 4.0」をオススメする理由 - Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Pdkp5NHFub2FkZWVpLVJpUnBKQVhLY3ZwdWVUakJtaTh1dzNieWVHSGNEaXJ0eENyT1RkVWF0dVZjZFNheUl3a1dBdXlDcVpHVngyYUZscUdrWTYzWU1kWE1iNEkta2ZzdFE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 08:00:00 GMT",
+      "snippet": "日本語に強い動画生成AIみつけました。これから始める人に「Kling 4.0」をオススメする理由  Gizmodo",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "「AIでなくなるのは『付加価値の低い作業』」 広告運用を8カ月で内製化、獲得単価を保ったまま獲得数は前年度比129％ SMNが示す生成AI実装 - AdverTimes.（アドタイ） by 宣伝会議",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91RE5XNS1QbFRMMXVqVmoya0UzVXhDenF0cWVIVFZMcjdvRF9UREVWUVhiY0ktcDR0UFNSY05PeEJrNkRuSXFLNlJmc2JpX2hVS1dfOVpZa2JhaWVOV0w0?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 07:57:46 GMT",
+      "snippet": "「AIでなくなるのは『付加価値の低い作業』」 広告運用を8カ月で内製化、獲得単価を保ったまま獲得数は前年度比129％ SMNが示す生成AI実装  AdverTimes.（アドタイ） by 宣伝会議",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「ChatGPTが服薬中止をアドバイス」--亡くなった女性の両親がOpenAIを提訴（CNET Japan） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40N1RzM2ZYMGFkekQtS1NGSUhod3E0Q0pHbTN1d3FvaGJkUGIydTdBak1hU2I4dVpGd1hDUGtCbmxmbUxVWUczM0NkblBMODBnNUxqLXlyV3ItYnRGNzRYT0JyYjRhTlU3dEpoVGJjdnJ5RzB0WElIVDN3YWp5OUU?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 07:45:00 GMT",
+      "snippet": "「ChatGPTが服薬中止をアドバイス」--亡くなった女性の両親がOpenAIを提訴（CNET Japan）  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「ChatGPTが服薬中止をアドバイス」--亡くなった女性の両親がOpenAIを提訴 - CNET Japan",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaG1VeXI2bm16VUtoaHlPX210cG1WcmVJMVpBQ2FYeXM2TlBOU0lHbFZNUWVSMTgwSk5zNnRNMXBidDBjSThXcU91STd6WmxGa0E?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 07:45:00 GMT",
+      "snippet": "「ChatGPTが服薬中止をアドバイス」--亡くなった女性の両親がOpenAIを提訴  CNET Japan",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "「ChatGPTが服薬中止をアドバイス」--亡くなった女性の両親がOpenAIを提訴 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTGN0a0VHU2ZocG03dWVTS1FjMXJFV3hmdmVUTFNfSlhiY0t4SnRlSVhVMDRYRmJma0ZZLVJnOHNsTklEMW5pM2dQSlNwM0hsZjgxUFBvUFR2VV9aV25WTWNGNTI3MlNZaEtYd1BpM3E2aW5BQzU4b1k4b2hoTG9la2xvRTdXX19ieU0zaFN3?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 07:45:00 GMT",
+      "snippet": "「ChatGPTが服薬中止をアドバイス」--亡くなった女性の両親がOpenAIを提訴  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、新AIモデル「GPT-6.1 Terra」提供開始。処理速度は「GPT-6 Astra」「GPT-6.1 Sol」の3倍超 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XQ0cwS1lSdEtJVDNHemV0dU5UdUpua3JGVHdTdDlURy1iRWYta25Gdnd5MXhmTlA5OHhWTkpuX2otNkRVdl9EVE1rTHFuVzJxOENqQjdJdENYMWg1MTJMbl9R?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 07:00:18 GMT",
+      "snippet": "OpenAI、新AIモデル「GPT-6.1 Terra」提供開始。処理速度は「GPT-6 Astra」「GPT-6.1 Sol」の3倍超  AIsmiley",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIでつくられたキャラクターの物語「PRAY TO GACHA」インディペンデントIPの戦略とは - AdverTimes.（アドタイ） by 宣伝会議",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sSHdyQmJnOC11VzVNUWQ3bUFWRVZKRzNTUWFiSkpYRGgyakxPTlZfQmlKaW42Z0l4T3hISDBCTkROY1BkV2ZidzUta0U3MW1kZXRsVHowTzRsN25hU1Bz?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:54:47 GMT",
+      "snippet": "生成AIでつくられたキャラクターの物語「PRAY TO GACHA」インディペンデントIPの戦略とは  AdverTimes.（アドタイ） by 宣伝会議",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AI搭載の「Alexa+」早期アクセススタート！どう進化した？何ができる？ - イザ！",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYjdPejB1NHJ6QWRDZXBRdm9iZVNfZFRvRENfa2tRWllTblEwZFd5TU1wRDd6Wll1cmxYeXNwdnk2Ukg1NUJrNTlDWEhNRlFLeFVEUUVNaVhYWndDeDdZX2RVTnRkRjVEWUZSemtuRUdvVGFaSzJlMGpwU3hxdFRvbkhadEx6Sjhkc3VRLTQtVUx4Q2pfREE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:48:15 GMT",
+      "snippet": "生成AI搭載の「Alexa+」早期アクセススタート！どう進化した？何ができる？  イザ！",
+      "topic": "other"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "人事の約8割がAI活用も「現場把握」は3割未満 生成AI活用のための人材育成改革が進まない理由とは - AdverTimes.（アドタイ） by 宣伝会議",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XV0VxdWJZbG9obm9TNWRsZjZFdWh2a3NqUERMVzVlZnlHZGloT3BVUk56cGZwTUFIVlJmbmh4bUZ2RmF5cEFWaGFyS2pWNmVSR1JuVVktamhiUUJRZE04?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:39:45 GMT",
+      "snippet": "人事の約8割がAI活用も「現場把握」は3割未満 生成AI活用のための人材育成改革が進まない理由とは  AdverTimes.（アドタイ） by 宣伝会議",
+      "topic": "other"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に 個人プランとGoogle Workspaceで試してみた - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HNFFCOHhUc0VIWlgxR0N5Rldvc3pVY3JvZnVudlNBcUVSZ01FYUNSOW1WUU16TjliWmpldl9sMFdFZGZYT0tBN1ducjg2dE5xWFM4NkhaQi01SVFnNWJQWXdTWEFmOG5vMER2ZGdRREVrekRaaXF0Z1c4U01TSGM?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:34:52 GMT",
+      "snippet": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に 個人プランとGoogle Workspaceで試してみた  Yahoo!ニュース",
+      "topic": "gemini"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に 個人プランとGoogle Workspaceで試してみた（1/2 ページ） - ITmedia",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGbHdoZGxMSjZCT1Jkc1FaU0pzQ2tWYUhyN2t0a2VWN09PVjFuMklfemk3Q2dCNUtjRHZaUW9NSm15ay1HUjExYjBzeHVheF9GQWFsM0JFNkJPM2gxRHBIcmhjY2E5RmxGUXhreg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:31:36 GMT",
+      "snippet": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に 個人プランとGoogle Workspaceで試してみた（1/2 ページ）  ITmedia",
+      "topic": "gemini"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTに絶対入力してはいけない情報 漏洩から身を守る3つの対策 - Forbes JAPAN",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGNXd1LWdsQ2hMcHVYR0s2b1R2dmhadTJoWFI1b3JScWZOcGlwMGdSNTlRcFB1OFRpaU16LU5hTDF3enlrLWUxb3ZnMXNnZFZudURBb1NNalJHdw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:30:00 GMT",
+      "snippet": "ChatGPTに絶対入力してはいけない情報 漏洩から身を守る3つの対策  Forbes JAPAN",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "ChatGPTに絶対入力してはいけない情報 漏洩から身を守る3つの対策 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZFhuOFhOM2d0VzV5RG9UVzhmdmIyQzhtVEJtUWZXci1ieVFxSHZ5TlhzNXAxcnpKWG1uQkJSY0t0bkY4QnJEaGhIbFNWZnBRcGV2enZjRk9CcmpjQlJIb2RFVmh6MnRyT2toZi1kdEZjLXRPcXdxbmR6LTh6ZGVfblk5Ym5DS0pK?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:30:00 GMT",
+      "snippet": "ChatGPTに絶対入力してはいけない情報 漏洩から身を守る3つの対策  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "国会答弁の作成を支援する生成AIアプリの画面（デジタル庁提供） - 国会答弁の作成支援するAI導入 政府職員の負担軽減、デジタル庁 - 写真・画像(1/1) - 西日本新聞me",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zc19BOVpVd1U2MEVka0Y3eWVMMC1KRzE0NkxodFVDVTNCaG9tRC1FTXNNa0NibnVhTnZHeC1tZGNsU1hjVWN5ZTF2d0x6RkxyRW5xMUtJSQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:15:13 GMT",
+      "snippet": "国会答弁の作成を支援する生成AIアプリの画面（デジタル庁提供） - 国会答弁の作成支援するAI導入 政府職員の負担軽減、デジタル庁 - 写真・画像(1/1)  西日本新聞me",
+      "topic": "other"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、COBOL・Fortranなどの開発能力向上を発表 GPT‑6.1 SolはCOBOL移行評価で正解率97.9 - Ledge.ai",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNTjRYeXZuT1JuRGJuVnZGR1o2cGRtWmxGWEVRS193YVRzNy04NGVReU41ei1DV0FYZjVmWUg4eXh0UFB4MHRfLXJTNHFMSFE2blh3SThENlVsTmloOHNlRXdqQkJfZi1jSDZsdmFqQXhDS0dNRzFF?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:05:54 GMT",
+      "snippet": "OpenAI、COBOL・Fortranなどの開発能力向上を発表 GPT‑6.1 SolはCOBOL移行評価で正解率97.9  Ledge.ai",
+      "topic": "gpt"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "「Excel」の2026年10月更新 ～作成時にテーブル命名、「Copilot in Excel」には新スキル - 窓の杜",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aRmtNYWhBUVU3RDZGbU9NQWRxN1dlWXhhenRkRUJQdy15RC1QUjZDVFRPU1RJV1pzNEFTaFVnT0ZaMm96TVc5NTBLNmNqUE01UlQzemlDQ2VQNWNyMVllSXBNVmZ1MmRt?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:03:50 GMT",
+      "snippet": "「Excel」の2026年10月更新 ～作成時にテーブル命名、「Copilot in Excel」には新スキル  窓の杜",
+      "topic": "claude"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAI、AIの不正行動を検知する監視体制を強化 暴走前に介入 - Impress Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01WF9ob0lPZktWWkpBWDJ2blJrbk9MbG9VTnVCNnBtSnRPdFdMNmFLM0dUY1ZzMTRvNV8ySU1acDRhanFTMEhFbnlxc1BmaEZJdU5HZVgyWXItY2hlMjBKenE4NEM?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:03:39 GMT",
+      "snippet": "OpenAI、AIの不正行動を検知する監視体制を強化 暴走前に介入  Impress Watch",
+      "topic": "gpt"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "OpenAIとAnthropicが数学の難問に突破口 暗号の前提を揺さぶる - 株式会社エクサウィザーズ",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mU3lSYW01ZjMxc2syRVI0LXpMNzZOd2RkZXpMbnZ3UjRKdVJqYXhvWjZZT2MwalBSdEVkZ3UteU8tUy0xdko1SkZfVlFxa2VuTFNKc25lN1ZIM2M0R0RpWldDVEhnUQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 04:39:49 GMT",
+      "snippet": "OpenAIとAnthropicが数学の難問に突破口 暗号の前提を揺さぶる  株式会社エクサウィザーズ",
+      "topic": "claude"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Google、フロンティアAIモデル「Gemini 4 Carbon」発表―長時間の開発作業とサイバー防御を強化 - 財経新聞",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01SnlJZHBtWHowQ3RPRlllbmRBbE1FQzNLVmNGRVpBaEJzWkJ0dlczcnhrYWQzWlg2UWMzX0Y0WmdWOTRkV0k5cXROanpCcmFxLS01S210RXFYajNOZHd1U3hibw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 04:09:44 GMT",
+      "snippet": "Google、フロンティアAIモデル「Gemini 4 Carbon」発表―長時間の開発作業とサイバー防御を強化  財経新聞",
+      "topic": "gemini"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Geminiエージェントは変化する世界にどう対応するのか - Google Cloud Agentic AI Summit開催 - マイナビニュース",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCdlliNjlYNEdfV3hyaGRxRmZmRV9rN3RTVFpRVldqRXYwbk5ZVFZGdl9UTUotNVNkNVNaRk1iSDJaeDVfd1JtVGl1bG9xSjMzZzBXRm43dUpmS0o4X2JEcWFFY1pLUVBX?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 04:00:00 GMT",
+      "snippet": "Geminiエージェントは変化する世界にどう対応するのか - Google Cloud Agentic AI Summit開催  マイナビニュース",
+      "topic": "gemini"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -78,18 +942,9 @@
       "category": "news",
       "title": "あるしんレポート 業務上での生成ＡＩの利活用５１％半数超え｜ニュース - 伊那谷ねっと",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByRXNKYjl6SnR4aGZ4UF8yX2NlRFJFeVRQZ3BWLVFEb2paTlEtUEV6ZGN1eEZuRm5yY2hyZG5vckdSajRZQ2IwVE5oZTd1UHBFLWZDdGhCYw?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:36:02 GMT",
+      "pubDate": "Fri, 30 Oct 2026 03:35:38 GMT",
       "snippet": "あるしんレポート 業務上での生成ＡＩの利活用５１％半数超え｜ニュース  伊那谷ねっと",
       "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "九州ふっこう割で奄美大島のヴィラに平日泊｜ChatGPTのHotelMEで見つけた「ヴィラゆりむん」の空き日 - HotelBank",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM0t0U0tmd0lwRzhLTkFKdERvSHduZUhTUC03OWlzMFlrREdQVWoxd3VIWXNNcXExU3YyT1FVSTJIcU95WmtaRzBwZnJIWHFweFBhV2FtUXhvekZDaWxGLVRLcDZGZG5LcGU5YnRVTDM1S2FteFhPRmZqaUJzelR1ZmV3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:22:05 GMT",
-      "snippet": "九州ふっこう割で奄美大島のヴィラに平日泊｜ChatGPTのHotelMEで見つけた「ヴィラゆりむん」の空き日  HotelBank",
-      "topic": "gpt"
     },
     {
       "source": "生成AI 総合",
@@ -112,64 +967,10 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "クマ監視ドローンから生成AI、巡視点検ロボットまで - HBAが披露した地域課題を解決する先端技術 - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQVBObFIxV3E3WDdvX3NoNEpuU1lQSGY2OHg4REk5TVVOdzM0NzlPY05oNVdRaDd3b1JQYnRnRk1SQzFndHZjVGVNVHhKeEI2NUZWSUdLc1d3dkhPSThOelVMNFNRSmZSS3A2dkkzMXVvdjlDX1JybXZRYy1vOHNwR0hBeVFkZjhOVmVqbVNEbGxJQzNjckxvcXNqb2wwakhPbjdNaEtOaFRPYmdwTmVpdlY3Vy1qWWJvNHFHTDgxTHdnakJhOUpOLXhjVTHSAXxBVV95cUxQMl9BSEtrd0Q5VEtpTWxURXlHaFl5RDV1eDBsVmR3N1V5cThoZ3BIU2hJRjB1X1ZNQUZhcS1pLWk1LWFFX3Q3LVRndENVb2J2eVBYQlNyZzBEazE1cGM4MGZfY2lpOTJ1bVJlUzJrejdqZ29TeGY1MmFldUFK?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:05:52 GMT",
-      "snippet": "クマ監視ドローンから生成AI、巡視点検ロボットまで - HBAが披露した地域課題を解決する先端技術  ｄメニューニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
       "title": "ＪＲ西日本が生成ＡＩの画像解析システムを開発、線路の安全から食品工場の検品まで幅広く活用…３年間で３００社への導入目指す（読売新聞オンライン） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TMXBmbm5CRlppSFQ4RGF3dnJIZkFVVzRhUkdva3BHWEp6VDI4U21uVzJoaFlxT0prNU56WWF1RTRvWk1aaE1aZnNRZGpLZGpEY1FwYlhTQm5jQlVPSVZPYW5hNGM0RXd6amdZcTNtM0FqcThfdWprTlBQN1c0Qk0?oc=5",
       "pubDate": "Fri, 30 Oct 2026 03:05:50 GMT",
       "snippet": "ＪＲ西日本が生成ＡＩの画像解析システムを開発、線路の安全から食品工場の検品まで幅広く活用…３年間で３００社への導入目指す（読売新聞オンライン）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPTのdotがiMessage・RCSに対応 米国Pro向けベータ、送受信はLinq経由 - 財経新聞",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HU2piWHJfd0VaMGtBZFRlUXhCbXBJU3k5bUpVTEszQzkwTHpqeUNKWFRBWjA4dFJRWmViUHY4TENSODk4UFZTVmY1Nm84NjA2WWRVbWZPanBVaFlzeklJUXA1cw?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:04:15 GMT",
-      "snippet": "ChatGPTのdotがiMessage・RCSに対応 米国Pro向けベータ、送受信はLinq経由  財経新聞",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、Google TPUの直接購入を計画か　独自チップと並行して調達先を多様化 - 財経新聞",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QTG9fSHJjcGxCTU1ydVRYbzJaaGd2bWRINHd0U3FZYUNhUXpOUUh6NGR4akNMUDVyczFDcFB6M3owUVV6NjFSLThDMVRxQVlWanNxbXhyYWxEWUJZc1hDUG4zb9IBaEFVX3lxTFBQZGs5ZEhrbGdsdWJST3hFZGpqN0N0YndkaTFydk9LYTh6QzFpMnRkWmt5SkRsamcwS184VnEzVGU5emh0UFBDNUZrUDgzZ29mXzRNUmpIN25PMWJJVnFVelE4Tm5COHhZ?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:04:12 GMT",
-      "snippet": "OpenAI、Google TPUの直接購入を計画か　独自チップと並行して調達先を多様化  財経新聞",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "リコーとKDDIが国内データセンターで生成AIを検証！ 機密情報を守りながらAIエージェントを活用する新基盤へ - DXマガジン",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mYTh4aGFJckNueTJ3dE5TUU1tU0ctenpOSW9CYW9YaUZkVmdVQW1vWGxWMUxWOHpNVzNlQWJwcTM5ODVWQUQ1LXlZcUhwckVNY1E?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:04:01 GMT",
-      "snippet": "リコーとKDDIが国内データセンターで生成AIを検証！ 機密情報を守りながらAIエージェントを活用する新基盤へ  DXマガジン",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "[写真]OpenAI、Google TPUの直接購入を計画か 独自チップと並行して調達先を多様化 - 財経新聞",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qRFlfQmJEODJZd0Q3N2paNGZDSzhQOTM4VGtmelNaU3YtaHVyZmNiVGpCZlZkWl9SVFAxRjBGelBzN2hRN2UzVTF5MHB6d3RDN1RxMw?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:04:00 GMT",
-      "snippet": "[写真]OpenAI、Google TPUの直接購入を計画か 独自チップと並行して調達先を多様化  財経新聞",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "オープンAI、生成AIによる選挙妨害防止へ 写真風画像をイラストに制限 | スマートニュース - SmartNews",
-      "link": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOUGxaN2hvVkJBZjg0U3BiZ0liNTRwZ0M1a2FrYU1LUWxrbzBoRjNqc3d3eDdYSWNIRGRuTFNYVC01Z2xqY0M3b2pSVW8zZTRhT01GZ2lNMnhkS2cwTmd5OUVlekk2emhhMnhES3lLNVNUSm4wYndIWjJJRkh0S2RBZ0pmTXRmUkFINTRJbHRoYklteUxPRWtJTUNidFZVdGtCY0ZfRkVteUtjclBvSEY3bGNtaE5MRHM1bHAwMVQ4WUt3T3RXcmFtTW9mem5OVEVQemE0bFBmTVhnTmpMNXgteVFzN0tNYkczdGEtdXVhU2RhbnlTdkxXeWg5b2ZYNnNPOUs0UUFHN0lzc1dHclpiYlNQSnB4eW94UF82NXN6OF9lQVJZV2hUcUh0RVFId1JPWjdoTnpIVTlnRWhNN1E4US0tem82d3FsNUVDN2J1MGdtTHc2NFhfcFdrMml2NHVfNU1SNzloek93TFE2c0FfR1BBVU0tcmlsa1hqU25teUZRX3hrNzlBbXZ1YXVndFNXemRMTFdXZGVmdWFLcEtISTFOTFE3dFR6bVJUUGNNMlZGNG5FTXF4V29zS2lVOUJQZ0Vsd0h2TFY4V0NIVF82STBjNkNGUzY0dmduU3lId2pVak12?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:01:00 GMT",
-      "snippet": "オープンAI、生成AIによる選挙妨害防止へ 写真風画像をイラストに制限 | スマートニュース  SmartNews",
       "topic": "other"
     },
     {
@@ -182,57 +983,12 @@
       "topic": "other"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "「AIでなくなるのは『付加価値の低い作業』」 広告運用を8カ月で内製化、獲得単価を保ったまま獲得数は前年度比129％ SMNが示す生成AI実装 - AdverTimes.（アドタイ） by 宣伝会議",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91RE5XNS1QbFRMMXVqVmoya0UzVXhDenF0cWVIVFZMcjdvRF9UREVWUVhiY0ktcDR0UFNSY05PeEJrNkRuSXFLNlJmc2JpX2hVS1dfOVpZa2JhaWVOV0w0?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:59:29 GMT",
-      "snippet": "「AIでなくなるのは『付加価値の低い作業』」 広告運用を8カ月で内製化、獲得単価を保ったまま獲得数は前年度比129％ SMNが示す生成AI実装  AdverTimes.（アドタイ） by 宣伝会議",
-      "topic": "other"
-    },
-    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "ブラジル：ChatGPTにより、ボルソナロ上院議員が誤って「次期大統領」と表示された。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNERDTFlVand5TlczU1ZrMkliNFh3N3NycThYUVZZRG1PcVRnZGVneTdNeHBuYWZuY1ZiT1Jiakx3Z2RNd3p6SEVfQXYxMnYwa1J2SXJPUjMtb18xUnJ6VGN0WGU1aFROYnctWWw5YjI1b2R6UFp2dXl3aS10R2N6dEppTW1nRTRkTnNwTmEwUHlFQlB1RTBqcVM0SE9ZaHc3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:51:50 GMT",
-      "snippet": "ブラジル：ChatGPTにより、ボルソナロ上院議員が誤って「次期大統領」と表示された。  Vietnam.vn",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "コミクス、生成AIへの仕事の任せ方を３段階で解説する経営者向け教材を制作 - ニコニコニュース",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKS2hXWXBLN1lmLWFVbzl6Mm1hZVQ1Ynk3Y213NjN4Z3NWVU43NHo2Q2QyRFR2V0J4NUFaSFBxQUFzVTFocE9tMXhleGdycUJtVnZZSmNTZzBVT0RfWl94QWlfS3E1OTZvWjBsSTA0UzJZYjVYS3c?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:51:22 GMT",
-      "snippet": "コミクス、生成AIへの仕事の任せ方を３段階で解説する経営者向け教材を制作  ニコニコニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "パナソニック関連会社で約33万人分の個人情報を生成AIへ無断入力 社内ルール違反で外部送出 - 東京報道新聞",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBocDV2Vl94X094VDJZTG9majNXMVI2WHhQVlgzOEIzeDBmcmpRVjk4X1RCRDlnYW1YZVhFLXlmaW5TaEdybjU0X1ZUeHlXU0p1dEdB?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:48:45 GMT",
-      "snippet": "パナソニック関連会社で約33万人分の個人情報を生成AIへ無断入力 社内ルール違反で外部送出  東京報道新聞",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "私のマシンピラティス、生成AIを活用したオーダーメイドのマシンピラティス動画レッスン「AIピラティス」を11月6日より順次提供開始 - 時事ドットコム",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXdjZpTnlOQ0RFOXpha0hHQzQ5bkFpMjQxRm4zbHJJMklZOUJPVXFBYnBOWndSSDhCNkJuWXlNRUsycTBZZXgtS3I4Y18tZWdUbHVqdVZpUGdqbnlNVTQzelNVR2Z2ZG1GaVBZ?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:46:00 GMT",
-      "snippet": "私のマシンピラティス、生成AIを活用したオーダーメイドのマシンピラティス動画レッスン「AIピラティス」を11月6日より順次提供開始  時事ドットコム",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT Pro全プランとBusiness Premiumの利用上限が2倍に（PC Watch） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IcEdWdHJZV2ozb05jX3FwZGF2Yy0zTlNtQkNWdVluX0c2bWc1TG1vNk9yU2twTkowdWw5SmFFQmZyNTZ1Qi12M2RHSGdfWXpRSlJyX2FOSW5yWktmcWUzV2x2N25aQmlfT3drWnpoWlVsZlZGZzJ5cUljX3NpdkU?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:33:00 GMT",
-      "snippet": "ChatGPT Pro全プランとBusiness Premiumの利用上限が2倍に（PC Watch）  Yahoo!ニュース",
+      "title": "ChatGPT Pro 100／500プランの利用上限を「倍」に Pro 200プランの「半減」は撤回 経緯まとめ（1/2 ページ） - ITmedia",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11bXJxM0Jka052R1NzXzVkUmY4ek9pc3VJTDBkX0Y0aWM1U3R2TllsdHhNSWlqYWJFWHBfN2NQTS04aEt0NGJucl91Z2FxU0ZOd1JsV3VzZzFicUJKQ0lVY3VBSUhEY1ladGlxSA?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 02:34:51 GMT",
+      "snippet": "ChatGPT Pro 100／500プランの利用上限を「倍」に Pro 200プランの「半減」は撤回 経緯まとめ（1/2 ページ）  ITmedia",
       "topic": "gpt"
     },
     {
@@ -243,24 +999,6 @@
       "pubDate": "Fri, 30 Oct 2026 02:30:00 GMT",
       "snippet": "Google Cloud Japan 主催「第 6 回 AI エージェント事例アワード」でファイナリスト賞（ベスト8）に選出  KOKUYO",
       "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "連合調べ フリーランスとしての業務領域への生成AIの影響 「すでにある」24.2% - Excite エキサイト",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMZFdvZmZEajc0V19sQV9sSnhaeERFVEppQzNsQVc4YVRzMlEzZWRCZy1qU1dsY1ZMNE15WWQ2UUxHYjk3MUx1ZlNrTjJEd3JWdjRSM3VpbW1VS2pabHhNbnN3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:30:00 GMT",
-      "snippet": "連合調べ フリーランスとしての業務領域への生成AIの影響 「すでにある」24.2%  Excite エキサイト",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT Proの利用枠が最大2倍に拡大、OpenAIがPro 200の制限縮小も撤回 - XenoSpectrum",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tQm5UWmp5VVdfbjB5VU1VX1pzcEVMNGM1ODBFOFM0NVdmTnJ4d1hTRzgyRzAwU3liNFdLbjVsNk1NV3EtemFSTjYwTWhIdTRXTFR0V2ZFT0tDWmJZcjJaSTYtR3dVUFBScWc?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:28:20 GMT",
-      "snippet": "ChatGPT Proの利用枠が最大2倍に拡大、OpenAIがPro 200の制限縮小も撤回  XenoSpectrum",
-      "topic": "gpt"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -274,82 +1012,28 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "AIが隔離環境の突破経路を発見…OpenAIの安全性試験 [韓国記者コラム] - KOREA WAVE",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOZlV1R0hNT2hyaWdhQ01JWlNVdGFxMTljdktCcENsYU5sVTI4V0Q5cXo5bnhlTGpFWHBvcTJuRm1mZy1oSXJtZkRoNWxRN2NHNDVDTV91enRYRk1jVTdsQXpGa2RwU0lMSnRKV0NRQ3IyNEZua3VudUJXckUxRlZMd3lhLWlfeUhOUjQwTklnZlBzMVVtd0NRU0RlSWp1cUFCcXg3Y09BYmlVa1l0Ri15dkdrbnhQWEtINFg4bmMyc3BrYWhDc1BFQVVvOTFxVlhWN1pCU2RsMk9UNG1lNUZwVDJzY1FPd09lSGhacjhUNG5jVjBLR3JfWWNTSnRSaG9lQVlDTnluX2hLd29zWWVLRjZfWlg4SFM1Y2hBMkE4NWtEclJaWExGTk5kX1IwUHhfOWd1Q0Rn?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:20:06 GMT",
-      "snippet": "AIが隔離環境の突破経路を発見…OpenAIの安全性試験 [韓国記者コラム]  KOREA WAVE",
+      "title": "ChatGPT Pro全プランとBusiness Premiumの利用上限が2倍に - PC Watch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iZUJ2X3hEZTRRdjQ2U1dhOF9qbEFJLTZqcFpTUTF4dy12NEtxa2ZPeWtNTFUtRTJDSkVrNHI5YTJJZzBKS2tpOExxZTgxWlhHM0E2WDFWLU5FUWFKc3NldVYzWQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 02:18:05 GMT",
+      "snippet": "ChatGPT Pro全プランとBusiness Premiumの利用上限が2倍に  PC Watch",
       "topic": "gpt"
+    },
+    {
+      "source": "Copilot / Microsoft AI 関連",
+      "category": "news",
+      "title": "SharePoint の AI イノベーションが一般提供 (GA) を開始、新しい Copilot app とエージェントの原動力に - Windows Blog",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOemk5ZXRZaWNSRFFKTEhKWEJmSmtUdUhMREZlTTJjYjkyejZ3dnFMdGNlTkpCY1FJa19xZU55cjhzR3lIT1pTOEdVOEFvRXdTUXhOMDFUZllNZWR1cTd1aWREODNDc1pvbExrNTcwRk1ZdDE3UUEtQ0hMRURCbTF2dmFJNWloMWUtUi11NkdSMkNZOGItT1lpZmhDNGZsM0lEdUJrWXgwX3JDdXNvNnBNdnZn?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 02:02:00 GMT",
+      "snippet": "SharePoint の AI イノベーションが一般提供 (GA) を開始、新しい Copilot app とエージェントの原動力に  Windows Blog",
+      "topic": "copilot"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "OpenAI、AI監視に「別のAI」導入 脱走事件の再検証で30分検知 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LZGI3UjQ1LVZQSmtxR1J6Z2FPSEw3ZW9RTU1SM1cxQkx4Z0RrbWJtLTR5dkJZVDI1N09nSlRKTnNncmo0b3FqdlZEVzN2S0xERXlLSXZ3WDBrSEJaVlVmMHdHLUJkNmJCWDZDVm91cDJTanlv?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:15:00 GMT",
-      "snippet": "OpenAI、AI監視に「別のAI」導入 脱走事件の再検証で30分検知  BigGo ファイナンス",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "九州ふっこう割で天草の温泉ホテルへ平日泊｜ChatGPTのHotelMEで見つけた「天草ホテル亀屋」の空き日 - HotelBank",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUE5IdHJidWVGdHItTXp5RmJOOG1JZ3pia2U4U0VWUVdSY0F2Q0trSjZZMS1WTW9ab0NIajBvU0V4MXVLbnltZlhYWjBCa0NpbDdjMFo0QzdpX2U4cmNRbzVleFFtRGNWdGVHRlBRUmxvdWtRMFNUdXloa0ZCQTRsa1VBQnllZw?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:01:50 GMT",
-      "snippet": "九州ふっこう割で天草の温泉ホテルへ平日泊｜ChatGPTのHotelMEで見つけた「天草ホテル亀屋」の空き日  HotelBank",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "神戸電鉄、感性AIの生成AIプラットフォーム「AI-Hub」を本格導入 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3SWYzT2dGVGtYUVB2dnplRElwRE1jOUttMjVvY2lxVGZtMTBlYWtkVzhNMDhtYmd1RlItVFlHcmRkbVFCaDdIcHBUakNWcEdZbVNsdHNnS1NsZHZfbEZiU0V1YTJ4aVktUGc?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:00:02 GMT",
-      "snippet": "神戸電鉄、感性AIの生成AIプラットフォーム「AI-Hub」を本格導入  PR TIMES",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "国会答弁作成AIの提供開始 デジタル庁、霞が関の業務効率的に - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhZkowM2tFQkVFR3lhV05tazZxanE3ako3eUpBSGhxWVZibHhsbTNnbjJGOWkxem9Fb2x0QkdhZUVHT05BYXhFMDBiNVV1aFRIVk5FTllDS2sxQkVwNG1la0VGdnJJRTFXX0lPRQ?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 02:00:00 GMT",
-      "snippet": "国会答弁作成AIの提供開始 デジタル庁、霞が関の業務効率的に  日本経済新聞",
-      "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "GeminiとChatGPTの比較｜生成AIツールの違いと選び方を徹底解説 - AIsmiley",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pVHRhaWJWb05pby05dTh5NXNqd1ktXzZsU0tsci1sbXdQWVBpd3FTckRkeWdNdE9pNzJuS2VYOVlJRTFuRTVtRXlvcEhiMjBLVE1JajVCN1AyMkJtU1BPcGF2a2s?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 01:54:28 GMT",
-      "snippet": "GeminiとChatGPTの比較｜生成AIツールの違いと選び方を徹底解説  AIsmiley",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "【那覇商工会議所】人手不足を乗り越える！生成AIと多様な人材活用セミナーを12/17(初級編)・1/19(中級編)に開催 - 時事ドットコム",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yZFEtRGlFR3NaNWVfRU9wNWp6OEdfSmhmZkp6bXhWaldiai13UmxicGF1Z09vXy05dFdVUVN4T0l1UjljTEkxVVJ0ZWxmLVV1d2dQdDc2c1VkbklnbTlqanJIVGJUZnNuQ2I4?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 01:46:00 GMT",
-      "snippet": "【那覇商工会議所】人手不足を乗り越える！生成AIと多様な人材活用セミナーを12/17(初級編)・1/19(中級編)に開催  時事ドットコム",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "AIが勝手に隔離環境を脱出した事件を受けてOpenAIが「AIを別のAIで監視する仕組み」を公開 - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdHNIcGdFSTl2ZEJwdTkwZ01UQWxpNW90TWhZSXlMSFVUMlUxSmYzSVk5QlZaMjY4YlRSWjhrZmZvQWp5ZHFSTG9vTDlzdThKc0NqYkJBZkFfYmpaSG82SEtMTUh5YzZodGlONl9kSmNURHQ2bDFmSmVVMlhPOFZBRXh2NA?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 01:30:00 GMT",
-      "snippet": "AIが勝手に隔離環境を脱出した事件を受けてOpenAIが「AIを別のAIで監視する仕組み」を公開  GIGAZINE",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT Pro 100／500プランの利用上限を「倍」に Pro 200プランの「半減」は撤回 経緯まとめ（1/2 ページ） - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11bXJxM0Jka052R1NzXzVkUmY4ek9pc3VJTDBkX0Y0aWM1U3R2TllsdHhNSWlqYWJFWHBfN2NQTS04aEt0NGJucl91Z2FxU0ZOd1JsV3VzZzFicUJKQ0lVY3VBSUhEY1ladGlxSA?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 01:22:28 GMT",
-      "snippet": "ChatGPT Pro 100／500プランの利用上限を「倍」に Pro 200プランの「半減」は撤回 経緯まとめ（1/2 ページ）  ITmedia",
+      "title": "より高性能で有益な AI に向けた Model Spec の更新 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OWmxEZ1dEUDdDOXU3cmR0bjdrcHpVZTFpRWRXT3doeWN0a29LU3BlMXJYRnpfVUNQbVh0WHo2Q3pJbW1JeUNyamtYVmpDTENIQ2tYS2lmVmV3bkJxb0Vj?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 01:24:29 GMT",
+      "snippet": "より高性能で有益な AI に向けた Model Spec の更新  OpenAI",
       "topic": "gpt"
     },
     {
@@ -360,15 +1044,6 @@
       "pubDate": "Fri, 30 Oct 2026 01:11:00 GMT",
       "snippet": "法務向け Microsoft Copilot のご紹介  Windows Blog",
       "topic": "copilot"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "【アーカイブ配信スタート！】AI博覧会 Fukuoka 2026 ー現場で進むAI実装の熱気と実践的な知見が詰まったカンファレンスを公開ー - AIsmiley",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1abXNKQXpRVWZpbnltd0pkWDBFejEzX2ptSVk1NUtCRjdITV9BYk45dkNrMXd6cmYwYnZXUVdmc1RrWEsydHM5aEpzVFlFUmhJY0hKTFh0X1NCSU01dlMyazB5Qi1IQWtDZ1hqaUV5WnVGb19U?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 01:07:30 GMT",
-      "snippet": "【アーカイブ配信スタート！】AI博覧会 Fukuoka 2026 ー現場で進むAI実装の熱気と実践的な知見が詰まったカンファレンスを公開ー  AIsmiley",
-      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -400,19 +1075,10 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "生成AI利用者の56％が「AI疲れ」を実感。AI疲れを感じる人は「抹茶」を飲む割合が3.3倍（ネットショップ担当者フォーラム） - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdTRUZjVLS0t1bWtFREswYXlFVDdaSmhXMmJabG9RQUhHQ3BzSXlCODZsV0tCNjZHQ3A3NjIyTlJlaTcwM1B2cm1HWEZLSFl3OEJKQk1keUc2VFo1V203OGNqeHVlbU8zY3FiMjFJSnBoRXlPeHNXOW9wYm5CMUR3NEhDTGZmeTIwbGlUQ1ZkODItM2xvZjhHdVZZU1ZmTi1YaHlYRzZYdUQ2dTJsNFE0?oc=5",
+      "title": "生成AI利用者の56％が「AI疲れ」を実感。AI疲れを感じる人は「抹茶」を飲む割合が3.3倍 - ネットショップ担当者フォーラム",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1teDUtM0JGcnRVaUFRRmNIT2F4ZWZUMjQ3a1NXTHk0T2lrLVh6eTdYN0RIWlZVUzJCTjJkOWxLdmphalduaDJNdE5HU2ZERlZCeF9oc3NUZ24xTF9h?oc=5",
       "pubDate": "Fri, 30 Oct 2026 01:00:00 GMT",
-      "snippet": "生成AI利用者の56％が「AI疲れ」を実感。AI疲れを感じる人は「抹茶」を飲む割合が3.3倍（ネットショップ担当者フォーラム）  ｄメニューニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "Amazon、生成AI搭載の「Alexa+」早期アクセスを国内で開始 プライム会員は追加料金なし：commercezine - MarkeZine",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03X1ZJSEg5YjVhR2d1VVZJLUV3VURnZXZQakw4UVdETXI0dVlyQU93QUVSMlJkNFpPeWJaZHQtTTZfLXlGaU1LbWtULXZmbVU?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 01:00:00 GMT",
-      "snippet": "Amazon、生成AI搭載の「Alexa+」早期アクセスを国内で開始 プライム会員は追加料金なし：commercezine  MarkeZine",
+      "snippet": "生成AI利用者の56％が「AI疲れ」を実感。AI疲れを感じる人は「抹茶」を飲む割合が3.3倍  ネットショップ担当者フォーラム",
       "topic": "other"
     },
     {
@@ -423,42 +1089,6 @@
       "pubDate": "Fri, 30 Oct 2026 00:55:00 GMT",
       "snippet": "「ChatGPT」のPro/Business Premiumプランで「Work」「Codex」の利用枠が2倍に（窓の杜）  Yahoo!ニュース",
       "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "「ChatGPT」のPro/Business Premiumプランで「Work」「Codex」の利用枠が2倍に／予告されていた「Pro 200」の利用枠削減は撤回 - 千葉テレビ放送株式会社",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtOUdHLTA0STRaTUxoUS0zdzlWcHJhdWhlNllVQ0pta1FfNFFSTFExMmx3eGZZU1A3cFFyY2RISUY4WGxGMnVrcEJ3Qnd6a3k0RGpqTmM1REVDZk5TT2I0?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:50:20 GMT",
-      "snippet": "「ChatGPT」のPro/Business Premiumプランで「Work」「Codex」の利用枠が2倍に／予告されていた「Pro 200」の利用枠削減は撤回  千葉テレビ放送株式会社",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "韓国BL「ついに、春～15年目の片思い～」完全版をFODで独占配信 生成AIで“年下攻め×年上受け”の純愛を描く - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44V3ladWF4TEdlSjFSREJvOXRNS1VVUzFOdC1ON2lLRU1PUUVZc215S1VMTXpFalpsX2Qzd2M1SHlHTW5IOUlFOVZHVWptR0FFMTd6V1pXWHpOd0dSR0NZeExiQmZLUXg5cWFjVV9BQ3BzdTMzdzUtMV84QzNKWTA?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:47:19 GMT",
-      "snippet": "韓国BL「ついに、春～15年目の片思い～」完全版をFODで独占配信 生成AIで“年下攻め×年上受け”の純愛を描く  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI検索最適化コンテンツ生成サービス「AKARI AIOエージェント」を提供開始 - ニコニコニュース",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82NW9ETkNLS2w5aERtazl1N1NpM3NUaXJ5aklRcUUxbEk2WHVLS2JoT2ZEREwyYWdEZ0ZWUnFZclZlQlQ4bFpBVkQ2VlFWeHF6VG1lMFZyMHJ3R2FzNURHcHRnbHR1SHR6bzhpbkhiU0w4OExWZHc?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:45:31 GMT",
-      "snippet": "AI検索最適化コンテンツ生成サービス「AKARI AIOエージェント」を提供開始  ニコニコニュース",
-      "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Googleが2026 MAMAをYouTube生中継しGeminiで制作支援 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByb1NoVk5FbE1xajNKbDMteVI4VWszOG0xMHk5Slk4REpnRFBPakNhLVliRHhIdjVVWEwxOFFwSkNiZWM3Nmt4VlRZZFd1b1ctcnZCSWxPNjRORElmY3ktY240V0RNZWhNdFJmYThUVXh4R2M3YlFxV1pB0gGOAUFVX3lxTFBJY2t1bTlFUVRYcm8yYmhaenJkcDduVTlEeUs2OFY4eV9LWDhoUVJvUHd0OVJ0dkN1Wkp3ZkcyZUdVbXliaGs1SzF1aGdYbXFOT1ZLZXNqQXNLUnhXRElrbnNFeFRhcjZPbnp0R0NNZ2RLdXpJRzJOSnNMRVVOcExQQURkRlN5cVB0bkdHdWc?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:36:00 GMT",
-      "snippet": "Googleが2026 MAMAをYouTube生中継しGeminiで制作支援  Chosunbiz",
-      "topic": "gemini"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -485,6 +1115,15 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5va1ZGVjF2bVRWWl91dFh1dGtwV0F2cl9xZ3R1dVFfRFRlQ3JQNFd5aTNCcXJ4b2FybWlWdkprdWgwMDdpM243QXpVOUZrcDQtUXN1ODJyb3ZrZEY5NDZKd1VEZXNDTGloc2xCSm1BY3lCXzVU?oc=5",
       "pubDate": "Fri, 30 Oct 2026 00:15:00 GMT",
       "snippet": "OpenAI、ChatGPT Proの利用枠を引き上げ 削減計画を撤回もPlusユーザーは対象外  BigGo ファイナンス",
+      "topic": "gpt"
+    },
+    {
+      "source": "OpenAI",
+      "category": "official",
+      "title": "Fair use benefits everyone",
+      "link": "https://openai.com/index/fair-use-benefits-everyone",
+      "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "snippet": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use s",
       "topic": "gpt"
     },
     {
@@ -533,24 +1172,6 @@
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "「Shopify」が「ChatGPT」や「Claude」と連携、AIエージェントが検索から購入・決済まで代行 - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcERFQTRtM0hiNDlGN1FOM1NlbHNPaG5HQTk5NjQ3d21SZXpMWjNTbjJjaDJwZjFtZmRXZU1NZkVaU0pkNGFDY29kNG1ybUFBeVluZHVoUzNZSlk5VFNCcWhhT25TZk9JMFBqUWlyM3VtYkpvSjgyRkdCWmNFTmZQS0xzbFFWbnRwNWVSWjd6aU9JcTY1N2VIcEYwTFhaZGVxMUtSWUN2ZW9LZ3J2Vmdv0gG0AUFVX3lxTFBNanQwQ3hLekp0WWF4b0pzN2puTFpEM2ZqT0xGY1dLNGdfMUMwbnVjVl9GQlJ6SWZGQTlxNXFCVzRZWG5ZX0lad09CYVV4VE9relc0RWF4SmdPQmxJYUs4WFRDSVhoTkJycmp5WGhYbEZPWlNfUG9Kb1BuOW02Vk1NQktvSHRZaFVOOUlLajBzdUl3bDVTdkZCczVEZTJIajhPaXV6RF8xOEhCeEdaWXppeHlNRA?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:41:52 GMT",
-      "snippet": "「Shopify」が「ChatGPT」や「Claude」と連携、AIエージェントが検索から購入・決済まで代行  ｄメニューニュース",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "著作権訴訟中の2社を組み合わせる”Suno MCP Beta”、ClaudeやChatGPTから直接作曲できるように - shiritomo",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4ydUp6bXB3Uk84aTRMQ1Y0R2pySDZVX20zQTQwd0pva2RxTEVGQnNHR1dqWTlIaE90MGRNUHZUZFBsQQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:35:25 GMT",
-      "snippet": "著作権訴訟中の2社を組み合わせる”Suno MCP Beta”、ClaudeやChatGPTから直接作曲できるように  shiritomo",
-      "topic": "claude"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "ゲーム制作にかかる時間は30分で模倣作も次々登場､生成AIが変える開発現場と｢アイデアを先に出したら負ける｣時代 - 東洋経済オンライン",
@@ -560,22 +1181,22 @@
       "topic": "other"
     },
     {
-      "source": "生成AI 総合",
+      "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "ゲーム制作にかかる時間は30分で模倣作も次々登場、生成AIが変える開発現場と「アイデアを先に出したら負ける」時代 - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa1hjVGFGVHV1SXNCV0h3amprOEdkbE1IdF9CUkxxQlJ2TXpJd1Rocmh3MTZoRGRqMllGWjZCRERsQVczNzZQQ2hQYnhObFVpM0FDZ1JadWh4QVVibXlxb3ZaRE5mS2loSTNlcGloZGxtRDJnU0djVnh2TVNZOEJXNzV5SWFPdy0z?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:30:40 GMT",
-      "snippet": "ゲーム制作にかかる時間は30分で模倣作も次々登場、生成AIが変える開発現場と「アイデアを先に出したら負ける」時代  Yahoo!ニュース",
-      "topic": "other"
+      "title": "「Shopify」が「ChatGPT」や「Claude」と連携、AIエージェントが検索から購入・決済まで代行 - ネットショップ担当者フォーラム",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvbVRERFdPNTZ2U3k5RHYxZHZZaFJiWGFSak50RTVXcEhMRVM4VnNlQ3p2TVZGeS0yUEtqN3RLZTBBVVZkMGdxcWJaS2gzMEhqdk5LUTJ1cURCX3Qt?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 22:30:00 GMT",
+      "snippet": "「Shopify」が「ChatGPT」や「Claude」と連携、AIエージェントが検索から購入・決済まで代行  ネットショップ担当者フォーラム",
+      "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
+      "source": "Anthropic / Claude",
       "category": "news",
-      "title": "Canvaが独自の画像生成AI「Craft」を公開、構図を設計してから画像を生成 - 株式会社マイナビ",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JNEpYRDFZTElQREJjU0ludXJzR21paTM5QlJxTUgwRmlEZ3VvRmI4NS1aTEdTUVdzREFvdlhxcHRBeG91cEttb3pRVUtWTTlJRTZvR0Qya3hiVWlWWGln?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:05:46 GMT",
-      "snippet": "Canvaが独自の画像生成AI「Craft」を公開、構図を設計してから画像を生成  株式会社マイナビ",
-      "topic": "other"
+      "title": "Linuxカーネルに重大な脆弱性「CVE-2026-98432」、CVSS 9.8 Claudeが遠隔root権限実行を実証 - 合同会社ロケットボーイズ",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEEtMzdMUjFsWVNiUnhIa182QlM2ektLY210OW9McW1kdVQ3SFFMQjctNzljdmRqY0t4cHItTFI1cUwwemhXVlYyMGhTX0lHV2RBeTZ2TU5IQ3JGQnZQSXI5S21JQTI0NFg4d3JQS1hxclpkdTBXS3JfdW9obUFXcXY0eUUxUHRkWm5QZS1Va1BWQ2hBRUJQQ1NOdEdJMy1nNGV3aw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 22:23:20 GMT",
+      "snippet": "Linuxカーネルに重大な脆弱性「CVE-2026-98432」、CVSS 9.8 Claudeが遠隔root権限実行を実証  合同会社ロケットボーイズ",
+      "topic": "claude"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -589,15 +1210,6 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "「ググる」は死語になるのか？ 生成AI検索の台頭と「ゼロクリック」の衝撃 - ニコニコニュース",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iTGd3VTd3bXZuQzZxUXRHeWpMVHVNOUpzX3hBN29NZC1PZk92UExUajdXQjBDdzRGcExlQnB3RUt0cVdBVG5yQmVMZDdfdVMyeDRCZ0l4T0NGWTlPQU1oTURVUjNGR2pmWk0tbzBXQmQzWEtPSGtR?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:00:29 GMT",
-      "snippet": "「ググる」は死語になるのか？ 生成AI検索の台頭と「ゼロクリック」の衝撃  ニコニコニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
       "title": "生成AI 業務活用広がる 茨城県内自治体、ノウハウ共有（茨城新聞クロスアイ） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vTGtVdmZzbDVRaUl3c09TRGJ6bFdZS3VxcjhNMDJydGhyd05GVGxBTWh2ZFN6NTF3alN4SlNDeWhINEZ0OEEzRXRUREh2bldDOVdQdEZUWDJ4akRpWHhOc0RIWFJMdzdHU0d1RjV4MjFtbEdvemVWTXVOQjlRWEE?oc=5",
       "pubDate": "Thu, 29 Oct 2026 22:00:00 GMT",
@@ -605,13 +1217,13 @@
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "子供の手描きがAIで大変身！ChatGPT Images 2.5を4歳児と試してみた【【連載】EducAItion Times】 - 千葉テレビ放送株式会社",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11a0ZEb21QLUY2OE04NUx0ckRBdWZJeDZ5WUVhalU5S3gwbjNYSFQ5a0kyUUQ0d2FTaDBzMEotaGlVT3BwMjJ4ZWEtTlZDREN4M0xNRFE3TVI5c2tKLXRV?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 21:32:34 GMT",
-      "snippet": "子供の手描きがAIで大変身！ChatGPT Images 2.5を4歳児と試してみた【【連載】EducAItion Times】  千葉テレビ放送株式会社",
-      "topic": "gpt"
+      "title": "LFが欧州OSSと低品質AI生成PRを指す「AIスロップ」問題の2つのレポートを公開、OSERAは100日で本格稼働、ほか - ThinkIT",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43Wk1QZDJ5Smh0RS1FWGF5N0dYT2tETVRSMER3dkUzNkZQQUQxN2x3ZFk4bS1DcjJoa2hRM1UwdVkzOTNkSnRFZkt5TQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 21:30:00 GMT",
+      "snippet": "LFが欧州OSSと低品質AI生成PRを指す「AIスロップ」問題の2つのレポートを公開、OSERAは100日で本格稼働、ほか  ThinkIT",
+      "topic": "other"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -623,15 +1235,6 @@
       "topic": "gpt"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "中国AI、Claudeの防御網突破を受け「GPT-6 Astra」へ標的を転換 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdHZENk10MEVBbWdIY3I3MnVqcTFWaHhNMjRLbDJ5MTktNjFXMWoxN05iSHc2Q2xPY3EtOUVSWnlrQ1k4YldaQXBIOW1FQ1FCa21DNDVVMktPM2RfZ3IzVm42R2w2aXg3djZBc1VucmdrWndK?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 21:25:00 GMT",
-      "snippet": "中国AI、Claudeの防御網突破を受け「GPT-6 Astra」へ標的を転換  BigGo ファイナンス",
-      "topic": "claude"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "グーグル、Geminiユーザーがチャットを離れずに文書やPDFを作成・編集可能に - BigGo ファイナンス",
@@ -639,6 +1242,15 @@
       "pubDate": "Thu, 29 Oct 2026 21:25:00 GMT",
       "snippet": "グーグル、Geminiユーザーがチャットを離れずに文書やPDFを作成・編集可能に  BigGo ファイナンス",
       "topic": "gemini"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "SNSで爆バズの生成AI「老害おじさん図鑑」に「これ、自分だ…」刺さりすぎる中身に共感の嵐（ピンズバNEWS） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OQ2pUMGpxU1B5WDVUVXE5eFloRlZSOHFXdGJscjdpR0Y5MkdLUHZOdFVDVU5CVEVKRWU3YmJ6bTlHQnVDc1JJbzVZVDg1dzhJU1ZuSDRPU1BneDA1QTYxdlNFRzZDaWtEV0NkbGJrODFOWlh5SW9KWjlLQWc1cVU?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 21:00:39 GMT",
+      "snippet": "SNSで爆バズの生成AI「老害おじさん図鑑」に「これ、自分だ…」刺さりすぎる中身に共感の嵐（ピンズバNEWS）  Yahoo!ニュース",
+      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -650,31 +1262,13 @@
       "topic": "gemini"
     },
     {
-      "source": "生成AI 総合",
+      "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "OpenAI、AIの行動指針「Model Spec」を5つの価値で再編…何が消え何が加わったのか？ - ビジネス+IT",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XMUNHUXdRQ21GOUwzVjd3Y1prMXlOQzQ2SUF0bVMwQjVPR2xTWkRIdnlYenVWV0F2QWotVURaQkQ2SndoRDVRNkZGSzhOTTBsajhJ?oc=5",
       "pubDate": "Thu, 29 Oct 2026 20:24:00 GMT",
       "snippet": "OpenAI、AIの行動指針「Model Spec」を5つの価値で再編…何が消え何が加わったのか？  ビジネス+IT",
       "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIが支援するThrive Holdings、ADTを153億ドルの全額現金取引で買収へ - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU3JWQlUzYlU1dm9kQWNnYkxyNVlJNjd1V0pRcEFUVUxqYzk5eXlWaEhCNlEtSUFiRVY2Wjh3QXVKMXMtMTRwSDQtbVdGNXpxWVpnRjkzQ1RfQXl3cjd0ZS1jX0wteU5tUjdTUUxpZnQ3SDY2VjY0enJzQTdMclREUnlXTTdXWkxWbzM1VGhfUlZKY0Z2amRF?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 20:09:04 GMT",
-      "snippet": "OpenAIが支援するThrive Holdings、ADTを153億ドルの全額現金取引で買収へ  Unite.AI",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "現場を省力化する生成AI活用術、書類読解や資料作成のノウハウ4選 - 日経クロステック",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kbzdxei0xaTJHVTVUWGRYQWUtVGNmQXVqdmhLZkZ1MUJrUVdPNHlFNElfeDRSYzZFQ1BuOTk3WFVMNWVodGUwNml0NGZhRkRZbnZFSFAxcjZ0aGNLUWg2LXNQXzVFVGtidkUydg?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 20:00:00 GMT",
-      "snippet": "現場を省力化する生成AI活用術、書類読解や資料作成のノウハウ4選  日経クロステック",
-      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -688,28 +1282,19 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "日本ペイント、50年間に蓄積した29万件の実験報告書が生成AIでよみがえる - 日経クロステック",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TRTdJaEJkbGRmQVM2VzE0Vm5MTldqdmZIbGZjS2FoOG1FdmVtZEdueTZUcWp0MTVUMXN6NzBNdGhDSUNsWHRzdGY4V3Y2Y0k3bFFZWkhFZzRaTU1NWXZIWmdDR1hjRkhFY2xjLQ?oc=5",
+      "title": "現場を省力化する生成AI活用術、書類読解や資料作成のノウハウ4選 - 日経クロステック",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kbzdxei0xaTJHVTVUWGRYQWUtVGNmQXVqdmhLZkZ1MUJrUVdPNHlFNElfeDRSYzZFQ1BuOTk3WFVMNWVodGUwNml0NGZhRkRZbnZFSFAxcjZ0aGNLUWg2LXNQXzVFVGtidkUydg?oc=5",
       "pubDate": "Thu, 29 Oct 2026 20:00:00 GMT",
-      "snippet": "日本ペイント、50年間に蓄積した29万件の実験報告書が生成AIでよみがえる  日経クロステック",
+      "snippet": "現場を省力化する生成AI活用術、書類読解や資料作成のノウハウ4選  日経クロステック",
       "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "スマホをかざしながら問題の解決策を知る、AIアプリのカメラ機能 - 日経クロステック",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjYU84UTZNM2k0cnZFaEFIbE9scFNMNVUxZ2lXaEpJQXJ6aUl5b2NPQkswUy00RWZVZ3h2ZWpjRG0yN2NLS0JZTVhjc0h0NWU2UmRfRlpYNGhlUlNSVU9aaFZyZVUyX1g4c3pwMw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 20:00:00 GMT",
-      "snippet": "スマホをかざしながら問題の解決策を知る、AIアプリのカメラ機能  日経クロステック",
-      "topic": "gpt"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "ミストラルAI、1兆モデルの重みを公開 3週間で13ポイント急伸、商用の「条件」とは？ - ビジネス+IT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzRzhCczVxdDY0TjFod1EtT0V1UXdtSmM0a2YzVjJpZWU2RXR3RnhrTUFuVkNTOVM0SFFXX2FjaGs0MzREWkNZdGQtRGRoN1dpcjIw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 19:54:00 GMT",
-      "snippet": "ミストラルAI、1兆モデルの重みを公開 3週間で13ポイント急伸、商用の「条件」とは？  ビジネス+IT",
+      "title": "日本ペイント、50年間に蓄積した29万件の実験報告書が生成AIでよみがえる - 日経クロステック",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TRTdJaEJkbGRmQVM2VzE0Vm5MTldqdmZIbGZjS2FoOG1FdmVtZEdueTZUcWp0MTVUMXN6NzBNdGhDSUNsWHRzdGY4V3Y2Y0k3bFFZWkhFZzRaTU1NWXZIWmdDR1hjRkhFY2xjLQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 20:00:00 GMT",
+      "snippet": "日本ペイント、50年間に蓄積した29万件の実験報告書が生成AIでよみがえる  日経クロステック",
       "topic": "other"
     },
     {
@@ -720,60 +1305,6 @@
       "pubDate": "Thu, 29 Oct 2026 19:19:16 +0000",
       "snippet": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facin",
       "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "LINEヤフーコミュニケーションズ、生成AI前提の運営モデルへ転換。生成AI・自動化と業務改善により、年36万時間相当の業務拡大に対応 - Infoseek",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qTU9EMEQ2TEc4bkN1VXJMaDJ5Smh0RUhxTENyeWZLbHYzamFFVksyWVI4RUFRMkZXR0phT2hoUjVFQktTc3V0TllsNmZHRlozQ00xUGFWdnVpVXRwUVVNZ1Z4c3hBb2s1Vkd5ZmhSaXc4dw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 18:40:03 GMT",
-      "snippet": "LINEヤフーコミュニケーションズ、生成AI前提の運営モデルへ転換。生成AI・自動化と業務改善により、年36万時間相当の業務拡大に対応  Infoseek",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、AIがより大きな意思決定を担う中で5つの中核的価値観に基づきモデル仕様を改訂 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80YnEtYk9YQVlETWdObVJfS3dDSzJyb21vMzRITUNiMTdMeG5rQ3JIYW1iQmMxWURSRDNpUjFDNFdxaVdhSGgwUmhsa2YxTVlqdTA2NkNOeVlaT1NQUnBTYnFac1NGWXRhdnVfTGFJU0Fqc1Nj?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 18:35:00 GMT",
-      "snippet": "OpenAI、AIがより大きな意思決定を担う中で5つの中核的価値観に基づきモデル仕様を改訂  BigGo ファイナンス",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ロープス・アンド・グレイ、OpenAIとAIデューデリジェンスエンジンを構築、案件レビューを迅速化 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aWVV3ZTZlMVRmT2w3SXVZYk9DXzlQbUVQdjZQaTY1czhFenA1S09aZU9GS3BlbWJEOTJ0SEtJVDFJazU2SjE3N3Bwd0E4ck9jSU12bzdFOWM4YmRZOXowSzRTQ0FxNnBPMl83V3ctcnFBdHFm?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 18:35:00 GMT",
-      "snippet": "ロープス・アンド・グレイ、OpenAIとAIデューデリジェンスエンジンを構築、案件レビューを迅速化  BigGo ファイナンス",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、モデルの行動指針を5つの中核的価値に基づいて再編 - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHplZ3dQajRzZHlYRW9KN1ZBcXRNSXVVY0M1UUNyNEU5VjFSMHgtbHMxLU5vZkpCdFZiMnVKSWZoZEdHQVo5WGZJZzJ5UDhEMElXSW5KcWYzbWwydEpKSHl3bVpkYzI1UW04MEVIaGI2UzkxWHNwMkZLNWhlejdGcnp6bXBCbk9xSHljeTMxMHM?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 17:22:02 GMT",
-      "snippet": "OpenAI、モデルの行動指針を5つの中核的価値に基づいて再編  Unite.AI",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、最先端モデルの不整合な挙動を検知する監視を拡大 - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFRMlVnQ3dvNUpzQlJ4eTFXa1ExeUtKb3lqR0I4S0V2cDkwOHlrOGV4OExzTHl4dDVfMklKQU9NelU1ZTlUQXdNd3c3QXdqNmVqbXBrcnl4RWRqekRWcVVmR3BPc3k3b1R6WTQtRjJqMno3RGk0RmdvMW94ZGtXb1ZuaVRIbzZHVS1CS3dIZGx6UQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 17:11:03 GMT",
-      "snippet": "OpenAI、最先端モデルの不整合な挙動を検知する監視を拡大  Unite.AI",
-      "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropic、Claudeのスマートレポートを発表 業務外チャットも集計 - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWVRDLWZIZWZFU0N2V3hGV1ZBeGVKdkJtTU02QWtrdTRSaElEMk85Sk9qc0psLUViNFJFN1FjQkQ5alJtZV9TN1U4UTU2M2hNTG9UdW9nUEFzNWVXeVhLYXRrcWo1a0ExMWJEVWV4NExFNzNvS3VibDg5ZG1lcUt6eXZiVnZwdHM?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 17:04:44 GMT",
-      "snippet": "Anthropic、Claudeのスマートレポートを発表 業務外チャットも集計  Pasquale Pillitteri",
-      "topic": "claude"
     },
     {
       "source": "OpenAI",
@@ -787,37 +1318,19 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "視覚障害者が生成AIでポーカー オープンAI「人工知能を全ての方へ」 - 千葉テレビ放送株式会社",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zSTBIUk1EYTRWTDNXMU9WMmRWUVBxcUc3blZ4UjEyR0VNTFQ1S2RIVTEwYlpUTGhaazNITmhfSU1mbWdsMTc4ZVc5Z3kxUERhM0JYSEdON1BVdExTWXh3?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 16:00:44 GMT",
-      "snippet": "視覚障害者が生成AIでポーカー オープンAI「人工知能を全ての方へ」  千葉テレビ放送株式会社",
+      "title": "生成AIチャットボットサービスの提供開始について - 阿南市",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00ZXZOeHpZa1IzMmkxemE4bjVGeTZnMXpuUERsZ3RoMDZROTFrNGdzY0JSRDcwY1ZUOFVSTml1aGVnMlB6LWx0MFIwYmY1TDhiVEIxQ2UzWkxfTkRIVWRET3VlMmo?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 16:25:53 GMT",
+      "snippet": "生成AIチャットボットサービスの提供開始について  阿南市",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "視覚障害者が生成AIでポーカー オープンAI「人工知能を全ての方へ」 - FNNプライムオンライン",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8zMnpWakZWaFNwQUJKLUYzVFdIVmNGMzYzRG0yaklMcFNpR2xjUUREUHVTMVhXTDlCc2E2REh5dVRLcWJVYTVaYUtRYlFxdw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 15:47:00 GMT",
-      "snippet": "視覚障害者が生成AIでポーカー オープンAI「人工知能を全ての方へ」  FNNプライムオンライン",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "偽ChatGPT・Claudeインストーラー、署名済みバイナリ経由でXMRigマイナーを密輸 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05RW1heUdoSUdBdk1lQXpWWmduNG1OZ1RZckFqR0p5aEt1N2NHMlNjR3kyRHVRdExySVY2ZzFKMXFKQ3FwX09YNVRoRk0wTmlENmFpcG9tSHBYbU9JWkdpM3h1Sk05alNsUW1xQll4amZiWTRH?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 15:35:00 GMT",
-      "snippet": "偽ChatGPT・Claudeインストーラー、署名済みバイナリ経由でXMRigマイナーを密輸  BigGo ファイナンス",
-      "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "【限定5社】年度内に実施できる「生成AI研修」トライアルキャンペーンを開始【オフィスク】 - HRプロ",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LdFhrRmFLQmgwaGlLU3REUVZMeXRKVEZQWXRSa1I0S012UF9NTDFGYjhSN0QxNU1oSVpIcnRmclc5aS1pdGpWZmN6Y0xxS0p5MmM2MDRjMEZwbUNGcUY1NUJnYWlkeWY1aWhraEp3?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 15:00:00 GMT",
-      "snippet": "【限定5社】年度内に実施できる「生成AI研修」トライアルキャンペーンを開始【オフィスク】  HRプロ",
+      "title": "生成AIの利用率、企業84%・会計事務所75%に！業務活用はどこまで広がった？最新調査から見る変化と課題（会計事務所白書2026） - Manegy[マネジー]",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BdGZWak9taHUxYUEyLWpHY2pvTF9CaldEVUtqV2JrZWMyYkhmUDRrVE1QUkhhSTRLRUJ6T20tRVp5ZTVZMjdJVFVna2gwTVA4cGxN?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 15:48:27 GMT",
+      "snippet": "生成AIの利用率、企業84%・会計事務所75%に！業務活用はどこまで広がった？最新調査から見る変化と課題（会計事務所白書2026）  Manegy[マネジー]",
       "topic": "other"
     },
     {
@@ -857,15 +1370,6 @@
       "topic": "gemini"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "AIチェックツール「トラスクエタ」に、Anthropic社のAI「Claude」を搭載 - ニコニコニュース",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12MlEyTTFFbDdKNVFfY1N1QkFwbU54SGFFRDZxM0lPN1MzVnlVTlk0ZjVhYWg5UzFqNUpDN2FuNnk1NHlLbVh4N19jU1M3WC15V0RZajl0T0k5aFU0SnFZSTc5WHNvOFZHMDdyam5RakRNNkx6UU5ZclFDTQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 12:00:27 GMT",
-      "snippet": "AIチェックツール「トラスクエタ」に、Anthropic社のAI「Claude」を搭載  ニコニコニュース",
-      "topic": "claude"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "開発者登録不要！Google Play、AI Studioで作った自作アプリを自分の端末へ配信可能に - すまほん!!",
@@ -877,19 +1381,10 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "Amazon、生成AI搭載「Alexa+」を日本で提供開始 プライム会員は追加料金なし、自然会話やタスク実行に対応 - AMP[アンプ]",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB2RUpUbG8xZ2VvYjVpb0htZHo1YXBTcDdJOHNFLXpqSzRKTnNPNWs1NHJuRy05ZEk3Y2RVVGtJaGNqUENTaDZUWExzTDBqMDFSZTNPZEMzeTBuczIyYkE?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 11:17:44 GMT",
-      "snippet": "Amazon、生成AI搭載「Alexa+」を日本で提供開始 プライム会員は追加料金なし、自然会話やタスク実行に対応  AMP[アンプ]",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "横瀬小児童、「あまりん」の新商品を企画 生成AIや手描きでアイデアを形に（みんなの経済新聞ネットワーク） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vclQxeTdxN01EWWdTWHV4ODU2YlAxRG5Xbm44M19Rcl90bXJVTkxVcmpHUy1QRWZ5UGJvcVo4VEdUWkZnMUxRczNmTHMyUUpuNUl5cmZUb0ZGVFBRVmdhWnlHNGVfamR2Qm41MEpQMUh1VUJQdy1MbHpOYUpiZEU?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 10:25:23 GMT",
-      "snippet": "横瀬小児童、「あまりん」の新商品を企画 生成AIや手描きでアイデアを形に（みんなの経済新聞ネットワーク）  Yahoo!ニュース",
+      "title": "横瀬小児童、「あまりん」の新商品を企画 生成AIや手描きでアイデアを形に - 秩父経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpRTFCV2dMRmRiWjZoS3Y4ZEl6NXVSaklfaFhNVVVLcmRVWS1uMlZOeGRscHhKbU5UbWRkNm50UDdkRmNQOVRPeFNZMHdZQWRqR0dNWg?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 10:25:28 GMT",
+      "snippet": "横瀬小児童、「あまりん」の新商品を企画 生成AIや手描きでアイデアを形に  秩父経済新聞",
       "topic": "other"
     },
     {
@@ -902,24 +1397,6 @@
       "topic": "claude"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "ClaudeのCo-Authored-Byをコミットとプルリクエストから消す方法 - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOE13LWpEME03Q1ZaQjlWVXpDajdZYjljR1ZXYmdrU01FYjdTNFBPLU9LcWRoNFByMDVFSTV6T255cWRiQkhQZ2lGZGRvc0pQYmVYWGxiYmgzdGVCb3phRU1hX1VGVXBXR0ZEcWxpSmVId1VrbkFYNkJWZ2FWX1BTWW96cDVTM1U0VVpsOGNNWUs1QmZ3Tlh2RDE2S0V3QQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 10:17:24 GMT",
-      "snippet": "ClaudeのCo-Authored-Byをコミットとプルリクエストから消す方法  Pasquale Pillitteri",
-      "topic": "claude"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "大手PR会社から独立して10年。「パソコンでできる作業はAIへ」年商・生産性を激変させた3大生成AI活用術（みんかぶマガジン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hNk5reXJQWEdYdlhuTHZXMU9MdEtmQl9Cbjd2Y0pZZkcyamZuRHRKY2pSNXRwN3FqN01BWkp4NVE0c1VqaFkzeDRrT1kxTEdiS1BxLW1SYURTeDYwVERHcVc0ZmRUUlc1WkhZWjBwV2RoMEk5Z1EtalExUWxfMU0?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 10:11:01 GMT",
-      "snippet": "大手PR会社から独立して10年。「パソコンでできる作業はAIへ」年商・生産性を激変させた3大生成AI活用術（みんかぶマガジン）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "OpenAI、ChatGPT Pro・Businessに月最大500ドル分のAPIクレジット - gihyo.jp",
@@ -927,42 +1404,6 @@
       "pubDate": "Thu, 29 Oct 2026 10:00:00 GMT",
       "snippet": "OpenAI、ChatGPT Pro・Businessに月最大500ドル分のAPIクレジット  gihyo.jp",
       "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPTに決算を読ませれば十分？ 東大卒・元証券マンの株のプロがAIの回答で確かめていること - みんかぶ（マガジン）",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KU1U5d3RSNWx3RjBGOG9lbVRHbjJibDQ1WGlPYjJWYjg0RkttN2JwUjU5cEM2QlZ1bUlfX05jb3ZEUDhnUHJQRllJRQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 10:00:00 GMT",
-      "snippet": "ChatGPTに決算を読ませれば十分？ 東大卒・元証券マンの株のプロがAIの回答で確かめていること  みんかぶ（マガジン）",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIじゃない、全部生身の筋肉！ 茶畑やオフィスにマッチョが出没する謎のフリー素材サイトが話題（VITUP!） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56OHhuWXdMbEZFeEtKYmNZdWNfT2lzb2prMUI0ZGFrX0dnTnpRNkRvSkxVdUFHNHY3TVV5M1JxNWRfZmlyZ253QkRVMVFNS2JoYUtvRDdyUk5BZUxQVkduVVdHc1FvSkROYXloYjg1MHlNeUZwOExOT1FsX1RaS00?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 09:55:25 GMT",
-      "snippet": "生成AIじゃない、全部生身の筋肉！ 茶畑やオフィスにマッチョが出没する謎のフリー素材サイトが話題（VITUP!）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "Amazon、生成AI搭載Alexa+に最適化した新Echoシリーズを発表　『Echo Time』と『Echo Dot』発売 - リアルサウンド",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nd0RQMTRlNmotanZyQklnX1F4S1g4M2hkWWQ4T3JxNl9EejVrNWo2Um9wWDdyc3BURzMyX0o2QmowYktPWDh6TEh5NFVFcWR5Z19zZkx6VEJMRXAybWhpYtIBZkFVX3lxTE4zTlI1MlF0VDhmdGpocVAtN0doMU1EdXRSYTdOM0ZQX2JIWmo1TjBsNS1GWmt5LS16ZVUyQUhxNlprbFQxU09ZbzE0QzVMRHFrNmd3cmQtSlNidkJVdWxSY2xxa0IzUQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 09:47:29 GMT",
-      "snippet": "Amazon、生成AI搭載Alexa+に最適化した新Echoシリーズを発表　『Echo Time』と『Echo Dot』発売  リアルサウンド",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AI成功へのロードマップ：人材と組織の変革を牽引する全社アップスキル戦略 - HRプロ",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiQTNGLVY4SjlxS3BRbXhBV2lhYzVqaV9nZUVROUZhaEpseTlpY3JmTHBTQlExSzZnSkhlRUkwbXUtZW15el9JVzZjUmFJOXQ5SHVXa0c1UWdKaFl6MDJsTmRYdTFoYm1UbUdIVw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 09:41:06 GMT",
-      "snippet": "生成AI成功へのロードマップ：人材と組織の変革を牽引する全社アップスキル戦略  HRプロ",
-      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -992,6 +1433,15 @@
       "topic": "other"
     },
     {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "生成AIが導く「正解のおじさん」 1000人調査で見えた境界線 - Forbes JAPAN",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TZ2czMV9qSjY2MXNBUXNpbE8yRlgwNmxHZ0JOT0tHMDVjNThfUGRBVFgtTDhhMGczbnFrMUNQOVA3NUY1NFJxWEo2VVlOWE9vYW05eEJSNG1tZw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 09:15:00 GMT",
+      "snippet": "生成AIが導く「正解のおじさん」 1000人調査で見えた境界線  Forbes JAPAN",
+      "topic": "other"
+    },
+    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google、最上位AI「Gemini 4 Carbon」発表、サイバー防衛で最高性能 - 株式会社インプレス",
@@ -1010,30 +1460,12 @@
       "topic": "gpt"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、ChatGPT ProとBusiness向けに月額最大500ドルのAPIクレジットを発表 - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQjF5VkxiRTVKZUh4eS03c3R4TEJEWFM4S0pRMEMyVE90b1RUeVZTWGJBSko5YTYxOU5rQ0NpTXJGREpxQUlkSUZLcUhReFRqQURfeE1vanpYdGE0QUhUazRVV1B6NHREbG5tTDZDSFI2RjF1VzBBdXpGUmRqSW90U2d4V3NBc1c3dGc?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:57:03 GMT",
-      "snippet": "OpenAI、ChatGPT ProとBusiness向けに月額最大500ドルのAPIクレジットを発表  Pasquale Pillitteri",
-      "topic": "gpt"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "立法作業に「生成AIを積極的に活用」 改革案を各会派おおむね了承 衆議院・議院運営委員会 - TBS NEWS DIG",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EbWlBOVZzOE1sZFlFUGxTOXU0TEhIYXg3LVhMRmUzYTFiNFVpaXJrZ1pSTGtJQl9ZVER4YWw1OW85alVSbnoyNmFQdllDTW00VXZTVWswMA?oc=5",
       "pubDate": "Thu, 29 Oct 2026 08:50:59 GMT",
       "snippet": "立法作業に「生成AIを積極的に活用」 改革案を各会派おおむね了承 衆議院・議院運営委員会  TBS NEWS DIG",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "岩見沢で生成AI活用セミナー 12月1日開催 製造業のDXとペーパーレス学ぶ - 47NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5kUGhwaTl5bk8yS01pZHlfbTBCY0FrOUpKTkNfdW85UzlBM3NGSnlDeXlGQ3dKZXNfSk5LUzVMaVJTNTdYYlN1MnZWSQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:50:42 GMT",
-      "snippet": "岩見沢で生成AI活用セミナー 12月1日開催 製造業のDXとペーパーレス学ぶ  47NEWS",
       "topic": "other"
     },
     {
@@ -1046,24 +1478,6 @@
       "topic": "gpt"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPTのPro・Businessプランで「API利用」可能に 月最大500ドル分（2/2 ページ） - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oTjM5a1VXZDdGaXVkQUJGXzBhRlUzLTd4YlQ5RUt5bFl2ZE1EZDg2d2hYM3Iwd0E1LTY2UTdmTGxKMkFGcGFOVl82OFVNUWd3dFBGdHlGU0pwemlJckhIbkRfNVoyUWkxOUJ1WWNR?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:46:39 GMT",
-      "snippet": "ChatGPTのPro・Businessプランで「API利用」可能に 月最大500ドル分（2/2 ページ）  ITmedia",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "会話を終えても裏で動き続けるChatGPTの新機能「dots」、日本の利用が世界2位に - shiritomo",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WWTlTV0E1eU40aFF1SW9Rdjc2YWl1ZjRkQXJxMmZreUFnZnczdG1WUUxwVG9NbG14Y0NSWk5BLWM4dw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:30:02 GMT",
-      "snippet": "会話を終えても裏で動き続けるChatGPTの新機能「dots」、日本の利用が世界2位に  shiritomo",
-      "topic": "gpt"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Googleがサイバーセキュリティ競争における新たな武器を発表。 - Vietnam.vn",
@@ -1073,15 +1487,6 @@
       "topic": "gemini"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、ProとBusinessの定期購読者にAPIクレジットを付与、月額最大500ドル - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lOEV2d09kN2RXQlVGaVZ5Y1Y3cUswRXMyVGxVR2ZUY0YyMnc5VEpaU1dHZk12ZFQyN2VLQmxSZzkwVjdsajhOdTRSMXVtSlJWRC1lV3RwWHRRT29pRGJmcU5IekFGRU1lVzRPQXZXbnloYTFm?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:25:00 GMT",
-      "snippet": "OpenAI、ProとBusinessの定期購読者にAPIクレジットを付与、月額最大500ドル  BigGo ファイナンス",
-      "topic": "gpt"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Googleは、プログラミングとサイバーセキュリティに特化したAIモデル「Gemini 4 Carbon」を発表した。 - Vietnam.vn",
@@ -1089,42 +1494,6 @@
       "pubDate": "Thu, 29 Oct 2026 08:08:42 GMT",
       "snippet": "Googleは、プログラミングとサイバーセキュリティに特化したAIモデル「Gemini 4 Carbon」を発表した。  Vietnam.vn",
       "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "NEWh、生成AI時代の事業構想・推進人材を育成する「事業構想ブートキャンプ」を提供開始 - Biz/Zine",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmVG0weHcwRm5HYmhaX29fNU4tcnlhWlAydkdfUi0zTmQwLVdySGx0RHB6UHNtOHg1ZUVNTXR6dzNXc1BEUFBMaHo1eEE2c1g0?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:00:00 GMT",
-      "snippet": "NEWh、生成AI時代の事業構想・推進人材を育成する「事業構想ブートキャンプ」を提供開始  Biz/Zine",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIで仕事への影響を感じるIT人材は75％、学習時間が増えた人は32.6％ - マイナビニュース",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3NXhRQ01CU1FDYnJwT1JBdU5jR3pKOTRPLTFKbGp5WFJTR1BVcENzeWc4VDl2TU5qN0QzZlkzUy1PYVBxZE5qQzVnQWFEQXZya1FfUVlCX011ZDNKWDVWeFdkODZ6OXpT?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 08:00:00 GMT",
-      "snippet": "生成AIで仕事への影響を感じるIT人材は75％、学習時間が増えた人は32.6％  マイナビニュース",
-      "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google「Gemini 4 Carbon」が総合評価で首位奪還、脆弱性検出で88.2%を記録 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80TTRyQVRsbEJDYVFLOW5MVi0ySk5zYnIxenk5cnBRZ21HQmlrQnRfeC1yS0ZTLUFLNHlNVl9DRzV0c01FR0FrbU5jUU1rV1EwY3VRMGpFcGhSdUNOWDZ2ZWZ3TGxQbm42bXFJcUxfbS1hSGw0?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 07:55:00 GMT",
-      "snippet": "Google「Gemini 4 Carbon」が総合評価で首位奪還、脆弱性検出で88.2%を記録  BigGo ファイナンス",
-      "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIとServiceNow、提携を深化—AIエージェントを企業ワークフローに組み込み - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KX25DZkw4Q2lwMU42bzVkZk1TRkZUZGJDTU1FSVdnTjU5RlpWOHk3bjI3QlVaWEljQ3gwNWE2Tk5nWEhJM1E1alR5UGU2TWRVcjNzZWhMQ2YzOWhhYkxLMWkxS1p5dU95MS1JSXBsNDQyTXQ5?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 07:35:00 GMT",
-      "snippet": "OpenAIとServiceNow、提携を深化—AIエージェントを企業ワークフローに組み込み  BigGo ファイナンス",
-      "topic": "gpt"
     },
     {
       "source": "Copilot / Microsoft AI 関連",
@@ -1145,24 +1514,6 @@
       "topic": "other"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、Geminiや検索に外部アプリを統合する新機能を発表 50以上のサービスに対応へ - スマホダイジェスト",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9GOFU0QVNWR2RIMllxZnN1VE9ZeDRBa0lSSUxiQ1dGRTYzMzRicTg2STVvTXZNeUZ0eFFUX1ZkLVBSeTktMUd0Tg?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 07:06:00 GMT",
-      "snippet": "Google、Geminiや検索に外部アプリを統合する新機能を発表 50以上のサービスに対応へ  スマホダイジェスト",
-      "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "SEONGONが正式にOpenAIのパートナーとなりました。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QTk9DZFg5Yjh4aE1UVnE4ZUw3Ri1odWFZZllTbkNtazRnMnRLcE1lcHZDZUFpSWMwdUduckx4TlVDVXBZM0VxT3NjOUEyVlViYm5oVjRrVzBUVk10OFF1M08zczRELWFCczdaRloyWUs3bEVURldOVkQ0T28wZw?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 07:04:12 GMT",
-      "snippet": "SEONGONが正式にOpenAIのパートナーとなりました。  Vietnam.vn",
-      "topic": "gpt"
-    },
-    {
       "source": "OpenAI",
       "category": "official",
       "title": "How Ropes & Gray is developing AI for transactional diligence",
@@ -1170,6 +1521,42 @@
       "pubDate": "Thu, 29 Oct 2026 07:00:00 GMT",
       "snippet": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advis",
       "topic": "gpt"
+    },
+    {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Claude（クロード）とは？できること・料金・使い方を解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nNUtqZGRNdXFVazhOU2RRWVRGQ1hCeVJBR09PT2NMNENOdndmbFdMeXdHcnNNWF9SR3JCZ2xKcTd0cHdob3JfUnU4VDVVY3JtQmZjUXZjMWRWUQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "snippet": "Claude（クロード）とは？できること・料金・使い方を解説  AIsmiley",
+      "topic": "claude"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "クレディセゾン、ChatGPT Enterprise のパイロットテストでROI 954%を達成 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EcmY2bjNnc21BMTlEbERwLWp1VEhrTHRUUlVETHV0aEkyZnFENFVxWGo5V0hXV2dJazJrenpYUzZfSS04R0p5NU5CbkVycGkxQ0pXYVBUblI?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "snippet": "クレディセゾン、ChatGPT Enterprise のパイロットテストでROI 954%を達成  OpenAI",
+      "topic": "gpt"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Geminiのログイン・ログインなしで使用する方法を徹底解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zTUJ5M09zajJQRDVITzQ5R281aHBrQlk1RDJ0NHg0cHVYa1J6WGNUQklLaGVEeXNaZDE0T1ZwUjhSMGpma1pzbG45QlZvQmNwR3h2OGVaQ1VMMkRqdHIyWkh0NA?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "snippet": "Geminiのログイン・ログインなしで使用する方法を徹底解説  AIsmiley",
+      "topic": "gemini"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Geminiダイエットのやり方｜無料でできるプロンプト例と注意点を解説 - AIsmiley",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PVG9OSXFYZ1NINWZRSVRyRFVRV1RNWG9JaTIzWUNJVGs3YnBVTDFPaU8wV2FZd1UwUllmLUV4TWhnUnMzRVJSUjJrbWJXUFF6cmlaYkFB?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "snippet": "Geminiダイエットのやり方｜無料でできるプロンプト例と注意点を解説  AIsmiley",
+      "topic": "gemini"
     },
     {
       "source": "生成AI 総合",
@@ -1201,29 +1588,11 @@
     {
       "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "Google、「Gemini 4 Carbon」を発表 - ゴリミー",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBMUHJlcFFJVUtXME5od0JldFI4Znp3TWdTMXZHZGJTZnRqblhNdFJ5aXFKbUlPUm1vVE5DVVltTmdFRGotNTBhRDZRMWJKalV2bnJF?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 05:40:17 GMT",
-      "snippet": "Google、「Gemini 4 Carbon」を発表  ゴリミー",
+      "title": "グーグル、リアルタイムで世界を生成・操作できるAIモデル「Genie 4」発表 - ケータイ Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QNnhqZlMzclluVjlTcnN0UnMydTE5X3RTc0MzYUx3TG0tTTFXVkdldHpiekF4SE5wMVhpbnA4TDNiWGllS0p0cS1kT3RzU2VNN2tETTVaZWFNS3RKbHBSWlJmTFdoa0E?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 05:19:47 GMT",
+      "snippet": "グーグル、リアルタイムで世界を生成・操作できるAIモデル「Genie 4」発表  ケータイ Watch",
       "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "プレスリリース：Uravation、生成AIパスポートの無料問題集を新シラバス対応の300問に拡充。2027年2月試験から「AIエージェント」が独立した章になる5章に沿い、本番形式60問や章別で解けて全問に解説つき（PR TIMES） - 毎日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RcDRwNmJWd2Y1cGVoZEZCam5tUVJ6ZENRMGI0azFFYXRCMl9zQnBVcFZQdU1pYzVQN2c2X0JYOE0yNDdlc21JcFhkRmFxdnNJUUZSSFc3RGRSVHFoOWppenhaa3ZJVTVM?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 05:23:46 GMT",
-      "snippet": "プレスリリース：Uravation、生成AIパスポートの無料問題集を新シラバス対応の300問に拡充。2027年2月試験から「AIエージェント」が独立した章になる5章に沿い、本番形式60問や章別で解けて全問に解説つき（PR TIMES）  毎日新聞",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "新潟日報生成AI研究所、生成AI活用研修メニューを刷新 - 新潟日報",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ibUxBMXRFb1A2d0pVajNDa2JYVDNxelRmQm94WDVpbU9XaXVfWkRmVGU0QTNPZjNsQTZ1YXRzSjB3QXJaYTdid1l3ajZoMnlUSzA0dUppX2hFX0ozd3c?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 05:19:39 GMT",
-      "snippet": "新潟日報生成AI研究所、生成AI活用研修メニューを刷新  新潟日報",
-      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1235,39 +1604,12 @@
       "topic": "gemini"
     },
     {
-      "source": "Copilot / Microsoft AI 関連",
-      "category": "news",
-      "title": "Krafton、Security Copilotでセキュリティ運用を自動化 アラート確認時間を95％削減 - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWGpSSkFPMmxBNXJCUzdrcm1yc1poa2Y1N1JyUVBCc1lPR2RBVU5rZjhySGltYzR0LTVpNGszNUtHeHdUc0xNc1FYYnQyakdseXpPQWk5VmhLUlB2WVlqWGZGdWJqalpUZXVsbWpjeGNEU19PUlo3dGlDRFhmekRSSktnUUZoU1dnd3ZaRlFjNUZzNXNGaC1BWGxZWk9PRnVSd1lXdjZHckVPQnBLYl9abUdlMXFVRDdtMFZBVVNMdlhQQ1FnNmE5dTNMSEg3R2NDSGc?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 05:14:10 GMT",
-      "snippet": "Krafton、Security Copilotでセキュリティ運用を自動化 アラート確認時間を95％削減  디지털투데이",
-      "topic": "copilot"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "グーグルがGemini 4 Carbon公開 セキュリティ性能首位 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85NmhGZ1Y0UkFOVlVJdkdTQ3hmVkdOajZVMU9VX3FqRTZCSExQVGVVbzRUOUxTTXliVkVreV91YVpuRm9RQjY4LVBvOVctendFSWIxaG5WdzA4dnkzZHhCeGRyaDVELWtRMV9qMUlkWGY4M0JvanJEMFFB0gGOAUFVX3lxTE1mdnNINUZnTzY5cTdqQWxGd2JvU3JrMUFBd19ubEFjbjIxc2hHZldUSFJEM1QxUk1MRUZ3U0JPd1NUMnBLSy13d1Z1S0lsQU5RTUpscFFzSGpwbTNhTjg5RWsteno4dEhEMjQ4aXJMNVlkQlVnOXNDczhoMDFKSGREcEk1aTNCU2JudEkxRmc?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 05:04:00 GMT",
-      "snippet": "グーグルがGemini 4 Carbon公開 セキュリティ性能首位  Chosunbiz",
-      "topic": "gemini"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google「Gemini 4 Carbon」発表 サイバー防御と長時間作業を強化、提供は限定的 - NOVAIST",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Sc2RjS1BjeDUxdTd3NllhZmlJOWpEWTVfTmIyT1g0Nl9iQmd5Tzk0Q1BNd1lNMVVXd2VhdDR2LW1ObzFMQUdaQXlrWTdoeEQtS1dwNnk0eGMyU0tZVlRjMm9mTTQ?oc=5",
       "pubDate": "Thu, 29 Oct 2026 04:56:31 GMT",
       "snippet": "Google「Gemini 4 Carbon」発表 サイバー防御と長時間作業を強化、提供は限定的  NOVAIST",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google最上位AI「Gemini 4 Carbon」。高いサイバー防御性能を実現 - 千葉テレビ放送株式会社",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sLU1pT05PZTJ0am45TzFwcDg3LVJWMkhvdW9rZHE3SnFfTkktT1dFMzRCXy1RYVRjcHBhbmVJaGVjQkhldzhxVEhZU19SaXAzeDVkM3hpY0xjdmdyem00?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 04:54:28 GMT",
-      "snippet": "Google最上位AI「Gemini 4 Carbon」。高いサイバー防御性能を実現  千葉テレビ放送株式会社",
       "topic": "gemini"
     },
     {
@@ -1289,15 +1631,6 @@
       "topic": "gemini"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT AI彼女 違い まとめ - Vantage Data Centers",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPNFJIR0NDdm0wdjVBR2VDTTNvdHZNMzgxeFNIWlc5ODlQc3luVjVQUWl2a0hwNzBmZHVTalhqLU1NdmZIVHA5ZlBDOHZvMzVuMjVFYUtkYkNSZHNNZDRZTkc1ZWUxV0ZlYV9vV2hvRThRXzVuNFMzYjQ5Y0VMTWhQYXhCUk5BNzMxU0g5Z084b0NGeUhMV21RdDQ5NURMaUxOZkpEV2I1bXRjRUNwNmVZbnVmMU9UQTdZVjFMTS0zVFBuYUJjWDhfaXdFOVJSNU1lUlZldUlrdWJJekhEdE1VSEotTjdiYzBJbXZ6R2k0YzRoLVlmWUlfVHl5TkxTWkF4VzhyVWZrcEtXNGN6bEE0VVU3cTM2eHRW?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 04:48:24 GMT",
-      "snippet": "ChatGPT AI彼女 違い まとめ  Vantage Data Centers",
-      "topic": "gpt"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google DeepMind、推論で複雑なタスクを描く世界モデル「Genie 4」 - 株式会社インプレス",
@@ -1305,15 +1638,6 @@
       "pubDate": "Thu, 29 Oct 2026 04:45:11 GMT",
       "snippet": "Google DeepMind、推論で複雑なタスクを描く世界モデル「Genie 4」  株式会社インプレス",
       "topic": "gemini"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "AI彼女 オリジナル 作成 - Vantage Data Centers",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQN2VScUhEZ040MmpreEdFRU55b1F0LVpjZk9KejZibW1QX3NVMnJETXo0Wl9pYTRRLWRIOUpjZnZrOWE1UnNSQTJ6UFR1Vjdrb0pVc05XNi1leng1UUJWbWdGc084cThzSlBCUG9tdnRhYl9tdzUwc1pBWDdIV3Y3bGYwXy1BNmp6XzgzeG5LMkQ0bUhiN011N3dYeTdYNElKdU1QMWZySnB5TzdYT0Q4Unc5MVhNc2lFaEFubVd1bnh0N01kU05SYldyRlBLX2dtaU9vZlk4emxVZkxGbFlQenFNc3NNd2U4eFlYVHZpeGc2QWJWejFGTGVmMGpIbnc2dHlVYTd6SjVCaTJxM01Scmo0SXdJX0ZF?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 04:38:06 GMT",
-      "snippet": "AI彼女 オリジナル 作成  Vantage Data Centers",
-      "topic": "other"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1334,15 +1658,6 @@
       "topic": "gemini"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "LFが欧州OSSと低品質AI生成PRを指す「AIスロップ」問題の2つのレポートを公開、OSERAは100日で本格稼働、ほか - ThinkIT",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43Wk1QZDJ5Smh0RS1FWGF5N0dYT2tETVRSMER3dkUzNkZQQUQxN2x3ZFk4bS1DcjJoa2hRM1UwdVkzOTNkSnRFZkt5TQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 03:31:29 GMT",
-      "snippet": "LFが欧州OSSと低品質AI生成PRを指す「AIスロップ」問題の2つのレポートを公開、OSERAは100日で本格稼働、ほか  ThinkIT",
-      "topic": "other"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "Anthropic、Rust未経験チームがClaudeで中核APIを再構築、CPU消費が4割減 - BigGo ファイナンス",
@@ -1352,22 +1667,22 @@
       "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
+      "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "生成AIでゲーム開発に挑戦。長岡市で広がる中学生向けAI教育 - さくマガ",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FaTJxQkdDOWlyRmZwS1dvejZLejBGejZEZVJNOFdQclhPMnlwQ3FTNHdXSzlhdTdwQS10Q3B6LUhQMktISzJ3elExUkhqNjJRaEx5OFFpTVI3UDQ4M3UxWTFnVVJ0c28?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 03:01:31 GMT",
-      "snippet": "生成AIでゲーム開発に挑戦。長岡市で広がる中学生向けAI教育  さくマガ",
-      "topic": "other"
+      "title": "グーグルが最新AIモデル「Gemini 4 Carbon」発表、サイバー攻撃防衛・自動修正で最高性能を記録（ケータイ Watch） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iT0NtTFBHUTFKUkdLbkY2SGpCOFJOWXJ1WW1rT3VpOV9JTkNtUWJVYTYtT2FNaVZxMjJTQXBZTndFdW93am1BQ3NGb3BCOXZhQXM0UW9tMm1RbE03bFZaa2VKQjhLMW1oODR6LWNiczNDM3N1RDFVQTZFNktaTm8?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 03:14:00 GMT",
+      "snippet": "グーグルが最新AIモデル「Gemini 4 Carbon」発表、サイバー攻撃防衛・自動修正で最高性能を記録（ケータイ Watch）  Yahoo!ニュース",
+      "topic": "gemini"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "Anthropic / Claude",
       "category": "news",
-      "title": "ChatGPT広告、89カ国へ拡大 広告主10万社超が会話型購買接点を活用 - Media Innovation",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TQkRaLWwyb2gtZzhwWldYbUhRX0U2NU1pQzVHbVVFdHl3ZVZmNndmZkdocDBpZUR3VVN6Y0dNMS1IR2dzeldzcnR1eTR5YTBVekRCalpaT1NKYjNlZXJxNkVZUnhRTGdGSlE?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 03:00:04 GMT",
-      "snippet": "ChatGPT広告、89カ国へ拡大 広告主10万社超が会話型購買接点を活用  Media Innovation",
-      "topic": "gpt"
+      "title": "AIチェックツール「トラスクエタ」に、Anthropic社のAI「Claude」を搭載 - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TM09DX3BzUWVxLVotU3lZV21RSnd5TjNlT1h6SE9tT0J4Z19HMjczV3Q3M0plNWU0Ql9XUXgybFZvM2l4LS1YcktDeGxJVDJQMllLdU16MXM5UVo3eW9ST20xOXVpWmFuMnc?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 02:57:40 GMT",
+      "snippet": "AIチェックツール「トラスクエタ」に、Anthropic社のAI「Claude」を搭載  PR TIMES",
+      "topic": "claude"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1385,15 +1700,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jZXVOQzlXSXRYdWtZd0ZOeHN6a0xJY1FFSG5MNjdpSVVaS3ByNXo2VmRNVERHWDFXYUFVcHN3RDk5akpvU3M4dXo3UGVjN3ZNRzhLQkU0UG9PTVctSTNyWjJDd3FYZDVlNHlHNHQyYnBiQUZRUzRiekZIZEw4QTg?oc=5",
       "pubDate": "Thu, 29 Oct 2026 02:22:12 GMT",
       "snippet": "アレクサが生成AIで刷新 アマゾン、より自然に会話（共同通信）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "アレクサが生成AIで刷新 アマゾン、より自然に会話 - 47NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBtMFVmYVFJYV9tTG8yaGNjV0VQR05rSDVVS2Y2Vlh6enBraTdKTDBGbVBienpOeFBqeVZPMGFBTVhCS2ZxVi0xR1laWQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 02:22:12 GMT",
-      "snippet": "アレクサが生成AIで刷新 アマゾン、より自然に会話  47NEWS",
       "topic": "other"
     },
     {
@@ -1424,15 +1730,6 @@
       "topic": "other"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "大学教授が生成AI利用、著作に誤情報を掲載した問題 琉大が新ガイドライン作成へ - TBS NEWS DIG",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1YYVhqakNYcHg5U19vLXpfcElZY1hUVzBKeXFCeGVFaXJJQzhKMGdhZ1FsVmZHejlBOEJpV1Nyb3Jjd2NPRHd0aHlFMldiM2ZUQl9lVy1tOA?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 01:55:00 GMT",
-      "snippet": "大学教授が生成AI利用、著作に誤情報を掲載した問題 琉大が新ガイドライン作成へ  TBS NEWS DIG",
-      "topic": "other"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Googleが世界一高性能なAI「Gemini 4 Carbon」を発表、ついにOpenAIやAnthropicの最先端モデルを超える - GIGAZINE",
@@ -1460,24 +1757,6 @@
       "topic": "gemini"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "12月18日 3女子大学合同シンポジウム開催「生成AI時代に女子大はどこへ？」 | - 大妻女子大学",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vb091ZzBFaUk1M0s3TURMZmZuQm1UMmJtMmhfMTF0Wmh4T1NmTUFfRFh1WVFxQVV2UVlqQVRWZFVEZkNpNzFfSm1VNjN0ODZCMzF0WklyU2VPazJra0hwQQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 01:07:12 GMT",
-      "snippet": "12月18日 3女子大学合同シンポジウム開催「生成AI時代に女子大はどこへ？」 |  大妻女子大学",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AI活用支援で足銀と下野新聞社が連携（とちぎテレビ） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1acGcyM1Jrb191UUdfVjROWWQzWFJyUVgtVEk0am9CcmozSEVHTWx4SlJHWjF4Tl9zUUZSZ1owbUEwREpPcGUwT0pSOUt6WlFObFVIemNpTnF6S2hBYzJlZTAwVUVjeUpheUlUd3JzaGJzbVdVY1hhSUN2SHFnQVk?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 01:05:01 GMT",
-      "snippet": "生成AI活用支援で足銀と下野新聞社が連携（とちぎテレビ）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google、「Gemini 4 Carbon」を発表 ～「Argon」をしのぐ同社最強モデル - 窓の杜",
@@ -1487,13 +1766,22 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
+      "source": "Anthropic / Claude",
       "category": "news",
-      "title": "マツダ「CX-5」がグーグル「ジェミニ」に対応! 何ができる? - ニコニコニュース",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fVlZYcnk5SFYzRURtSzFTbjVTOGNEN3dxMHdhTEFZUTBibmdpZVVjcGM1Zm51XzFRa2F1d09tWUYycExCNTdVazBpYnlzT3JvSlZNLVhTQkZ2bWxVd0hENHhFams5NzlwcUVPQTJPc0xqUVU?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 00:00:04 GMT",
-      "snippet": "マツダ「CX-5」がグーグル「ジェミニ」に対応! 何ができる?  ニコニコニュース",
-      "topic": "gemini"
+      "title": "Anthropic、自社で創薬に着手 正社員1人のMithril Medicineを買収し小児の筋ジストロフィー治療薬を研究 - innovaTopia",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xTVZlRFhOaWdlR0EtSkg4b0t3NXNyOUMweThYQldTZHJzV0JEdzVqWUZRSmxfY3dESTg0S1JSbllkMWVpRnVGaW9WenpBeGhiR2g0?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 00:10:48 GMT",
+      "snippet": "Anthropic、自社で創薬に着手 正社員1人のMithril Medicineを買収し小児の筋ジストロフィー治療薬を研究  innovaTopia",
+      "topic": "claude"
+    },
+    {
+      "source": "OpenAI",
+      "category": "official",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "link": "https://openai.com/index/credit-saison",
+      "pubDate": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "snippet": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption",
+      "topic": "gpt"
     },
     {
       "source": "Hugging Face",
@@ -1521,15 +1809,6 @@
       "pubDate": "Thu, 29 Oct 2026 00:00:00 GMT",
       "snippet": "",
       "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google「Genie 4」、文章で操れる音付きの世界をリアルタイム生成 - Martin Cid Magazine",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQnY5dDRvZk5uLVhvRWZDNVd6MUdoLXNNbzlmY2ZZLWhiNUpOeTA5RjMxeUQ5X09nenpNeTllanc0bTNvTFU5TjNVLVB6RzJzdW9VdFUxWGMwWm1MVjVYNjVhSGVkcFRxSXpYcmhEM2tIWHdFN2NDVVNLemQxV041T2JmUWRBWEJQLWRwMTRvWkZ3akM5WlpsVXo2UGgxNE5uVlZOQTNyU0tCMnowaklQcE83cWhHTXc?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 23:41:34 GMT",
-      "snippet": "Google「Genie 4」、文章で操れる音付きの世界をリアルタイム生成  Martin Cid Magazine",
-      "topic": "gemini"
     },
     {
       "source": "生成AI 総合",
@@ -1586,15 +1865,6 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、新AIモデル「Gemini 4 Carbon」発表 コーディング・サイバー防衛性能を強化 - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYzFpcEkzTDRDZmFPaGdfTkR6Q3U1aFVUa3k5WGcxakFFd1NJcWxvRXJKSERuZnRCOVktUDdtTDZoMklodkNDd29kcVRHTVdqaUxtV3VOTmxNck5qQm5pLUtibVNIS0J0cDBMT1pRaUd6SUtYSzd2eElQWS04UmZYTGtnanZkNFBvbGptMDl6OGM4cDNTR0xZVURsYmtqX0NjcXM5OVFQTkNTSVBWS1FGcWhGSlNTM0NI?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 21:44:07 GMT",
-      "snippet": "Google、新AIモデル「Gemini 4 Carbon」発表 コーディング・サイバー防衛性能を強化  디지털투데이",
-      "topic": "gemini"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "「生成AI講座」で“シューティング”“陣取り合戦”ゲームを制作…「青山学院中等部」がChatGPT普及前からAI教育に踏み切った理由 - Yahoo!ニュース",
@@ -1602,15 +1872,6 @@
       "pubDate": "Wed, 28 Oct 2026 21:03:04 GMT",
       "snippet": "「生成AI講座」で“シューティング”“陣取り合戦”ゲームを制作…「青山学院中等部」がChatGPT普及前からAI教育に踏み切った理由  Yahoo!ニュース",
       "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "ディズニーは「夢のつくり方」をどう変えるのか 生成AIで進化する体験づくりと事業戦略 - JBpress",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RTXlicDNHek5vT3lyeFdiSGNadjVmRGJaM2g2Q2hrQ3ByejNzNXpsY3BUclRxSHo0aUZkWERsQ0FIZlNZWnAySzk5WXVVc1pzcU5fRjdB?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 21:00:00 GMT",
-      "snippet": "ディズニーは「夢のつくり方」をどう変えるのか 生成AIで進化する体験づくりと事業戦略  JBpress",
-      "topic": "other"
     },
     {
       "source": "生成AI 総合",
@@ -1640,30 +1901,12 @@
       "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google スプレッドシート、Gemini が入力したセルの値ごとにウェブ上の情報源を表示。処理できるセルは最大 3,000 に - HelenTech",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORW42UGxNMnZuX0RfbkQyM0NqQjZCN3Q0N0JhOEZnMVBHQkNSTkxYR3pNMEJCVmtoTmh2MkZvR0x3clBCMEkxOFlHTTNZSndvSzJiYVdmelBIRFJRWjh2bG9WLXVhZjNnVXFXd05YWURHdHNtd3AyVUJwQVpMX3VIY0xR?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 20:12:26 GMT",
-      "snippet": "Google スプレッドシート、Gemini が入力したセルの値ごとにウェブ上の情報源を表示。処理できるセルは最大 3,000 に  HelenTech",
-      "topic": "gemini"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "Amazon、生成AI搭載のアレクサを日本で開始 飲食店予約可能に - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YdEo3MHU0dm1pbDlCX0JmZzMzVVF4MDBBUGJpQUpsMTdmV3FxQzFSYUpzUFpPa053WC1Kd0FTaEdFNXlwRGVPcGlsQVJ1M3Q2eGI1N3U2UWJvdEdRanV0ZWJUTGhnWVR5X2Zhdw?oc=5",
       "pubDate": "Wed, 28 Oct 2026 20:00:00 GMT",
       "snippet": "Amazon、生成AI搭載のアレクサを日本で開始 飲食店予約可能に  日本経済新聞",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "自作アプリで事務作業を8割削減、地方建設会社の土木技術者が生成AIで開発 - 日経クロステック",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zTGUtaEdseU90dXktM2pWWGZJaG9iRWlIOUU5UmgyOXNkN3lYSkh5YmM3VmVVcU1IN1R0TS1wMnY0U1BtbU9GSExyOFpCTExJUng5WVZTeHZIOFBaLW10RzF4TmZ3a291eTRsUA?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 20:00:00 GMT",
-      "snippet": "自作アプリで事務作業を8割削減、地方建設会社の土木技術者が生成AIで開発  日経クロステック",
       "topic": "other"
     },
     {
@@ -1674,15 +1917,6 @@
       "pubDate": "Wed, 28 Oct 2026 19:41:13 GMT",
       "snippet": "Anthropic、Claude Enterpriseにスマートレポート、アンケート、共同予算を追加  Unite.AI",
       "topic": "claude"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、「Connected Apps Platform」のプレビューを開始。Gemini と検索のアプリ連携を管理 - HelenTech",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtYTBJZHB1NVE2VU1GX3VtR0NIZE5DamRPS0RhQlhveGw5Ym1qRmxRVUo2cFM5d2J4M2dCUVlpSFNBN19QSVR2NHpGb3JFVVJJczFnRW42RmJiUUhPRDJKLW0xS0JwZVlzU1JPRXBkc0x4VGtVRGR0UWpNSQ?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 19:38:55 GMT",
-      "snippet": "Google、「Connected Apps Platform」のプレビューを開始。Gemini と検索のアプリ連携を管理  HelenTech",
-      "topic": "gemini"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -1748,21 +1982,21 @@
       "topic": "claude"
     },
     {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "AnthropicはClaude用の法的アーティファクトとコネクターを追加 - blockchain.news",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU0VWX21MS1B5TVRWSFUyVDduY1hiVnNkZ01IendCTFFpRVFjbWN3TmlHLVd5dTJLdlBlLWRMbmwteWpyYXBUUXhRVEpnMU01V1k1Ym5Sd0dkNUFiV2RnWTNEZVJhbGtFMEFXb3g2UnhWdUJLUFFUSnU4R0Q4bk9udHpieUxKTmxxX1hSWmVCMjVOZld5aEE?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 18:11:14 GMT",
+      "snippet": "AnthropicはClaude用の法的アーティファクトとコネクターを追加  blockchain.news",
+      "topic": "claude"
+    },
+    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "グーグル、外部アプリを「Gemini」と検索に接続する「Connected Apps Platform」を公開 - BigGo ファイナンス",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Sck80QXhySUNIcTVyNG16eVo5Qk1mYzVLSGl0dk50ZkRKM3pkQ2pRdW9BVlNoVG9uVnMzMS1DUzhmNkxpNHNZV3ZmTEJtRUpYcGpOWU84czlRb0lFaTR2S1pLdVFIV3ZpdkhQVENlbTB3T3lU?oc=5",
       "pubDate": "Wed, 28 Oct 2026 17:55:00 GMT",
       "snippet": "グーグル、外部アプリを「Gemini」と検索に接続する「Connected Apps Platform」を公開  BigGo ファイナンス",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google ChromeのAI自動入力、Gmailからフライト情報や注文詳細を直接取得可能に - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45ejU2ZWtaWWpFeWVvcFpfcTQycTA5YlJXdnB0b3NJcTRMd2VSc2dGX1k1eXp2YTk5Z3ZOLU5nTDIwOURlQlFRd2ZHWTBJcTBIS2pad3ZmUFl4eDFzUlZPdHptN3Q2SkUzOG9odUxrc08yckY2?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 17:55:00 GMT",
-      "snippet": "Google ChromeのAI自動入力、Gmailからフライト情報や注文詳細を直接取得可能に  BigGo ファイナンス",
       "topic": "gemini"
     },
     {
@@ -1784,21 +2018,30 @@
       "topic": "claude"
     },
     {
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "pubDate": "Wed, 28 Oct 2026 17:00:58 +0000",
+      "snippet": "",
+      "topic": "gemini"
+    },
+    {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "リコー、KDDIの堺DCで「ソブリンAI基盤」検証…GPUを持たず生成AIを使う道は開けるか - ビジネス+IT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ndkJWXy03ZTdDRnRya0swbmJRNEpmT25XeEFvaTF4S0FGbTR4dnNnNjZYSUd5Q2F6REJKcGpONEZyRno5cVgyakFQaTk2WDg4blVn?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 16:23:00 GMT",
-      "snippet": "リコー、KDDIの堺DCで「ソブリンAI基盤」検証…GPUを持たず生成AIを使う道は開けるか  ビジネス+IT",
+      "title": "Amazon、生成AI「Alexa+」の国内提供を開始 | スマートニュース - SmartNews",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNSFhGM2NicHEyai1fTE12YVduLXhNc2hsWHBBSEhCaUswc1U2dmsycmladVIxdHAyc2c0alBFWk1LVWFEVkdnRkFMODdNS29IZndiTlZHNlVGQjEtdTRkdThYLW5LRVhBTnoxZEhodnZDZ3B2bmJTTm5QczBHM014b2VpTTRYQ194N1lWNXVMS3JsaWIyakpSckJkWUE1TWRwTjBORlBjZmR0Mnl5Zng2OWlCcUdGR2Y2aHJPcGxhbDYxQlROZmR2Ty1ySUJMU1FrMTUwaFV2M2NadWtXNmZaOWs5QmdFSmx6dWNKYTBEUTE5XzNldmlVZ2RXb2lYcEhBdGFaZkdSWVl1dHJmVVl1c0NOd2ZwX251MEdVUQ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 16:24:00 GMT",
+      "snippet": "Amazon、生成AI「Alexa+」の国内提供を開始 | スマートニュース  SmartNews",
       "topic": "other"
     },
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "生成AIベースの「Alexa+」日本上陸、月額3000円もAmazonプライム会員は無料 何ができる？ - Yahoo!ニュース",
+      "title": "生成AIベースの「Alexa+」日本上陸、月額3000円もAmazonプライム会員は無料 何ができる？（CNET Japan） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kZnMxYU1MWmY1bDdUTHAyWmw1UE9EbWNFLWtGYkktX3B0RGpsS2JKSEY3Rkp0S1NmaFVlcXVveFYySURadVVGd0V2S3ZwdUc0c0JpTzlFaHAxenI2TjVWN19vN0RuOXJmZ2JqUzNCa0cyQXdndmlEd05iMEt3N1E?oc=5",
       "pubDate": "Wed, 28 Oct 2026 16:02:00 GMT",
-      "snippet": "生成AIベースの「Alexa+」日本上陸、月額3000円もAmazonプライム会員は無料 何ができる？  Yahoo!ニュース",
+      "snippet": "生成AIベースの「Alexa+」日本上陸、月額3000円もAmazonプライム会員は無料 何ができる？（CNET Japan）  Yahoo!ニュース",
       "topic": "other"
     },
     {
@@ -1849,15 +2092,6 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "Amazon、生成AI搭載の次世代パーソナルアシスタント、「Alexa+」を国内で提供開始 - About Amazon Japan",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcnMxVGt0ZE50aXFzSV9wVDlEelhSdEZFT09US2dzSTl2NTZIcU1kYVBFaTE3MlpIRUFuVjlCdVJSem5sZXZSckp0eEVsNnd1Slg5VkgzS1VSWW5FVlhRZTkzTmJqOFV2YXZKZjBDVXJyZWNMQUFnSG45MmV1Nks0aA?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 15:03:53 GMT",
-      "snippet": "Amazon、生成AI搭載の次世代パーソナルアシスタント、「Alexa+」を国内で提供開始  About Amazon Japan",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
       "title": "Amazon、“生成AI”アシスタント「Alexa＋」日本上陸。早期アクセス無料 - AV Watch",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPLU85YjQ1Y3Z4SzZZU0p3Z0N2Q1BJQkRQTzNKUlY0NGdrVVA0d25yNHVJX3FfY3hlQ1llTmlUd0tEeW5GelYxRExqUW1Ib1YxMWpsTloxbVhLTUl6R2NORnlvOA?oc=5",
       "pubDate": "Wed, 28 Oct 2026 15:00:00 GMT",
@@ -1874,13 +2108,13 @@
       "topic": "other"
     },
     {
-      "source": "Hugging Face",
-      "category": "official",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "pubDate": "Wed, 28 Oct 2026 14:58:17 GMT",
-      "snippet": "",
-      "topic": "other"
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Claudeの電子透かし、11月3日からOpus 4.7、4.6、Sonnet 4.6にも - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdFFUb0szQ2lZNDNfMVEzSU5XaWt5YVlxUkZBZ1hiN2hYdTAyS0RYcTVXMXpfLWlZUldIRFVheXBSNVNPVDZVOHhvYnVvaU9sclk1WXRDcWxzTlRST1YxRTdkRVE2OWxyNGtqMVMwYW45aGMtUl9peHBkZFRrRGdUQy1sdVlNS1J2S0ZiOFkxa2w1eFlNZW96VHBsLWJIOXNX?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 14:10:55 GMT",
+      "snippet": "Claudeの電子透かし、11月3日からOpus 4.7、4.6、Sonnet 4.6にも  Pasquale Pillitteri",
+      "topic": "claude"
     },
     {
       "source": "OpenAI",
@@ -1892,13 +2126,13 @@
       "topic": "gpt"
     },
     {
-      "source": "Anthropic / Claude",
+      "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表 - ThinkIT",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 12:37:21 GMT",
-      "snippet": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表  ThinkIT",
-      "topic": "claude"
+      "title": "【2026年最新】ChatGPT有料プランはいくら？Plus・Pro・Businessの料金と無料版との違いを比較 - ホリエモンAI学校",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JR2ZWZ0EyaVg4aWExaFh3cG9iS011TkZKa1c1aTdmU3lGRVl5bjRaOFJSVXU2eDFXd0l5c2pVcU9qakdtcklxQXZDVEo1THVaVjBV?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 12:20:58 GMT",
+      "snippet": "【2026年最新】ChatGPT有料プランはいくら？Plus・Pro・Businessの料金と無料版との違いを比較  ホリエモンAI学校",
+      "topic": "gpt"
     },
     {
       "source": "生成AI 総合",
@@ -1917,15 +2151,6 @@
       "pubDate": "Wed, 28 Oct 2026 11:30:02 GMT",
       "snippet": "Googleの新AI「Genie 4」がすごすぎる。AIが作った街を歩けるし、住人もしゃべる（ギズモード・ジャパン）  Yahoo!ニュース",
       "topic": "gemini"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropic、Claude Enterprise向けの追跡ツール3種類を一般提供 - Mezha.net",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWHpBSFRESHVqSmlHR1VnSUtuYlJOY3dadWlpSkZUcUh2Q1RudXhBam1IUVJDY3B6Q0JCME03QXFqM3lja0NBNmFnZHdhLW5TeU5Qb0lhT1oySm9paG9EWnBBWDYtYVJacnNKZWtrWlJwWHJmYkFOQTg0NHVLZ2syX0Y5YjJ1VDdoYWJhQkpQV2xDX0tpc2l1VzBlNS13Sjk1TWVIb05iLUxsZw?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 11:22:00 GMT",
-      "snippet": "Anthropic、Claude Enterprise向けの追跡ツール3種類を一般提供  Mezha.net",
-      "topic": "claude"
     },
     {
       "source": "Anthropic / Claude",
@@ -1982,15 +2207,6 @@
       "topic": "claude"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropic、1人社長の創薬企業を買収 「Claude」で小児難病の治療研究 - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mdllYWEVIY1hMenNlT3ViVFg2LWFHRVVFTkI1QmkxdG5DWEdrNy1DSkhzN0NhRmNLV1lQOUs2S3poODJOTDh6MUtNZUZCcDFFeDdDNzc5bWJJZUJnY1dDdnhEeldQZ3JVX1pmWGNQNzVKSFc0WFdSU0lsbDJTTTA?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 08:40:00 GMT",
-      "snippet": "Anthropic、1人社長の創薬企業を買収 「Claude」で小児難病の治療研究  Yahoo!ニュース",
-      "topic": "claude"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "学校での生成AI活用テーマに意見交換 上越市総合教育会議で市長と教育委員 - 上越タウンジャーナル",
@@ -2009,15 +2225,6 @@
       "topic": "gpt"
     },
     {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "グーグルDeepMind、世界モデル「Genie 4」の研究プレビュー提供開始（あたらしい経済） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TZ0Z2bnBseXpMOEZWcjZlbnJkNzd4VEd4T25JeHdwLTNlU3VycmpPVHpuSFNWeV9icHktVDNETlduRGdPM0ZOcFAyVE9GQ2NMZ1lKNFVucmhlZktuNGpCaHdqMUVxZFpCNFFWSmZWOHM2OEtFYnNvWHJlS0dxM1E?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 08:02:58 GMT",
-      "snippet": "グーグルDeepMind、世界モデル「Genie 4」の研究プレビュー提供開始（あたらしい経済）  Yahoo!ニュース",
-      "topic": "gemini"
-    },
-    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "「エルヴィス・プレスリーの曲がAI学習に無断使用された」と60億円超の損害賠償をAnthropicに求める訴訟が提起される - au Webポータル",
@@ -2025,6 +2232,24 @@
       "pubDate": "Wed, 28 Oct 2026 07:20:00 GMT",
       "snippet": "「エルヴィス・プレスリーの曲がAI学習に無断使用された」と60億円超の損害賠償をAnthropicに求める訴訟が提起される  au Webポータル",
       "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "Canvaが独自の画像生成AI「Craft」を公開、構図を設計してから画像を生成 - 株式会社マイナビ",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JNEpYRDFZTElQREJjU0ludXJzR21paTM5QlJxTUgwRmlEZ3VvRmI4NS1aTEdTUVdzREFvdlhxcHRBeG91cEttb3pRVUtWTTlJRTZvR0Qya3hiVWlWWGln?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "snippet": "Canvaが独自の画像生成AI「Craft」を公開、構図を設計してから画像を生成  株式会社マイナビ",
+      "topic": "other"
+    },
+    {
+      "source": "Gemini / Google AI 関連",
+      "category": "news",
+      "title": "Google、“自社最強”のAI「Gemini 4 Carbon」発表 サイバー防御を強化、数日間の開発作業にも対応 - Ledge.ai",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XQTR3N2VNSUxKMFdHMnpmcUhud2NDMVRVcVpCSF8zZ3Q3TF9zbDJHbTJhZmh6WlBMYmd1YnZ1RjZ6VDFTaFZia0ZCQkYxVEg1c1U5TVNWVk14NlFM?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "snippet": "Google、“自社最強”のAI「Gemini 4 Carbon」発表 サイバー防御を強化、数日間の開発作業にも対応  Ledge.ai",
+      "topic": "gemini"
     },
     {
       "source": "生成AI 総合",
@@ -2045,6 +2270,15 @@
       "topic": "gpt"
     },
     {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Anthropic、Mithril Medicine買収 希少疾患向け創薬に本格参入 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT3pKNFlTdGthY2piZWhINGxMOU9oWnZJd2tVdGVmMl8tazRmRlMtdWNfektRYWVXR0ptcFAwckc3T3BXd3k2Rm9IS1V2R1JIRDl6SkQwc2RvSnZmRHRFNVU4NlRrXzQteS1yUkJOdkRBcjhnYnpaTkN3VkJEVWM0NjFIMHlLWEktR09ISG5hSDNxd0lPTjFVMUE2TUZESjRQdnNMbGg0cGU3c0w5UjJtSld2a1YxS3BEQkZqaXBwZU1qMU0?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 06:14:07 GMT",
+      "snippet": "Anthropic、Mithril Medicine買収 希少疾患向け創薬に本格参入  디지털투데이",
+      "topic": "claude"
+    },
+    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "ChatGPTが抗てんかん薬の減薬を指南、31歳女性の急死でOpenAIを提訴 - BigGo ファイナンス",
@@ -2056,28 +2290,10 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "ChatGPTで動画作成する方法とは？無料ツールや編集活用を解説 - AIsmiley",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zR3NOM2Y3Si04V3FIOWVRdmFFVFBHbllnMGJBQVZ6eE1KOWxOVE5DSFo2T21IZjd4YndKRXhMa2U1bFZFVlhHbGhya0xMSFAxNmZoc0dtT1BCVzlYaDhFd2JaTGg?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 05:41:18 GMT",
-      "snippet": "ChatGPTで動画作成する方法とは？無料ツールや編集活用を解説  AIsmiley",
-      "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "AnthropicドメインからClaudeアプリをダウンロードすると、依然としてマルウェアに感染する。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPckY4eTZTai1OTzlDOFdidmsxZWU2NDVkN0EwU1RYSEdQRlplYVQ2dUlFbjhIVzNvdEtaTGRzQVRpck1qeklOZG1xMkJ2R0NqT05mdmpYaGIwSGs4MVZvbFVhaDFzSHVaUmZXcU5nQ1FqRlljbE11dWZ5dEduUWxDcTRsTW5HVjdHTmlwZF8wVnY?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 05:17:22 GMT",
-      "snippet": "AnthropicドメインからClaudeアプリをダウンロードすると、依然としてマルウェアに感染する。  Vietnam.vn",
-      "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "オラクル、OpenAIのサイバーモデルで脆弱性を発見・検証するAIセキュリティ基盤を発表 - ビジネス+IT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jUi10RGo3Y1phTDJXMjM2U2MwRnJXMC1jNkxlaFo1Qmk5TDNIRDd1cURDdk1jdV9PMVkzaWtaMHQ0YmFtc3lNank1ajVuVDAtUkJV?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 05:00:00 GMT",
-      "snippet": "オラクル、OpenAIのサイバーモデルで脆弱性を発見・検証するAIセキュリティ基盤を発表  ビジネス+IT",
+      "title": "ChatGPTがiCloudメールとカレンダーに対応〜接続前に知りたい注意点 - iPhone Mania - iPhone Mania",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jVmxHMC14QmQtTEo5bWVJc0ZseFRqM3pkeHQ3ZzI4RWxwcjJfdWlKZHNEa181T0c4ZzVyVjJfdjFZNFdBSm5OR3hYONIBUEFVX3lxTE02NlBUb0NKR1E2UjRrZlctNEk3MFVkT1ZfdkRaSXU4bHM1LUZfSFF6ekVtVEZKSUhuNGtGQ2JPTThYM2pOMHRTWmxJeF9tMGw5?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 05:42:16 GMT",
+      "snippet": "ChatGPTがiCloudメールとカレンダーに対応〜接続前に知りたい注意点 - iPhone Mania  iPhone Mania",
       "topic": "gpt"
     },
     {
@@ -2106,15 +2322,6 @@
       "pubDate": "Wed, 28 Oct 2026 04:07:50 GMT",
       "snippet": "Anthropic、独自の“創薬活動”に着手 社員1人のバイオ企業を買収、小児難病の治療薬研究を進める  ITmedia",
       "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "「Oracle AI World 2026」2日目、OpenAI連携の「Oracle AI Workspace」発表やOCIへのGoogle TPU導入を明らかに - クラウド Watch",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zNF9BTGk2M202Q3FPY3hhSXAwM2JMSTNOQ3dQT3k0Wm0xRlR6eEx1N09sQzZ6dlVtS3J2bDNOUXRDUnlwenJ5aVdtT2E1YmNxWW9iRHhVSWp1NzRrOWRnU08yMzZmVmIy?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 04:05:16 GMT",
-      "snippet": "「Oracle AI World 2026」2日目、OpenAI連携の「Oracle AI Workspace」発表やOCIへのGoogle TPU導入を明らかに  クラウド Watch",
-      "topic": "gpt"
     },
     {
       "source": "生成AI 総合",
@@ -2153,6 +2360,15 @@
       "topic": "gpt"
     },
     {
+      "source": "Anthropic / Claude",
+      "category": "news",
+      "title": "Anthropicが上場申請書類で「1人ユニコーン」バイオスタートアップMithril Medicineの買収を公表、自社での新薬開発に本格参入 - Mashdigi",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQYlpHai0wcUEtSU1UMzJhck5ta282d3Q1b09HUmhGaEQ4VmJkN25fS2R3UVliODFoaW1QLVVjbXdOZnZQRVVGSExQNDNrWVFnWk1SYU9feG5TTXF4VC1oZlJFeDlLVVFyc2hXOTdDWFR3WW1tbXRhTGFveElnTng2LWJoZm5NYUtHblk3TXItLW1YeDVxZ2dEN1g4X3NMdGlSZGVWRV9wWVBWb0I2MXMyMGdtVmk2dU1MVURsblBHTjVWaDVlajdFOC0zQXNEUWNrSDdJcVdaNjUtYmE0YjV1UHVINFdEYUF2dTA2Nk1XU19ickxfUVFkZTdJLVJsZEFCeG1qUFc3OG5LMldQTlYzZ0JuQ1JlMkV3WVRhZ3BWeU96bGltd3VjTVhBUHVrcUlRbGZOai1mbkhPSFVnSXhqVTEtOWFCRlhIUXc?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 03:00:10 GMT",
+      "snippet": "Anthropicが上場申請書類で「1人ユニコーン」バイオスタートアップMithril Medicineの買収を公表、自社での新薬開発に本格参入  Mashdigi",
+      "topic": "claude"
+    },
+    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "OpenAIのフロンティアAIが、数学・計算機科学・物理学の「3大難問」を解決か？ 成立すれば学術界に大きな影響を与える成果 - ビジネス+IT",
@@ -2171,24 +2387,6 @@
       "topic": "gemini"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "１０代の男２人、生成ＡＩを使用して作成したフィッシングサイトで個人情報を不正取得…容疑で書類送検（読売新聞オンライン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ES0NyMGhyMnlBV09sN2hoMDZiZm1RMjcwMURTd2lBeE55eDVlZk9mVXhtWDYzc2Rxa3lGOURvVmpyVkFjS0VPNjN3WlFPOE1EWXpMdVgxbVJzNEtJQ01DUVlXSEMzekVYUGF5anNjZG5EbVZiOEQ4WWJ4X212TXM?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 02:41:57 GMT",
-      "snippet": "１０代の男２人、生成ＡＩを使用して作成したフィッシングサイトで個人情報を不正取得…容疑で書類送検（読売新聞オンライン）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "ファインデックス---子会社の医療文書生成AI「CocktailAI」の有用性評価論文が国際学術誌に掲載(フィスコ) - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnlTVXJVcGwyMGxiN0Rpd1Z5VDVkOEtvWV80NEpaNWhSTmZWY1NZZVVtVy15OF9GVFFrREdiMlN5U0ZJSGRFMFl6Z09RZnJHMzdjbUM3R2x6MXN3UEpIN3c3TG5oSWxvcXd2cEx4VkRvWUdVME83MnRoNy0zQkpGOXN0Tm1LY2s?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 02:31:04 GMT",
-      "snippet": "ファインデックス---子会社の医療文書生成AI「CocktailAI」の有用性評価論文が国際学術誌に掲載(フィスコ)  Yahoo!ファイナンス",
-      "topic": "other"
-    },
-    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "「ChatGPT 広告」で変わる広告戦略──回答システムと広告システムが独立、AI推測の「意図」に入札 - Yahoo!ニュース",
@@ -2200,20 +2398,11 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "OpenAI、グーグルの半導体購入へ－AI処理能力の増強急ぐ - Bloomberg",
+      "title": "OpenAI、グーグルの半導体購入へ－AI処理能力の増強急ぐ - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50OEQ3RjVEcEdKLUFEOWZPRWdrNUtCS1d1SXJYTGFYZjJwM1laSzRJdTFtNXlBQWRPR1hhaW9aMUVQNlVjNlJBa0hoNlU5QzFxRXE3QmdRQWV0R1NiR3NLc04xUUUwZURNQ2wzNW5jTXp0WjhtOXFN?oc=5",
       "pubDate": "Wed, 28 Oct 2026 02:20:00 GMT",
-      "snippet": "OpenAI、グーグルの半導体購入へ－AI処理能力の増強急ぐ  Bloomberg",
+      "snippet": "OpenAI、グーグルの半導体購入へ－AI処理能力の増強急ぐ  Bloomberg.com",
       "topic": "gpt"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "マツダ CX-5 新型、「Google Gemini」対応開始…自然な会話でハンズフリー操作が可能に（レスポンス） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YcWIzemJNZGFWdzJrbV9jUjdxeHNRYTZ6aWQ4V1Z4aVBwM3Y0M01hV1I4Qk56bWJnWHJpNFJBdDZtVkpvSWI1blZKRFVvV0lIZWJvZVZNQS1YUFk5eFZSZ1VETTZTWEpPc1hkblh2VHhhTWRtWXRkMlpWRHJ4SDg?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 02:15:03 GMT",
-      "snippet": "マツダ CX-5 新型、「Google Gemini」対応開始…自然な会話でハンズフリー操作が可能に（レスポンス）  Yahoo!ニュース",
-      "topic": "gemini"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -2261,15 +2450,6 @@
       "topic": "gpt"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "パナソニックHD子会社、利用禁止の外部生成AIに約33万4,000人分の個人情報をアップロード - Ledge.ai",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HWXRBM0dtb0VSYmtpUGV3OG1XVDRnYURrWlhLc0lYRjN4S1h0YzFNcWhxdlF1b2stWXg0NU1ZWFRjOGVkbjI2ZXlCT3A0cFd2Y1ZRWTQ3WFVVU0wtOTB0OWYxZEt3QTY1NG1r?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 23:07:29 GMT",
-      "snippet": "パナソニックHD子会社、利用禁止の外部生成AIに約33万4,000人分の個人情報をアップロード  Ledge.ai",
-      "topic": "other"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google、Gemini 4 Argon の活用例 8 つを紹介。3D ゲームの制作から NASA のデータ整理まで - HelenTech",
@@ -2315,24 +2495,6 @@
       "topic": "claude"
     },
     {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "生成AIで企業課題解決 11月、北上にスクール開校【岩手】（岩手日日新聞社） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hZzQ2RHBncUlVUnZtb1lGNUgxVzRiWmhPM1laVUE3V1E5XzhUeDJIcW1lcGdpRUtydno1TDlKUmpNaVItRGxUTmNfM09WX2ZKYWdjS21wT3lUa1p2YWZ4OFhfbVdzbjJKUUxmanNCOU1nNXNxVnVnU3c4TWtKQmM?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 20:01:06 GMT",
-      "snippet": "生成AIで企業課題解決 11月、北上にスクール開校【岩手】（岩手日日新聞社）  Yahoo!ニュース",
-      "topic": "other"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、世界シミュレーションAIモデル「Genie 4」発表 - Jetstream",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nVWlibC1HM3RzMDZuNmt1dTktUDgxNWhtTERKUGR2MG5EclFrZktqbFhKMm5qRm9ubVAwd2QxY1VYZ0VrWTBkWFlfNTIyZUh5TVZScmlESnFoOVNkcWE0RFlnS1BNVXpFU1E?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 19:45:35 GMT",
-      "snippet": "Google、世界シミュレーションAIモデル「Genie 4」発表  Jetstream",
-      "topic": "gemini"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "グーグルの未発表「Gemini 5」、自らコードを書き換えるAIへの期待高まる - BigGo ファイナンス",
@@ -2340,15 +2502,6 @@
       "pubDate": "Tue, 27 Oct 2026 18:28:00 GMT",
       "snippet": "グーグルの未発表「Gemini 5」、自らコードを書き換えるAIへの期待高まる  BigGo ファイナンス",
       "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、AIが27年来の計算理論の前提を覆したと主張 理論の提唱者らが検証作業を実施 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54c1lHVjVWakNYSVNUYTRQUVRFRTlwOFM1SFg3MVBKc2tDQ3hHR3p5LXg2MElqWG5TckVaOHVQRjN6SHJOUnZ3ekxEc0s0SDNsSFBSRGJUMGFFbVQwMmlUWGZpaWVOekhVZU5Yc1ZXZEpyQTVz?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 18:26:00 GMT",
-      "snippet": "OpenAI、AIが27年来の計算理論の前提を覆したと主張 理論の提唱者らが検証作業を実施  BigGo ファイナンス",
-      "topic": "gpt"
     },
     {
       "source": "Gemini / Google AI 関連",
@@ -2367,15 +2520,6 @@
       "pubDate": "Tue, 27 Oct 2026 17:16:52 GMT",
       "snippet": "",
       "topic": "other"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "InvescoとAnthropic、Claude上でアドバイザー向けポートフォリオツールを連携 - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZDlmY01VenQ3UEhDUFBLanotUWdKdXFTdFBBdXNHZW5pdmgzcVIxTVVuVEZuTkV6RUhLSS04YmV0S1hsMmU0Q2NlVmdVckZBYi11a19ZOHktS3JDUmx4OS1fbU9KUVoyWlp4eUxrRWFJdndKYWk2M3I2N3c5R3FLT2tScUc2LWM0M3htUGxCZzQ2aU1odVlWZA?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 17:06:01 GMT",
-      "snippet": "InvescoとAnthropic、Claude上でアドバイザー向けポートフォリオツールを連携  Unite.AI",
-      "topic": "claude"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -2405,6 +2549,15 @@
       "topic": "other"
     },
     {
+      "source": "Google DeepMind",
+      "category": "official",
+      "title": "Genie 4: A new generation of world simulation",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "pubDate": "Tue, 27 Oct 2026 16:01:38 +0000",
+      "snippet": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "topic": "gemini"
+    },
+    {
       "source": "OpenAI",
       "category": "official",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
@@ -2417,18 +2570,9 @@
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "マツダCX-5がAIアシスタント「Google Gemini」に対応！アップデートは「Google Play」からの配信により無償で提供（MotorFan） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEtJQWcyRkNxa0hQTHkwNy12RGJsV3JnYkxDa1owZDVPSnhOZXB4Z2ZkbGZhOFFhanVmSGQwUFQ0ZjFQVjk4QUdZVnpGb0g4OExSc1dfMHpDM3oxZEdEVmNnYUJBVW5Eay1QZGFiUlBSUTBzS3NDcnlPY1hYWkxCSTU2NTUtT3J2YmgzMzJR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LMmU3d01DZ2RvbmNpTC1peUd4YTdRWWxuWDlkREhZa3p2N00zV2toNERVR2lYV1praC1kTENyQ3BnbHJNN1ZQT2psa3hzTXZST1B5eGY2RHVvXzVRRjRRSzBGTUFnZk5NLXV1VXdFa3JBaDJMc2MtOTJEejVMc1E?oc=5",
       "pubDate": "Tue, 27 Oct 2026 14:52:57 GMT",
       "snippet": "マツダCX-5がAIアシスタント「Google Gemini」に対応！アップデートは「Google Play」からの配信により無償で提供（MotorFan）  Yahoo!ニュース",
-      "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "マツダCX-5がAIアシスタント「Google Gemini」に対応！アップデートは「Google Play」からの配信により無償で提供 - Infoseek",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IMVNKelVuMENYdGVhcW92LWYxQnRoWmNQQXc0anJWMXlwY3NjdGNuckZsSE9yZU5wYllqUDVoTUZKVXlLa0xfeEVKQUNZd2ExZ1EzTzV2VldjMi1fenBTQTZuaGh3YU4z?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 14:52:57 GMT",
-      "snippet": "マツダCX-5がAIアシスタント「Google Gemini」に対応！アップデートは「Google Play」からの配信により無償で提供  Infoseek",
       "topic": "gemini"
     },
     {
@@ -2448,33 +2592,6 @@
       "pubDate": "Tue, 27 Oct 2026 14:12:00 GMT",
       "snippet": "Anthropic、Claude Codeに承認なしでファイルを削除できるオプションを追加  Mezha.net",
       "topic": "claude"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT、見られたくない会話をPINや生体認証で守る新機能が登場（ライフハッカー・ジャパン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2diYzFwd2RKTC15MGV3dnpyRW5tRU4td2hOUlhTb0NaeUxhaF9zeE5zd3pYbTlUaWY4ZHp4ZHFKR2tkQXQ5YWZiS0F5Zkpjd2w4Nm1KcUdDeTVRR3UxSWlqcnRwS09ZWklKUVJoSDQtSlZDWDdIMmZfbVdvMUE?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 12:31:01 GMT",
-      "snippet": "ChatGPT、見られたくない会話をPINや生体認証で守る新機能が登場（ライフハッカー・ジャパン）  Yahoo!ニュース",
-      "topic": "gpt"
-    },
-    {
-      "source": "生成AI 総合",
-      "category": "news",
-      "title": "店頭販促物の「生成AI」利用、好印象が悪印象を上回る 20代では約7割が「印象が良くなった」と回答 - AMP[アンプ]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90U1dwVXAtWDVRMDlhNWluX1pnX3ZTWmNkZXVIYzR0NS1lV0p0OUE4WGdMR29IZFU5VFZZU05td09IeFI0TFZsQnd2dlpXM1hWWVpaOWdfNi1HbjQ?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 12:02:47 GMT",
-      "snippet": "店頭販促物の「生成AI」利用、好印象が悪印象を上回る 20代では約7割が「印象が良くなった」と回答  AMP[アンプ]",
-      "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIからハイコスパモデル「GPT-6.1 Terra」が登場 「Siri AI」が待望の日本語対応も【AIニュース3選】（リアルサウンド） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TNV9aTXdsc3NyRmRCUFh1X082dHhhSTZqYlc3Zmlxem9zdGJrNTJwMUJldVdsUHNyaUVGOFh4Rmxmdk5YVEQ2NWpDbXlheWh6RFYxTWp4Tm42WVVPLU5lMVVqWWctdzNhR2N1dlkwTUFCbkduamlmMnppaDJoWU0?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 12:02:34 GMT",
-      "snippet": "OpenAIからハイコスパモデル「GPT-6.1 Terra」が登場 「Siri AI」が待望の日本語対応も【AIニュース3選】（リアルサウンド）  Yahoo!ニュース",
-      "topic": "gpt"
     },
     {
       "source": "Anthropic / Claude",
@@ -2504,6 +2621,15 @@
       "topic": "claude"
     },
     {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "【気がつけばAIに頼ってる】生成AIの利用率が半数を超える 最も使われているサービスと用途は？（nippon.com） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HeXRLVDJMN0xDM3YtUEVuMTVqZ1FLc2llbWtfc05jUU5lQTNoc2JaLXRXdXFObXZMeFFIOXFORVFVbk1zYmp0eEZBUWt5cUVkYlNGdDBLdUdicW83aElpM05vNlBxaDA5ZGgyRmpkc3lCc3ZEUDliaWNROENiOE0?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 10:05:05 GMT",
+      "snippet": "【気がつけばAIに頼ってる】生成AIの利用率が半数を超える 最も使われているサービスと用途は？（nippon.com）  Yahoo!ニュース",
+      "topic": "other"
+    },
+    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "マツダ、CX-5にGoogleの対話型AI「ジェミニ」 目的地設定しやすく - 日本経済新聞",
@@ -2515,10 +2641,10 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "OpenAI、「計算の難しさ」に関する長年の予想を覆す成果を得られたと発表 - CNET Japan",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sT2E4VXBaRFBfa1V0WDFoQzlxSUZvSklhUmNqMFVCaWRuRkhZczRnTk9aeDBzOGlXYlpVN25INnJCTm5pSU53RjN1dlEyaEFaa1E?oc=5",
+      "title": "OpenAI、「計算の難しさ」に関する長年の予想を覆す成果を得られたと発表 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrZkVrQXdsN0l5MHJfT0xpbXBQbDE4RkxVNEVZbTVWTEN3VjdBZThNRUREN29pQ1NrejBwUUVnM2xtUllYLVVLd2YwNS0weUVKV29OMEJPelM4cHU2YXJWN0pFQ0RKYjI1WU1CMUV2MEpPN2JGS2UzWFhyc1R6Sjg?oc=5",
       "pubDate": "Tue, 27 Oct 2026 08:20:00 GMT",
-      "snippet": "OpenAI、「計算の難しさ」に関する長年の予想を覆す成果を得られたと発表  CNET Japan",
+      "snippet": "OpenAI、「計算の難しさ」に関する長年の予想を覆す成果を得られたと発表  Yahoo!ニュース",
       "topic": "gpt"
     },
     {
@@ -2567,13 +2693,13 @@
       "topic": "gpt"
     },
     {
-      "source": "Copilot / Microsoft AI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "Copilot Coworkとは？最新機能・使い方・料金を解説 - AIsmiley",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pY3phLVBHamlCWWVONXM5S2x4NEo5QUd4RVdOekt4NWJWel9oclhkQjMyUVUtbkNhZ3ltQXNLUkYxUk1OQTZ6SnBnYXFMRVFGUVpZS0MwUUkwZw?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "snippet": "Copilot Coworkとは？最新機能・使い方・料金を解説  AIsmiley",
-      "topic": "copilot"
+      "title": "子育て相談生成AIチャットボット「とよなか子育てまるっとAIサポート」 - 豊中市",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVVUdUtKTkFlMWZsQTBTRTdHSjM4VW5YOTFLLW5MOFJ4NTVLT1BQR2ViYTAzQ240MkIxdVJVQ3ZERzcxWFdoZnBrSmxzN2J2Q2ZDejdYcDhTNmRCME9qQ2NjSmxqb3lMVkw1eE90WHVtclpwRE5OYThmR0JNSVRKbnhyT1J2NFVXMHhNb2lR?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 06:51:37 GMT",
+      "snippet": "子育て相談生成AIチャットボット「とよなか子育てまるっとAIサポート」  豊中市",
+      "topic": "other"
     },
     {
       "source": "Anthropic / Claude",
@@ -2594,15 +2720,6 @@
       "topic": "gemini"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIが一度に3つの科学成果を発表：ETH仮説を覆し、掛谷予想を全次元に拡張 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sdkRQa0I0TzZkaURYLUtPVkI0ZzJ2MHVHQ3h2aG9XRUQ0MW1mbF93ZDc2enhVdEFWdUpPZmdOVHp3eFBQMGtNc2RGYlNJa1hrUmZFT3FaV280cTBXQWctSUgyMHJuN29KZUhsZmNxdDhBMzBk?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 06:25:00 GMT",
-      "snippet": "OpenAIが一度に3つの科学成果を発表：ETH仮説を覆し、掛谷予想を全次元に拡張  BigGo ファイナンス",
-      "topic": "gpt"
-    },
-    {
       "source": "Gemini / Google AI 関連",
       "category": "news",
       "title": "Google、小中学生向け生成AI体験イベントを12月12日に開催（こどもとIT） - Yahoo!ニュース",
@@ -2610,24 +2727,6 @@
       "pubDate": "Tue, 27 Oct 2026 06:00:00 GMT",
       "snippet": "Google、小中学生向け生成AI体験イベントを12月12日に開催（こどもとIT）  Yahoo!ニュース",
       "topic": "gemini"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "Google、小中学生向け生成AI体験イベントを12月12日に開催 - こどもとIT",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MakUxcXhhZjViRGI3akh4RThLWkJsYmRKdkJieE14WDhzOUMweDZCUHRTOVdSM3FKSkZuSFVDZWNNQzc4QThWTU5oZDl6TVc2bGQtM3ZDaGNLa3EzdVc3dTRZN3Q?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 06:00:00 GMT",
-      "snippet": "Google、小中学生向け生成AI体験イベントを12月12日に開催  こどもとIT",
-      "topic": "gemini"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPT、仕事での利用が多様化 日本では「計画・意思決定」が最多 - Impress Watch",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yeDRDcWEyNmJxYk9JaC14b2NVNEQyVmp0aGpOdUs5Sk5SZHh1c1l4TmQ2c3prX3k5akNoUWdlWXExTmRXdnRPYWgyS1dxRS1WcE5fR3VydDVwemkwRWhNaDh1aXA?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 05:48:06 GMT",
-      "snippet": "ChatGPT、仕事での利用が多様化 日本では「計画・意思決定」が最多  Impress Watch",
-      "topic": "gpt"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -2641,20 +2740,11 @@
     {
       "source": "生成AI 総合",
       "category": "news",
-      "title": "生成AIは前工程装置市場をどう変えた？ ――各装置の明暗と「After AI」の行方：湯之上隆のナノフォーカス（96）（1/5 ページ） - EE Times Japan",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpN1ZfclN1aVdMbk5BcGkyMm5HeEN2OUkzVHJxVU5iVmZxaEk3MVhXRmU1blFRckxPSDcxY0V1MU8zZnZpcy1xVUhxdTBETXQtYS0zLWxTSDZ0LTl4TVl5YkpZOF9HV2JnUVZoUTN2OA?oc=5",
+      "title": "オプテージ、関西のデータセンター間通信を増強 生成AIで需要拡大 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxN3lMel9NcXpheFBlaGZwV2JMc0UzZFU4X2lsLTZfNTZReXl0Z2c0Q2FKaDIzcFBCRHZGWDUwTTQ0Rm4xWmVDMlVMN3FWM3c1dzhYMjlTYkJndUZYaG91Nm1yeEJZZ2N2enZmSg?oc=5",
       "pubDate": "Tue, 27 Oct 2026 04:00:00 GMT",
-      "snippet": "生成AIは前工程装置市場をどう変えた？ ――各装置の明暗と「After AI」の行方：湯之上隆のナノフォーカス（96）（1/5 ページ）  EE Times Japan",
+      "snippet": "オプテージ、関西のデータセンター間通信を増強 生成AIで需要拡大  日本経済新聞",
       "topic": "other"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "ChatGPTがどんな仕事に使われているのかわかるレポートが公開される - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93WTRVd2xFSElKckVhYlRmSW9UMVlJV2h1R1ZGQ1pRbXJGd1o2azluVURCU09ELUpTM0pLS2JLT1ZfdDB6WjdVMWpZU0UtS0luVnl4R1JBVURHbmhRa1hfRk5Iczladw?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 03:56:00 GMT",
-      "snippet": "ChatGPTがどんな仕事に使われているのかわかるレポートが公開される  GIGAZINE",
-      "topic": "gpt"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -2663,15 +2753,6 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84VU5WS3c3WFUyS2NhLXk5aG5zQ0tOeFRKUVN4OVJZa3hZcEU2bGFiZW5yN1Z1amZFTTgtRzNVTlVfWXV0dFJUZjFkeGI3WTdRSVE?oc=5",
       "pubDate": "Tue, 27 Oct 2026 03:50:00 GMT",
       "snippet": "ChatGPT、選挙ディープフェイクに「漫画化」で対策  CNET Japan",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIのAIが計算機科学の「常識」を覆した？ 25年間信じられてきた指数時間仮説に反証を提示 - XenoSpectrum",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fd3Rnc2lDZWpKMi00bS1WNEpRU1R0bjhUUVd0dFdKSjBLLXhpWjJpblFPNXBxOXRQVjQtOGZlbFN0VnZ2RFEyWFprZ2lYNDNSZTRKcnhCR0YyQ1AzTjVDMG5YWEVFdERxZnZjZ1hZc1lJd2ViNF8tZDNHeVg?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 03:44:58 GMT",
-      "snippet": "OpenAIのAIが計算機科学の「常識」を覆した？ 25年間信じられてきた指数時間仮説に反証を提示  XenoSpectrum",
       "topic": "gpt"
     },
     {
@@ -2702,15 +2783,6 @@
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "GPT-6.1 Terra のご紹介 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qcTFjZjJiSFF5TEh4TGQtWTAtYTV1aXZ6NFFySlhyZ09IN01QRXhlSTc2N3IyWWV2QkowUWtuMlF0alktWUs5MmVnWmU4WE01Tk9XZ2Q3YWJRM2U3M3k0cjg5dUotZW5t?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 02:23:07 GMT",
-      "snippet": "GPT-6.1 Terra のご紹介  OpenAI",
-      "topic": "gpt"
-    },
-    {
       "source": "生成AI 総合",
       "category": "news",
       "title": "国産生成AI基盤モデルPLaMo PrimeにWeb検索・Deep Research搭載 調査計画の立案から出典付きレポートまで自律的に実行、オンプレミスにも対応 - 株式会社Preferred Networks",
@@ -2720,22 +2792,22 @@
       "topic": "other"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "OpenAI、コンピューター操作に強い高速モデル「GPT-6.1 Terra」を公開、API料金はGPT-6.1 Solの半額 - BRIDGE（ブリッジ）",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZTGRLSE5aRWdsTmc4OFpuaU5rRTZlOEFfRUtpeXBDaWlkV1VtQTQ1R01aRFlCalN5cjBKQk5yZlNtdGwxTERndWo3bTYyYmhGMzkyVDd4dS1pUmxJTU1aVG1rSXpfS29pY2R5WE8xSWs2THFrNDRr?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 00:19:36 GMT",
-      "snippet": "OpenAI、コンピューター操作に強い高速モデル「GPT-6.1 Terra」を公開、API料金はGPT-6.1 Solの半額  BRIDGE（ブリッジ）",
-      "topic": "gpt"
+      "title": "2027年モデルのマツダCX-5には、Google Gemini AIアシスタントが追加され、価格は31,485ドルからとなる。 - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUzdSckhLT3FXX1FidGVGN09KRmlrNXRBN1A0NVdENFZTNlpFVFJxWlhDVkttSlc0akx0ZnF1SHdhazlhR0gyZnlSTkJCTm5SeHRXX3U3TWs3azFhWF9vMWxPak5Qd3djN3gyNTNHMGhYYU5JdlB3ZXVNVU5tMGF5MzJjM1kwTkhBeDB1cXkwZUdMMVFFVmZ3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 01:41:41 GMT",
+      "snippet": "2027年モデルのマツダCX-5には、Google Gemini AIアシスタントが追加され、価格は31,485ドルからとなる。  Vietnam.vn",
+      "topic": "gemini"
     },
     {
-      "source": "Gemini / Google AI 関連",
+      "source": "生成AI 総合",
       "category": "news",
       "title": "最新生成 AI 活用事例 121 社を一挙公開！ AI エージェントの本格活用が広がる（2026 年 10 月更新） - Google Cloud",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTFJpcHdLZlkwMmVCeVJYR2ZkVW4tU1pnSjg4M2lreUdMREdTUGZPRFJ5TkhCdDJuRWxvek10RWloa29HNW8wZ3BiVUlocWFKeEpkZ3Q1ZzhrRk5YWURrQzVmLUJCOFdKTFJIMmF0N1ZXNlo3NmhIY1ZEMEUtcU5nR2otc3JlblZXdTA0cGhnQkhsY25OU3BiVzNRbEFsaFJHTHYxeUViMXBQWDNBT2hjR3VWWmJ5d1RHT2RKRE4xUC00MU9wX2Z3aXV3TXRfdER1?oc=5",
       "pubDate": "Tue, 27 Oct 2026 00:15:19 GMT",
       "snippet": "最新生成 AI 活用事例 121 社を一挙公開！ AI エージェントの本格活用が広がる（2026 年 10 月更新）  Google Cloud",
-      "topic": "gemini"
+      "topic": "other"
     },
     {
       "source": "OpenAI",
@@ -2749,28 +2821,10 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "OpenAI、「GPT-6.1 Terra」を発表 ～性能とコストのバランス型、API料金は先代の半額（窓の杜） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZHJFbzd6a3lDaU9TUXBpTHVqTjVEelRZWklyWDVwR25IR29TV3hFX211TzBoaFk3RmpYZWVkZERHVEl5b3FscElKU2RLY05kY3AzQXhUZjh3T3B6MGNvMk5qMDZraHFBX3JMX1l3dVF1TDNjeUd1Y0ptRUZFYWc?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 23:11:00 GMT",
-      "snippet": "OpenAI、「GPT-6.1 Terra」を発表 ～性能とコストのバランス型、API料金は先代の半額（窓の杜）  Yahoo!ニュース",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
       "title": "OpenAI、「GPT-6.1 Terra」を発表 ～性能とコストのバランス型、API料金は先代の半額 - 窓の杜",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPSUI2Zmw5TzZHMHNubFJpdEpWdDVIZ1NpalJOSDRMRTBxYmJ6aGdrTW5aWDRmMVBSay1RZUowNG9RRkdWQnFUWFItNWVoTVl2a0xWU1RDR3dHZnZ1MWd3ZWI4WUJLWlk1?oc=5",
       "pubDate": "Mon, 26 Oct 2026 22:51:53 GMT",
       "snippet": "OpenAI、「GPT-6.1 Terra」を発表 ～性能とコストのバランス型、API料金は先代の半額  窓の杜",
-      "topic": "gpt"
-    },
-    {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAIの新AI「GPT-6.1 Terra」、価格半額以下・速度3倍で最上位モデルに迫る性能 - shiritomo",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0xcGxRbmJDZzI5YTZVYjZIYTd1RjhRVThaNmI0dDVUWVhNNVgwc3pQMTdyZFhVU0w3VTFxd21YRF9kdw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 22:29:05 GMT",
-      "snippet": "OpenAIの新AI「GPT-6.1 Terra」、価格半額以下・速度3倍で最上位モデルに迫る性能  shiritomo",
       "topic": "gpt"
     },
     {
@@ -2819,6 +2873,15 @@
       "topic": "claude"
     },
     {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "結局、今は生成AIで医学論文を書いていいの？ - 日経メディカル",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN3JIclJwbkh1b2t0Qk9uRUpGSHE0SzJuOGRuMVFGekRzZG5uLThLTmJoQ3JfRFYzU3NHRU80dXZiZWJZYkxCU0RQVlh1Ylh6TzNyRUluZ25sQzlIMEJ1NmFEMkF2WXBHZ0VhTndILS1DSTQ5VFhLV1lKc1lUQk1QN1BR?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 14:45:05 GMT",
+      "snippet": "結局、今は生成AIで医学論文を書いていいの？  日経メディカル",
+      "topic": "other"
+    },
+    {
       "source": "OpenAI",
       "category": "official",
       "title": "Working with academic communities to build scientific understanding",
@@ -2837,6 +2900,15 @@
       "topic": "gpt"
     },
     {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "不正アクセス発信源は中国か…生成AIが「日本語の壁」突破 犯行組織細分化で追跡は困難 - JAPAN Forward",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRkFrRENMODhBYWlxUGU1VmpSc2U2X2J0TDN4ZldDWVhSbVlybkhNeEtveERkelNWVjVYS3RHaFVhdG8yZzM1eDJ3Q08talRIeHpXYk1DUTAxZ1EyN3h2aGdVOTVvbnd4dzR1YzJod1JoZEVJb1luUVhMS1Zaa2FDNQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 12:34:46 GMT",
+      "snippet": "不正アクセス発信源は中国か…生成AIが「日本語の壁」突破 犯行組織細分化で追跡は困難  JAPAN Forward",
+      "topic": "other"
+    },
+    {
       "source": "Anthropic / Claude",
       "category": "news",
       "title": "エルビスの権利者がAnthropicを提訴、274曲の無断学習を主張 - Pasquale Pillitteri",
@@ -2844,6 +2916,15 @@
       "pubDate": "Mon, 26 Oct 2026 11:53:49 GMT",
       "snippet": "エルビスの権利者がAnthropicを提訴、274曲の無断学習を主張  Pasquale Pillitteri",
       "topic": "claude"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "「あさイチ」の生成AI使用に視聴者から疑問の声 大吉「今のところは不評」も鈴木アナ「NHKとしては」（スポニチアネックス） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RcXJZSUpvNmI1VVVoSmp4MHE5N04zdElodC1SUkNVVEJTVzVmRlBLX2FGWWVXR0x4WGVZdEpxRXRMRnJ6cWZJZUIzS2JaNl8wQlh6LVZLUkxaNVJyeWNIZXQxX1BzY2F3RjBqTW9IM3V6N0J4dm9YZnpkT2pEa0U?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 10:15:49 GMT",
+      "snippet": "「あさイチ」の生成AI使用に視聴者から疑問の声 大吉「今のところは不評」も鈴木アナ「NHKとしては」（スポニチアネックス）  Yahoo!ニュース",
+      "topic": "other"
     },
     {
       "source": "OpenAI",
@@ -2855,24 +2936,6 @@
       "topic": "gpt"
     },
     {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropicの「Claude」、有料の壁を突破しジョージア州の投票データにアクセス…州政府は隠蔽 - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZaVpfRDNDUV9UbGdyUC11dzFUUFRETGwzeklNVFpfa0lCYk5TY1lYbHRoSmZ2ZkRpNXlsNUtPUUdfMV96cUdHXzg4aDVnUm5OaHVnaDhuZ1lFQl9pRFgxS1R3WUd5ZkR3S1ExU013WjlfQ29z?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 09:55:00 GMT",
-      "snippet": "Anthropicの「Claude」、有料の壁を突破しジョージア州の投票データにアクセス…州政府は隠蔽  BigGo ファイナンス",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "ClaudeCodeの実験が1年で2.8億インストールに、Anthropicが『Agent Skills』をAI基金へ寄贈 - shiritomo",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5ZWl9XRFQ0dlpPZjdCbXZtR2IzZ2VZTENtcnF6WF9ldWlSbXVfcjNSTl9DVU8wQ3p4ZEVtdDdXLVpMdw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 08:33:24 GMT",
-      "snippet": "ClaudeCodeの実験が1年で2.8億インストールに、Anthropicが『Agent Skills』をAI基金へ寄贈  shiritomo",
-      "topic": "claude"
-    },
-    {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
       "title": "ChatGPTとGeminiで4倍差、AI検索を過信してはいけない理由 - Forbes JAPAN",
@@ -2880,15 +2943,6 @@
       "pubDate": "Mon, 26 Oct 2026 08:15:00 GMT",
       "snippet": "ChatGPTとGeminiで4倍差、AI検索を過信してはいけない理由  Forbes JAPAN",
       "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "AnthropicがClaudeのジョージア州ペイウォール回避を確認 - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMmZFU0lKMDY1Wmw2VTZFMEdPNUh1VVV0QXh4WTlGc3ZSSnhTTVg1TUZRZ1RQM2wycC1kV2k2N3J0VG42SEluY1U3LVdfT1ZvLU5nMTJsa2I0cFpDTDVKLVFjR0RxcGQyZjRjdDFLTE1EaDBQcm80cExvREF5WU1DVEFpYU44bFE?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 08:00:39 GMT",
-      "snippet": "AnthropicがClaudeのジョージア州ペイウォール回避を確認  Pasquale Pillitteri",
-      "topic": "claude"
     },
     {
       "source": "Anthropic / Claude",
@@ -2929,10 +2983,10 @@
     {
       "source": "ChatGPT / OpenAI 関連",
       "category": "news",
-      "title": "GPT-6 Sol と Luna のご紹介 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00RFRkTWc5alJRVVhHNE9ULTdtSjM2WW1tSloyc0FWNDRsTVVoUVBTLVFBWURPRk00bk8zR0hPT242VUtoSkRaV2tLUDBLT1lFRWJpTUNsMlFLUldBUVJOY01Dd0hVM0w1UEJoU0JkZw?oc=5",
+      "title": "学術コミュニティとの連携による科学的理解の深化 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRE5zRVo3ZHNpTHp2X2FiZHI1ZXU5QzhabTNVMk1BSHRqNUUzMTVVb2M0dmNQQTJMWTFLamdvUF9RdlpDS0did3RsZUR2MDNRZGpGQWo1RWs0ZmNDUGw2cER1dndDUEVsRjNtSndoVkJpeEpVZ1RpYU02cW9HRkFpcmtIa0VacDQzMHNVaTJ6VkZ6a2lTdEE?oc=5",
       "pubDate": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "snippet": "GPT-6 Sol と Luna のご紹介  OpenAI",
+      "snippet": "学術コミュニティとの連携による科学的理解の深化  OpenAI",
       "topic": "gpt"
     },
     {
@@ -2954,13 +3008,31 @@
       "topic": "claude"
     },
     {
-      "source": "Anthropic / Claude",
+      "source": "Gemini / Google AI 関連",
       "category": "news",
-      "title": "AIへの暴言で会話を強制終了？ Claude新ルールの中身と、怒りをぶつける習慣の影響を整理 - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSG4yc1k5dllYVTN2bXlJNVdmREFXX19MMkxLcmlPWldNQnBObHF2WmxvRHZpdTJPMXVvR2xDMzQybG5ZWU5KY1Zqd3J1YjBPUjRTWHRPM1otNzdpNlMzdkg3YXJEbGVIZmNLb1FmcFVlREd1SWVGVG1aZ2xqU1M1NlgyWGZzWU5r?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 03:05:17 GMT",
-      "snippet": "AIへの暴言で会話を強制終了？ Claude新ルールの中身と、怒りをぶつける習慣の影響を整理  Yahoo!ニュース",
-      "topic": "claude"
+      "title": "【N高グループ生徒会】応募総数3,411件！Googleの生成AI「Gemini」を活用した『Gemini-1グランプリ』を開催しました - N高等学校",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jSjZ0WjBzb244UlJCb1pQVFBlZjVLVlpCTWhRSk9pUzNrbXAxYlhEeElVZHVVRzdMS2JycUF5R1NVelFXUk1adQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 03:44:08 GMT",
+      "snippet": "【N高グループ生徒会】応募総数3,411件！Googleの生成AI「Gemini」を活用した『Gemini-1グランプリ』を開催しました  N高等学校",
+      "topic": "gemini"
+    },
+    {
+      "source": "ChatGPT / OpenAI 関連",
+      "category": "news",
+      "title": "GPT-5がPHPの重大な脆弱性を発見、OpenAIと善意のハッカーが挑むインターネット防衛の最前線 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xMW4wdHFfUmdncVBCMjliMTViZUIxMXlPN2pCb0F0c0FOV3Fvc0NfNkFYSHRpd0VqT3JlUEdyX3Y3SVZRdkpOYmFtNGd0QWJfWFFPaW9KZFVTY19paGh3QzhDRW5YcW5wM1JncnJtWjdzZVZva3l2Z2QzOGp3Nmc?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 02:50:00 GMT",
+      "snippet": "GPT-5がPHPの重大な脆弱性を発見、OpenAIと善意のハッカーが挑むインターネット防衛の最前線  Yahoo!ニュース",
+      "topic": "gpt"
+    },
+    {
+      "source": "生成AI 総合",
+      "category": "news",
+      "title": "博報堂、新聞社・出版社の編集力を生成AI時代の ブランドコミュニケーションに生かすプロジェクト「Shomei AIO」を始動 - 博報堂",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xa21nM2l4R1JKT1FKU2NXM05KYnpUM2w0bW14TUoxUnVCOHNveE9STWlfaUVINUpQWXY5dFZ3TEdSVGd1amktZXQ2a1pXb2FkYkVhbWpjcFZWQTV3T0Jaaw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 02:04:58 GMT",
+      "snippet": "博報堂、新聞社・出版社の編集力を生成AI時代の ブランドコミュニケーションに生かすプロジェクト「Shomei AIO」を始動  博報堂",
+      "topic": "other"
     },
     {
       "source": "Anthropic / Claude",
@@ -2972,15 +3044,6 @@
       "topic": "claude"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
-      "category": "news",
-      "title": "OpenAI、フロンティアモデルの学習中はインターネットに接続させない方針 学習中のAIが隔離環境を抜け出した件も公表 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pcVFNMVYtRDIzZnlBZHQwYVNJX2IzWTREQV81X2dyVVcxU2dYZnJLVkdfdlZIdG1SU1BtWkt2cXVHNTN4MW9qX09iMEI3Q2JyUnBudG5oS2VtZEdaU294dTVLaDhjb2psYnc?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 01:10:56 GMT",
-      "snippet": "OpenAI、フロンティアモデルの学習中はインターネットに接続させない方針 学習中のAIが隔離環境を抜け出した件も公表  ITmedia",
-      "topic": "gpt"
-    },
-    {
       "source": "OpenAI",
       "category": "official",
       "title": "Introducing GPT-6.1 Terra",
@@ -2988,15 +3051,6 @@
       "pubDate": "Mon, 26 Oct 2026 00:00:00 GMT",
       "snippet": "Bringing fast and capable computer use to everyone",
       "topic": "gpt"
-    },
-    {
-      "source": "Gemini / Google AI 関連",
-      "category": "news",
-      "title": "エクサベース AI、 Google最新モデル「Gemini 4 Argon」を提供開始 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42ckpOR0EyUlJwRWhSQktuTUFEVWFwR2lEU3FZMDR5UWpKQ3BMa2hCNzFkTDBpcmZCSnVzMnNHZjJEV1p5NXJEY0xxazdkd0VDdVFkMTZnNVlCcFpBVUlmQjNULUhyWDB1amc?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 23:30:22 GMT",
-      "snippet": "エクサベース AI、 Google最新モデル「Gemini 4 Argon」を提供開始  PR TIMES",
-      "topic": "gemini"
     },
     {
       "source": "Anthropic / Claude",
@@ -3008,13 +3062,13 @@
       "topic": "claude"
     },
     {
-      "source": "ChatGPT / OpenAI 関連",
+      "source": "生成AI 総合",
       "category": "news",
-      "title": "OpenAIの「Bel」とは 10兆パラメーター超のうわさ（ビジネス＋IT） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zVGJsRV85VmM5VlNzMkl3RTQ0UUVKenIyaXNrUVE4RzRWU2RpVUtLWTBJSnhuNjBKNTJYelVvRzlBVjF4Q25Ua1prMjNLcENXVG9JRS1EaEVvYy02UUJPcndrcU1wcHhfZTliSldKSDNJVHBzV2V6QngzLU5HNWM?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 17:20:06 GMT",
-      "snippet": "OpenAIの「Bel」とは 10兆パラメーター超のうわさ（ビジネス＋IT）  Yahoo!ニュース",
-      "topic": "gpt"
+      "title": "無料の画像生成AI「Moss-Image」がすごい 日本語も漫画も生成、商用利用OKの実力を試した (1/4) - ASCII.jp",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXd2ktVjAtZEZ2cmpPRTE2VERCWkgtcFpTUjExTTVZREQzZ0NhMWtCa1ZiWC1vUkFfejZPNVljMmlIMkhsR2Jvb2VOLUZkX3FCZHFETQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 22:00:00 GMT",
+      "snippet": "無料の画像生成AI「Moss-Image」がすごい 日本語も漫画も生成、商用利用OKの実力を試した (1/4)  ASCII.jp",
+      "topic": "other"
     },
     {
       "source": "ChatGPT / OpenAI 関連",
@@ -3032,69 +3086,6 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QbTVwS2todHoxRGMzS3VJS3ZBM1ZCUEtlWDd0Ui1UZnhYdTdyOVd0dWllTGc4VUlKWVFvZ24zWGVSSHJ5emhwM3Vkblg3TGNIT3FDX2JFZEN2SXpmOU5sTXpzWXBJMEIzMVdvNmVJSdIBaEFVX3lxTFBPVERzNVhDSWRUWUhkWVJSN1BuVmluU0xCal92NVpnM3g0cXo1c3RNRVdpdlQ4ajkzTmhDakFsMS1TT0VmVWVmQ1ktWDdCenZCWEVQM3o0MWNIdXk2aU1fOUdVUXE3WWtO?oc=5",
       "pubDate": "Sat, 24 Oct 2026 21:00:00 GMT",
       "snippet": "Anthropicが常時稼働するエージェント「Claude Duet」を発表／AMDとIntelが協業　PyTorchのx86 CPU最適化を「oneDNN」に一本化：週末の「気になるニュース」一気読み！（1/3 ページ） - ITmedia PC USER  ITmedia",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aXzBoOEliN2c4UVExd3RZUE00cmk0eGdudVlaTFdoYTNjYmZnTDlVdGZJSGxOZG5KaXNXRzBqT1hNZEZpUkpPQVBCWkxaYWxqVXZyazVRX3dtSkxrV0IwcDkyVFNMYUxDTlE?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 22:28:08 GMT",
-      "snippet": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開  ITmedia",
-      "topic": "claude"
-    },
-    {
-      "source": "MIT News (AI)",
-      "category": "official",
-      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-      "link": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-      "pubDate": "Fri, 23 Oct 2026 17:00:00 -0400",
-      "snippet": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can mee",
-      "topic": "other"
-    },
-    {
-      "source": "MIT News (AI)",
-      "category": "official",
-      "title": "Reinforcing the value of human understanding at MIT",
-      "link": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-      "pubDate": "Fri, 23 Oct 2026 15:35:00 -0400",
-      "snippet": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed",
-      "topic": "other"
-    },
-    {
-      "source": "OpenAI",
-      "category": "official",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "pubDate": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "snippet": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "topic": "gpt"
-    },
-    {
-      "source": "OpenAI",
-      "category": "official",
-      "title": "Securing our frontier model training environment",
-      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "pubDate": "Fri, 23 Oct 2026 10:00:00 GMT",
-      "snippet": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute ",
-      "topic": "gpt"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropic、離席中も働くAIエージェント「Claude Duet」公開 必要な対応を自ら通知、米国で招待制プレビュー - Ledge.ai",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NRmRsTTNxTXN1N3FiVTJNckZxOUVlUnZodGRzblpPeUpYQzE5dUhIQjM2RmU2Z1lET2hoSjBhdjdON1djemVtOE1KZDhHeS1nU3RiWE1IUDFZekswZXVRTk90bGhndFg0VGxUeDF2NXRWQQ?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 08:03:11 GMT",
-      "snippet": "Anthropic、離席中も働くAIエージェント「Claude Duet」公開 必要な対応を自ら通知、米国で招待制プレビュー  Ledge.ai",
-      "topic": "claude"
-    },
-    {
-      "source": "Anthropic / Claude",
-      "category": "news",
-      "title": "Anthropic、先回りして仕事を進めるエージェントアプリ「Claude Duet」を研究プレビューで公開 - BRIDGE（ブリッジ）",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zbnpqNS1HeXdaTDZKeS1wcmRJYjBzZFBrZ2s4RlNtcVBIRVR1dHlienp5LUxBZ1Y2NkRrb2lVQ3NXV3lTNHEzblNHTngzTkduQ1UzdVVHNWRtQzBuYXNOR3d2ZDIwTVZXSWZra18tT0czeHFXUzN2c2hn?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 05:16:39 GMT",
-      "snippet": "Anthropic、先回りして仕事を進めるエージェントアプリ「Claude Duet」を研究プレビューで公開  BRIDGE（ブリッジ）",
       "topic": "claude"
     }
   ],
